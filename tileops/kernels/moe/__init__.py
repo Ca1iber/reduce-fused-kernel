@@ -8,6 +8,7 @@ from .moe_grouped_gemm_persistent_fused_act_maca import (
 )
 from .permute_align import MoePermuteAlignKernel
 from .permute_nopad import MoePermuteNopadKernel
+from .reduce_fused import MoeReduceFusedKernel
 from .shared_expert_mlp import SharedExpertMLPKernel
 from .shared_expert_mlp_maca import SharedExpertMLPMACAKernel
 from .unpermute import MoeUnpermuteKernel
@@ -19,6 +20,7 @@ __all__ = [
     "MoeGroupedGemmPersistentFusedActMACAKernel",
     "MoePermuteAlignKernel",
     "MoePermuteNopadKernel",
+    "MoeReduceFusedKernel",
     "MoeUnpermuteKernel",
     "SharedExpertMLPKernel",
     "SharedExpertMLPMACAKernel",

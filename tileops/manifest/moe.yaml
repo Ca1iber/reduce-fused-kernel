@@ -427,3 +427,196 @@ GroupCountFwdOp:
     op: tileops/ops/moe/group_count.py
     test: tests/ops/test_group_count.py
     bench: benchmarks/ops/bench_group_count.py
+
+# MoE reduce_fused specification. E is the expanded buffer row count, not necessarily T*K.
+# Roofline assumes all K slots are valid; FLOPs exclude dtype conversion.
+# Weighted gather-reduce; FP32 accumulation, input dtype output.
+MoeReduceFusedFwdOp:
+  ref_api: "none"
+  family: moe
+  status: implemented
+
+  signature:
+    inputs:
+      x: {dtype: "float16 | bfloat16 | float32", shape: "[E, hidden]"}
+      token_topk_to_pos: {dtype: "int32", shape: "[num_tokens, num_topk]", note: "-1 means skip; valid positions must satisfy 0 <= pos < E"}
+      topk_weights: {dtype: "float32", shape: "[num_tokens, num_topk]"}
+    outputs:
+      out: {dtype: "same_as(x)", shape: "[num_tokens, hidden]"}
+    params:
+      num_tokens: {type: int}
+      num_topk: {type: int}
+      hidden: {type: int}
+    shape_rules:
+    - "num_tokens > 0"
+    - "num_topk > 0"
+    - "hidden > 0"
+    - "hidden % 256 == 0"
+
+  workloads:
+  - {num_tokens: 32, num_topk: 2, hidden: 256, dtypes: [float16], label: "tiny"}
+  - {num_tokens: 512, num_topk: 8, hidden: 3072, dtypes: [bfloat16], label: "h3072"}
+  - {num_tokens: 512, num_topk: 8, hidden: 7168, dtypes: [bfloat16], label: "h7168"}
+  - {num_tokens: 4096, num_topk: 8, hidden: 7168, dtypes: [bfloat16], label: "prefill"}
+
+  roofline:
+    vars:
+      T: "num_tokens"
+      K: "num_topk"
+      H: "hidden"
+    flops: "2 * T * K * H"
+    bytes: "(T * K * H + T * H) * elem_bytes + 8 * T * K"
+
+  source:
+    kernel: tileops/kernels/moe/reduce_fused.py
+    op: tileops/ops/moe/reduce_fused.py
+    test: tests/ops/test_moe_reduce_fused.py
+    bench: benchmarks/ops/bench_moe_reduce_fused.py
+    bench_manifest_driven: true
+    kernel_map:
+      reduce_fused_kernel: MoeReduceFusedKernel
+
+# Apply per-expanded-row x_sf before weighted reduction.
+MoeReduceFusedWithXsfFwdOp:
+  ref_api: "none"
+  family: moe
+  status: implemented
+  variant_of: MoeReduceFusedFwdOp
+
+  signature:
+    inputs:
+      x: {dtype: "float16 | bfloat16 | float32", shape: "[E, hidden]"}
+      token_topk_to_pos: {dtype: "int32", shape: "[num_tokens, num_topk]", note: "-1 means skip; valid positions must satisfy 0 <= pos < E"}
+      topk_weights: {dtype: "float32", shape: "[num_tokens, num_topk]"}
+      x_sf: {dtype: "float32", shape: "[E]", note: "Per-expanded-row scale, indexed by pos"}
+    outputs:
+      out: {dtype: "same_as(x)", shape: "[num_tokens, hidden]"}
+    params:
+      num_tokens: {type: int}
+      num_topk: {type: int}
+      hidden: {type: int}
+    shape_rules:
+    - "num_tokens > 0"
+    - "num_topk > 0"
+    - "hidden > 0"
+    - "hidden % 256 == 0"
+
+  workloads:
+  - {num_tokens: 32, num_topk: 2, hidden: 256, dtypes: [float16], label: "tiny-xsf"}
+  - {num_tokens: 512, num_topk: 8, hidden: 3072, dtypes: [bfloat16], label: "h3072-xsf"}
+  - {num_tokens: 512, num_topk: 8, hidden: 7168, dtypes: [bfloat16], label: "h7168-xsf"}
+  - {num_tokens: 4096, num_topk: 8, hidden: 7168, dtypes: [bfloat16], label: "prefill-xsf"}
+
+  roofline:
+    vars:
+      T: "num_tokens"
+      K: "num_topk"
+      H: "hidden"
+    flops: "2 * T * K * H + T * K"
+    bytes: "(T * K * H + T * H) * elem_bytes + 12 * T * K"
+
+  source:
+    kernel: tileops/kernels/moe/reduce_fused.py
+    op: tileops/ops/moe/reduce_fused.py
+    test: tests/ops/test_moe_reduce_fused.py
+    bench: benchmarks/ops/bench_moe_reduce_fused.py
+    bench_manifest_driven: true
+    kernel_map:
+      reduce_fused_kernel: MoeReduceFusedKernel
+
+# Apply global sf after reduction, then cast to FP8.
+MoeReduceFusedFp8FwdOp:
+  ref_api: "none"
+  family: moe
+  status: implemented
+  variant_of: MoeReduceFusedFwdOp
+
+  signature:
+    inputs:
+      x: {dtype: "float16 | bfloat16 | float32", shape: "[E, hidden]"}
+      token_topk_to_pos: {dtype: "int32", shape: "[num_tokens, num_topk]", note: "-1 means skip; valid positions must satisfy 0 <= pos < E"}
+      topk_weights: {dtype: "float32", shape: "[num_tokens, num_topk]"}
+      sf: {dtype: "float32", shape: "[1]", note: "Multiply the FP32 reduction by sf[0] before FP8 conversion"}
+    outputs:
+      out: {dtype: "float8_e4m3fn", shape: "[num_tokens, hidden]"}
+    params:
+      num_tokens: {type: int}
+      num_topk: {type: int}
+      hidden: {type: int}
+    shape_rules:
+    - "num_tokens > 0"
+    - "num_topk > 0"
+    - "hidden > 0"
+    - "hidden % 256 == 0"
+
+  workloads:
+  - {num_tokens: 32, num_topk: 2, hidden: 256, dtypes: [float16], label: "tiny-fp8"}
+  - {num_tokens: 512, num_topk: 8, hidden: 3072, dtypes: [bfloat16], label: "h3072-fp8"}
+  - {num_tokens: 512, num_topk: 8, hidden: 7168, dtypes: [bfloat16], label: "h7168-fp8"}
+  - {num_tokens: 4096, num_topk: 8, hidden: 7168, dtypes: [bfloat16], label: "prefill-fp8"}
+
+  roofline:
+    vars:
+      T: "num_tokens"
+      K: "num_topk"
+      H: "hidden"
+    flops: "2 * T * K * H + T * H"
+    bytes: "T * K * H * elem_bytes + T * H + 8 * T * K + 4"
+
+  source:
+    kernel: tileops/kernels/moe/reduce_fused.py
+    op: tileops/ops/moe/reduce_fused.py
+    test: tests/ops/test_moe_reduce_fused.py
+    bench: benchmarks/ops/bench_moe_reduce_fused.py
+    bench_manifest_driven: true
+    kernel_map:
+      reduce_fused_kernel: MoeReduceFusedKernel
+
+# Apply input x_sf and output sf, then cast to FP8.
+MoeReduceFusedQuantizedFwdOp:
+  ref_api: "none"
+  family: moe
+  status: implemented
+  variant_of: MoeReduceFusedFwdOp
+
+  signature:
+    inputs:
+      x: {dtype: "float16 | bfloat16 | float32", shape: "[E, hidden]"}
+      token_topk_to_pos: {dtype: "int32", shape: "[num_tokens, num_topk]", note: "-1 means skip; valid positions must satisfy 0 <= pos < E"}
+      topk_weights: {dtype: "float32", shape: "[num_tokens, num_topk]"}
+      x_sf: {dtype: "float32", shape: "[E]", note: "Per-expanded-row scale, indexed by pos"}
+      sf: {dtype: "float32", shape: "[1]", note: "Multiply the FP32 reduction by sf[0] before FP8 conversion"}
+    outputs:
+      out: {dtype: "float8_e4m3fn", shape: "[num_tokens, hidden]"}
+    params:
+      num_tokens: {type: int}
+      num_topk: {type: int}
+      hidden: {type: int}
+    shape_rules:
+    - "num_tokens > 0"
+    - "num_topk > 0"
+    - "hidden > 0"
+    - "hidden % 256 == 0"
+
+  workloads:
+  - {num_tokens: 32, num_topk: 2, hidden: 256, dtypes: [float16], label: "tiny-quantized"}
+  - {num_tokens: 512, num_topk: 8, hidden: 3072, dtypes: [bfloat16], label: "h3072-quantized"}
+  - {num_tokens: 512, num_topk: 8, hidden: 7168, dtypes: [bfloat16], label: "h7168-quantized"}
+  - {num_tokens: 4096, num_topk: 8, hidden: 7168, dtypes: [bfloat16], label: "prefill-quantized"}
+
+  roofline:
+    vars:
+      T: "num_tokens"
+      K: "num_topk"
+      H: "hidden"
+    flops: "2 * T * K * H + T * K + T * H"
+    bytes: "T * K * H * elem_bytes + T * H + 12 * T * K + 4"
+
+  source:
+    kernel: tileops/kernels/moe/reduce_fused.py
+    op: tileops/ops/moe/reduce_fused.py
+    test: tests/ops/test_moe_reduce_fused.py
+    bench: benchmarks/ops/bench_moe_reduce_fused.py
+    bench_manifest_driven: true
+    kernel_map:
+      reduce_fused_kernel: MoeReduceFusedKernel

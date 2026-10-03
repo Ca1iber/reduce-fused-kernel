@@ -74,7 +74,10 @@ from .gla_recurrence import GLADecodeFP32Kernel, GLADecodeKernel
 from .grouped_gemm import GroupedGemmKernel
 from .kernel_base import Kernel
 from .mhc import MHCPostKernel, MHCPreKernel
-from .moe import MoePermuteAlignKernel
+from .moe import (
+    MoePermuteAlignKernel,
+    MoeReduceFusedKernel,
+)
 from .norm import (
     BatchNormBwdKernel,
     BatchNormFwdInferKernel,
@@ -199,6 +202,7 @@ __all__ = [
     "MaxPool3dWithIndicesKernel",
     "MeanPoolingFwdKernel",
     "MoePermuteAlignKernel",
+    "MoeReduceFusedKernel",
     "NSACmpFwdVarlenKernel",
     "NSAFwdVarlenKernel",
     "NSATopkVarlenKernel",

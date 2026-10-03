@@ -4,6 +4,12 @@ from .fused_moe import FusedMoe, FusedMoeFwdCbFwdOp, FusedMoeFwdOp
 from .fused_topk import FusedTopKOp
 from .permute_align import MoePermuteAlignFwdOp
 from .prepare_finalize.no_dp_ep import MoEPrepareAndFinalizeNoDPEP
+from .reduce_fused import (
+    MoeReduceFusedFp8FwdOp,
+    MoeReduceFusedFwdOp,
+    MoeReduceFusedQuantizedFwdOp,
+    MoeReduceFusedWithXsfFwdOp,
+)
 from .routed_expert import (
     FusedMoEExperts,
     FusedMoEExpertsModular,
@@ -33,6 +39,10 @@ __all__ = [
     "MoeGroupedGemmNopadFwdOp",
     "MoePermuteAlignFwdOp",
     "MoePermuteNopadFwdOp",
+    "MoeReduceFusedFp8FwdOp",
+    "MoeReduceFusedFwdOp",
+    "MoeReduceFusedQuantizedFwdOp",
+    "MoeReduceFusedWithXsfFwdOp",
     "MoeUnpermuteFwdOp",
     "PrepareResult",
     "SharedFusedMoE",
