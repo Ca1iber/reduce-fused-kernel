@@ -1,0 +1,27 @@
+{
+  "pid": 117382,
+  "command": [
+    "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+    "perf_exec",
+    "--cmdline",
+    "env MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/v016/raw/native_register8_minimal /opt/conda/bin/python /data/TileOPs-Metax/profiles/v016/scripts/profile_cases.py --case register8",
+    "--kernelname",
+    "v016_register8_minimal",
+    "--casename",
+    "v016_register8_minimal",
+    "--cwd",
+    "/data/TileOPs-Metax/profiles/v016/raw/native_register8_minimal",
+    "--custom",
+    "--per-kernel",
+    "--kernelnames",
+    "reduce_fused_kernel_kernel",
+    "--counts",
+    "1",
+    "--metrics",
+    "Total Instructions",
+    "Compute Instructions",
+    "Memory Instructions",
+    "Global Memory Read bytes",
+    "Global Memory Write bytes"
+  ]
+}

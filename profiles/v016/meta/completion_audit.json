@@ -1,0 +1,97 @@
+{
+  "objective": "重新验证流水线与shared memory可行性，给出正确性、benchmark、profile和失败复盘证据；未采用有限实验证明所有实现不可能",
+  "checks": [
+    {
+      "requirement": "v014 existing correctness",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v014/raw/correctness_best.xml"
+    },
+    {
+      "requirement": "v016 existing correctness",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v016/raw/correctness_register8.xml"
+    },
+    {
+      "requirement": "v014 confirmation_16g.csv",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v014/raw/confirmation_16g.csv"
+    },
+    {
+      "requirement": "v016 expanded_register8_16g.csv",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v016/raw/expanded_register8_16g.csv"
+    },
+    {
+      "requirement": "v016 confirmation_register8_16g.csv",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v016/raw/confirmation_register8_16g.csv"
+    },
+    {
+      "requirement": "v014 detailed report",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v014/analysis/v014_cooperative_shared_16g.md"
+    },
+    {
+      "requirement": "v015 detailed report",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v015/analysis/v015_hidden_pipeline_16g.md"
+    },
+    {
+      "requirement": "v016 detailed report",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v016/analysis/v016_register_prefetch_16g.md"
+    },
+    {
+      "requirement": "v014 actual resource profile",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v014/analysis/trace_summary.json"
+    },
+    {
+      "requirement": "v015 actual resource profile",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v015/analysis/trace_summary.json"
+    },
+    {
+      "requirement": "v016 actual resource profile",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v016/analysis/trace_summary.json"
+    },
+    {
+      "requirement": "native stream_async",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v015/raw/native_stream_async/tool_output/1_reduce_fused_kernel_kernel.txt.json"
+    },
+    {
+      "requirement": "native group2_async",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v015/raw/native_group2_async/tool_output/1_reduce_fused_kernel_kernel.txt.json"
+    },
+    {
+      "requirement": "register8 valid recollection",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v016/raw/native_register8_minimal/tool_output/1_reduce_fused_kernel_kernel.txt.json"
+    },
+    {
+      "requirement": "invalid counts retained and excluded",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v016/meta/native_validity.json"
+    },
+    {
+      "requirement": "both avenues demonstrated with scoped conclusions",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v016/analysis/pipeline_shared_conclusions_16g.md"
+    },
+    {
+      "requirement": "production unchanged",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/tileops/kernels/moe/reduce_fused.py"
+    },
+    {
+      "requirement": "jobs terminal",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v016/meta/final_evidence.json"
+    }
+  ],
+  "production_integration": "not part of exploration objective; candidate scripts archived",
+  "time": 1791150279.5945227
+}

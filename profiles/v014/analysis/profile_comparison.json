@@ -1,0 +1,272 @@
+[
+  {
+    "name": "baseline",
+    "trace_median_us": 50.176,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      49.152,
+      48.128,
+      50.432,
+      47.616,
+      50.432,
+      50.176,
+      51.2,
+      51.2,
+      50.176,
+      50.432,
+      47.872
+    ],
+    "counters": {
+      "Total Instructions": 3962542.0,
+      "Compute Instructions": 3721092.0,
+      "Memory Instructions": 241450.0,
+      "Total Cycles": 4063.33,
+      "ISU stall cycles layout": {
+        "wsm_stall": 0.0,
+        "vls_pipeline_stall": 192151.0,
+        "vls_wdata_stall": 56816.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58835584.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 0.0,
+      "store instructions": 0.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 0.0,
+      "Achieved waves": 14204.0,
+      "Dispatched waves": 14336.0
+    }
+  },
+  {
+    "name": "direct1024t512",
+    "trace_median_us": 63.232,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 8,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "block": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      65.024,
+      62.72,
+      63.744,
+      64.0,
+      62.976,
+      63.744,
+      62.976,
+      63.232,
+      63.744,
+      62.976,
+      62.464
+    ],
+    "counters": {
+      "Total Instructions": 5252526.0,
+      "Compute Instructions": 4769790.0,
+      "Memory Instructions": 482736.0,
+      "Total Cycles": 4088.45,
+      "ISU stall cycles layout": {
+        "wsm_stall": 0.0,
+        "vls_pipeline_stall": 383441.0,
+        "vls_wdata_stall": 113600.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58870464.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 0.0,
+      "store instructions": 0.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 0.0,
+      "Achieved waves": 28392.0,
+      "Dispatched waves": 28672.0
+    }
+  },
+  {
+    "name": "warp512_local",
+    "trace_median_us": 158.208,
+    "resources": {
+      "dynamic_shared": 8192,
+      "private_per_thread": 0,
+      "private_total": 36,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 256,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      161.024,
+      158.72,
+      158.976,
+      158.208,
+      158.464,
+      157.952,
+      158.72,
+      158.208,
+      157.696,
+      157.952,
+      158.208
+    ],
+    "counters": {
+      "Total Instructions": 7155722.0,
+      "Compute Instructions": 6275446.0,
+      "Memory Instructions": 880276.0,
+      "Total Cycles": 3948.32,
+      "ISU stall cycles layout": {
+        "wsm_stall": 404303.0,
+        "vls_pipeline_stall": 2851288.0,
+        "vls_wdata_stall": 1022256.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 62072832.0,
+      "Global Memory Write bytes": 26011200.0,
+      "load instructions": 227168.0,
+      "store instructions": 56792.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 100.0,
+      "Achieved waves": 28396.0,
+      "Dispatched waves": 28672.0
+    }
+  },
+  {
+    "name": "warp512_global",
+    "trace_median_us": 51.968,
+    "resources": {
+      "dynamic_shared": 8192,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 10,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 256,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      52.224,
+      51.968,
+      52.736,
+      52.736,
+      53.504,
+      51.712,
+      51.2,
+      52.224,
+      51.712,
+      51.456,
+      51.456
+    ],
+    "counters": {
+      "Total Instructions": 6019728.0,
+      "Compute Instructions": 5451648.0,
+      "Memory Instructions": 568080.0,
+      "Total Cycles": 4063.96,
+      "ISU stall cycles layout": {
+        "wsm_stall": 459520.0,
+        "vls_pipeline_stall": 408433.0,
+        "vls_wdata_stall": 113568.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58763904.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 227232.0,
+      "store instructions": 56808.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 100.0,
+      "Achieved waves": 28404.0,
+      "Dispatched waves": 28672.0
+    }
+  },
+  {
+    "name": "warp1024_global",
+    "trace_median_us": 47.872,
+    "resources": {
+      "dynamic_shared": 16384,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 14,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "block": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      46.08,
+      46.592,
+      48.64,
+      47.872,
+      47.104,
+      48.128,
+      48.384,
+      48.128,
+      47.872,
+      47.872,
+      46.592
+    ],
+    "counters": {
+      "Total Instructions": 5565452.0,
+      "Compute Instructions": 5025812.0,
+      "Memory Instructions": 539640.0,
+      "Total Cycles": 3977.4,
+      "ISU stall cycles layout": {
+        "wsm_stall": 479752.0,
+        "vls_pipeline_stall": 806330.0,
+        "vls_wdata_stall": 113632.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58859072.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 227136.0,
+      "store instructions": 56800.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 100.0,
+      "Achieved waves": 28392.0,
+      "Dispatched waves": 28672.0
+    }
+  }
+]

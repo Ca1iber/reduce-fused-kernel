@@ -1,0 +1,70 @@
+##############################
+Sub-module: Summary
+------------------------------
+Name: Total Instructions
+Description: number of all instructions
+Value: 31,620,358,897
+------------------------------
+Name: Compute Instructions
+Description: number of compute instructions
+Value: 28,434,446,946
+------------------------------
+Name: Memory Instructions
+Description: number of memory instructions
+Value: 3,185,911,951
+------------------------------
+Name: Total Cycles
+Description: cycles use by kernel
+Value: 7,927,371.70(Kcycles)
+##############################
+Sub-module: ISU Statistics
+------------------------------
+Name: ISU stall cycles layout
+Description: ISU stall cycles layout
+Value: {
+    "data": {
+        "wsm_stall": 2300769310.0,
+        "vls_pipeline_stall": 18137077763.0,
+        "vls_wdata_stall": 2045458992.0,
+        "valu_stall": 0.0
+    },
+    "filename": "/opt/mcProfiler-ubuntu18.04/output20261004204539/ISU_stall_cycles_layout20261004204746511.png"
+}
+##############################
+Sub-module: Memory Statistics
+------------------------------
+Name: Global Memory Read bytes
+Description: bytes read from global memory
+Value: 188,927,814,464.0byte
+------------------------------
+Name: Global Memory Write bytes
+Description: bytes write from global memory
+Value: 94,509,009,024.0byte
+##############################
+Sub-module: Workgroup Memory
+------------------------------
+Name: load instructions
+Description: number of total workgroup memory load instructions
+Value: 941,544,095.0
+------------------------------
+Name: store instructions
+Description: number of total workgroup memory write instructions
+Value: 353,895,799.0
+------------------------------
+Name: average conflict cycles per instruction
+Description: average conflict cycles per WG-inst when bank conflict happens
+Value: 0.44
+------------------------------
+Name: shared memory access efficiency
+Description: Proportion of NON-CONFLICT access
+Value: 93.06%
+##############################
+Sub-module: Occupancy
+------------------------------
+Name: Achieved waves
+Description: number of achieved waves
+Value: 95,318,944.0
+------------------------------
+Name: Dispatched waves
+Description: number of dispatched waves
+Value: 98,774,446.0

@@ -1,0 +1,11 @@
+{
+  "stage": "profile_done",
+  "started": 1791146556.3156626,
+  "tracer_exitcode": 0,
+  "native_pid": 106559,
+  "baseline_exitcode": 0,
+  "register2_exitcode": 0,
+  "register4_exitcode": 0,
+  "register8_exitcode": 0,
+  "finished": 1791147166.5952778
+}

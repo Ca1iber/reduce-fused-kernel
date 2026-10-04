@@ -1,0 +1,276 @@
+[
+  {
+    "name": "baseline",
+    "trace_median_us": 50.688,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      48.384,
+      48.384,
+      50.688,
+      50.944,
+      49.92,
+      50.688,
+      47.616,
+      50.944,
+      50.688,
+      50.432,
+      52.736
+    ]
+  },
+  {
+    "name": "stream_direct",
+    "trace_median_us": 84.736,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 14,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      84.736,
+      83.712,
+      84.224,
+      84.992,
+      84.736,
+      84.736,
+      84.736,
+      83.968,
+      85.248,
+      84.992,
+      83.968
+    ]
+  },
+  {
+    "name": "stream_sync",
+    "trace_median_us": 158.464,
+    "resources": {
+      "dynamic_shared": 16384,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 14,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      157.44,
+      157.952,
+      159.488,
+      158.464,
+      159.232,
+      159.744,
+      158.464,
+      158.464,
+      159.232,
+      157.44,
+      157.696
+    ]
+  },
+  {
+    "name": "stream_async",
+    "trace_median_us": 85.76,
+    "resources": {
+      "dynamic_shared": 16384,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 14,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      86.272,
+      82.944,
+      84.224,
+      87.04,
+      87.04,
+      86.528,
+      83.968,
+      82.688,
+      85.76,
+      85.248,
+      88.832
+    ],
+    "counters": {
+      "Total Instructions": 4988329.0,
+      "Compute Instructions": 4742393.0,
+      "Memory Instructions": 245936.0,
+      "ISU stall cycles layout": {
+        "wsm_stall": 56784.0,
+        "vls_pipeline_stall": 469645.0,
+        "vls_wdata_stall": 56672.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58842528.0,
+      "Global Memory Write bytes": 3670336.0,
+      "load instructions": 113344.0,
+      "store instructions": 0.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 100.0
+    },
+    "native_validity": "target_traffic_consistent"
+  },
+  {
+    "name": "group2_direct",
+    "trace_median_us": 52.48,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      49.92,
+      50.432,
+      52.48,
+      52.224,
+      52.736,
+      49.664,
+      52.736,
+      52.736,
+      52.992,
+      52.48,
+      49.92
+    ]
+  },
+  {
+    "name": "group2_async",
+    "trace_median_us": 63.744,
+    "resources": {
+      "dynamic_shared": 16384,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      63.744,
+      64.0,
+      63.488,
+      65.024,
+      65.536,
+      63.488,
+      63.488,
+      64.0,
+      63.488,
+      65.536,
+      63.488
+    ],
+    "counters": {
+      "Total Instructions": 5332038.0,
+      "Compute Instructions": 5055138.0,
+      "Memory Instructions": 276900.0,
+      "ISU stall cycles layout": {
+        "wsm_stall": 56720.0,
+        "vls_pipeline_stall": 562517.0,
+        "vls_wdata_stall": 56800.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58871744.0,
+      "Global Memory Write bytes": 3670368.0,
+      "load instructions": 113600.0,
+      "store instructions": 0.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 100.0
+    },
+    "native_validity": "target_traffic_consistent"
+  },
+  {
+    "name": "group4_async",
+    "trace_median_us": 62.208,
+    "resources": {
+      "dynamic_shared": 16384,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 14,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 4,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      61.184,
+      61.696,
+      62.72,
+      62.976,
+      62.464,
+      63.232,
+      61.952,
+      62.464,
+      62.208,
+      62.208,
+      60.672
+    ]
+  }
+]

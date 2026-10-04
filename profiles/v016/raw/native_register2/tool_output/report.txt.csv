@@ -1,0 +1,22 @@
+Name,Description,Value
+Total Instructions,number of all instructions,"31,620,358,897"
+Compute Instructions,number of compute instructions,"28,434,446,946"
+Memory Instructions,number of memory instructions,"3,185,911,951"
+Total Cycles,cycles use by kernel,"7,927,371.70(Kcycles)"
+ISU stall cycles layout,ISU stall cycles layout,"{
+    ""data"": {
+        ""wsm_stall"": 2300769310.0,
+        ""vls_pipeline_stall"": 18137077763.0,
+        ""vls_wdata_stall"": 2045458992.0,
+        ""valu_stall"": 0.0
+    },
+    ""filename"": ""/opt/mcProfiler-ubuntu18.04/output20261004204539/ISU_stall_cycles_layout20261004204746511.png""
+}"
+Global Memory Read bytes,bytes read from global memory,"188,927,814,464.0byte"
+Global Memory Write bytes,bytes write from global memory,"94,509,009,024.0byte"
+load instructions,number of total workgroup memory load instructions,"941,544,095.0"
+store instructions,number of total workgroup memory write instructions,"353,895,799.0"
+average conflict cycles per instruction,average conflict cycles per WG-inst when bank conflict happens,0.44
+shared memory access efficiency,Proportion of NON-CONFLICT access,93.06%
+Achieved waves,number of achieved waves,"95,318,944.0"
+Dispatched waves,number of dispatched waves,"98,774,446.0"

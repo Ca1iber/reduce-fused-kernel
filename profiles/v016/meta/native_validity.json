@@ -1,0 +1,8 @@
+{
+  "baseline": "consistent_target_traffic",
+  "register2": "invalid: zero-smem code but nonzero shared counts and 296MB writes",
+  "register4": "invalid: zero-smem code but nonzero shared counts and 693MB writes",
+  "register8": "invalid: 715MB read versus expected59MB; nonzero shared store for zero-smem code",
+  "policy": "do not use these counters as causal evidence; recollect isolated minimal event groups",
+  "register8_minimal": "valid isolated per-kernel recollection: read 58,798,432/write 3,670,336, Total 4,318,990"
+}

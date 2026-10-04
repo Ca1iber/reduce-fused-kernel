@@ -1,0 +1,172 @@
+[
+  {
+    "name": "baseline",
+    "trace_median_us": 50.176,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      49.152,
+      48.128,
+      50.432,
+      47.616,
+      50.432,
+      50.176,
+      51.2,
+      51.2,
+      50.176,
+      50.432,
+      47.872
+    ]
+  },
+  {
+    "name": "direct1024t512",
+    "trace_median_us": 63.232,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 8,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "block": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      65.024,
+      62.72,
+      63.744,
+      64.0,
+      62.976,
+      63.744,
+      62.976,
+      63.232,
+      63.744,
+      62.976,
+      62.464
+    ]
+  },
+  {
+    "name": "warp512_local",
+    "trace_median_us": 158.208,
+    "resources": {
+      "dynamic_shared": 8192,
+      "private_per_thread": 0,
+      "private_total": 36,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 256,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      161.024,
+      158.72,
+      158.976,
+      158.208,
+      158.464,
+      157.952,
+      158.72,
+      158.208,
+      157.696,
+      157.952,
+      158.208
+    ]
+  },
+  {
+    "name": "warp512_global",
+    "trace_median_us": 51.968,
+    "resources": {
+      "dynamic_shared": 8192,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 10,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 256,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      52.224,
+      51.968,
+      52.736,
+      52.736,
+      53.504,
+      51.712,
+      51.2,
+      52.224,
+      51.712,
+      51.456,
+      51.456
+    ]
+  },
+  {
+    "name": "warp1024_global",
+    "trace_median_us": 47.872,
+    "resources": {
+      "dynamic_shared": 16384,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 14,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "block": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      46.08,
+      46.592,
+      48.64,
+      47.872,
+      47.104,
+      48.128,
+      48.384,
+      48.128,
+      47.872,
+      47.872,
+      46.592
+    ]
+  }
+]

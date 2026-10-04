@@ -1,0 +1,169 @@
+[
+  {
+    "name": "baseline",
+    "trace_median_us": 50.688,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      49.152,
+      48.384,
+      50.176,
+      50.944,
+      48.384,
+      50.688,
+      51.712,
+      51.2,
+      50.688,
+      50.688,
+      48.128
+    ],
+    "counters": {
+      "Total Instructions": 3999397.0,
+      "Compute Instructions": 3757961.0,
+      "Memory Instructions": 241436.0,
+      "Total Cycles": 4098.91,
+      "ISU stall cycles layout": {
+        "wsm_stall": 0.0,
+        "vls_pipeline_stall": 192358.0,
+        "vls_wdata_stall": 56824.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58835328.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 0.0,
+      "store instructions": 0.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 0.0,
+      "Achieved waves": 14204.0,
+      "Dispatched waves": 14336.0
+    },
+    "native_validity": "target_traffic_consistent"
+  },
+  {
+    "name": "register2",
+    "trace_median_us": 51.456,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 15,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      53.76,
+      47.872,
+      50.944,
+      51.712,
+      50.944,
+      48.64,
+      51.712,
+      51.968,
+      51.712,
+      51.456,
+      48.128
+    ],
+    "native_validity": "old_native_invalid_do_not_use"
+  },
+  {
+    "name": "register4",
+    "trace_median_us": 51.968,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 19,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      49.664,
+      50.688,
+      51.968,
+      53.504,
+      49.408,
+      51.968,
+      52.736,
+      51.968,
+      52.224,
+      51.456,
+      49.92
+    ],
+    "native_validity": "old_native_invalid_do_not_use"
+  },
+  {
+    "name": "register8",
+    "trace_median_us": 46.592,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 22,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "block": {
+      "x": 128,
+      "y": 1,
+      "z": 1
+    },
+    "durations_us": [
+      44.544,
+      44.8,
+      47.104,
+      44.8,
+      46.592,
+      47.36,
+      46.336,
+      47.104,
+      46.592,
+      47.104,
+      44.032
+    ],
+    "counters": {
+      "Total Instructions": 4318990.0,
+      "Compute Instructions": 4120258.0,
+      "Memory Instructions": 198732.0,
+      "Global Memory Read bytes": 58798432.0,
+      "Global Memory Write bytes": 3670336.0
+    },
+    "native_validity": "isolated_minimal_recollection_target_traffic_consistent"
+  }
+]
