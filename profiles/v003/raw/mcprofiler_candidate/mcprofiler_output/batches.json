@@ -1,0 +1,14 @@
+{
+    "ISU": [
+        "AP_PERF_INSTS_BSM",
+        "AP_PERF_INSTS_GVM",
+        "AP_PERF_INSTS_MMA",
+        "AP_PERF_INSTS_VALU",
+        "AP_PERF_INSTS_SALU",
+        "AP_PERF_INST_MISC",
+        "AP_PERF_INSTS_LDU"
+    ],
+    "CE": [
+        "CE_PERF_BUSY_CYCLES"
+    ]
+}

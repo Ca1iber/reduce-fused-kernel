@@ -1,0 +1,5 @@
+{
+  "baseline_sha256": "b1ffee62791fbc93d47fed10e2caa220b941a04066cda9a7deec89c32930bf85",
+  "optimized_sha256": "90de8eb1989967f147708db627de94758c9140db7e762780422720067bcb9068",
+  "scope": "E4M3 output with_sf only; original reduction/threads and non-FP8 paths retained"
+}

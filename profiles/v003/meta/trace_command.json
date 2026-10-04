@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/opt/maca/bin/mcTracer",
+    "--mctx",
+    "/opt/conda/bin/python",
+    "/root/TileOPs-Metax/profiles/v003/scripts/trace_pair.py"
+  ],
+  "pid": 24920,
+  "cycle_trace_mode": "not enabled for baseline trace"
+}

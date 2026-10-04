@@ -1,8 +1,7 @@
-"""MoE reduction with direct FP32-to-E4M3 output encoding.
+"""Naive MoE reduce-fused TileLang kernel.
 
 Copied from TileKernels-Metax tile_kernels/moe/reduce_fused_kernel.py
 at source commit 0266ab740980de7dc03a828b8259cd73d100c2eb.
-The FP8 path preserves SDK SATFINITE rounding with FP32/uint32 operations.
 """
 
 from typing import Optional
@@ -32,7 +31,6 @@ def get_reduce_fused_kernel(
     with_x_sf: bool,
 ):
     num_threads = 128
-    use_fp8_bits = with_sf and str(out_dtype) == "float8_e4m3fn"
 
     num_tokens = T.dynamic('num_tokens')
     num_expanded_tokens = T.dynamic('num_expanded_tokens')
@@ -74,40 +72,7 @@ def get_reduce_fused_kernel(
                         reduced_fragment[i] += x[pos, i] * s
 
             for i in T.Parallel(hidden):
-                if use_fp8_bits:
-                    value = reduced_fragment[i] * sf_var
-                    raw = T.reinterpret(value, "uint32")
-                    magnitude = raw & T.uint32(0x7fffffff)
-                    sign = (raw >> 24) & T.uint32(0x80)
-                    # Keep three mantissa bits, rounding nearest with even ties.
-                    normal = (
-                        (magnitude + T.uint32(0x7ffff)
-                         + ((magnitude >> 20) & T.uint32(1))) >> 20
-                    ) - T.uint32(0x3c0)
-                    # E4M3 subnormals have a 2^-9 step. The FP32 bias add
-                    # rounds to that step without the SDK's FP64 conversion.
-                    denormal = T.reinterpret(
-                        T.reinterpret(magnitude, "float32") + T.float32(16384.0),
-                        "uint32",
-                    ) - T.uint32(0x46800000)
-                    encoded = T.Select(
-                        magnitude < T.uint32(0x3c800000), denormal,
-                        T.Select(magnitude >= T.uint32(0x43e00000),
-                                 T.uint32(0x7e), normal),
-                    )
-                    # Match the original SDK SATFINITE conversion: clamp
-                    # overflow/Inf, canonicalize NaN, preserve signed zero.
-                    final_encoded = T.Select(
-                        magnitude > T.uint32(0x7f800000),
-                        T.uint32(0x7f), encoded | sign,
-                    )
-                    out[pid_token, i] = T.reinterpret(
-                        final_encoded.astype("uint8"), out_dtype,
-                    )
-                else:
-                    out[pid_token, i] = T.Select(
-                        with_sf, reduced_fragment[i] * sf_var, reduced_fragment[i],
-                    )
+                out[pid_token, i] = T.Select(with_sf, reduced_fragment[i] * sf_var, reduced_fragment[i])
 
     return reduce_fused_kernel
 

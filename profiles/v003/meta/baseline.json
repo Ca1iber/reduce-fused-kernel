@@ -1,0 +1,11 @@
+{
+  "head": "99bf9bf8f65eb4fca312ef978821d1a22c96b809",
+  "kernel_sha256": "b1ffee62791fbc93d47fed10e2caa220b941a04066cda9a7deec89c32930bf85",
+  "torch": "2.8.0+metax3.7.1.3",
+  "target": {
+    "T": 512,
+    "K": 8,
+    "H": 7168,
+    "dtype": "bfloat16"
+  }
+}

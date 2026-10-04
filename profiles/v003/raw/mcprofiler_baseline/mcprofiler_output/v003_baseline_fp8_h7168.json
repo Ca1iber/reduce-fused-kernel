@@ -1,0 +1,2907 @@
+{
+    "perf_counters": {
+        "0": [
+            {
+                "CE": {
+                    "generic": {
+                        "CE_PERF_BUSY_CYCLES": 9801185528
+                    }
+                },
+                "ISU": {
+                    "dpcId0,blockId0": {
+                        "AP_PERF_INSTS_VALU": 818514,
+                        "AP_PERF_INSTS_GVM": 10196,
+                        "AP_PERF_INST_MISC": 71494,
+                        "AP_PERF_INSTS_SALU": 265052,
+                        "AP_PERF_INSTS_LDU": 2560,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId1": {
+                        "AP_PERF_INSTS_VALU": 809931,
+                        "AP_PERF_INSTS_GVM": 10102,
+                        "AP_PERF_INST_MISC": 70510,
+                        "AP_PERF_INSTS_SALU": 260818,
+                        "AP_PERF_INSTS_LDU": 2574,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId2": {
+                        "AP_PERF_INSTS_VALU": 811174,
+                        "AP_PERF_INSTS_GVM": 10166,
+                        "AP_PERF_INST_MISC": 70600,
+                        "AP_PERF_INSTS_SALU": 260946,
+                        "AP_PERF_INSTS_LDU": 2622,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId3": {
+                        "AP_PERF_INSTS_VALU": 808915,
+                        "AP_PERF_INSTS_GVM": 10053,
+                        "AP_PERF_INST_MISC": 70435,
+                        "AP_PERF_INSTS_SALU": 260718,
+                        "AP_PERF_INSTS_LDU": 2537,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId4": {
+                        "AP_PERF_INSTS_VALU": 812152,
+                        "AP_PERF_INSTS_GVM": 10152,
+                        "AP_PERF_INST_MISC": 70652,
+                        "AP_PERF_INSTS_SALU": 261040,
+                        "AP_PERF_INSTS_LDU": 2632,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId5": {
+                        "AP_PERF_INSTS_VALU": 810781,
+                        "AP_PERF_INSTS_GVM": 10088,
+                        "AP_PERF_INST_MISC": 70550,
+                        "AP_PERF_INSTS_SALU": 260872,
+                        "AP_PERF_INSTS_LDU": 2584,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId6": {
+                        "AP_PERF_INSTS_VALU": 811532,
+                        "AP_PERF_INSTS_GVM": 10185,
+                        "AP_PERF_INST_MISC": 70707,
+                        "AP_PERF_INSTS_SALU": 261040,
+                        "AP_PERF_INSTS_LDU": 2608,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId7": {
+                        "AP_PERF_INSTS_VALU": 812278,
+                        "AP_PERF_INSTS_GVM": 10273,
+                        "AP_PERF_INST_MISC": 71377,
+                        "AP_PERF_INSTS_SALU": 261252,
+                        "AP_PERF_INSTS_LDU": 2592,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId8": {
+                        "AP_PERF_INSTS_VALU": 810784,
+                        "AP_PERF_INSTS_GVM": 10156,
+                        "AP_PERF_INST_MISC": 70616,
+                        "AP_PERF_INSTS_SALU": 260852,
+                        "AP_PERF_INSTS_LDU": 2628,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 791
+                    },
+                    "dpcId0,blockId9": {
+                        "AP_PERF_INSTS_VALU": 809673,
+                        "AP_PERF_INSTS_GVM": 10152,
+                        "AP_PERF_INST_MISC": 70594,
+                        "AP_PERF_INSTS_SALU": 260816,
+                        "AP_PERF_INSTS_LDU": 2604,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId10": {
+                        "AP_PERF_INSTS_VALU": 811804,
+                        "AP_PERF_INSTS_GVM": 10152,
+                        "AP_PERF_INST_MISC": 70648,
+                        "AP_PERF_INSTS_SALU": 261008,
+                        "AP_PERF_INSTS_LDU": 2628,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId11": {
+                        "AP_PERF_INSTS_VALU": 810808,
+                        "AP_PERF_INSTS_GVM": 10104,
+                        "AP_PERF_INST_MISC": 70574,
+                        "AP_PERF_INSTS_SALU": 260896,
+                        "AP_PERF_INSTS_LDU": 2592,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId0,blockId12": {
+                        "AP_PERF_INSTS_VALU": 819377,
+                        "AP_PERF_INSTS_GVM": 10244,
+                        "AP_PERF_INST_MISC": 71560,
+                        "AP_PERF_INSTS_SALU": 265072,
+                        "AP_PERF_INSTS_LDU": 2596,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId0": {
+                        "AP_PERF_INSTS_VALU": 813028,
+                        "AP_PERF_INSTS_GVM": 10184,
+                        "AP_PERF_INST_MISC": 70706,
+                        "AP_PERF_INSTS_SALU": 261312,
+                        "AP_PERF_INSTS_LDU": 2656,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId1": {
+                        "AP_PERF_INSTS_VALU": 811065,
+                        "AP_PERF_INSTS_GVM": 10088,
+                        "AP_PERF_INST_MISC": 70560,
+                        "AP_PERF_INSTS_SALU": 261112,
+                        "AP_PERF_INSTS_LDU": 2584,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId2": {
+                        "AP_PERF_INSTS_VALU": 810006,
+                        "AP_PERF_INSTS_GVM": 10053,
+                        "AP_PERF_INST_MISC": 70504,
+                        "AP_PERF_INSTS_SALU": 260937,
+                        "AP_PERF_INSTS_LDU": 2560,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId3": {
+                        "AP_PERF_INSTS_VALU": 810393,
+                        "AP_PERF_INSTS_GVM": 10121,
+                        "AP_PERF_INST_MISC": 70613,
+                        "AP_PERF_INSTS_SALU": 261072,
+                        "AP_PERF_INSTS_LDU": 2560,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId4": {
+                        "AP_PERF_INSTS_VALU": 813293,
+                        "AP_PERF_INSTS_GVM": 10249,
+                        "AP_PERF_INST_MISC": 71525,
+                        "AP_PERF_INSTS_SALU": 261846,
+                        "AP_PERF_INSTS_LDU": 2616,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId5": {
+                        "AP_PERF_INSTS_VALU": 810382,
+                        "AP_PERF_INSTS_GVM": 10124,
+                        "AP_PERF_INST_MISC": 70576,
+                        "AP_PERF_INSTS_SALU": 260992,
+                        "AP_PERF_INSTS_LDU": 2604,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 344
+                    },
+                    "dpcId1,blockId6": {
+                        "AP_PERF_INSTS_VALU": 809782,
+                        "AP_PERF_INSTS_GVM": 10136,
+                        "AP_PERF_INST_MISC": 70530,
+                        "AP_PERF_INSTS_SALU": 260908,
+                        "AP_PERF_INSTS_LDU": 2600,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 731
+                    },
+                    "dpcId1,blockId7": {
+                        "AP_PERF_INSTS_VALU": 811070,
+                        "AP_PERF_INSTS_GVM": 10104,
+                        "AP_PERF_INST_MISC": 70586,
+                        "AP_PERF_INSTS_SALU": 261084,
+                        "AP_PERF_INSTS_LDU": 2592,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId8": {
+                        "AP_PERF_INSTS_VALU": 811300,
+                        "AP_PERF_INSTS_GVM": 10120,
+                        "AP_PERF_INST_MISC": 70606,
+                        "AP_PERF_INSTS_SALU": 261044,
+                        "AP_PERF_INSTS_LDU": 2604,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId9": {
+                        "AP_PERF_INSTS_VALU": 818197,
+                        "AP_PERF_INSTS_GVM": 10180,
+                        "AP_PERF_INST_MISC": 71470,
+                        "AP_PERF_INSTS_SALU": 265028,
+                        "AP_PERF_INSTS_LDU": 2548,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId10": {
+                        "AP_PERF_INSTS_VALU": 819876,
+                        "AP_PERF_INSTS_GVM": 10260,
+                        "AP_PERF_INST_MISC": 71592,
+                        "AP_PERF_INSTS_SALU": 265244,
+                        "AP_PERF_INSTS_LDU": 2608,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId11": {
+                        "AP_PERF_INSTS_VALU": 811133,
+                        "AP_PERF_INSTS_GVM": 10150,
+                        "AP_PERF_INST_MISC": 70590,
+                        "AP_PERF_INSTS_SALU": 261090,
+                        "AP_PERF_INSTS_LDU": 2610,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId1,blockId12": {
+                        "AP_PERF_INSTS_VALU": 811443,
+                        "AP_PERF_INSTS_GVM": 10166,
+                        "AP_PERF_INST_MISC": 70614,
+                        "AP_PERF_INSTS_SALU": 261110,
+                        "AP_PERF_INSTS_LDU": 2622,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId0": {
+                        "AP_PERF_INSTS_VALU": 809824,
+                        "AP_PERF_INSTS_GVM": 10101,
+                        "AP_PERF_INST_MISC": 70503,
+                        "AP_PERF_INSTS_SALU": 260759,
+                        "AP_PERF_INSTS_LDU": 2570,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId1": {
+                        "AP_PERF_INSTS_VALU": 812120,
+                        "AP_PERF_INSTS_GVM": 10217,
+                        "AP_PERF_INST_MISC": 70751,
+                        "AP_PERF_INSTS_SALU": 261044,
+                        "AP_PERF_INSTS_LDU": 2632,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId2": {
+                        "AP_PERF_INSTS_VALU": 812564,
+                        "AP_PERF_INSTS_GVM": 10289,
+                        "AP_PERF_INST_MISC": 71401,
+                        "AP_PERF_INSTS_SALU": 261204,
+                        "AP_PERF_INSTS_LDU": 2604,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId3": {
+                        "AP_PERF_INSTS_VALU": 811204,
+                        "AP_PERF_INSTS_GVM": 10172,
+                        "AP_PERF_INST_MISC": 70644,
+                        "AP_PERF_INSTS_SALU": 260904,
+                        "AP_PERF_INSTS_LDU": 2640,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId4": {
+                        "AP_PERF_INSTS_VALU": 812141,
+                        "AP_PERF_INSTS_GVM": 10264,
+                        "AP_PERF_INST_MISC": 70714,
+                        "AP_PERF_INSTS_SALU": 260920,
+                        "AP_PERF_INSTS_LDU": 2696,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 344
+                    },
+                    "dpcId2,blockId5": {
+                        "AP_PERF_INSTS_VALU": 810468,
+                        "AP_PERF_INSTS_GVM": 10132,
+                        "AP_PERF_INST_MISC": 70548,
+                        "AP_PERF_INSTS_SALU": 260768,
+                        "AP_PERF_INSTS_LDU": 2592,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 791
+                    },
+                    "dpcId2,blockId6": {
+                        "AP_PERF_INSTS_VALU": 810194,
+                        "AP_PERF_INSTS_GVM": 10072,
+                        "AP_PERF_INST_MISC": 70530,
+                        "AP_PERF_INSTS_SALU": 260796,
+                        "AP_PERF_INSTS_LDU": 2568,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId7": {
+                        "AP_PERF_INSTS_VALU": 810575,
+                        "AP_PERF_INSTS_GVM": 10090,
+                        "AP_PERF_INST_MISC": 70564,
+                        "AP_PERF_INSTS_SALU": 260830,
+                        "AP_PERF_INSTS_LDU": 2586,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId8": {
+                        "AP_PERF_INSTS_VALU": 817450,
+                        "AP_PERF_INSTS_GVM": 10148,
+                        "AP_PERF_INST_MISC": 71422,
+                        "AP_PERF_INSTS_SALU": 264804,
+                        "AP_PERF_INSTS_LDU": 2524,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId9": {
+                        "AP_PERF_INSTS_VALU": 818145,
+                        "AP_PERF_INSTS_GVM": 10180,
+                        "AP_PERF_INST_MISC": 71470,
+                        "AP_PERF_INSTS_SALU": 264948,
+                        "AP_PERF_INSTS_LDU": 2548,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId10": {
+                        "AP_PERF_INSTS_VALU": 808924,
+                        "AP_PERF_INSTS_GVM": 10054,
+                        "AP_PERF_INST_MISC": 70438,
+                        "AP_PERF_INSTS_SALU": 260654,
+                        "AP_PERF_INSTS_LDU": 2538,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId11": {
+                        "AP_PERF_INSTS_VALU": 811205,
+                        "AP_PERF_INSTS_GVM": 10104,
+                        "AP_PERF_INST_MISC": 70582,
+                        "AP_PERF_INSTS_SALU": 260908,
+                        "AP_PERF_INSTS_LDU": 2596,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId2,blockId12": {
+                        "AP_PERF_INSTS_VALU": 812521,
+                        "AP_PERF_INSTS_GVM": 10168,
+                        "AP_PERF_INST_MISC": 70676,
+                        "AP_PERF_INSTS_SALU": 261084,
+                        "AP_PERF_INSTS_LDU": 2644,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId0": {
+                        "AP_PERF_INSTS_VALU": 809965,
+                        "AP_PERF_INSTS_GVM": 10120,
+                        "AP_PERF_INST_MISC": 70538,
+                        "AP_PERF_INSTS_SALU": 260700,
+                        "AP_PERF_INSTS_LDU": 2592,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 344
+                    },
+                    "dpcId3,blockId1": {
+                        "AP_PERF_INSTS_VALU": 809935,
+                        "AP_PERF_INSTS_GVM": 10110,
+                        "AP_PERF_INST_MISC": 70583,
+                        "AP_PERF_INSTS_SALU": 260884,
+                        "AP_PERF_INSTS_LDU": 2564,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 791
+                    },
+                    "dpcId3,blockId2": {
+                        "AP_PERF_INSTS_VALU": 812731,
+                        "AP_PERF_INSTS_GVM": 10261,
+                        "AP_PERF_INST_MISC": 71413,
+                        "AP_PERF_INSTS_SALU": 261268,
+                        "AP_PERF_INSTS_LDU": 2604,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId3": {
+                        "AP_PERF_INSTS_VALU": 812463,
+                        "AP_PERF_INSTS_GVM": 10236,
+                        "AP_PERF_INST_MISC": 70772,
+                        "AP_PERF_INSTS_SALU": 261132,
+                        "AP_PERF_INSTS_LDU": 2712,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId4": {
+                        "AP_PERF_INSTS_VALU": 819314,
+                        "AP_PERF_INSTS_GVM": 10294,
+                        "AP_PERF_INST_MISC": 71596,
+                        "AP_PERF_INSTS_SALU": 264998,
+                        "AP_PERF_INSTS_LDU": 2634,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId5": {
+                        "AP_PERF_INSTS_VALU": 817557,
+                        "AP_PERF_INSTS_GVM": 10162,
+                        "AP_PERF_INST_MISC": 71422,
+                        "AP_PERF_INSTS_SALU": 264822,
+                        "AP_PERF_INSTS_LDU": 2530,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId6": {
+                        "AP_PERF_INSTS_VALU": 810616,
+                        "AP_PERF_INSTS_GVM": 10148,
+                        "AP_PERF_INST_MISC": 70558,
+                        "AP_PERF_INSTS_SALU": 260772,
+                        "AP_PERF_INSTS_LDU": 2604,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId7": {
+                        "AP_PERF_INSTS_VALU": 808974,
+                        "AP_PERF_INSTS_GVM": 10070,
+                        "AP_PERF_INST_MISC": 70446,
+                        "AP_PERF_INSTS_SALU": 260542,
+                        "AP_PERF_INSTS_LDU": 2550,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId8": {
+                        "AP_PERF_INSTS_VALU": 810212,
+                        "AP_PERF_INSTS_GVM": 10134,
+                        "AP_PERF_INST_MISC": 70540,
+                        "AP_PERF_INSTS_SALU": 260618,
+                        "AP_PERF_INSTS_LDU": 2598,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId9": {
+                        "AP_PERF_INSTS_VALU": 810032,
+                        "AP_PERF_INSTS_GVM": 10118,
+                        "AP_PERF_INST_MISC": 70520,
+                        "AP_PERF_INSTS_SALU": 260718,
+                        "AP_PERF_INSTS_LDU": 2586,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId10": {
+                        "AP_PERF_INSTS_VALU": 809442,
+                        "AP_PERF_INSTS_GVM": 10086,
+                        "AP_PERF_INST_MISC": 70474,
+                        "AP_PERF_INSTS_SALU": 260702,
+                        "AP_PERF_INSTS_LDU": 2562,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId11": {
+                        "AP_PERF_INSTS_VALU": 810349,
+                        "AP_PERF_INSTS_GVM": 10072,
+                        "AP_PERF_INST_MISC": 70518,
+                        "AP_PERF_INSTS_SALU": 260780,
+                        "AP_PERF_INSTS_LDU": 2572,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId3,blockId12": {
+                        "AP_PERF_INSTS_VALU": 812207,
+                        "AP_PERF_INSTS_GVM": 10168,
+                        "AP_PERF_INST_MISC": 70658,
+                        "AP_PERF_INSTS_SALU": 260912,
+                        "AP_PERF_INSTS_LDU": 2644,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId0": {
+                        "AP_PERF_INSTS_VALU": 810266,
+                        "AP_PERF_INSTS_GVM": 10074,
+                        "AP_PERF_INST_MISC": 70540,
+                        "AP_PERF_INSTS_SALU": 260814,
+                        "AP_PERF_INSTS_LDU": 2574,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId1": {
+                        "AP_PERF_INSTS_VALU": 820775,
+                        "AP_PERF_INSTS_GVM": 10246,
+                        "AP_PERF_INST_MISC": 71638,
+                        "AP_PERF_INSTS_SALU": 265230,
+                        "AP_PERF_INSTS_LDU": 2618,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId2": {
+                        "AP_PERF_INSTS_VALU": 822053,
+                        "AP_PERF_INSTS_GVM": 10310,
+                        "AP_PERF_INST_MISC": 71736,
+                        "AP_PERF_INSTS_SALU": 265318,
+                        "AP_PERF_INSTS_LDU": 2666,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId3": {
+                        "AP_PERF_INSTS_VALU": 809265,
+                        "AP_PERF_INSTS_GVM": 10072,
+                        "AP_PERF_INST_MISC": 70486,
+                        "AP_PERF_INSTS_SALU": 260676,
+                        "AP_PERF_INSTS_LDU": 2556,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId4": {
+                        "AP_PERF_INSTS_VALU": 809574,
+                        "AP_PERF_INSTS_GVM": 10100,
+                        "AP_PERF_INST_MISC": 70518,
+                        "AP_PERF_INSTS_SALU": 260748,
+                        "AP_PERF_INSTS_LDU": 2564,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId5": {
+                        "AP_PERF_INSTS_VALU": 812834,
+                        "AP_PERF_INSTS_GVM": 10233,
+                        "AP_PERF_INST_MISC": 71495,
+                        "AP_PERF_INSTS_SALU": 261658,
+                        "AP_PERF_INSTS_LDU": 2604,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId6": {
+                        "AP_PERF_INSTS_VALU": 808043,
+                        "AP_PERF_INSTS_GVM": 10056,
+                        "AP_PERF_INST_MISC": 70440,
+                        "AP_PERF_INSTS_SALU": 260652,
+                        "AP_PERF_INSTS_LDU": 2556,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId7": {
+                        "AP_PERF_INSTS_VALU": 809238,
+                        "AP_PERF_INSTS_GVM": 10120,
+                        "AP_PERF_INST_MISC": 70500,
+                        "AP_PERF_INSTS_SALU": 260620,
+                        "AP_PERF_INSTS_LDU": 2588,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId8": {
+                        "AP_PERF_INSTS_VALU": 809593,
+                        "AP_PERF_INSTS_GVM": 10084,
+                        "AP_PERF_INST_MISC": 70476,
+                        "AP_PERF_INSTS_SALU": 260760,
+                        "AP_PERF_INSTS_LDU": 2556,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId9": {
+                        "AP_PERF_INSTS_VALU": 809957,
+                        "AP_PERF_INSTS_GVM": 10100,
+                        "AP_PERF_INST_MISC": 70502,
+                        "AP_PERF_INSTS_SALU": 260824,
+                        "AP_PERF_INSTS_LDU": 2568,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId4,blockId10": {
+                        "AP_PERF_INSTS_VALU": 811505,
+                        "AP_PERF_INSTS_GVM": 10182,
+                        "AP_PERF_INST_MISC": 70628,
+                        "AP_PERF_INSTS_SALU": 260886,
+                        "AP_PERF_INSTS_LDU": 2634,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 344
+                    },
+                    "dpcId4,blockId11": {
+                        "AP_PERF_INSTS_VALU": 810873,
+                        "AP_PERF_INSTS_GVM": 10150,
+                        "AP_PERF_INST_MISC": 70582,
+                        "AP_PERF_INSTS_SALU": 260822,
+                        "AP_PERF_INSTS_LDU": 2610,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 731
+                    },
+                    "dpcId4,blockId12": {
+                        "AP_PERF_INSTS_VALU": 812541,
+                        "AP_PERF_INSTS_GVM": 10186,
+                        "AP_PERF_INST_MISC": 70710,
+                        "AP_PERF_INSTS_SALU": 261030,
+                        "AP_PERF_INSTS_LDU": 2658,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId0": {
+                        "AP_PERF_INSTS_VALU": 819121,
+                        "AP_PERF_INSTS_GVM": 10228,
+                        "AP_PERF_INST_MISC": 71539,
+                        "AP_PERF_INSTS_SALU": 265100,
+                        "AP_PERF_INSTS_LDU": 2584,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId1": {
+                        "AP_PERF_INSTS_VALU": 812245,
+                        "AP_PERF_INSTS_GVM": 10152,
+                        "AP_PERF_INST_MISC": 70650,
+                        "AP_PERF_INSTS_SALU": 261140,
+                        "AP_PERF_INSTS_LDU": 2632,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId2": {
+                        "AP_PERF_INSTS_VALU": 811031,
+                        "AP_PERF_INSTS_GVM": 10088,
+                        "AP_PERF_INST_MISC": 70560,
+                        "AP_PERF_INSTS_SALU": 261088,
+                        "AP_PERF_INSTS_LDU": 2584,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId3": {
+                        "AP_PERF_INSTS_VALU": 808007,
+                        "AP_PERF_INSTS_GVM": 10008,
+                        "AP_PERF_INST_MISC": 70380,
+                        "AP_PERF_INSTS_SALU": 260732,
+                        "AP_PERF_INSTS_LDU": 2508,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId4": {
+                        "AP_PERF_INSTS_VALU": 811745,
+                        "AP_PERF_INSTS_GVM": 10185,
+                        "AP_PERF_INST_MISC": 71417,
+                        "AP_PERF_INSTS_SALU": 261530,
+                        "AP_PERF_INSTS_LDU": 2568,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId5": {
+                        "AP_PERF_INSTS_VALU": 810952,
+                        "AP_PERF_INSTS_GVM": 10156,
+                        "AP_PERF_INST_MISC": 70618,
+                        "AP_PERF_INSTS_SALU": 260996,
+                        "AP_PERF_INSTS_LDU": 2628,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId6": {
+                        "AP_PERF_INSTS_VALU": 810587,
+                        "AP_PERF_INSTS_GVM": 10177,
+                        "AP_PERF_INST_MISC": 70609,
+                        "AP_PERF_INSTS_SALU": 260953,
+                        "AP_PERF_INSTS_LDU": 2645,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId7": {
+                        "AP_PERF_INSTS_VALU": 809868,
+                        "AP_PERF_INSTS_GVM": 10152,
+                        "AP_PERF_INST_MISC": 70540,
+                        "AP_PERF_INSTS_SALU": 260776,
+                        "AP_PERF_INSTS_LDU": 2612,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId8": {
+                        "AP_PERF_INSTS_VALU": 810861,
+                        "AP_PERF_INSTS_GVM": 10148,
+                        "AP_PERF_INST_MISC": 70566,
+                        "AP_PERF_INSTS_SALU": 260960,
+                        "AP_PERF_INSTS_LDU": 2604,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 320
+                    },
+                    "dpcId5,blockId9": {
+                        "AP_PERF_INSTS_VALU": 811876,
+                        "AP_PERF_INSTS_GVM": 10196,
+                        "AP_PERF_INST_MISC": 70640,
+                        "AP_PERF_INSTS_SALU": 261092,
+                        "AP_PERF_INSTS_LDU": 2640,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 791
+                    },
+                    "dpcId5,blockId10": {
+                        "AP_PERF_INSTS_VALU": 811906,
+                        "AP_PERF_INSTS_GVM": 10154,
+                        "AP_PERF_INST_MISC": 70656,
+                        "AP_PERF_INSTS_SALU": 261090,
+                        "AP_PERF_INSTS_LDU": 2634,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId11": {
+                        "AP_PERF_INSTS_VALU": 810903,
+                        "AP_PERF_INSTS_GVM": 10106,
+                        "AP_PERF_INST_MISC": 70584,
+                        "AP_PERF_INSTS_SALU": 260950,
+                        "AP_PERF_INSTS_LDU": 2598,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId5,blockId12": {
+                        "AP_PERF_INSTS_VALU": 817488,
+                        "AP_PERF_INSTS_GVM": 10148,
+                        "AP_PERF_INST_MISC": 71418,
+                        "AP_PERF_INSTS_SALU": 264920,
+                        "AP_PERF_INSTS_LDU": 2524,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId0": {
+                        "AP_PERF_INSTS_VALU": 810568,
+                        "AP_PERF_INSTS_GVM": 10184,
+                        "AP_PERF_INST_MISC": 70594,
+                        "AP_PERF_INSTS_SALU": 260904,
+                        "AP_PERF_INSTS_LDU": 2636,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId1": {
+                        "AP_PERF_INSTS_VALU": 811082,
+                        "AP_PERF_INSTS_GVM": 10164,
+                        "AP_PERF_INST_MISC": 70590,
+                        "AP_PERF_INSTS_SALU": 260920,
+                        "AP_PERF_INSTS_LDU": 2616,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId2": {
+                        "AP_PERF_INSTS_VALU": 0,
+                        "AP_PERF_INSTS_GVM": 0,
+                        "AP_PERF_INST_MISC": 0,
+                        "AP_PERF_INSTS_SALU": 0,
+                        "AP_PERF_INSTS_LDU": 0,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId3": {
+                        "AP_PERF_INSTS_VALU": 811137,
+                        "AP_PERF_INSTS_GVM": 10164,
+                        "AP_PERF_INST_MISC": 70592,
+                        "AP_PERF_INSTS_SALU": 260944,
+                        "AP_PERF_INSTS_LDU": 2616,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId4": {
+                        "AP_PERF_INSTS_VALU": 810212,
+                        "AP_PERF_INSTS_GVM": 10116,
+                        "AP_PERF_INST_MISC": 70524,
+                        "AP_PERF_INSTS_SALU": 260868,
+                        "AP_PERF_INSTS_LDU": 2580,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId5": {
+                        "AP_PERF_INSTS_VALU": 810465,
+                        "AP_PERF_INSTS_GVM": 10134,
+                        "AP_PERF_INST_MISC": 70551,
+                        "AP_PERF_INSTS_SALU": 260850,
+                        "AP_PERF_INSTS_LDU": 2598,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId6": {
+                        "AP_PERF_INSTS_VALU": 811713,
+                        "AP_PERF_INSTS_GVM": 10198,
+                        "AP_PERF_INST_MISC": 70644,
+                        "AP_PERF_INSTS_SALU": 260942,
+                        "AP_PERF_INSTS_LDU": 2646,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 731
+                    },
+                    "dpcId6,blockId7": {
+                        "AP_PERF_INSTS_VALU": 809205,
+                        "AP_PERF_INSTS_GVM": 10026,
+                        "AP_PERF_INST_MISC": 70460,
+                        "AP_PERF_INSTS_SALU": 260774,
+                        "AP_PERF_INSTS_LDU": 2538,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId8": {
+                        "AP_PERF_INSTS_VALU": 811784,
+                        "AP_PERF_INSTS_GVM": 10154,
+                        "AP_PERF_INST_MISC": 70650,
+                        "AP_PERF_INSTS_SALU": 261022,
+                        "AP_PERF_INSTS_LDU": 2634,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId9": {
+                        "AP_PERF_INSTS_VALU": 819060,
+                        "AP_PERF_INSTS_GVM": 10166,
+                        "AP_PERF_INST_MISC": 71508,
+                        "AP_PERF_INSTS_SALU": 265134,
+                        "AP_PERF_INSTS_LDU": 2558,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId10": {
+                        "AP_PERF_INSTS_VALU": 819045,
+                        "AP_PERF_INSTS_GVM": 10166,
+                        "AP_PERF_INST_MISC": 71508,
+                        "AP_PERF_INSTS_SALU": 265130,
+                        "AP_PERF_INSTS_LDU": 2558,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId11": {
+                        "AP_PERF_INSTS_VALU": 809686,
+                        "AP_PERF_INSTS_GVM": 10104,
+                        "AP_PERF_INST_MISC": 70516,
+                        "AP_PERF_INSTS_SALU": 260744,
+                        "AP_PERF_INSTS_LDU": 2580,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId6,blockId12": {
+                        "AP_PERF_INSTS_VALU": 813080,
+                        "AP_PERF_INSTS_GVM": 10321,
+                        "AP_PERF_INST_MISC": 71437,
+                        "AP_PERF_INSTS_SALU": 261292,
+                        "AP_PERF_INSTS_LDU": 2628,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId0": {
+                        "AP_PERF_INSTS_VALU": 810939,
+                        "AP_PERF_INSTS_GVM": 10200,
+                        "AP_PERF_INST_MISC": 70629,
+                        "AP_PERF_INSTS_SALU": 260912,
+                        "AP_PERF_INSTS_LDU": 2648,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId1": {
+                        "AP_PERF_INSTS_VALU": 809187,
+                        "AP_PERF_INSTS_GVM": 10068,
+                        "AP_PERF_INST_MISC": 70450,
+                        "AP_PERF_INSTS_SALU": 260684,
+                        "AP_PERF_INSTS_LDU": 2544,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId2": {
+                        "AP_PERF_INSTS_VALU": 807445,
+                        "AP_PERF_INSTS_GVM": 9988,
+                        "AP_PERF_INST_MISC": 70322,
+                        "AP_PERF_INSTS_SALU": 260448,
+                        "AP_PERF_INSTS_LDU": 2484,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId3": {
+                        "AP_PERF_INSTS_VALU": 808767,
+                        "AP_PERF_INSTS_GVM": 10053,
+                        "AP_PERF_INST_MISC": 70464,
+                        "AP_PERF_INSTS_SALU": 260664,
+                        "AP_PERF_INSTS_LDU": 2540,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId4": {
+                        "AP_PERF_INSTS_VALU": 812935,
+                        "AP_PERF_INSTS_GVM": 10262,
+                        "AP_PERF_INST_MISC": 70736,
+                        "AP_PERF_INSTS_SALU": 260978,
+                        "AP_PERF_INSTS_LDU": 2694,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 731
+                    },
+                    "dpcId7,blockId5": {
+                        "AP_PERF_INSTS_VALU": 808740,
+                        "AP_PERF_INSTS_GVM": 10054,
+                        "AP_PERF_INST_MISC": 70426,
+                        "AP_PERF_INSTS_SALU": 260550,
+                        "AP_PERF_INSTS_LDU": 2538,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId6": {
+                        "AP_PERF_INSTS_VALU": 812814,
+                        "AP_PERF_INSTS_GVM": 10202,
+                        "AP_PERF_INST_MISC": 70730,
+                        "AP_PERF_INSTS_SALU": 261050,
+                        "AP_PERF_INSTS_LDU": 2670,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId7": {
+                        "AP_PERF_INSTS_VALU": 811817,
+                        "AP_PERF_INSTS_GVM": 10154,
+                        "AP_PERF_INST_MISC": 70656,
+                        "AP_PERF_INSTS_SALU": 260938,
+                        "AP_PERF_INSTS_LDU": 2634,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId8": {
+                        "AP_PERF_INSTS_VALU": 820034,
+                        "AP_PERF_INSTS_GVM": 10214,
+                        "AP_PERF_INST_MISC": 71582,
+                        "AP_PERF_INSTS_SALU": 265154,
+                        "AP_PERF_INSTS_LDU": 2594,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId9": {
+                        "AP_PERF_INSTS_VALU": 820985,
+                        "AP_PERF_INSTS_GVM": 10262,
+                        "AP_PERF_INST_MISC": 71654,
+                        "AP_PERF_INSTS_SALU": 265234,
+                        "AP_PERF_INSTS_LDU": 2630,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId10": {
+                        "AP_PERF_INSTS_VALU": 811360,
+                        "AP_PERF_INSTS_GVM": 10185,
+                        "AP_PERF_INST_MISC": 70697,
+                        "AP_PERF_INSTS_SALU": 260900,
+                        "AP_PERF_INSTS_LDU": 2608,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId11": {
+                        "AP_PERF_INSTS_VALU": 811682,
+                        "AP_PERF_INSTS_GVM": 10185,
+                        "AP_PERF_INST_MISC": 71417,
+                        "AP_PERF_INSTS_SALU": 261450,
+                        "AP_PERF_INSTS_LDU": 2568,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    },
+                    "dpcId7,blockId12": {
+                        "AP_PERF_INSTS_VALU": 810199,
+                        "AP_PERF_INSTS_GVM": 10124,
+                        "AP_PERF_INST_MISC": 70564,
+                        "AP_PERF_INSTS_SALU": 260856,
+                        "AP_PERF_INSTS_LDU": 2604,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 256
+                    }
+                }
+            },
+            {
+                "CE": {
+                    "generic": {
+                        "CE_PERF_BUSY_CYCLES": 3110278
+                    }
+                },
+                "ISU": {
+                    "dpcId0,blockId0": {
+                        "AP_PERF_INSTS_VALU": 46045,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21386,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId1": {
+                        "AP_PERF_INSTS_VALU": 36740,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4126,
+                        "AP_PERF_INSTS_SALU": 17016,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45936,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId3": {
+                        "AP_PERF_INSTS_VALU": 45971,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21314,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45989,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId5": {
+                        "AP_PERF_INSTS_VALU": 45951,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21318,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46057,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21390,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId7": {
+                        "AP_PERF_INSTS_VALU": 46026,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21358,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId8": {
+                        "AP_PERF_INSTS_VALU": 45937,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46022,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId10": {
+                        "AP_PERF_INSTS_VALU": 46054,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21402,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId11": {
+                        "AP_PERF_INSTS_VALU": 46021,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21370,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46015,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21346,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId0": {
+                        "AP_PERF_INSTS_VALU": 45898,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21282,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId1": {
+                        "AP_PERF_INSTS_VALU": 46025,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21366,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45987,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21322,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId3": {
+                        "AP_PERF_INSTS_VALU": 46044,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21374,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId4": {
+                        "AP_PERF_INSTS_VALU": 46062,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21394,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId5": {
+                        "AP_PERF_INSTS_VALU": 45976,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21302,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46028,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21378,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId7": {
+                        "AP_PERF_INSTS_VALU": 46034,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21362,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId8": {
+                        "AP_PERF_INSTS_VALU": 45976,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46054,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21394,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId10": {
+                        "AP_PERF_INSTS_VALU": 46070,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21410,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId11": {
+                        "AP_PERF_INSTS_VALU": 36831,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4128,
+                        "AP_PERF_INSTS_SALU": 17096,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46011,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId0": {
+                        "AP_PERF_INSTS_VALU": 45965,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId1": {
+                        "AP_PERF_INSTS_VALU": 46010,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21334,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45997,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId3": {
+                        "AP_PERF_INSTS_VALU": 46038,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21366,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45971,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21326,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId5": {
+                        "AP_PERF_INSTS_VALU": 46021,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21358,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46002,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21346,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45998,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId8": {
+                        "AP_PERF_INSTS_VALU": 46040,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21378,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId9": {
+                        "AP_PERF_INSTS_VALU": 45971,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId10": {
+                        "AP_PERF_INSTS_VALU": 36809,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4126,
+                        "AP_PERF_INSTS_SALU": 17088,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId11": {
+                        "AP_PERF_INSTS_VALU": 45924,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21258,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46030,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId0": {
+                        "AP_PERF_INSTS_VALU": 46002,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21346,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId1": {
+                        "AP_PERF_INSTS_VALU": 46056,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21394,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45936,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21306,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId3": {
+                        "AP_PERF_INSTS_VALU": 46035,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21366,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45988,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId5": {
+                        "AP_PERF_INSTS_VALU": 45914,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5152,
+                        "AP_PERF_INSTS_SALU": 21302,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId6": {
+                        "AP_PERF_INSTS_VALU": 36761,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4124,
+                        "AP_PERF_INSTS_SALU": 17056,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45975,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21306,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId8": {
+                        "AP_PERF_INSTS_VALU": 45970,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21330,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46027,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21378,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId10": {
+                        "AP_PERF_INSTS_VALU": 46028,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId11": {
+                        "AP_PERF_INSTS_VALU": 45883,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21246,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId12": {
+                        "AP_PERF_INSTS_VALU": 45970,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21334,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId0": {
+                        "AP_PERF_INSTS_VALU": 45966,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21318,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId1": {
+                        "AP_PERF_INSTS_VALU": 46075,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21406,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45973,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId3": {
+                        "AP_PERF_INSTS_VALU": 36828,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4126,
+                        "AP_PERF_INSTS_SALU": 17108,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45991,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId5": {
+                        "AP_PERF_INSTS_VALU": 46012,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21370,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46030,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45941,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21262,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId8": {
+                        "AP_PERF_INSTS_VALU": 46040,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46022,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId10": {
+                        "AP_PERF_INSTS_VALU": 45933,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21262,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId11": {
+                        "AP_PERF_INSTS_VALU": 45982,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21318,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46035,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21362,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId0": {
+                        "AP_PERF_INSTS_VALU": 46021,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21370,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId1": {
+                        "AP_PERF_INSTS_VALU": 36783,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4124,
+                        "AP_PERF_INSTS_SALU": 17076,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId2": {
+                        "AP_PERF_INSTS_VALU": 46008,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId3": {
+                        "AP_PERF_INSTS_VALU": 45981,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21342,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45926,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21274,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId5": {
+                        "AP_PERF_INSTS_VALU": 46049,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46049,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45933,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21314,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId8": {
+                        "AP_PERF_INSTS_VALU": 46057,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21398,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46033,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21362,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId10": {
+                        "AP_PERF_INSTS_VALU": 45960,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21298,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId11": {
+                        "AP_PERF_INSTS_VALU": 45990,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21326,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46048,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21394,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId0": {
+                        "AP_PERF_INSTS_VALU": 46016,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId1": {
+                        "AP_PERF_INSTS_VALU": 45966,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21322,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId2": {
+                        "AP_PERF_INSTS_VALU": 0,
+                        "AP_PERF_INSTS_GVM": 0,
+                        "AP_PERF_INST_MISC": 0,
+                        "AP_PERF_INSTS_SALU": 0,
+                        "AP_PERF_INSTS_LDU": 0,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId3": {
+                        "AP_PERF_INSTS_VALU": 45943,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId4": {
+                        "AP_PERF_INSTS_VALU": 46024,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21358,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId5": {
+                        "AP_PERF_INSTS_VALU": 45888,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5152,
+                        "AP_PERF_INSTS_SALU": 21286,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId6": {
+                        "AP_PERF_INSTS_VALU": 45977,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45989,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId8": {
+                        "AP_PERF_INSTS_VALU": 46025,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21374,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId9": {
+                        "AP_PERF_INSTS_VALU": 45993,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21342,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId10": {
+                        "AP_PERF_INSTS_VALU": 46038,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId11": {
+                        "AP_PERF_INSTS_VALU": 36739,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4124,
+                        "AP_PERF_INSTS_SALU": 17028,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46053,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21386,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId0": {
+                        "AP_PERF_INSTS_VALU": 45996,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21330,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId1": {
+                        "AP_PERF_INSTS_VALU": 45941,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21282,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45900,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5152,
+                        "AP_PERF_INSTS_SALU": 21278,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId3": {
+                        "AP_PERF_INSTS_VALU": 45997,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId4": {
+                        "AP_PERF_INSTS_VALU": 46022,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId5": {
+                        "AP_PERF_INSTS_VALU": 46015,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21334,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46052,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21374,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45998,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21346,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId8": {
+                        "AP_PERF_INSTS_VALU": 45954,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5152,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46023,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21362,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId10": {
+                        "AP_PERF_INSTS_VALU": 36731,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4122,
+                        "AP_PERF_INSTS_SALU": 17028,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId11": {
+                        "AP_PERF_INSTS_VALU": 46044,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21378,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46015,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    }
+                },
+                "args": {
+                    "kernelName": [
+                        "reduce_fused_kernel_kernel"
+                    ],
+                    "tag": [
+                        0
+                    ]
+                }
+            },
+            {
+                "CE": {
+                    "generic": {
+                        "CE_PERF_BUSY_CYCLES": 9220072
+                    }
+                },
+                "ISU": {
+                    "dpcId0,blockId0": {
+                        "AP_PERF_INSTS_VALU": 46045,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21386,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId1": {
+                        "AP_PERF_INSTS_VALU": 36740,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4126,
+                        "AP_PERF_INSTS_SALU": 17016,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45936,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId3": {
+                        "AP_PERF_INSTS_VALU": 45971,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21314,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45989,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId5": {
+                        "AP_PERF_INSTS_VALU": 45951,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21318,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46057,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21390,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId7": {
+                        "AP_PERF_INSTS_VALU": 46026,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21358,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId8": {
+                        "AP_PERF_INSTS_VALU": 45937,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46022,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId10": {
+                        "AP_PERF_INSTS_VALU": 46054,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21402,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId11": {
+                        "AP_PERF_INSTS_VALU": 46021,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21370,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId0,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46015,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21346,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId0": {
+                        "AP_PERF_INSTS_VALU": 45898,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21282,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId1": {
+                        "AP_PERF_INSTS_VALU": 46025,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21366,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45987,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21322,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId3": {
+                        "AP_PERF_INSTS_VALU": 46044,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21374,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId4": {
+                        "AP_PERF_INSTS_VALU": 46062,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21394,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId5": {
+                        "AP_PERF_INSTS_VALU": 45976,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21302,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46028,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21378,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId7": {
+                        "AP_PERF_INSTS_VALU": 46034,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21362,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId8": {
+                        "AP_PERF_INSTS_VALU": 45976,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46054,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21394,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId10": {
+                        "AP_PERF_INSTS_VALU": 46070,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21410,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId11": {
+                        "AP_PERF_INSTS_VALU": 36831,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4128,
+                        "AP_PERF_INSTS_SALU": 17096,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId1,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46011,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId0": {
+                        "AP_PERF_INSTS_VALU": 45965,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId1": {
+                        "AP_PERF_INSTS_VALU": 46010,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21334,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45997,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId3": {
+                        "AP_PERF_INSTS_VALU": 46038,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21366,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45971,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21326,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId5": {
+                        "AP_PERF_INSTS_VALU": 46021,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21358,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46002,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21346,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45998,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId8": {
+                        "AP_PERF_INSTS_VALU": 46040,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21378,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId9": {
+                        "AP_PERF_INSTS_VALU": 45971,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId10": {
+                        "AP_PERF_INSTS_VALU": 36809,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4126,
+                        "AP_PERF_INSTS_SALU": 17088,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId11": {
+                        "AP_PERF_INSTS_VALU": 45924,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21258,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId2,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46030,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId0": {
+                        "AP_PERF_INSTS_VALU": 46002,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21346,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId1": {
+                        "AP_PERF_INSTS_VALU": 46056,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21394,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45936,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21306,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId3": {
+                        "AP_PERF_INSTS_VALU": 46035,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21366,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45988,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId5": {
+                        "AP_PERF_INSTS_VALU": 45914,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5152,
+                        "AP_PERF_INSTS_SALU": 21302,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId6": {
+                        "AP_PERF_INSTS_VALU": 36761,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4124,
+                        "AP_PERF_INSTS_SALU": 17056,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45975,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21306,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId8": {
+                        "AP_PERF_INSTS_VALU": 45970,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21330,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46027,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21378,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId10": {
+                        "AP_PERF_INSTS_VALU": 46028,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId11": {
+                        "AP_PERF_INSTS_VALU": 45883,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21246,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId3,blockId12": {
+                        "AP_PERF_INSTS_VALU": 45970,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21334,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId0": {
+                        "AP_PERF_INSTS_VALU": 45966,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21318,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId1": {
+                        "AP_PERF_INSTS_VALU": 46075,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21406,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45973,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId3": {
+                        "AP_PERF_INSTS_VALU": 36828,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4126,
+                        "AP_PERF_INSTS_SALU": 17108,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45991,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId5": {
+                        "AP_PERF_INSTS_VALU": 46012,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21370,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46030,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45941,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21262,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId8": {
+                        "AP_PERF_INSTS_VALU": 46040,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46022,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId10": {
+                        "AP_PERF_INSTS_VALU": 45933,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21262,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId11": {
+                        "AP_PERF_INSTS_VALU": 45982,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21318,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId4,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46035,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21362,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId0": {
+                        "AP_PERF_INSTS_VALU": 46021,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21370,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId1": {
+                        "AP_PERF_INSTS_VALU": 36783,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4124,
+                        "AP_PERF_INSTS_SALU": 17076,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId2": {
+                        "AP_PERF_INSTS_VALU": 46008,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId3": {
+                        "AP_PERF_INSTS_VALU": 45981,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21342,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId4": {
+                        "AP_PERF_INSTS_VALU": 45926,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21274,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId5": {
+                        "AP_PERF_INSTS_VALU": 46049,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46049,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45933,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21314,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId8": {
+                        "AP_PERF_INSTS_VALU": 46057,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21398,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46033,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21362,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId10": {
+                        "AP_PERF_INSTS_VALU": 45960,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21298,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId11": {
+                        "AP_PERF_INSTS_VALU": 45990,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21326,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId5,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46048,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21394,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId0": {
+                        "AP_PERF_INSTS_VALU": 46016,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId1": {
+                        "AP_PERF_INSTS_VALU": 45966,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21322,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId2": {
+                        "AP_PERF_INSTS_VALU": 0,
+                        "AP_PERF_INSTS_GVM": 0,
+                        "AP_PERF_INST_MISC": 0,
+                        "AP_PERF_INSTS_SALU": 0,
+                        "AP_PERF_INSTS_LDU": 0,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId3": {
+                        "AP_PERF_INSTS_VALU": 45943,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5154,
+                        "AP_PERF_INSTS_SALU": 21310,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId4": {
+                        "AP_PERF_INSTS_VALU": 46024,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21358,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId5": {
+                        "AP_PERF_INSTS_VALU": 45888,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5152,
+                        "AP_PERF_INSTS_SALU": 21286,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId6": {
+                        "AP_PERF_INSTS_VALU": 45977,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5156,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45989,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId8": {
+                        "AP_PERF_INSTS_VALU": 46025,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21374,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId9": {
+                        "AP_PERF_INSTS_VALU": 45993,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21342,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId10": {
+                        "AP_PERF_INSTS_VALU": 46038,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21382,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId11": {
+                        "AP_PERF_INSTS_VALU": 36739,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4124,
+                        "AP_PERF_INSTS_SALU": 17028,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId6,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46053,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21386,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId0": {
+                        "AP_PERF_INSTS_VALU": 45996,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21330,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId1": {
+                        "AP_PERF_INSTS_VALU": 45941,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21282,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId2": {
+                        "AP_PERF_INSTS_VALU": 45900,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5152,
+                        "AP_PERF_INSTS_SALU": 21278,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId3": {
+                        "AP_PERF_INSTS_VALU": 45997,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21338,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId4": {
+                        "AP_PERF_INSTS_VALU": 46022,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId5": {
+                        "AP_PERF_INSTS_VALU": 46015,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21334,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId6": {
+                        "AP_PERF_INSTS_VALU": 46052,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21374,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId7": {
+                        "AP_PERF_INSTS_VALU": 45998,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21346,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId8": {
+                        "AP_PERF_INSTS_VALU": 45954,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5152,
+                        "AP_PERF_INSTS_SALU": 21350,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId9": {
+                        "AP_PERF_INSTS_VALU": 46023,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21362,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId10": {
+                        "AP_PERF_INSTS_VALU": 36731,
+                        "AP_PERF_INSTS_GVM": 504,
+                        "AP_PERF_INST_MISC": 4122,
+                        "AP_PERF_INSTS_SALU": 17028,
+                        "AP_PERF_INSTS_LDU": 40,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId11": {
+                        "AP_PERF_INSTS_VALU": 46044,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5160,
+                        "AP_PERF_INSTS_SALU": 21378,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    },
+                    "dpcId7,blockId12": {
+                        "AP_PERF_INSTS_VALU": 46015,
+                        "AP_PERF_INSTS_GVM": 630,
+                        "AP_PERF_INST_MISC": 5158,
+                        "AP_PERF_INSTS_SALU": 21354,
+                        "AP_PERF_INSTS_LDU": 50,
+                        "AP_PERF_INSTS_MMA": 0,
+                        "AP_PERF_INSTS_BSM": 0
+                    }
+                },
+                "args": {
+                    "processIndex": [
+                        0
+                    ]
+                }
+            }
+        ]
+    },
+    "umd_data": {},
+    "device_info": {
+        "302": {
+            "gpu_id": "35972",
+            "cpu_cores_count": 0,
+            "mem_banks_count": 1,
+            "direct_link_count": 0,
+            "indirect_link_count": 0,
+            "vendor_id": 39321,
+            "device_id": 16385,
+            "drm_render_minor": 129,
+            "isa_major": 10,
+            "isa_minor": 0,
+            "is_vf": 0,
+            "max_vf_nums": 8,
+            "domain": 0,
+            "location_id": 3840,
+            "num_sdma_engines": 5,
+            "num_sdma_queues_per_engine": 9,
+            "num_vpue_cores": 1,
+            "num_vpud_cores": 8,
+            "caches_count": 157,
+            "peu_id_base": 0,
+            "peu_count": 416,
+            "max_waves_per_peu": 8,
+            "wsm_size_in_kb": 64,
+            "wave_front_size": 64,
+            "dpc_count": 8,
+            "dpc0_ap_mask": 8191,
+            "dpc1_ap_mask": 73727,
+            "dpc2_ap_mask": 139263,
+            "dpc3_ap_mask": 204799,
+            "dpc4_ap_mask": 270335,
+            "dpc5_ap_mask": 335871,
+            "dpc6_ap_mask": 409595,
+            "dpc7_ap_mask": 466943,
+            "dpc_arrays": 1,
+            "ap_per_dpc": 13,
+            "peu_per_ap": 4,
+            "pri_mem_per_thread": 4,
+            "max_slots_private_ap": 32,
+            "num_ce_queues": 16,
+            "max_engine_clk_gpu": 1600,
+            "max_engine_clk_cpu": 3600,
+            "mgpu_id": 0,
+            "topology_id": 2,
+            "socket_id": 3,
+            "hbmecc": 1,
+            "local_mem_size": 16777216000,
+            "capability": 4432512,
+            "maxprocess": 10
+        }
+    }
+}

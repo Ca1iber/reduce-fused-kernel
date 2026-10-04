@@ -1,0 +1,89 @@
+********** METRICS: **********
+HEAD: Summary
+	Total Instructions
+	Compute Instructions
+	Memory Instructions
+	Total Cycles
+	Memory Access per Second
+	Average AP busy cycles
+	AP busy Duty
+	Compute Instructions busy Duty
+	RoofLine
+
+HEAD: CE Statistics
+	WORKGROUPS
+	WAVES
+	Average Wave life cycles
+
+HEAD: ISU Statistics
+	Compute Instructions Cycles Rate
+	DPC Computing cycles comparison
+	Instructions Comparison
+	ISU stall cycles layout
+
+HEAD: Memory Statistics
+	Global Read Instructions
+	Global Write Instructions
+	Global Atomic Instructions
+	Private Read Instructions
+	Private Write Instructions
+	Constant Read Instructions
+	Constant Read SL1 Instructions
+	Constant Read L2 Instructions
+	Constant SL1 Hit Rate
+	VL1 Read Instructions
+	VL1 Write Instructions
+	VL1 Atomic Instructions
+	VL1 Hit Rate
+	L2C Read Instructions
+	L2C Write Instructions
+	L2C Atomic Instructions
+	L2C Hit Rate
+	Total Atomic Instructions
+	Dnoc Read Req
+	Dnoc Write Req
+	Global Memory Read bytes
+	Global Memory Write bytes
+	Memory Data Flow Chart
+	Dnoc Read Average Latency
+	Dnoc Read Latency Histogram
+	VL1 partition stall cycles layout
+
+HEAD: Workgroup Memory
+	load instructions
+	store instructions
+	atomic instructions
+	total instructions
+	average latency per load instruction
+	average latency per store instruction
+	average latency per atomic instruction
+	average latency of all stages per instruction
+	average cycles per load instruction
+	average cycles per store instruction
+	average cycles per atomic instruction
+	average conflict cycles per instruction
+	average cycles per instruction
+	shared memory access efficiency
+
+HEAD: Occupancy
+	Achieved waves
+	Dispatched waves
+
+HEAD: GPU Throughput Statistics
+	AP active cycles
+	AP MTE Duty ratio
+	AP STE Duty ratio
+	AP MMA Duty ratio
+	VLS Duty ratio
+	L2C Duty ratio
+
+HEAD: Compute workload
+	instruction per cycle
+	instruction throughput
+	instruction throughput efficiency
+
+HEAD: Instruction Statistics
+	instruction number
+	instructions per AP
+
+********** **********

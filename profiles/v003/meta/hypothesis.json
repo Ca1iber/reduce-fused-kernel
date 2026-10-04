@@ -1,0 +1,11 @@
+{
+  "facts": [
+    "Base and FP8 use vectorized input/output in generated code.",
+    "SDK common/maca_fp8.hpp: float-to-FP8 widens FP32 to FP64 and calls generic double-to-FP8."
+  ],
+  "mechanism": "Replace only the FP32-to-E4M3-SATFINITE conversion with exact FP32/uint32 TileLang operations; retain reduction order, layout and threads.",
+  "prediction": "Remove FP64 conversion and most 64-bit generic rounding operations; reduce conversion cost in FP8/Quantized.",
+  "falsifier": "Any byte mismatch against the original conversion, or no measurable native-benchmark improvement.",
+  "status": "validated_and_integrated",
+  "integrated_kernel_sha256": "90de8eb1989967f147708db627de94758c9140db7e762780422720067bcb9068"
+}

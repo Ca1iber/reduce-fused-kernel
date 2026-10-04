@@ -1,0 +1,18 @@
+##############################
+Sub-module: Summary
+------------------------------
+Name: Total Instructions
+Description: number of all instructions
+Value: 70,424,911
+------------------------------
+Name: Compute Instructions
+Description: number of compute instructions
+Value: 69,003,017
+------------------------------
+Name: Memory Instructions
+Description: number of memory instructions
+Value: 1,421,894
+------------------------------
+Name: Total Cycles
+Description: cycles use by kernel
+Value: 9,731,329.14(Kcycles)

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/opt/maca/bin/mcTracer",
+    "--mctx",
+    "/opt/conda/bin/python",
+    "/root/TileOPs-Metax/profiles/v003/scripts/trace_pair.py"
+  ],
+  "pid": 26434,
+  "environment_override": {
+    "CYCLE_TRACE_MODE": "1"
+  },
+  "status": "runtime switch found; testing whether it yields usable cycle-trace data"
+}

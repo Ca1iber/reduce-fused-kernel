@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pytest_exitcode": 0,
+  "conversion_elements_per_scale": 33792,
+  "conversion_scale_cases": 6,
+  "seconds": 89.84710788726807,
+  "scope": "131 existing correctness cases; candidate only for with_sf paths"
+}

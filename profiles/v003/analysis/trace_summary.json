@@ -1,0 +1,30 @@
+[
+  {
+    "kernel": "reduce_fused_kernel_kernel",
+    "samples": 11,
+    "median_us": 97.28,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 96,
+      "static_shared": 0
+    },
+    "mtreg_occupancy_percent": 18,
+    "timing": "mcTracer GPU duration; nanosecond fields converted to microseconds; includes warmup samples; no per-iteration cache flush"
+  },
+  {
+    "kernel": "reduce_fused_candidate_kernel",
+    "samples": 11,
+    "median_us": 58.368,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 96,
+      "static_shared": 0
+    },
+    "mtreg_occupancy_percent": 18,
+    "timing": "mcTracer GPU duration; nanosecond fields converted to microseconds; includes warmup samples; no per-iteration cache flush"
+  }
+]

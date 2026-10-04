@@ -1,0 +1,17 @@
+case,tileops_us,torch_us
+test_moe_reduce_fused_bench[MoeReduceFusedFwdOp-tiny-float16],3.8,47.4
+test_moe_reduce_fused_bench[MoeReduceFusedFwdOp-h3072-bfloat16],21.3,489.4
+test_moe_reduce_fused_bench[MoeReduceFusedFwdOp-h7168-bfloat16],44.8,1076.3
+test_moe_reduce_fused_bench[MoeReduceFusedFwdOp-prefill-bfloat16],358.5,8385.400000000001
+test_moe_reduce_fused_bench[MoeReduceFusedWithXsfFwdOp-tiny-xsf-float16],3.7,55.7
+test_moe_reduce_fused_bench[MoeReduceFusedWithXsfFwdOp-h3072-xsf-bfloat16],21.4,498.2
+test_moe_reduce_fused_bench[MoeReduceFusedWithXsfFwdOp-h7168-xsf-bfloat16],44.699999999999996,1078.2
+test_moe_reduce_fused_bench[MoeReduceFusedWithXsfFwdOp-prefill-xsf-bfloat16],384.90000000000003,8370.5
+test_moe_reduce_fused_bench[MoeReduceFusedFp8FwdOp-tiny-fp8-float16],4.0,60.1
+test_moe_reduce_fused_bench[MoeReduceFusedFp8FwdOp-h3072-fp8-bfloat16],26.599999999999998,514.0
+test_moe_reduce_fused_bench[MoeReduceFusedFp8FwdOp-h7168-fp8-bfloat16],71.5,1122.4
+test_moe_reduce_fused_bench[MoeReduceFusedFp8FwdOp-prefill-fp8-bfloat16],364.0,9529.3
+test_moe_reduce_fused_bench[MoeReduceFusedQuantizedFwdOp-tiny-quantized-float16],4.1000000000000005,64.8
+test_moe_reduce_fused_bench[MoeReduceFusedQuantizedFwdOp-h3072-quantized-bfloat16],26.700000000000003,613.0
+test_moe_reduce_fused_bench[MoeReduceFusedQuantizedFwdOp-h7168-quantized-bfloat16],57.7,1133.6999999999998
+test_moe_reduce_fused_bench[MoeReduceFusedQuantizedFwdOp-prefill-quantized-bfloat16],378.8,8764.4

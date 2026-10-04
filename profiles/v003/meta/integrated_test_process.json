@@ -1,0 +1,11 @@
+{
+  "pid": 35224,
+  "command": [
+    "/opt/conda/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/ops/test_moe_reduce_fused.py",
+    "--junitxml=/root/TileOPs-Metax/profiles/v003/raw/integrated_correctness.xml"
+  ]
+}

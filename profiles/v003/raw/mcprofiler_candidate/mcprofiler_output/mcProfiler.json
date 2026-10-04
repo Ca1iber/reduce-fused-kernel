@@ -1,0 +1,19 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        16,
+        "AP_PERF_INSTS_LDU"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [],
+    "include": false,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

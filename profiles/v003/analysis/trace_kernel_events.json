@@ -1,0 +1,1014 @@
+[
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 234,
+      "complete_ts": 1791086667427040071,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667425857745,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667425871394
+    },
+    "ph": "X",
+    "ts": 1791086667425949696,
+    "dur": 96768,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 240,
+      "complete_ts": 1791086667427051258,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667425936782,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667425938754
+    },
+    "ph": "X",
+    "ts": 1791086667426079232,
+    "dur": 93952,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 246,
+      "complete_ts": 1791086667427053326,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667425954497,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667425956033
+    },
+    "ph": "X",
+    "ts": 1791086667426176256,
+    "dur": 97280,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 252,
+      "complete_ts": 1791086667427055189,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667425967866,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667425969170
+    },
+    "ph": "X",
+    "ts": 1791086667426276352,
+    "dur": 97280,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 258,
+      "complete_ts": 1791086667427056763,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667425979744,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667425981162
+    },
+    "ph": "X",
+    "ts": 1791086667426376448,
+    "dur": 97536,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 264,
+      "complete_ts": 1791086667427058496,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667425991397,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667425992854
+    },
+    "ph": "X",
+    "ts": 1791086667426476800,
+    "dur": 96768,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 270,
+      "complete_ts": 1791086667427060101,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667426003508,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667426004727
+    },
+    "ph": "X",
+    "ts": 1791086667426576384,
+    "dur": 97280,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 276,
+      "complete_ts": 1791086667427061764,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667426016200,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667426017333
+    },
+    "ph": "X",
+    "ts": 1791086667426676480,
+    "dur": 97536,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 282,
+      "complete_ts": 1791086667427063637,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667426027940,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667426029303
+    },
+    "ph": "X",
+    "ts": 1791086667426776832,
+    "dur": 98816,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 288,
+      "complete_ts": 1791086667427065223,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667426039610,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667426040952
+    },
+    "ph": "X",
+    "ts": 1791086667426878720,
+    "dur": 98304,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 299,
+      "complete_ts": 1791086667427292744,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_kernel_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667427150486,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667427152161
+    },
+    "ph": "X",
+    "ts": 1791086667427168000,
+    "dur": 93952,
+    "name": "reduce_fused_kernel_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 312,
+      "complete_ts": 1791086667933089015,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932327546,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932339721
+    },
+    "ph": "X",
+    "ts": 1791086667932392960,
+    "dur": 55808,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 318,
+      "complete_ts": 1791086667933096989,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932391217,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932392628
+    },
+    "ph": "X",
+    "ts": 1791086667932477952,
+    "dur": 55552,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 324,
+      "complete_ts": 1791086667933099223,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932408960,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932410272
+    },
+    "ph": "X",
+    "ts": 1791086667932536320,
+    "dur": 58368,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 330,
+      "complete_ts": 1791086667933101062,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932422664,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932424079
+    },
+    "ph": "X",
+    "ts": 1791086667932597504,
+    "dur": 59648,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 336,
+      "complete_ts": 1791086667933102776,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932436107,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932437419
+    },
+    "ph": "X",
+    "ts": 1791086667932659968,
+    "dur": 58880,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 342,
+      "complete_ts": 1791086667933104555,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932448618,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932449965
+    },
+    "ph": "X",
+    "ts": 1791086667932721408,
+    "dur": 58624,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 348,
+      "complete_ts": 1791086667933106128,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932460818,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932461881
+    },
+    "ph": "X",
+    "ts": 1791086667932782848,
+    "dur": 58880,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 354,
+      "complete_ts": 1791086667933107669,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932473049,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932474779
+    },
+    "ph": "X",
+    "ts": 1791086667932866816,
+    "dur": 55552,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 360,
+      "complete_ts": 1791086667933109194,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932485477,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932487047
+    },
+    "ph": "X",
+    "ts": 1791086667932925440,
+    "dur": 58368,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 366,
+      "complete_ts": 1791086667933110737,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667932497688,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667932498785
+    },
+    "ph": "X",
+    "ts": 1791086667932986624,
+    "dur": 58624,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  },
+  {
+    "args": {
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "co_id": 377,
+      "complete_ts": 1791086667933287603,
+      "device_id": 0,
+      "dispatch_id": 0,
+      "grid": {
+        "x": 512,
+        "y": 1,
+        "z": 1
+      },
+      "hw_queue_id": [
+        3825210848
+      ],
+      "is_dynamic_parallel": false,
+      "is_recompiled": false,
+      "launch_type": 0,
+      "link": true,
+      "max_block_size": 128,
+      "mem": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 96,
+        "static_shared": 0
+      },
+      "mtreg_occupancy(%)": 18,
+      "name": "reduce_fused_candidate_kernel",
+      "queue_id": 0,
+      "queue_ts": 1791086667933180944,
+      "shared_memeory_occupancy(%)": 0,
+      "submit_ts": 1791086667933182703
+    },
+    "ph": "X",
+    "ts": 1791086667933198336,
+    "dur": 55808,
+    "name": "reduce_fused_candidate_kernel",
+    "pid": 2,
+    "cat": "0",
+    "tid": 1024
+  }
+]

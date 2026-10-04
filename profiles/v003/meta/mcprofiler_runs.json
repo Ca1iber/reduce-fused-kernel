@@ -1,0 +1,58 @@
+[
+  {
+    "implementation": "baseline",
+    "returncode": 0,
+    "command": [
+      "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+      "perf_exec",
+      "--cmdline",
+      "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/opt/tilelang-metax-v0.1.10:/root/TileOPs-Metax MCTX_TARGET_PROFILE_PATH=/root/TileOPs-Metax/profiles/v003/raw/mcprofiler_baseline /opt/conda/bin/python /root/TileOPs-Metax/profiles/v003/scripts/profile_one.py --implementation baseline",
+      "--kernelname",
+      "reduce_fused_kernel_kernel",
+      "--casename",
+      "v003_baseline_fp8_h7168",
+      "--cwd",
+      "/root/TileOPs-Metax/profiles/v003/raw/mcprofiler_baseline",
+      "--per-kernel",
+      "--profile-from-start",
+      "0",
+      "--counts",
+      "1",
+      "--metrics",
+      "Total Instructions",
+      "Compute Instructions",
+      "Memory Instructions",
+      "Total Cycles"
+    ],
+    "log": "/root/TileOPs-Metax/profiles/v003/logs/mcprofiler_baseline.log",
+    "original_output": "/opt/mcProfiler-ubuntu18.04/output20261004041215"
+  },
+  {
+    "implementation": "candidate",
+    "returncode": 0,
+    "command": [
+      "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+      "perf_exec",
+      "--cmdline",
+      "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/opt/tilelang-metax-v0.1.10:/root/TileOPs-Metax MCTX_TARGET_PROFILE_PATH=/root/TileOPs-Metax/profiles/v003/raw/mcprofiler_candidate /opt/conda/bin/python /root/TileOPs-Metax/profiles/v003/scripts/profile_one.py --implementation candidate",
+      "--kernelname",
+      "reduce_fused_candidate_kernel",
+      "--casename",
+      "v003_candidate_fp8_h7168",
+      "--cwd",
+      "/root/TileOPs-Metax/profiles/v003/raw/mcprofiler_candidate",
+      "--per-kernel",
+      "--profile-from-start",
+      "0",
+      "--counts",
+      "1",
+      "--metrics",
+      "Total Instructions",
+      "Compute Instructions",
+      "Memory Instructions",
+      "Total Cycles"
+    ],
+    "log": "/root/TileOPs-Metax/profiles/v003/logs/mcprofiler_candidate.log",
+    "original_output": "/opt/mcProfiler-ubuntu18.04/output20261004041408"
+  }
+]

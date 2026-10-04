@@ -1,0 +1,28 @@
+{
+    "Summary": [
+        {
+            "data": 7420126,
+            "isError": false,
+            "message": "",
+            "name": "Total Instructions"
+        },
+        {
+            "data": 7351174,
+            "isError": false,
+            "message": "",
+            "name": "Compute Instructions"
+        },
+        {
+            "data": 68952,
+            "isError": false,
+            "message": "",
+            "name": "Memory Instructions"
+        },
+        {
+            "data": 3110.278,
+            "isError": false,
+            "message": "",
+            "name": "Total Cycles"
+        }
+    ]
+}
