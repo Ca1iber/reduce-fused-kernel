@@ -7,7 +7,7 @@ Four Op variants use the original one-block-per-token, 128-thread GPU computatio
 Validation:
 
 - 131 correctness cases passed after shared input generation was introduced.
-- 16 benchmark cases passed; 32 naive/PyTorch measurements used device-event timing.
+- 16 benchmark cases passed; 32 naive/PyTorch measurements used torch.profiler GPU-timeline timing (cupti).
 - Targeted strict Manifest validation passed. Four warnings concern synthetic H=5 mock inputs violating H%256==0.
 - Python syntax and whitespace checked. The extra pre-commit tool download was cancelled.
 

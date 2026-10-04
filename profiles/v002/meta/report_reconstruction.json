@@ -1,0 +1,20 @@
+{
+  "reconstructed_on": "2026-10-04",
+  "measurement_date": "2026-10-03",
+  "machine": "sc-16g",
+  "report": "profiles/v002/analysis/README.md",
+  "sources": [
+    "profiles/v001/raw/benchmark.csv",
+    "profiles/v001/raw/recovered_calibration_records.json",
+    "profiles/v002/raw/recovered_roofline_counters.json",
+    "profiles/v002/raw/unified_bandwidth_16g.csv",
+    "Recorded user/assistant discussion and tool output from 2026-10-03"
+  ],
+  "note": "A reconstructed research report, not a verbatim recovery of the lost handwritten report. No new GPU measurement.",
+  "report_sha256": "e07d3868c62d6f81817add022429e1e2e30ebd38f62dc09fe17b5b4b5db81ae2",
+  "unified_rows": 10,
+  "benchmark_rows": 16,
+  "identified_native_cases": 9,
+  "assumed_reference_bandwidth_TBs": 1.49,
+  "scope": "Concise report: relationships of four variants and workloads; theoretical vs measured bandwidth; data tables."
+}
