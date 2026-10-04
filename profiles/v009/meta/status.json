@@ -1,0 +1,10 @@
+{
+  "stage": "complete",
+  "started": 1791123567.4431005,
+  "one_process_per_workload": true,
+  "sweep_xsf_h7168_exitcode": 0,
+  "sweep_xsf_prefill_exitcode": 0,
+  "validate_full_threads256_tile0_exitcode": 0,
+  "validate_split_threads128_tile1024_exitcode": 0,
+  "finished": 1791123758.161754
+}

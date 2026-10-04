@@ -1,0 +1,60 @@
+{
+  "hostname": "d820d0046a31",
+  "torch_version": "2.8.0+metax3.7.1.3",
+  "device_name": "MetaX C500",
+  "total_memory": 16341008384,
+  "multiprocessor_count": 104,
+  "configs": [
+    [
+      "baseline",
+      128,
+      0
+    ],
+    [
+      "full",
+      64,
+      0
+    ],
+    [
+      "full",
+      256,
+      0
+    ],
+    [
+      "split",
+      64,
+      256
+    ],
+    [
+      "split",
+      64,
+      512
+    ],
+    [
+      "split",
+      64,
+      1024
+    ],
+    [
+      "split",
+      128,
+      512
+    ],
+    [
+      "split",
+      128,
+      1024
+    ],
+    [
+      "split",
+      256,
+      512
+    ],
+    [
+      "split",
+      256,
+      1024
+    ]
+  ],
+  "started": 1791123337.8334262
+}

@@ -1,0 +1,5 @@
+{
+  "baseline_sha256": "f38809ed34fe8a2d5c53670e81df7e5d857e153a50ad6081cb1c2540c32ee1ab",
+  "baseline_commit": "b04f0af3bd7f3cb7ba2fceae0d62bc935491b0fc",
+  "scope": "Base/XSF full-row threads and hidden splitting; FP8/Quantized unchanged"
+}
