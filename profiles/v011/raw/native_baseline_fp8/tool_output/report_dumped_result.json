@@ -1,0 +1,55 @@
+{
+    "Summary": [
+        {
+            "data": 81167920,
+            "isError": false,
+            "message": "",
+            "name": "Total Instructions"
+        },
+        {
+            "data": 77926919,
+            "isError": false,
+            "message": "",
+            "name": "Compute Instructions"
+        },
+        {
+            "data": 3241001,
+            "isError": false,
+            "message": "",
+            "name": "Memory Instructions"
+        },
+        {
+            "data": 7495581.109,
+            "isError": false,
+            "message": "",
+            "name": "Total Cycles"
+        }
+    ],
+    "ISU Statistics": [
+        {
+            "data": {
+                "wsm_stall": 2096880796.0,
+                "vls_pipeline_stall": 12938196912.0,
+                "vls_wdata_stall": 1850459656.0,
+                "valu_stall": 0.0
+            },
+            "isError": false,
+            "message": "",
+            "name": "ISU stall cycles layout"
+        }
+    ],
+    "Memory Statistics": [
+        {
+            "data": 708368544.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Read bytes"
+        },
+        {
+            "data": 60154356288.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Write bytes"
+        }
+    ]
+}

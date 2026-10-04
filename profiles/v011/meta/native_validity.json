@@ -1,0 +1,12 @@
+{
+  "kernel_filter": "reduce_fused_kernel_kernel",
+  "mode": "custom",
+  "read_bytes": 58833600.0,
+  "expected_input_bytes": 58720256,
+  "write_bytes": 3670464.0,
+  "expected_output_bytes": 3670016,
+  "read_ratio": 1.0019302368164062,
+  "write_ratio": 1.0001220703125,
+  "status": "consistent_target_traffic",
+  "cycles_interpretation": "tool aggregate, not kernel wall duration"
+}

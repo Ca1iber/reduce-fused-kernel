@@ -1,0 +1,65 @@
+{
+  "perfList": {
+    "L2C": [
+      [
+        46,
+        "perf_dnoc_rdreq_32B"
+      ],
+      [
+        271,
+        "perf_dnoc_wrreq_64B"
+      ],
+      [
+        270,
+        "perf_dnoc_wrreq_32B_high"
+      ],
+      [
+        48,
+        "perf_dnoc_rdreq_128B"
+      ]
+    ],
+    "ISU": [
+      [
+        17,
+        "AP_PERF_INST_MISC"
+      ],
+      [
+        9,
+        "AP_PERF_INSTS_MMA"
+      ],
+      [
+        81,
+        "AP_PERF_ISU_ARB_DATA_STALL"
+      ],
+      [
+        11,
+        "AP_PERF_INSTS_GVM"
+      ],
+      [
+        10,
+        "AP_PERF_INSTS_SALU"
+      ],
+      [
+        79,
+        "AP_PERF_ISU_ARB_WSM_STALL"
+      ]
+    ],
+    "CE": [
+      [
+        2,
+        "CE_PERF_BUSY_CYCLES"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable",
+  "conditions": {
+    "kernelnames": [
+      "reduce_fused_kernel_kernel"
+    ],
+    "include": true,
+    "is_perkernel": false,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

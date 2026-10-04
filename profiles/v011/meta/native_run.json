@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+    "perf_exec",
+    "--cmdline",
+    "env MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/v011/raw/native_baseline_fp8 /opt/conda/bin/python /data/TileOPs-Metax/profiles/v011/scripts/baseline_driver.py --variant fp8 --mode profile",
+    "--kernelname",
+    "v011_baseline_fp8",
+    "--casename",
+    "v011_baseline_fp8",
+    "--cwd",
+    "/data/TileOPs-Metax/profiles/v011/raw/native_baseline_fp8",
+    "--custom",
+    "--kernelnames",
+    "reduce_fused_kernel_kernel",
+    "--counts",
+    "1",
+    "--metrics",
+    "Total Instructions",
+    "Compute Instructions",
+    "Memory Instructions",
+    "Total Cycles",
+    "Global Memory Read bytes",
+    "Global Memory Write bytes",
+    "ISU stall cycles layout"
+  ],
+  "started": 1791130346.026048,
+  "pid": 19268,
+  "exitcode": 0,
+  "finished": 1791130449.6989458,
+  "output": "/opt/mcProfiler-ubuntu18.04/output20261004161230"
+}

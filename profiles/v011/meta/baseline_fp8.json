@@ -1,0 +1,17 @@
+{
+  "variant": "fp8",
+  "shape": [
+    512,
+    8,
+    7168
+  ],
+  "config": {
+    "tile_hidden": 512,
+    "num_threads": 128
+  },
+  "kernel_symbols": [
+    "reduce_fused_kernel_kernel"
+  ],
+  "expected_input_bytes": 58720256,
+  "expected_output_bytes": 3670016
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "audit_done",
+  "started": 1791130164.4553795,
+  "hardware_exitcode": 0,
+  "bench_base_exitcode": 0,
+  "bench_xsf_exitcode": 0,
+  "bench_fp8_exitcode": 0,
+  "bench_quantized_exitcode": 0,
+  "tracer_exitcode": 0,
+  "native_exitcode": 0,
+  "async_probe_exitcode": 0,
+  "finished": 1791130486.2367256
+}

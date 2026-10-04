@@ -1,0 +1,17 @@
+{
+  "variant": "xsf",
+  "shape": [
+    512,
+    8,
+    7168
+  ],
+  "config": {
+    "tile_hidden": 7168,
+    "num_threads": 256
+  },
+  "kernel_symbols": [
+    "reduce_fused_kernel_kernel"
+  ],
+  "expected_input_bytes": 58720256,
+  "expected_output_bytes": 7340032
+}
