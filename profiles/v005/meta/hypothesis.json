@@ -1,0 +1,6 @@
+{
+  "baseline": "v004",
+  "mechanism": "software K prefetch with alternating register fragments",
+  "async_copy": false,
+  "status": "rejected"
+}

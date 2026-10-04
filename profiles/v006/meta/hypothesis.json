@@ -1,0 +1,6 @@
+{
+  "baseline": "v004",
+  "mechanism": "cooperative shared-memory input staging with CTA barriers",
+  "async_copy": false,
+  "status": "rejected"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "version": "naive",
+    "median_us": 97.536,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 96,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    }
+  },
+  {
+    "version": "v003",
+    "median_us": 58.88,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 96,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    }
+  },
+  {
+    "version": "v004",
+    "median_us": 49.92,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 20,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    }
+  }
+]

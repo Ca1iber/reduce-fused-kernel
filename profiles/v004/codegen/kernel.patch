@@ -1,0 +1,65 @@
+diff --git a/tileops/kernels/moe/reduce_fused.py b/tileops/kernels/moe/reduce_fused.py
+index 2fc112b..783f4f4 100644
+--- a/tileops/kernels/moe/reduce_fused.py
++++ b/tileops/kernels/moe/reduce_fused.py
+@@ -33,6 +33,10 @@ def get_reduce_fused_kernel(
+ ):
+     num_threads = 128
+     use_fp8_bits = with_sf and str(out_dtype) == "float8_e4m3fn"
++    split_hidden = use_fp8_bits and hidden > 1024
++    tile_hidden = (
++        1024 if hidden % 1024 == 0 else 512 if hidden % 512 == 0 else 256
++    ) if split_hidden else hidden
+ 
+     num_tokens = T.dynamic('num_tokens')
+     num_expanded_tokens = T.dynamic('num_expanded_tokens')
+@@ -46,8 +50,8 @@ def get_reduce_fused_kernel(
+         sf: T.Tensor[(1,), T.float32],
+         x_sf: T.Tensor[(num_expanded_tokens,), T.float32],
+     ):
+-        with T.Kernel(num_tokens, threads=num_threads) as (pid_token,):
+-            reduced_fragment = T.alloc_fragment((hidden,), T.float32)
++        with T.Kernel(num_tokens, hidden // tile_hidden, threads=num_threads) as (pid_token, pid_hidden):
++            reduced_fragment = T.alloc_fragment((tile_hidden,), T.float32)
+             topk_weights_local = T.alloc_fragment((num_topk,), T.float32)
+             topk_to_pos_local = T.alloc_fragment((num_topk,), T.int32)
+             sf_var = T.alloc_var(T.float32)
+@@ -70,10 +74,12 @@ def get_reduce_fused_kernel(
+ 
+                     if with_x_sf:
+                         s *= x_sf[pos]
+-                    for i in T.Parallel(hidden):
+-                        reduced_fragment[i] += x[pos, i] * s
++                    for i in T.Parallel(tile_hidden):
++                        input_index = pid_hidden * tile_hidden + i if split_hidden else i
++                        reduced_fragment[i] += x[pos, input_index] * s
+ 
+-            for i in T.Parallel(hidden):
++            for i in T.Parallel(tile_hidden):
++                output_index = pid_hidden * tile_hidden + i if split_hidden else i
+                 if use_fp8_bits:
+                     value = reduced_fragment[i] * sf_var
+                     raw = T.reinterpret(value, "uint32")
+@@ -110,11 +116,11 @@ def get_reduce_fused_kernel(
+                         magnitude > T.uint32(0x7f800000),
+                         T.uint32(0x7f), encoded | sign,
+                     )
+-                    out[pid_token, i] = T.reinterpret(
++                    out[pid_token, output_index] = T.reinterpret(
+                         final_encoded.astype("uint8"), out_dtype,
+                     )
+                 else:
+-                    out[pid_token, i] = T.Select(
++                    out[pid_token, output_index] = T.Select(
+                         with_sf, reduced_fragment[i] * sf_var, reduced_fragment[i],
+                     )
+ 
+@@ -122,7 +128,7 @@ def get_reduce_fused_kernel(
+ 
+ 
+ class MoeReduceFusedKernel(Kernel):
+-    """Wrap the original one-block-per-token kernel for TileOPs.
++    """Wrap FP8 hidden tiles and the original single-CTA fallback.
+ 
+     The two scale flags select Base, WithXsf, FP8, or Quantized behavior.
+     Token and expanded-row counts remain dynamic in the device kernel.

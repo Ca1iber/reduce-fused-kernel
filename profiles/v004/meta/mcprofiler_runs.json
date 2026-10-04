@@ -1,0 +1,31 @@
+[
+  {
+    "implementation": "v003",
+    "returncode": -1,
+    "command": [
+      "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+      "perf_exec",
+      "--cmdline",
+      "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/opt/tilelang-metax-v0.1.10:/root/TileOPs-Metax MCTX_TARGET_PROFILE_PATH=/root/TileOPs-Metax/profiles/v004/raw/mcprofiler_v003 /opt/conda/bin/python /root/TileOPs-Metax/profiles/v004/scripts/profile_versions.py --version v003",
+      "--kernelname",
+      "reduce_fused_kernel_kernel",
+      "--casename",
+      "formal_v003_fp8_h7168",
+      "--cwd",
+      "/root/TileOPs-Metax/profiles/v004/raw/mcprofiler_v003",
+      "--per-kernel",
+      "--profile-from-start",
+      "0",
+      "--counts",
+      "1",
+      "--metrics",
+      "RoofLine",
+      "Total Instructions",
+      "Compute Instructions",
+      "Memory Instructions",
+      "Total Cycles"
+    ],
+    "log": "/root/TileOPs-Metax/profiles/v004/logs/mcprofiler_v003.log",
+    "original_output": "/opt/mcProfiler-ubuntu18.04/output20261004083005"
+  }
+]

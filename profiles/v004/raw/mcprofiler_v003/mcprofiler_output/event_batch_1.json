@@ -1,0 +1,73 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        8,
+        "AP_PERF_INSTS_VALU"
+      ],
+      [
+        36,
+        "AP_PERF_INST_MMA_FP16"
+      ],
+      [
+        9,
+        "AP_PERF_INSTS_MMA"
+      ],
+      [
+        41,
+        "AP_PERF_INST_TRANS_FP16"
+      ],
+      [
+        17,
+        "AP_PERF_INST_MISC"
+      ],
+      [
+        33,
+        "AP_PERF_INST_MMA_F64"
+      ]
+    ],
+    "L2C": [
+      [
+        269,
+        "perf_dnoc_wrreq_32B_low"
+      ],
+      [
+        270,
+        "perf_dnoc_wrreq_32B_high"
+      ],
+      [
+        46,
+        "perf_dnoc_rdreq_32B"
+      ],
+      [
+        47,
+        "perf_dnoc_rdreq_64B"
+      ]
+    ],
+    "CE": [
+      [
+        2,
+        "CE_PERF_BUSY_CYCLES"
+      ]
+    ],
+    "VL1": [
+      [
+        79,
+        "p_perf_thread_req_cnt"
+      ],
+      [
+        153,
+        "perf_inflt_rd_req"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [],
+    "include": false,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

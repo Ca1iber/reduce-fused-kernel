@@ -1,0 +1,34 @@
+[
+  {
+    "version": "v004",
+    "median_us": 51.2,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 20,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    }
+  },
+  {
+    "version": "v006",
+    "median_us": 52.224,
+    "resources": {
+      "dynamic_shared": 2048,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 18,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    }
+  }
+]

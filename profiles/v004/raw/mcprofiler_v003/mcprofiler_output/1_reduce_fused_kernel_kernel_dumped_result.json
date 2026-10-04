@@ -1,0 +1,41 @@
+{
+    "Summary": [
+        {
+            "data": 4715978,
+            "isError": false,
+            "message": "",
+            "name": "Total Instructions"
+        },
+        {
+            "data": 3374749,
+            "isError": false,
+            "message": "",
+            "name": "Compute Instructions"
+        },
+        {
+            "data": 1341229,
+            "isError": false,
+            "message": "",
+            "name": "Memory Instructions"
+        },
+        {
+            "data": 5217.886,
+            "isError": false,
+            "message": "",
+            "name": "Total Cycles"
+        },
+        {
+            "processed_data": {
+                "all_ops": 171506816.0,
+                "all_memacs": 259606944.0,
+                "during": 1152689.0,
+                "block_num": 104,
+                "vl1_memacs": 24007168.0,
+                "l2c_memacs": 63768960.0
+            },
+            "isError": false,
+            "message": "",
+            "name": "RoofLine"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "stage": "trace",
+    "returncode": 0,
+    "command": [
+      "/opt/maca/bin/mcTracer",
+      "--mctx",
+      "/opt/conda/bin/python",
+      "/root/TileOPs-Metax/profiles/v004/scripts/profile_versions.py",
+      "--version",
+      "all"
+    ]
+  },
+  {
+    "stage": "correctness",
+    "returncode": 0,
+    "command": [
+      "/opt/conda/bin/python",
+      "/root/TileOPs-Metax/profiles/v004/scripts/validate_candidate.py"
+    ]
+  },
+  {
+    "stage": "paired_benchmark",
+    "returncode": 0,
+    "command": [
+      "/opt/conda/bin/python",
+      "/root/TileOPs-Metax/profiles/v004/scripts/bench_candidate.py"
+    ]
+  }
+]

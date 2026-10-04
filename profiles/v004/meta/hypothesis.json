@@ -1,0 +1,16 @@
+{
+  "start_commit": "395df341384e6f0bcaec5c61fbbed00b06f0cc53",
+  "baseline_sha256": "b683578305e09b8c0fba4154675362ad648ec3e88df0de99c09db1ca82d87021",
+  "mechanism": "Split hidden into <=1024-element tiles for FP8/Quantized only; 128 threads; one CTA per token/tile; preserve reduction order and v003 conversion.",
+  "main_case": {
+    "T": 512,
+    "K": 8,
+    "H": 7168,
+    "baseline_ctas": 512,
+    "candidate_ctas": 3584,
+    "baseline_fp32_accumulators_per_thread": 56,
+    "candidate_fp32_accumulators_per_thread": 8
+  },
+  "status": "integrated_and_verified",
+  "final_source_sha256": "f38809ed34fe8a2d5c53670e81df7e5d857e153a50ad6081cb1c2540c32ee1ab"
+}

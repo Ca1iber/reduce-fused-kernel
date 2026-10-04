@@ -1,0 +1,12 @@
+[
+  {
+    "stage": "integrated_correctness",
+    "returncode": 0,
+    "expected_tests": 131
+  },
+  {
+    "stage": "integrated_benchmark",
+    "returncode": 0,
+    "expected_tests": 16
+  }
+]

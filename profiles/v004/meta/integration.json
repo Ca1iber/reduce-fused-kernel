@@ -1,0 +1,5 @@
+{
+  "source_sha256": "f38809ed34fe8a2d5c53670e81df7e5d857e153a50ad6081cb1c2540c32ee1ab",
+  "base": "395df34",
+  "mechanism": "FP8/Quantized hidden tiling; original full hidden path for Base/XSF and hidden<=1024"
+}

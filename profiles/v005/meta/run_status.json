@@ -1,0 +1,14 @@
+[
+  {
+    "stage": "trace",
+    "returncode": 0
+  },
+  {
+    "stage": "correctness",
+    "returncode": 0
+  },
+  {
+    "stage": "paired_benchmark",
+    "returncode": 0
+  }
+]
