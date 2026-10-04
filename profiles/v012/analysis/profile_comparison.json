@@ -1,0 +1,157 @@
+[
+  {
+    "name": "baseline",
+    "trace_median_us": 49.92,
+    "resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "counters": {
+      "Total Instructions": 3962898,
+      "Compute Instructions": 3721462,
+      "Memory Instructions": 241436,
+      "Total Cycles": 4094.956,
+      "ISU stall cycles layout": {
+        "wsm_stall": 0.0,
+        "vls_pipeline_stall": 192695.0,
+        "vls_wdata_stall": 56800.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58830464.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 0.0,
+      "store instructions": 0.0,
+      "average conflict cycles per instruction": 0,
+      "shared memory access efficiency": 0,
+      "Achieved waves": 14206.0,
+      "Dispatched waves": 14336.0
+    }
+  },
+  {
+    "name": "shared_single",
+    "trace_median_us": 53.248,
+    "resources": {
+      "dynamic_shared": 1024,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "counters": {
+      "Total Instructions": 5197384,
+      "Compute Instructions": 4771462,
+      "Memory Instructions": 425922,
+      "Total Cycles": 4014.187,
+      "ISU stall cycles layout": {
+        "wsm_stall": 351115.0,
+        "vls_pipeline_stall": 191992.0,
+        "vls_wdata_stall": 56784.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58835648.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 113584.0,
+      "store instructions": 113568.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 100.0,
+      "Achieved waves": 14198.0,
+      "Dispatched waves": 14336.0
+    }
+  },
+  {
+    "name": "sync_ring2",
+    "trace_median_us": 52.48,
+    "resources": {
+      "dynamic_shared": 2048,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 14,
+      "static_shared": 0
+    },
+    "counters": {
+      "Total Instructions": 5154286,
+      "Compute Instructions": 4728250,
+      "Memory Instructions": 426036,
+      "Total Cycles": 4104.908,
+      "ISU stall cycles layout": {
+        "wsm_stall": 358782.0,
+        "vls_pipeline_stall": 192388.0,
+        "vls_wdata_stall": 56792.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58839744.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 113632.0,
+      "store instructions": 113632.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 100.0,
+      "Achieved waves": 14198.0,
+      "Dispatched waves": 14336.0
+    }
+  },
+  {
+    "name": "async_ring2",
+    "trace_median_us": 51.456,
+    "resources": {
+      "dynamic_shared": 2048,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 14,
+      "static_shared": 0
+    },
+    "counters": {
+      "Total Instructions": 5906014,
+      "Compute Instructions": 5593780,
+      "Memory Instructions": 312234,
+      "Total Cycles": 4175.192,
+      "ISU stall cycles layout": {
+        "wsm_stall": 56760.0,
+        "vls_pipeline_stall": 191562.0,
+        "vls_wdata_stall": 56784.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58842496.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 113584.0,
+      "store instructions": 0.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 100.0,
+      "Achieved waves": 14190.0,
+      "Dispatched waves": 14336.0
+    }
+  },
+  {
+    "name": "async_ring3",
+    "trace_median_us": 53.504,
+    "resources": {
+      "dynamic_shared": 3072,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "counters": {
+      "Total Instructions": 5696348,
+      "Compute Instructions": 5383860,
+      "Memory Instructions": 312488,
+      "Total Cycles": 4112.674,
+      "ISU stall cycles layout": {
+        "wsm_stall": 56792.0,
+        "vls_pipeline_stall": 192010.0,
+        "vls_wdata_stall": 56816.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 58844224.0,
+      "Global Memory Write bytes": 3670464.0,
+      "load instructions": 113632.0,
+      "store instructions": 0.0,
+      "average conflict cycles per instruction": 0.0,
+      "shared memory access efficiency": 100.0,
+      "Achieved waves": 14204.0,
+      "Dispatched waves": 14336.0
+    }
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        28,
+        "AP_PERF_INST_BSM_RD"
+      ],
+      [
+        15,
+        "AP_PERF_INSTS_BSM"
+      ],
+      [
+        9,
+        "AP_PERF_INSTS_MMA"
+      ],
+      [
+        10,
+        "AP_PERF_INSTS_SALU"
+      ],
+      [
+        8,
+        "AP_PERF_INSTS_VALU"
+      ],
+      [
+        11,
+        "AP_PERF_INSTS_GVM"
+      ]
+    ],
+    "L2C": [
+      [
+        48,
+        "perf_dnoc_rdreq_128B"
+      ],
+      [
+        46,
+        "perf_dnoc_rdreq_32B"
+      ],
+      [
+        47,
+        "perf_dnoc_rdreq_64B"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable",
+  "conditions": {
+    "kernelnames": [
+      "reduce_fused_kernel_kernel"
+    ],
+    "include": true,
+    "is_perkernel": false,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

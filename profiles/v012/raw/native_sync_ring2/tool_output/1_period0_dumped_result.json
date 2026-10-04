@@ -1,0 +1,95 @@
+{
+    "Summary": [
+        {
+            "data": 5154286,
+            "isError": false,
+            "message": "",
+            "name": "Total Instructions"
+        },
+        {
+            "data": 4728250,
+            "isError": false,
+            "message": "",
+            "name": "Compute Instructions"
+        },
+        {
+            "data": 426036,
+            "isError": false,
+            "message": "",
+            "name": "Memory Instructions"
+        },
+        {
+            "data": 4104.908,
+            "isError": false,
+            "message": "",
+            "name": "Total Cycles"
+        }
+    ],
+    "ISU Statistics": [
+        {
+            "data": {
+                "wsm_stall": 358782.0,
+                "vls_pipeline_stall": 192388.0,
+                "vls_wdata_stall": 56792.0,
+                "valu_stall": 0.0
+            },
+            "isError": false,
+            "message": "",
+            "name": "ISU stall cycles layout"
+        }
+    ],
+    "Memory Statistics": [
+        {
+            "data": 58839744.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Read bytes"
+        },
+        {
+            "data": 3670464.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Write bytes"
+        }
+    ],
+    "Workgroup Memory": [
+        {
+            "data": 113632.0,
+            "isError": false,
+            "message": "",
+            "name": "load instructions"
+        },
+        {
+            "data": 113632.0,
+            "isError": false,
+            "message": "",
+            "name": "store instructions"
+        },
+        {
+            "data": 0.0,
+            "isError": false,
+            "message": "",
+            "name": "average conflict cycles per instruction"
+        },
+        {
+            "data": 100.0,
+            "isError": false,
+            "message": "",
+            "name": "shared memory access efficiency"
+        }
+    ],
+    "Occupancy": [
+        {
+            "data": 14198.0,
+            "isError": false,
+            "message": "",
+            "name": "Achieved waves"
+        },
+        {
+            "data": 14336.0,
+            "isError": false,
+            "message": "",
+            "name": "Dispatched waves"
+        }
+    ]
+}

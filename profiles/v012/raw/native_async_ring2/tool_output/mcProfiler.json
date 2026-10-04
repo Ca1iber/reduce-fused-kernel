@@ -1,0 +1,41 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        10,
+        "AP_PERF_INSTS_SALU"
+      ],
+      [
+        8,
+        "AP_PERF_INSTS_VALU"
+      ],
+      [
+        29,
+        "AP_PERF_INST_BSM_WR"
+      ],
+      [
+        74,
+        "AP_PERF_BSM_ATOMIC_CYCLES"
+      ],
+      [
+        28,
+        "AP_PERF_INST_BSM_RD"
+      ],
+      [
+        79,
+        "AP_PERF_ISU_ARB_WSM_STALL"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable",
+  "conditions": {
+    "kernelnames": [
+      "reduce_fused_kernel_kernel"
+    ],
+    "include": true,
+    "is_perkernel": false,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

@@ -1,0 +1,6 @@
+name,latency_us,speedup,byte_equal,measurements
+baseline,47.86176,1.0,True,"[{""us"": 47.86176, ""timing"": ""cupti""}, {""us"": 47.82592000000001, ""timing"": ""cupti""}, {""us"": 57.2672, ""timing"": ""cupti""}]"
+shared_single,51.205119999999994,0.9347065293470653,True,"[{""us"": 51.205119999999994, ""timing"": ""cupti""}, {""us"": 51.19999999999999, ""timing"": ""cupti""}, {""us"": 53.90335999999999, ""timing"": ""cupti""}]"
+sync_ring2,50.76992000000003,0.9427188382412257,True,"[{""us"": 50.76992000000003, ""timing"": ""cupti""}, {""us"": 50.69824000000001, ""timing"": ""cupti""}, {""us"": 50.78015999999999, ""timing"": ""cupti""}]"
+async_ring2,49.53088000000002,0.9663014265040311,True,"[{""us"": 49.53088000000002, ""timing"": ""cupti""}, {""us"": 49.51551999999999, ""timing"": ""cupti""}, {""us"": 49.59743999999998, ""timing"": ""cupti""}]"
+async_ring3,50.3808,0.95,True,"[{""us"": 50.3808, ""timing"": ""cupti""}, {""us"": 50.36032, ""timing"": ""cupti""}, {""us"": 50.40128, ""timing"": ""cupti""}]"

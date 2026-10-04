@@ -1,0 +1,12 @@
+{
+  "stage": "profile_done",
+  "started": 1791135866.5844646,
+  "tracer_exitcode": 0,
+  "native_pid": 49086,
+  "baseline_exitcode": 0,
+  "shared_single_exitcode": 0,
+  "sync_ring2_exitcode": 0,
+  "async_ring2_exitcode": 0,
+  "async_ring3_exitcode": 0,
+  "finished": 1791136621.1442566
+}

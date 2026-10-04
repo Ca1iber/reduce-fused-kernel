@@ -1,0 +1,85 @@
+{
+    "Summary": [
+        {
+            "name": "Total Instructions",
+            "description": "number of all instructions",
+            "value": "3,962,898"
+        },
+        {
+            "name": "Compute Instructions",
+            "description": "number of compute instructions",
+            "value": "3,721,462"
+        },
+        {
+            "name": "Memory Instructions",
+            "description": "number of memory instructions",
+            "value": "241,436"
+        },
+        {
+            "name": "Total Cycles",
+            "description": "cycles use by kernel",
+            "value": "4,094.96(Kcycles)"
+        }
+    ],
+    "ISU Statistics": [
+        {
+            "name": "ISU stall cycles layout",
+            "description": "ISU stall cycles layout",
+            "value": {
+                "data": {
+                    "wsm_stall": 0.0,
+                    "vls_pipeline_stall": 192695.0,
+                    "vls_wdata_stall": 56800.0,
+                    "valu_stall": 0.0
+                },
+                "filename": "/opt/mcProfiler-ubuntu18.04/output20261004174506/ISU_stall_cycles_layout20261004174715858.png"
+            }
+        }
+    ],
+    "Memory Statistics": [
+        {
+            "name": "Global Memory Read bytes",
+            "description": "bytes read from global memory",
+            "value": "58,830,464.0byte"
+        },
+        {
+            "name": "Global Memory Write bytes",
+            "description": "bytes write from global memory",
+            "value": "3,670,464.0byte"
+        }
+    ],
+    "Workgroup Memory": [
+        {
+            "name": "load instructions",
+            "description": "number of total workgroup memory load instructions",
+            "value": 0.0
+        },
+        {
+            "name": "store instructions",
+            "description": "number of total workgroup memory write instructions",
+            "value": 0.0
+        },
+        {
+            "name": "average conflict cycles per instruction",
+            "description": "average conflict cycles per WG-inst when bank conflict happens",
+            "value": 0
+        },
+        {
+            "name": "shared memory access efficiency",
+            "description": "Proportion of NON-CONFLICT access",
+            "value": "0%"
+        }
+    ],
+    "Occupancy": [
+        {
+            "name": "Achieved waves",
+            "description": "number of achieved waves",
+            "value": "14,206.0"
+        },
+        {
+            "name": "Dispatched waves",
+            "description": "number of dispatched waves",
+            "value": "14,336.0"
+        }
+    ]
+}

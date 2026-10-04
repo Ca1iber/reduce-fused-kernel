@@ -1,0 +1,95 @@
+{
+    "Summary": [
+        {
+            "data": 2337673103,
+            "isError": false,
+            "message": "",
+            "name": "Total Instructions"
+        },
+        {
+            "data": 2328609504,
+            "isError": false,
+            "message": "",
+            "name": "Compute Instructions"
+        },
+        {
+            "data": 9063599,
+            "isError": false,
+            "message": "",
+            "name": "Memory Instructions"
+        },
+        {
+            "data": 8043258.237,
+            "isError": false,
+            "message": "",
+            "name": "Total Cycles"
+        }
+    ],
+    "ISU Statistics": [
+        {
+            "data": {
+                "wsm_stall": 20731213.0,
+                "vls_pipeline_stall": 536328957.0,
+                "vls_wdata_stall": 2921808.0,
+                "valu_stall": 0.0
+            },
+            "isError": false,
+            "message": "",
+            "name": "ISU stall cycles layout"
+        }
+    ],
+    "Memory Statistics": [
+        {
+            "data": 838065536.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Read bytes"
+        },
+        {
+            "data": 10331083712.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Write bytes"
+        }
+    ],
+    "Workgroup Memory": [
+        {
+            "data": 3027178.0,
+            "isError": false,
+            "message": "",
+            "name": "load instructions"
+        },
+        {
+            "data": 2708611.0,
+            "isError": false,
+            "message": "",
+            "name": "store instructions"
+        },
+        {
+            "data": 15.810243283602366,
+            "isError": false,
+            "message": "",
+            "name": "average conflict cycles per instruction"
+        },
+        {
+            "data": 83.32428020402654,
+            "isError": false,
+            "message": "",
+            "name": "shared memory access efficiency"
+        }
+    ],
+    "Occupancy": [
+        {
+            "data": 347145.0,
+            "isError": false,
+            "message": "",
+            "name": "Achieved waves"
+        },
+        {
+            "data": 10115481.0,
+            "isError": false,
+            "message": "",
+            "name": "Dispatched waves"
+        }
+    ]
+}

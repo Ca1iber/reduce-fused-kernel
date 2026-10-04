@@ -1,0 +1,70 @@
+##############################
+Sub-module: Summary
+------------------------------
+Name: Total Instructions
+Description: number of all instructions
+Value: 2,337,673,103
+------------------------------
+Name: Compute Instructions
+Description: number of compute instructions
+Value: 2,328,609,504
+------------------------------
+Name: Memory Instructions
+Description: number of memory instructions
+Value: 9,063,599
+------------------------------
+Name: Total Cycles
+Description: cycles use by kernel
+Value: 8,043,258.24(Kcycles)
+##############################
+Sub-module: ISU Statistics
+------------------------------
+Name: ISU stall cycles layout
+Description: ISU stall cycles layout
+Value: {
+    "data": {
+        "wsm_stall": 20731213.0,
+        "vls_pipeline_stall": 536328957.0,
+        "vls_wdata_stall": 2921808.0,
+        "valu_stall": 0.0
+    },
+    "filename": "/opt/mcProfiler-ubuntu18.04/output20261004175441/ISU_stall_cycles_layout20261004175651199.png"
+}
+##############################
+Sub-module: Memory Statistics
+------------------------------
+Name: Global Memory Read bytes
+Description: bytes read from global memory
+Value: 838,065,536.0byte
+------------------------------
+Name: Global Memory Write bytes
+Description: bytes write from global memory
+Value: 10,331,083,712.0byte
+##############################
+Sub-module: Workgroup Memory
+------------------------------
+Name: load instructions
+Description: number of total workgroup memory load instructions
+Value: 3,027,178.0
+------------------------------
+Name: store instructions
+Description: number of total workgroup memory write instructions
+Value: 2,708,611.0
+------------------------------
+Name: average conflict cycles per instruction
+Description: average conflict cycles per WG-inst when bank conflict happens
+Value: 15.81
+------------------------------
+Name: shared memory access efficiency
+Description: Proportion of NON-CONFLICT access
+Value: 83.32%
+##############################
+Sub-module: Occupancy
+------------------------------
+Name: Achieved waves
+Description: number of achieved waves
+Value: 347,145.0
+------------------------------
+Name: Dispatched waves
+Description: number of dispatched waves
+Value: 10,115,481.0

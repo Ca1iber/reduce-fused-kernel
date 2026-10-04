@@ -1,0 +1,41 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        74,
+        "AP_PERF_BSM_ATOMIC_CYCLES"
+      ],
+      [
+        81,
+        "AP_PERF_ISU_ARB_DATA_STALL"
+      ],
+      [
+        78,
+        "AP_PERF_BSM_CONFLICT_CYCLES"
+      ],
+      [
+        11,
+        "AP_PERF_INSTS_GVM"
+      ],
+      [
+        29,
+        "AP_PERF_INST_BSM_WR"
+      ],
+      [
+        10,
+        "AP_PERF_INSTS_SALU"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable",
+  "conditions": {
+    "kernelnames": [
+      "reduce_fused_kernel_kernel"
+    ],
+    "include": true,
+    "is_perkernel": false,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

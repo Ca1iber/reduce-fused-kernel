@@ -1,0 +1,7 @@
+{
+  "isolated_exitcode": 136,
+  "signal": "SIGFPE",
+  "oom_kill_counter": 0,
+  "phase": "compile before GPU execution",
+  "next_probe": "nonzero IR dtype for barrier array, same backend barrier_type"
+}
