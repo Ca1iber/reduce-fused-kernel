@@ -77,19 +77,27 @@ def get_reduce_fused_kernel(
                 if use_fp8_bits:
                     value = reduced_fragment[i] * sf_var
                     raw = T.reinterpret(value, "uint32")
+                    # magnitude 清除掉 FP32 最高位的符号，得到绝对值的编码
+                    # sign 把符号从 PF32 的第 31 位, 搬到 FP8 的第 7 位, 结果是 0 或者 0x80
                     magnitude = raw & T.uint32(0x7fffffff)
                     sign = (raw >> 24) & T.uint32(0x80)
                     # Keep three mantissa bits, rounding nearest with even ties.
+                    # FP32 有 23 位小数, 而 FP8 只有 3 位, 所以需要舍弃 20 位
+                    # 这个加法是在根据被丢掉的位决定是否进一位
+                    # &1 处理恰好在中间的情况, 按照最近偶数规则舍入
+                    # 整体算出一个普通大小的数对应的 FP8 编码, 暂时
                     normal = (
                         (magnitude + T.uint32(0x7ffff)
                          + ((magnitude >> 20) & T.uint32(1))) >> 20
                     ) - T.uint32(0x3c0)
                     # E4M3 subnormals have a 2^-9 step. The FP32 bias add
                     # rounds to that step without the SDK's FP64 conversion.
+                    # FP8 非正规数的编码
                     denormal = T.reinterpret(
                         T.reinterpret(magnitude, "float32") + T.float32(16384.0),
                         "uint32",
                     ) - T.uint32(0x46800000)
+                    # 如果特别小用非正规编码, 如果特别大饱和到 FP8 最大有限值 448, 普通范围就用正规数编码
                     encoded = T.Select(
                         magnitude < T.uint32(0x3c800000), denormal,
                         T.Select(magnitude >= T.uint32(0x43e00000),
@@ -97,6 +105,7 @@ def get_reduce_fused_kernel(
                     )
                     # Match the original SDK SATFINITE conversion: clamp
                     # overflow/Inf, canonicalize NaN, preserve signed zero.
+                    # 识别 NaN, 给其他结果拼回正负号
                     final_encoded = T.Select(
                         magnitude > T.uint32(0x7f800000),
                         T.uint32(0x7f), encoded | sign,
