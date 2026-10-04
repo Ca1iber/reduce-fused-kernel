@@ -1,0 +1,12 @@
+{
+  "stage": "complete",
+  "started": 1791124964.8167124,
+  "dispatch_exitcode": 0,
+  "correctness_exitcode": 0,
+  "paired_tiny_exitcode": 0,
+  "paired_h3072_exitcode": 0,
+  "paired_h7168_exitcode": 0,
+  "paired_prefill_exitcode": 0,
+  "benchmark_exitcode": 0,
+  "finished": 1791125238.8075664
+}

@@ -16,14 +16,6 @@ from tileops.kernels.kernel_base import Kernel
 
 __all__ = ["MoeReduceFusedKernel"]
 
-# sc-16g measurements: (tile_hidden, num_threads) for Base/XSF and FP8/Quantized.
-_MEASURED_CONFIGS = {
-    (32, 2, 256, torch.float16): ((256, 256), (256, 128)),
-    (512, 8, 3072, torch.bfloat16): ((3072, 256), (512, 128)),
-    (512, 8, 7168, torch.bfloat16): ((7168, 256), (512, 128)),
-    (4096, 8, 7168, torch.bfloat16): ((7168, 256), (1024, 128)),
-}
-
 
 @tilelang.jit(
     pass_configs={
@@ -38,15 +30,13 @@ def get_reduce_fused_kernel(
     with_sf: bool,
     with_weights: bool,
     with_x_sf: bool,
-    tile_hidden: Optional[int] = None,
-    num_threads: int = 128,
 ):
+    num_threads = 128
     use_fp8_bits = with_sf and str(out_dtype) == "float8_e4m3fn"
-    if tile_hidden is None:
-        tile_hidden = (
-            1024 if hidden % 1024 == 0 else 512 if hidden % 512 == 0 else 256
-        ) if use_fp8_bits and hidden > 1024 else hidden
-    split_hidden = tile_hidden != hidden
+    split_hidden = use_fp8_bits and hidden > 1024
+    tile_hidden = (
+        1024 if hidden % 1024 == 0 else 512 if hidden % 512 == 0 else 256
+    ) if split_hidden else hidden
 
     num_tokens = T.dynamic('num_tokens')
     num_expanded_tokens = T.dynamic('num_expanded_tokens')
@@ -138,7 +128,7 @@ def get_reduce_fused_kernel(
 
 
 class MoeReduceFusedKernel(Kernel):
-    """Dispatch measured launch configs and retain v004 defaults for other shapes.
+    """Wrap FP8 hidden tiles and the original single-CTA fallback.
 
     The two scale flags select Base, WithXsf, FP8, or Quantized behavior.
     Token and expanded-row counts remain dynamic in the device kernel.
@@ -175,13 +165,6 @@ class MoeReduceFusedKernel(Kernel):
         self.with_x_sf = with_x_sf
         self.out_dtype = torch.float8_e4m3fn if with_sf else dtype
         self.init_config(config, tune=False)
-        tile_hidden = self.config["tile_hidden"]
-        num_threads = self.config["num_threads"]
-        if (type(tile_hidden) is not int or tile_hidden <= 0
-                or tile_hidden % 256 != 0 or hidden % tile_hidden != 0):
-            raise ValueError("tile_hidden must be a positive multiple of 256 dividing hidden")
-        if type(num_threads) is not int or num_threads not in (64, 128, 256):
-            raise ValueError("num_threads must be 64, 128, or 256")
         self.kernel = get_reduce_fused_kernel(
             hidden,
             num_topk,
@@ -190,24 +173,7 @@ class MoeReduceFusedKernel(Kernel):
             with_sf,
             with_weights,
             with_x_sf,
-            tile_hidden=tile_hidden,
-            num_threads=num_threads,
         )
-
-    @property
-    def default_config(self) -> dict[str, int]:
-        key = (self.num_tokens, self.num_topk, self.hidden, self.dtype)
-        measured = _MEASURED_CONFIGS.get(key) if self.with_weights else None
-        if measured is not None:
-            tile_hidden, num_threads = measured[int(self.with_sf)]
-        else:
-            # Preserve v004 for unmeasured shapes, dtypes, or unweighted reduction.
-            hidden = self.hidden
-            tile_hidden = (
-                1024 if hidden % 1024 == 0 else 512 if hidden % 512 == 0 else 256
-            ) if self.with_sf and hidden > 1024 else hidden
-            num_threads = 128
-        return {"tile_hidden": tile_hidden, "num_threads": num_threads}
 
     @staticmethod
     def _check_tensor(name, tensor, shape, dtype, device) -> None:

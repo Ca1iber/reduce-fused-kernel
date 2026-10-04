@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "fallback": true,
+  "manual_override": true,
+  "invalid_configs": true
+}
