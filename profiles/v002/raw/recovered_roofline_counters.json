@@ -1,0 +1,122 @@
+[
+  {
+    "case": "unidentified_cec3873fd170",
+    "processed_data": {
+      "all_ops": 1455981184.0,
+      "all_memacs": 388135328.0,
+      "during": 431634.0,
+      "block_num": 104,
+      "vl1_memacs": 114954508.0,
+      "l2c_memacs": 299413760.0
+    },
+    "source_record": 2397
+  },
+  {
+    "case": "base_h3072",
+    "processed_data": {
+      "all_ops": 50164608.0,
+      "all_memacs": 28351648.0,
+      "during": 22197.0,
+      "block_num": 104,
+      "vl1_memacs": 7008768.0,
+      "l2c_memacs": 24920064.0
+    },
+    "source_record": 2911
+  },
+  {
+    "case": "base_h7168_decode_T512_K8_H7168",
+    "processed_data": {
+      "all_ops": 117656448.0,
+      "all_memacs": 66107392.0,
+      "during": 48007.0,
+      "block_num": 104,
+      "vl1_memacs": 16353792.0,
+      "l2c_memacs": 58146816.0
+    },
+    "source_record": 2911
+  },
+  {
+    "case": "base_h7168_prefill_T4096_K8_H7168",
+    "processed_data": {
+      "all_ops": 941540992.0,
+      "all_memacs": 528765472.0,
+      "during": 401534.0,
+      "block_num": 104,
+      "vl1_memacs": 130894848.0,
+      "l2c_memacs": 465403904.0
+    },
+    "source_record": 2911
+  },
+  {
+    "case": "fp8_h3072_T512_K8_H3072",
+    "processed_data": {
+      "all_ops": 138436992.0,
+      "all_memacs": 26802336.0,
+      "during": 46232.0,
+      "block_num": 104,
+      "vl1_memacs": 7008768.0,
+      "l2c_memacs": 24920064.0
+    },
+    "source_record": 2911
+  },
+  {
+    "case": "fp8_h7168_decode_T512_K8_H7168",
+    "processed_data": {
+      "all_ops": 323942976.0,
+      "all_memacs": 62491808.0,
+      "during": 104373.0,
+      "block_num": 104,
+      "vl1_memacs": 16386048.0,
+      "l2c_memacs": 58261504.0
+    },
+    "source_record": 2911
+  },
+  {
+    "case": "quantized_h3072_T512_K8_H3072",
+    "processed_data": {
+      "all_ops": 139714304.0,
+      "all_memacs": 26819232.0,
+      "during": 45417.0,
+      "block_num": 104,
+      "vl1_memacs": 7008768.0,
+      "l2c_memacs": 24920064.0
+    },
+    "source_record": 2911
+  },
+  {
+    "case": "quantized_h7168_decode_T512_K8_H7168",
+    "processed_data": {
+      "all_ops": 325630016.0,
+      "all_memacs": 62517856.0,
+      "during": 103957.0,
+      "block_num": 104,
+      "vl1_memacs": 16353792.0,
+      "l2c_memacs": 58146816.0
+    },
+    "source_record": 2911
+  },
+  {
+    "case": "xsf_h3072_T512_K8_H3072",
+    "processed_data": {
+      "all_ops": 51138048.0,
+      "all_memacs": 28368736.0,
+      "during": 21965.0,
+      "block_num": 104,
+      "vl1_memacs": 7008768.0,
+      "l2c_memacs": 24920064.0
+    },
+    "source_record": 2911
+  },
+  {
+    "case": "xsf_h7168_decode_T512_K8_H7168",
+    "processed_data": {
+      "all_ops": 118629888.0,
+      "all_memacs": 66135328.0,
+      "during": 47779.0,
+      "block_num": 104,
+      "vl1_memacs": 16353792.0,
+      "l2c_memacs": 58146816.0
+    },
+    "source_record": 2911
+  }
+]

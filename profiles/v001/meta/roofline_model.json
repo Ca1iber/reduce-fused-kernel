@@ -1,0 +1,48 @@
+{
+  "formulas": {
+    "MoeReduceFusedFwdOp": {
+      "vars": {
+        "T": "num_tokens",
+        "K": "num_topk",
+        "H": "hidden"
+      },
+      "flops": "2 * T * K * H",
+      "bytes": "(T * K * H + T * H) * elem_bytes + 8 * T * K"
+    },
+    "MoeReduceFusedWithXsfFwdOp": {
+      "vars": {
+        "T": "num_tokens",
+        "K": "num_topk",
+        "H": "hidden"
+      },
+      "flops": "2 * T * K * H + T * K",
+      "bytes": "(T * K * H + T * H) * elem_bytes + 12 * T * K"
+    },
+    "MoeReduceFusedFp8FwdOp": {
+      "vars": {
+        "T": "num_tokens",
+        "K": "num_topk",
+        "H": "hidden"
+      },
+      "flops": "2 * T * K * H + T * H",
+      "bytes": "T * K * H * elem_bytes + T * H + 8 * T * K + 4"
+    },
+    "MoeReduceFusedQuantizedFwdOp": {
+      "vars": {
+        "T": "num_tokens",
+        "K": "num_topk",
+        "H": "hidden"
+      },
+      "flops": "2 * T * K * H + T * K + T * H",
+      "bytes": "T * K * H * elem_bytes + T * H + 12 * T * K + 4"
+    }
+  },
+  "source_latency_file": "raw/benchmark.csv",
+  "calibrated_roofs": "raw/roofs.json",
+  "points": 16,
+  "bandwidth_tbps": 1.48228525385034,
+  "fp32_tflops": 22.151795345766633,
+  "ridge_flop_per_byte": 14.944353853771256,
+  "plotly_path": "/opt/mcProfiler-ubuntu18.04/tools/js_code/plotly-2.24.1.min.js",
+  "html_sha256": "d5d2fa93768fd4e2ac7ce19e4cb1b448ce818476f863f38fb8bea03e6b81736c"
+}

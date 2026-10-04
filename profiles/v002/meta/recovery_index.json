@@ -1,0 +1,34 @@
+{
+  "recovered_on": "2026-10-04",
+  "source": "Local Codex session from 2026-10-03",
+  "files": [
+    {
+      "path": "profiles/v002/scripts/profile_case.py",
+      "bytes": 1278,
+      "sha256": "7834d97e52939b14e51611377969672271d36dd09c04fd7bc79227d199f4da44",
+      "source_record": 1882,
+      "status": "recovered_from_session"
+    },
+    {
+      "path": "profiles/v002/scripts/run_profiles.py",
+      "bytes": 2820,
+      "sha256": "ae013d7f5ca263c07ed87888f3fc5ab152971311929691b3cca48c284cd8e78e",
+      "source_record": 2035,
+      "status": "recovered_from_session"
+    },
+    {
+      "path": "profiles/v002/analysis/base_h3072_T512_K8_H3072_recovered_preview.png",
+      "bytes": 83089,
+      "sha256": "de075b2256c77b1307bf1276b15d0d51a4dc1ee1fa28753b3878aa544c2ebb1c",
+      "source_record": 2077,
+      "status": "recovered_tool_image_preview"
+    },
+    {
+      "path": "profiles/v002/raw/recovered_roofline_counters.json",
+      "bytes": 2838,
+      "sha256": "11b5d8f75128d0b4ba80267e79a0b36639a5a858dadfc5fa05ad1c05667bada9",
+      "source_record": null,
+      "status": "recovered_from_session"
+    }
+  ]
+}

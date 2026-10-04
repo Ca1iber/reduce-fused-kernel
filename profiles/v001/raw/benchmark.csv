@@ -1,0 +1,17 @@
+op,label,T,K,H,dtype,route,naive_ms,torch_ms,torch_over_naive,naive_timing,torch_timing,naive_inputs_cloned,torch_inputs_cloned
+MoeReduceFusedFwdOp,tiny,32,2,256,torch.float16,random,0.0037017600000000027,0.04728319999999987,12.773167358229555,cupti,cupti,True,True
+MoeReduceFusedFwdOp,h3072,512,8,3072,torch.bfloat16,random,0.021263360000000005,0.48706048000000063,22.9060919817,cupti,cupti,True,True
+MoeReduceFusedFwdOp,h7168,512,8,7168,torch.bfloat16,random,0.04443648000000001,1.0664908799999986,24.000345661942585,cupti,cupti,True,True
+MoeReduceFusedFwdOp,prefill,4096,8,7168,torch.bfloat16,random,0.35742208000000014,8.275112960000016,23.152215330401557,cupti,cupti,False,False
+MoeReduceFusedWithXsfFwdOp,tiny-xsf,32,2,256,torch.float16,random,0.003712000000000003,0.05388287999999989,14.515862068965475,cupti,cupti,True,True
+MoeReduceFusedWithXsfFwdOp,h3072-xsf,512,8,3072,torch.bfloat16,random,0.021386240000000008,0.49645568000000073,23.21378980129282,cupti,cupti,True,True
+MoeReduceFusedWithXsfFwdOp,h7168-xsf,512,8,7168,torch.bfloat16,random,0.04454912,1.0742169599999998,24.113090449373633,cupti,cupti,True,True
+MoeReduceFusedWithXsfFwdOp,prefill-xsf,4096,8,7168,torch.bfloat16,random,0.35885568000000007,8.28327936000001,23.082480845781816,cupti,cupti,False,False
+MoeReduceFusedFp8FwdOp,tiny-fp8,32,2,256,torch.float16,random,0.004843520000000002,0.0581887999999999,12.01374207188158,cupti,cupti,True,True
+MoeReduceFusedFp8FwdOp,h3072-fp8,512,8,3072,torch.bfloat16,random,0.04204031999999999,0.51243008,12.189014736329316,cupti,cupti,True,True
+MoeReduceFusedFp8FwdOp,h7168-fp8,512,8,7168,torch.bfloat16,random,0.09440768,1.1190630399999983,11.8535170020066,cupti,cupti,True,True
+MoeReduceFusedFp8FwdOp,prefill-fp8,4096,8,7168,torch.bfloat16,random,0.42791424000000006,8.660551680000005,20.238989195592097,cupti,cupti,False,False
+MoeReduceFusedQuantizedFwdOp,tiny-quantized,32,2,256,torch.float16,random,0.004833280000000003,0.0644710399999999,13.338983050847428,cupti,cupti,True,True
+MoeReduceFusedQuantizedFwdOp,h3072-quantized,512,8,3072,torch.bfloat16,random,0.04213759999999998,0.5226342400000004,12.403037667071702,cupti,cupti,True,True
+MoeReduceFusedQuantizedFwdOp,h7168-quantized,512,8,7168,torch.bfloat16,random,0.09392639999999998,1.1276953599999981,12.006159716544,cupti,cupti,True,True
+MoeReduceFusedQuantizedFwdOp,prefill-quantized,4096,8,7168,torch.bfloat16,random,0.43163135999999996,8.643886079999993,20.02608448097931,cupti,cupti,False,False

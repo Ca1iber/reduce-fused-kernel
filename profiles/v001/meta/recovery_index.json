@@ -1,0 +1,88 @@
+{
+  "recovered_on": "2026-10-04",
+  "source": "Local Codex session from 2026-10-03",
+  "files": [
+    {
+      "path": "profiles/v001/scripts/calibrate_roofs.py",
+      "bytes": 5407,
+      "sha256": "e785787f1e821bc39c3ed554c5df8495de422d60922dd3eb393cf74facfaf924",
+      "source_record": 1611,
+      "status": "recovered_from_session"
+    },
+    {
+      "path": "profiles/v001/scripts/draw_roofline.py",
+      "bytes": 10291,
+      "sha256": "4367c6ed0749e3c8ccfd57b85d08ba7e8c54f4b02382b16d0663321c816b73d2",
+      "source_record": 1629,
+      "status": "recovered_from_session"
+    },
+    {
+      "path": "profiles/v001/raw/recovered_calibration_records.json",
+      "bytes": 1537,
+      "sha256": "03bc10833d44b25274d2468cf0f92a5aa3e2cc8916d78fa0abbe3fc1d226918d",
+      "source_record": null,
+      "status": "recovered_from_session"
+    },
+    {
+      "path": "profiles/v001/raw/roofs.json",
+      "bytes": 1831,
+      "sha256": "78190d84d0a412c00f16e7501cbee38b6f088e531cec2566b744638b12e0f97e",
+      "source_record": null,
+      "status": "reconstructed_json_from_original_measurement_records"
+    },
+    {
+      "path": "profiles/v001/raw/benchmark.csv",
+      "bytes": 2488,
+      "sha256": "42ceeec040d10bbb81010a9f231f9b2cca93fa4a52c4b55a013099c4a63e54a3",
+      "source_record": [
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904,
+        2904
+      ],
+      "status": "reconstructed_csv_from_original_recorded_rows"
+    },
+    {
+      "path": "profiles/v001/analysis/roofline.html",
+      "bytes": 3615490,
+      "sha256": "d5d2fa93768fd4e2ac7ce19e4cb1b448ce818476f863f38fb8bea03e6b81736c",
+      "status": "regenerated_using_recovered_original_script_and_original_measurement_data"
+    },
+    {
+      "path": "profiles/v001/analysis/README.md",
+      "bytes": 992,
+      "sha256": "c9749d2c8562ab538bcd3e8284b3d9e38b13c3531ef4b0516f792f5aa42d0cbf",
+      "status": "regenerated_using_recovered_original_script_and_original_measurement_data"
+    },
+    {
+      "path": "profiles/v001/analysis/roofline_points.csv",
+      "bytes": 2822,
+      "sha256": "e51be6116323bd64701753f6188778d5e5c1e90628a85d11205f69dc12015900",
+      "status": "regenerated_using_recovered_original_script_and_original_measurement_data"
+    },
+    {
+      "path": "profiles/v001/analysis/plot_data.json",
+      "bytes": 36445,
+      "sha256": "120aa805c47df8241037fd78af80193c15f193f1c81e4a67db218e2454dfa24e",
+      "status": "regenerated_using_recovered_original_script_and_original_measurement_data"
+    },
+    {
+      "path": "profiles/v001/meta/roofline_model.json",
+      "bytes": 1385,
+      "sha256": "3ab4fccd66a9a0b621bedbb723c30b4b3a684e56b7469b387b6d43cfae29ab1c",
+      "status": "regenerated_using_recovered_original_script_and_original_measurement_data"
+    }
+  ]
+}
