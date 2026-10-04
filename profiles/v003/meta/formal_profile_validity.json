@@ -1,0 +1,5 @@
+{
+  "native_profile_status": "suspect_due_timeout_and_inconsistent_volume_duration",
+  "native_counts_used_for_conclusions": false,
+  "valid_evidence": "same-process mcTracer and generated source"
+}
