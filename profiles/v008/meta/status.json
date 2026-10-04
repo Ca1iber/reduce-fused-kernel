@@ -1,0 +1,12 @@
+{
+  "started": 1791112795.9005167,
+  "stage": "complete",
+  "sweep_exitcode": 0,
+  "validate_threads_64_tile_512_exitcode": 0,
+  "validate_threads_64_tile_1024_exitcode": 0,
+  "validate_threads_128_tile_512_exitcode": 0,
+  "validate_threads_128_tile_1024_exitcode": 0,
+  "validate_threads_256_tile_512_exitcode": 0,
+  "validate_threads_256_tile_1024_exitcode": 0,
+  "finished": 1791113119.761928
+}

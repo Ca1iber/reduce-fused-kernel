@@ -1,0 +1,56 @@
+[
+  {
+    "variant": "fp8",
+    "workload": "h3072",
+    "v004_us": 23.76704,
+    "v007_best_us": 22.784000000000006,
+    "threads64_tile256_us": 22.824959999999997,
+    "speedup_vs_v004": 1.0412741139524453,
+    "speedup_vs_v007_best": 0.9982054733064158
+  },
+  {
+    "variant": "fp8",
+    "workload": "h7168",
+    "v004_us": 48.74240000000002,
+    "v007_best_us": 48.11776,
+    "threads64_tile256_us": 47.96416,
+    "speedup_vs_v004": 1.016225448334757,
+    "speedup_vs_v007_best": 1.0032023911187018
+  },
+  {
+    "variant": "fp8",
+    "workload": "prefill",
+    "v004_us": 354.6316800000001,
+    "v007_best_us": 354.6316800000001,
+    "threads64_tile256_us": 365.68064000000004,
+    "speedup_vs_v004": 0.9697852202402621,
+    "speedup_vs_v007_best": 0.9697852202402621
+  },
+  {
+    "variant": "quantized",
+    "workload": "h3072",
+    "v004_us": 23.71071999999999,
+    "v007_best_us": 22.999040000000008,
+    "threads64_tile256_us": 23.050240000000002,
+    "speedup_vs_v004": 1.0286539315859613,
+    "speedup_vs_v007_best": 0.9977787649933365
+  },
+  {
+    "variant": "quantized",
+    "workload": "h7168",
+    "v004_us": 48.8704,
+    "v007_best_us": 48.512,
+    "threads64_tile256_us": 48.80384000000001,
+    "speedup_vs_v004": 1.0013638271086862,
+    "speedup_vs_v007_best": 0.9940201426772973
+  },
+  {
+    "variant": "quantized",
+    "workload": "prefill",
+    "v004_us": 357.5859200000001,
+    "v007_best_us": 357.5859200000001,
+    "threads64_tile256_us": 370.72896000000003,
+    "speedup_vs_v004": 0.964548116230251,
+    "speedup_vs_v007_best": 0.964548116230251
+  }
+]

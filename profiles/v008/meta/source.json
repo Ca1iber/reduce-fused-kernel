@@ -1,0 +1,13 @@
+{
+  "baseline_sha256": "f38809ed34fe8a2d5c53670e81df7e5d857e153a50ad6081cb1c2540c32ee1ab",
+  "baseline_commit": "12255fb3ea243d4a48f5e59947fcc70828fa7270",
+  "threads": [
+    64,
+    128,
+    256
+  ],
+  "tiles": [
+    512,
+    1024
+  ]
+}
