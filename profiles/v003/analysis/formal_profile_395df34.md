@@ -11,3 +11,5 @@
 正式v003与naive的主要差异仍是输出编码：避开SDK通用FP64转换；归约顺序、128线程、一个token一个CTA不变。生成代码在 codegen/formal_v003_h7168.cu，快照在 formal_v003_395df34.py。
 
 此次mcProfiler添加RoofLine的采集超时，部分数据在 raw/formal_395df34_mcprofiler；没有把不完整采集写成成功。完整mcTracer位于v004/raw/trace，精确执行版本对应metadata及代码快照。
+
+补充：CLI超时后回收到了单kernel的dumped_result与三张RoofLine PNG。执行流程没有正常完成；恢复出的计数保存在上述raw目录，可独立查看。

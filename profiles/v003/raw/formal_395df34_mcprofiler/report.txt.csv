@@ -1,0 +1,32 @@
+Name,Description,Value
+Total Instructions,number of all instructions,"29,376,685,529"
+Compute Instructions,number of compute instructions,"26,802,570,982"
+Memory Instructions,number of memory instructions,"2,574,114,547"
+Total Cycles,cycles use by kernel,"7,846,975.74(Kcycles)"
+RoofLine,,"{
+    ""processed_data"": {
+        ""all_ops"": 9531916302912.0,
+        ""all_memacs"": 286538440064.0,
+        ""during"": 890132067.0,
+        ""block_num"": 104,
+        ""vl1_memacs"": 265266749076.0,
+        ""l2c_memacs"": 672288389760.0
+    },
+    ""data"": {
+        ""all_ops"": 9531916302912.0,
+        ""all_memacs"": 286538440064.0,
+        ""block_num"": 104,
+        ""during"": 890132067.0,
+        ""core_clk"": 1.125,
+        ""MAX_Flops_base"": 1,
+        ""case_flops"": 102.96566630056464,
+        ""MAX_Bandwith"": 1843.2,
+        ""MAX_I"": 260.0,
+        ""case_I"": 284.32265525059154,
+        ""case_bandwith"": 362.14372790594007,
+        ""case_VL1_I"": 307.1224357901625,
+        ""case_L2C_I"": 121.18217620780673,
+        ""mc_clk"": 0.9
+    },
+    ""filename"": ""/opt/mcProfiler-ubuntu18.04/output20261004083005/RoofLine20261004083255848.png""
+}"
