@@ -1,0 +1,594 @@
+[
+  {
+    "variant": "base",
+    "workload": "tiny",
+    "baseline_us": 3.732480000000003,
+    "register8_us": 3.3996800000000023,
+    "fragment_double_us": 3.4252800000000025,
+    "speedup_vs_v010": 1.0896860986547086,
+    "speedup_vs_register8": 0.9925261584454409,
+    "latency_change_pct": -8.230452674897126,
+    "measurements": [
+      {
+        "us": 3.440640000000003,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.4252800000000025,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.3740800000000024,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.4201600000000023,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.456000000000003,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "xsf",
+    "workload": "tiny",
+    "baseline_us": 3.6300800000000026,
+    "register8_us": 3.5328000000000026,
+    "fragment_double_us": 3.5891200000000025,
+    "speedup_vs_v010": 1.0114122681883024,
+    "speedup_vs_register8": 0.9843081312410842,
+    "latency_change_pct": -1.128349788434413,
+    "measurements": [
+      {
+        "us": 4.4083200000000025,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.522560000000002,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.5430400000000026,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 10.193919999999993,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.5891200000000025,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "fp8",
+    "workload": "tiny",
+    "baseline_us": 3.998720000000003,
+    "register8_us": 3.778560000000003,
+    "fragment_double_us": 3.8041600000000027,
+    "speedup_vs_v010": 1.0511440107671604,
+    "speedup_vs_register8": 0.9932705248990579,
+    "latency_change_pct": -4.865556978233043,
+    "measurements": [
+      {
+        "us": 3.8297600000000034,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.8041600000000027,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.7171200000000026,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.7939200000000026,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.8041600000000027,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "quantized",
+    "workload": "tiny",
+    "baseline_us": 3.957760000000003,
+    "register8_us": 3.763200000000003,
+    "fragment_double_us": 3.8041600000000027,
+    "speedup_vs_v010": 1.0403768506056528,
+    "speedup_vs_register8": 0.9892328398384926,
+    "latency_change_pct": -3.880983182406217,
+    "measurements": [
+      {
+        "us": 3.8041600000000027,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.727360000000003,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.722240000000003,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 14.003199999999994,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 3.8297600000000034,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "base",
+    "workload": "h3072",
+    "baseline_us": 20.85376000000001,
+    "register8_us": 20.93056,
+    "fragment_double_us": 21.591040000000003,
+    "speedup_vs_v010": 0.9658525017785158,
+    "speedup_vs_register8": 0.9694095328432534,
+    "latency_change_pct": 3.535477534986464,
+    "measurements": [
+      {
+        "us": 21.591040000000003,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 21.637120000000003,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 21.580799999999996,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 21.575680000000006,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 21.64224,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "xsf",
+    "workload": "h3072",
+    "baseline_us": 20.87936,
+    "register8_us": 21.585920000000005,
+    "fragment_double_us": 22.522880000000008,
+    "speedup_vs_v010": 0.9270288701977718,
+    "speedup_vs_register8": 0.9583996362809728,
+    "latency_change_pct": 7.87150564001966,
+    "measurements": [
+      {
+        "us": 22.522880000000008,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 22.558719999999997,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 22.548480000000005,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 22.51264,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 22.44096000000002,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "fp8",
+    "workload": "h3072",
+    "baseline_us": 22.876160000000006,
+    "register8_us": 21.23776000000001,
+    "fragment_double_us": 22.993920000000013,
+    "speedup_vs_v010": 0.9948786461812511,
+    "speedup_vs_register8": 0.9236250278334445,
+    "latency_change_pct": 0.5147717099373672,
+    "measurements": [
+      {
+        "us": 22.993920000000013,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 22.999040000000008,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 22.922240000000002,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 22.983680000000007,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 23.029760000000007,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "quantized",
+    "workload": "h3072",
+    "baseline_us": 23.121920000000003,
+    "register8_us": 22.497280000000003,
+    "fragment_double_us": 24.15104000000001,
+    "speedup_vs_v010": 0.9573881704473179,
+    "speedup_vs_register8": 0.9315242739029042,
+    "latency_change_pct": 4.450841452612964,
+    "measurements": [
+      {
+        "us": 48.020480000000006,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 24.176640000000003,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 24.14080000000001,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 24.14592,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 24.15104000000001,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "base",
+    "workload": "h7168",
+    "baseline_us": 44.27776,
+    "register8_us": 46.38208,
+    "fragment_double_us": 46.883840000000006,
+    "speedup_vs_v010": 0.9444141094244839,
+    "speedup_vs_register8": 0.9892978049579556,
+    "latency_change_pct": 5.885753931544868,
+    "measurements": [
+      {
+        "us": 46.883840000000006,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 46.914559999999994,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 46.77632,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 46.87359999999999,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 46.91455999999998,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "xsf",
+    "workload": "h7168",
+    "baseline_us": 44.49280000000001,
+    "register8_us": 46.91456,
+    "fragment_double_us": 47.61599999999999,
+    "speedup_vs_v010": 0.934408602150538,
+    "speedup_vs_register8": 0.9852688172043013,
+    "latency_change_pct": 7.019562715765204,
+    "measurements": [
+      {
+        "us": 47.67232,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 47.61599999999999,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 47.53408,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 47.60063999999999,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 48.67584000000002,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "fp8",
+    "workload": "h7168",
+    "baseline_us": 48.102399999999996,
+    "register8_us": 44.18560000000002,
+    "fragment_double_us": 45.64992000000001,
+    "speedup_vs_v010": 1.0537236428891876,
+    "speedup_vs_register8": 0.9679228353521762,
+    "latency_change_pct": -5.0984566258648005,
+    "measurements": [
+      {
+        "us": 45.66015999999999,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 45.762559999999986,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 45.64992000000001,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 45.614079999999994,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 45.53728000000001,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "quantized",
+    "workload": "h7168",
+    "baseline_us": 48.522240000000004,
+    "register8_us": 45.42976000000001,
+    "fragment_double_us": 46.60224,
+    "speedup_vs_v010": 1.0411997363216876,
+    "speedup_vs_register8": 0.9748406943528897,
+    "latency_change_pct": -3.9569484013928458,
+    "measurements": [
+      {
+        "us": 46.60224,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 97.54623999999998,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 46.55104,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 46.65343999999999,
+        "timing": "cupti",
+        "inputs_cloned": true
+      },
+      {
+        "us": 46.571519999999985,
+        "timing": "cupti",
+        "inputs_cloned": true
+      }
+    ]
+  },
+  {
+    "variant": "base",
+    "workload": "prefill",
+    "baseline_us": 351.5033599999999,
+    "register8_us": 369.4387199999998,
+    "fragment_double_us": 366.71488,
+    "speedup_vs_v010": 0.9585194906735169,
+    "speedup_vs_register8": 1.007427677873338,
+    "latency_change_pct": 4.327560339679293,
+    "measurements": [
+      {
+        "us": 366.71488,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 366.55104,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 367.67744000000005,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 645.67296,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 366.22848000000005,
+        "timing": "cupti",
+        "inputs_cloned": false
+      }
+    ]
+  },
+  {
+    "variant": "xsf",
+    "workload": "prefill",
+    "baseline_us": 353.63840000000005,
+    "register8_us": 372.43392000000006,
+    "fragment_double_us": 370.1094399999999,
+    "speedup_vs_v010": 0.9554968389890303,
+    "speedup_vs_register8": 1.0062805207022014,
+    "latency_change_pct": 4.657593745475563,
+    "measurements": [
+      {
+        "us": 370.4268799999999,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 370.1094399999999,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 369.67935999999986,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 369.62303999999995,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 610.85184,
+        "timing": "cupti",
+        "inputs_cloned": false
+      }
+    ]
+  },
+  {
+    "variant": "fp8",
+    "workload": "prefill",
+    "baseline_us": 356.61824000000007,
+    "register8_us": 360.9599999999999,
+    "fragment_double_us": 360.22272,
+    "speedup_vs_v010": 0.9899937460913073,
+    "speedup_vs_register8": 1.0020467337540506,
+    "latency_change_pct": 1.0107391029690271,
+    "measurements": [
+      {
+        "us": 642.1964800000001,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 360.22272,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 360.18176,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 359.99744000000015,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 365.6703999999999,
+        "timing": "cupti",
+        "inputs_cloned": false
+      }
+    ]
+  },
+  {
+    "variant": "quantized",
+    "workload": "prefill",
+    "baseline_us": 359.67999999999995,
+    "register8_us": 364.51328,
+    "fragment_double_us": 362.97216000000003,
+    "speedup_vs_v010": 0.9909299930881749,
+    "speedup_vs_register8": 1.004245835272876,
+    "latency_change_pct": 0.9153024911032315,
+    "measurements": [
+      {
+        "us": 362.97216000000003,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 363.2281599999999,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 362.76223999999996,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 362.85952,
+        "timing": "cupti",
+        "inputs_cloned": false
+      },
+      {
+        "us": 363.5200000000001,
+        "timing": "cupti",
+        "inputs_cloned": false
+      }
+    ]
+  }
+]

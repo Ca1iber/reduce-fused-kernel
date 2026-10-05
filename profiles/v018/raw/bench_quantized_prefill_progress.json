@@ -1,0 +1,137 @@
+{
+  "v010": [
+    {
+      "us": 359.90016,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 359.40352000000007,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 358.7737600000001,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 359.84895999999986,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 359.67999999999995,
+      "timing": "cupti",
+      "inputs_cloned": false
+    }
+  ],
+  "v016_register8": [
+    {
+      "us": 363.83232,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 364.63104000000004,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 620.1344000000001,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 364.4979200000001,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 364.51328,
+      "timing": "cupti",
+      "inputs_cloned": false
+    }
+  ],
+  "group2_direct": [
+    {
+      "us": 360.4172800000001,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 371.3280000000001,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 360.4070399999999,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 361.3440000000001,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 462.39232000000004,
+      "timing": "cupti",
+      "inputs_cloned": false
+    }
+  ],
+  "v015_shared_double": [
+    {
+      "us": 760.2022400000003,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 723.0361600000002,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 711.7670400000004,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 717.0355200000001,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 723.2256,
+      "timing": "cupti",
+      "inputs_cloned": false
+    }
+  ],
+  "v018_fragment_double": [
+    {
+      "us": 362.97216000000003,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 363.2281599999999,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 362.76223999999996,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 362.85952,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 363.5200000000001,
+      "timing": "cupti",
+      "inputs_cloned": false
+    }
+  ]
+}

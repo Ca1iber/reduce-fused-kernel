@@ -1,10 +1,10 @@
 {
   "stage": "done",
   "results": {
-    "v010": 48.26624000000002,
-    "v016_register8": 44.661760000000015,
-    "group2_direct": 50.04288000000001,
-    "v015_shared_double": 63.70816,
-    "v018_fragment_double": 46.10048
+    "v010": 48.102399999999996,
+    "v016_register8": 44.18560000000002,
+    "group2_direct": 49.88928,
+    "v015_shared_double": 63.90272000000001,
+    "v018_fragment_double": 45.64992000000001
   }
 }

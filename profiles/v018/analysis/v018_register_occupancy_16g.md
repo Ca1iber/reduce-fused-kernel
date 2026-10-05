@@ -168,4 +168,8 @@ T512,K8,H7168,BF16→E4M3FN；相同输入逐字节一致。项目bench_kernel�
 
 双fragment比v010加速4.70%，延迟降低4.49%；比同几何group2_direct加速约8.55%。它明显好于shared双缓冲，但仍慢于v016的K方向深度8寄存器预取。这是单一workload的性能结论，不能推到全部变体/shape；没有接入生产dispatch。
 
-[原始五轮数据](../raw/benchmark_fp8_h7168_16g.csv)、[脚本](../scripts/benchmark_hidden_fragments.py)。复现：`python profiles/v018/scripts/benchmark_hidden_fragments.py --workload h7168 --variant fp8`。
+[原始五轮数据](../raw/pilot_benchmark_fp8_h7168_16g.csv)、[脚本](../scripts/benchmark_hidden_fragments.py)。复现：`python profiles/v018/scripts/benchmark_hidden_fragments.py --workload h7168 --variant fp8`。
+
+## 后续完整覆盖
+
+现已补齐四变体×四workloads，共16组、80行五方案对照，每方案五外层轮次；新双fragment通过现有131用例。完整结果及范围说明见[16组完整benchmark报告](v018_full_benchmark_16g.md)。前文单例pilot作为当时记录保留，不用它代表全量结论。

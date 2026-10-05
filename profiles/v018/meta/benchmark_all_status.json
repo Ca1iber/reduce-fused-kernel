@@ -1,0 +1,24 @@
+{
+  "stage": "done",
+  "started": 1791208740.8785753,
+  "completed": [
+    "base_tiny",
+    "xsf_tiny",
+    "fp8_tiny",
+    "quantized_tiny",
+    "base_h3072",
+    "xsf_h3072",
+    "fp8_h3072",
+    "quantized_h3072",
+    "base_h7168",
+    "xsf_h7168",
+    "fp8_h7168",
+    "quantized_h7168",
+    "base_prefill",
+    "xsf_prefill",
+    "fp8_prefill",
+    "quantized_prefill"
+  ],
+  "pid": 119760,
+  "finished": 1791209526.3691735
+}
