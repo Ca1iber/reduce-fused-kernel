@@ -1,0 +1,13 @@
+from pathlib import Path
+import importlib.util,sys
+ROOT=Path('/data/TileOPs-Metax/profiles')
+def load(name,path):
+    spec=importlib.util.spec_from_file_location(name,path)
+    module=importlib.util.module_from_spec(spec);sys.modules[name]=module;spec.loader.exec_module(module)
+    return module.get_reduce_fused_kernel
+naive_factory=load("_profile_naive_snapshot",ROOT/"v003_ACC/codegen/baseline_reduce_fused.py")
+v003_factory=load("_profile_v003_snapshot",ROOT/"v004_ACC/codegen/baseline_v003.py")
+
+spec=importlib.util.spec_from_file_location("_v004_parallel_snapshot",ROOT/"v004_ACC/scripts/candidate_parallel.py")
+v4module=importlib.util.module_from_spec(spec);sys.modules["_v004_parallel_snapshot"]=v4module;spec.loader.exec_module(v4module)
+v004_factory=v4module.get_candidate
