@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/opt/maca/mxgpu_llvm/bin/mxcc",
+    "-x",
+    "maca",
+    "--maca-path=/opt/maca",
+    "-O2",
+    "/data/TileOPs-Metax/profiles/v018/scripts/resource_query.cpp",
+    "-o",
+    "/data/TileOPs-Metax/profiles/v018/scripts/resource_query"
+  ],
+  "status": 0
+}

@@ -1,0 +1,1 @@
+{"device":"MetaX C500","major":10,"minor":0,"ap_count":104,"warp_size":64,"regs_per_ap_32bit":131072,"regs_per_block":131072,"max_threads_per_ap":2048,"max_threads_per_block":1024,"max_blocks_per_ap":16,"shared_per_ap_bytes":65536,"shared_per_block_bytes":65536,"visible_global_bytes":16341008384}

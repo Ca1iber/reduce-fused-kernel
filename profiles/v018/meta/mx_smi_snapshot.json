@@ -1,0 +1,37 @@
+[
+  {
+    "command": [
+      "mx-smi",
+      "--summary",
+      "-i",
+      "0"
+    ],
+    "exitcode": 0,
+    "stdout": "mx-smi  version: 2.3.1\n\n=================== MetaX System Management Interface Log ===================\nTimestamp                                         : Mon Oct  5 13:26:49 2026\n\nAttached GPUs                                     : 1\nGPU#0  MXC500  0000:0f:00.0\n    Version\n        MACA                                      : 3.7.1.5 \n        BIOS                                      : 1.33.5.0 \n        KMD                                       : 3.8.30 \n        SMP0                                      : 1.33.5.0 \n        SMP1                                      : 1.33.5.0 \n        CCX0                                      : 1.33.0.0 \n        CCX1                                      : 1.33.0.0 \n        CCX2                                      : 1.33.0.0 \n        VR0                                       : 0.13.0.5 \n        VR1                                       : 0.13.0.5 \n        MCU                                       : 1.2.6.0 \n\n    Serial Number\n        chip serial                               : TP9G29_9_4_1 \n        board serial                              : AENA2424000836 \n\n    Utilization\n        GPU                                       : 0 %\n        VPUE                                      : 0 %\n        VPUD                                      : 0 %\n\n    Chip Temperature\n        hotspot(sensor1)                          :  36.50 C\n    Board Temperature\n        DrMOS_soc                                 :  29.00 C\n        DrMOS_core                                :  28.00 C\n        tdiode                                    :  31.25 C\n        air-inlet                                 :  27.25 C\n        air-outlet                                :  31.00 C\n\n    Pmbus Voltage\n        soc                                       :  0.740 V\n        core                                      :  0.722 V\n        hbm                                       :  1.220 V\n        pcie                                      :  0.902 V\n    Pmbus Current\n        soc                                       : 23.000 A\n        core                                      : 16.000 A\n        hbm                                       :  3.000 A\n        pcie                                      : 11.875 A\n    Pmbus Power\n        soc                                       : 17.000 W\n        core                                      :  8.000 W\n        hbm                                       :  4.000 W\n        pcie                                      : 10.500 W\n\n    Board Voltage\n        Way 0                                     :  11.976 V\n        Way 1                                     :  11.968 V\n        Way 2                                     :  11.968 V\n    Board Current\n        Way 0                                     :   2.328 A\n        Way 1                                     :   2.760 A\n        Way 2                                     :   0.804 A\n    Board Power\n        Way 0                                     :  27.880 W\n        Way 1                                     :  33.031 W\n        Way 2                                     :   9.622 W\n        Total                                     :  70.533 W\n        Limit                                     : 350.000 W\n\n    DPM current performance level\n        xcore                                     : 9 \n        mc                                        : 3 \n        soc                                       : 2 \n        dnoc                                      : 1 \n        vpue                                      : 0 \n        vpud                                      : 0 \n        ccx                                       : 0 \n\n    Clocks\n        CSC\n            CSC_SMPCLK                            : 457 MHz\n            CSC_RNOCCLK                           : 457 MHz\n            GLB_RISCV_APBCLK                      : 160 MHz\n            GLB_REFCLK100                         : 100 MHz\n        XCORE\n            XCORE_CLK                             : 1125 MHz\n        MC1\n            MC1_DFICLK                            : 1800 MHz\n            MC1_BYPASSCLK                         : 642 MHz\n        MC0\n            MC0_DFICLK                            : 1800 MHz\n            MC0_BYPASSCLK                         : 642 MHz\n        VPUE\n            VPU_ENCCLK                            : 535 MHz\n        VPUD\n            VPU_DECCLK0                           : 525 MHz\n            VPU_DECCLK1                           : 525 MHz\n            VPU_DECCLK2                           : 525 MHz\n            VPU_DECCLK3                           : 525 MHz\n        SOC\n            SOC_CLK                               : 1200 MHz\n        DNOC\n            DNOC_CLK                              : 1200 MHz\n        CCX\n            CCX_CLK                               : 535 MHz\n\n    Memory\n        vis_vram total                            : 67108864 KB\n        vis_vram used                             : 1174292 KB\n        vis_vram usage                            : 1.7 %\n        vram total                                : 67108864 KB\n        vram used                                 : 1174292 KB\n        vram usage                                : 1.7 %\n        xtt total                                 : 1585052295 KB\n        xtt used                                  : 149608 KB\n        xtt usage                                 : 0 %\n\nEnd of Log\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "mx-smi",
+      "sgpu",
+      "--show-mode",
+      "-i",
+      "0"
+    ],
+    "exitcode": 0,
+    "stdout": "mx-smi  version: 2.3.1\n\n=================== MetaX System Management Interface Log ===================\nTimestamp                                         : Mon Oct  5 13:26:49 2026\n\nAttached GPUs                                     : 1\nGPU#0  MXC500  0000:0f:00.0\n        sgpu mode                                 : Enable \n\nEnd of Log\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "mx-smi",
+      "sgpu",
+      "--show-timeslice",
+      "-i",
+      "0"
+    ],
+    "exitcode": 0,
+    "stdout": "mx-smi  version: 2.3.1\n\n=================== MetaX System Management Interface Log ===================\nTimestamp                                         : Mon Oct  5 13:26:49 2026\n\nAttached GPUs                                     : 1\nGPU#0  MXC500  0000:0f:00.0\n        sched timeslice                           : 10 ms\n\nEnd of Log\n",
+    "stderr": ""
+  }
+]

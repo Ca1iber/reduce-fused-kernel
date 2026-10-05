@@ -1,0 +1,706 @@
+[
+  {
+    "name": "fp8_b512_t128",
+    "result": {
+      "regs_per_thread": 12,
+      "private_bytes": 0,
+      "threads": 128,
+      "shared_bytes": 0,
+      "capacity_per_ap": 16,
+      "ap_count": 104,
+      "grid_ctas": 7168,
+      "hold_cycles": 1000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_fp8_b512_t128.mcbin",
+      "128",
+      "0",
+      "1",
+      "14",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "1000000"
+    ]
+  },
+  {
+    "name": "fp8_b512_t128",
+    "result": {
+      "regs_per_thread": 12,
+      "private_bytes": 0,
+      "threads": 128,
+      "shared_bytes": 0,
+      "capacity_per_ap": 16,
+      "ap_count": 104,
+      "grid_ctas": 7168,
+      "hold_cycles": 5000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_fp8_b512_t128.mcbin",
+      "128",
+      "0",
+      "1",
+      "14",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "5000000"
+    ]
+  },
+  {
+    "name": "fp8_reg8_b512_t128",
+    "result": {
+      "regs_per_thread": 22,
+      "private_bytes": 0,
+      "threads": 128,
+      "shared_bytes": 0,
+      "capacity_per_ap": 16,
+      "ap_count": 104,
+      "grid_ctas": 7168,
+      "hold_cycles": 1000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_fp8_reg8_b512_t128.mcbin",
+      "128",
+      "0",
+      "1",
+      "14",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "1000000"
+    ]
+  },
+  {
+    "name": "fp8_reg8_b512_t128",
+    "result": {
+      "regs_per_thread": 22,
+      "private_bytes": 0,
+      "threads": 128,
+      "shared_bytes": 0,
+      "capacity_per_ap": 16,
+      "ap_count": 104,
+      "grid_ctas": 7168,
+      "hold_cycles": 5000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_fp8_reg8_b512_t128.mcbin",
+      "128",
+      "0",
+      "1",
+      "14",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "5000000"
+    ]
+  },
+  {
+    "name": "fp8_b512_t256",
+    "result": {
+      "regs_per_thread": 8,
+      "private_bytes": 0,
+      "threads": 256,
+      "shared_bytes": 0,
+      "capacity_per_ap": 8,
+      "ap_count": 104,
+      "grid_ctas": 7168,
+      "hold_cycles": 1000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_fp8_b512_t256.mcbin",
+      "256",
+      "0",
+      "1",
+      "14",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "1000000"
+    ]
+  },
+  {
+    "name": "fp8_b512_t256",
+    "result": {
+      "regs_per_thread": 8,
+      "private_bytes": 0,
+      "threads": 256,
+      "shared_bytes": 0,
+      "capacity_per_ap": 8,
+      "ap_count": 104,
+      "grid_ctas": 7168,
+      "hold_cycles": 5000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_fp8_b512_t256.mcbin",
+      "256",
+      "0",
+      "1",
+      "14",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "5000000"
+    ]
+  },
+  {
+    "name": "fp8_reg8_b512_t256",
+    "result": {
+      "regs_per_thread": 12,
+      "private_bytes": 0,
+      "threads": 256,
+      "shared_bytes": 0,
+      "capacity_per_ap": 8,
+      "ap_count": 104,
+      "grid_ctas": 7168,
+      "hold_cycles": 1000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_fp8_reg8_b512_t256.mcbin",
+      "256",
+      "0",
+      "1",
+      "14",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "1000000"
+    ]
+  },
+  {
+    "name": "fp8_reg8_b512_t256",
+    "result": {
+      "regs_per_thread": 12,
+      "private_bytes": 0,
+      "threads": 256,
+      "shared_bytes": 0,
+      "capacity_per_ap": 8,
+      "ap_count": 104,
+      "grid_ctas": 7168,
+      "hold_cycles": 5000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_fp8_reg8_b512_t256.mcbin",
+      "256",
+      "0",
+      "1",
+      "14",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "5000000"
+    ]
+  },
+  {
+    "name": "base_full_t256",
+    "result": {
+      "regs_per_thread": 52,
+      "private_bytes": 0,
+      "threads": 256,
+      "shared_bytes": 0,
+      "capacity_per_ap": 8,
+      "ap_count": 104,
+      "grid_ctas": 4096,
+      "hold_cycles": 1000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_base_full_t256.mcbin",
+      "256",
+      "0",
+      "2",
+      "1",
+      "4096",
+      "out,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "1000000"
+    ]
+  },
+  {
+    "name": "base_full_t256",
+    "result": {
+      "regs_per_thread": 52,
+      "private_bytes": 0,
+      "threads": 256,
+      "shared_bytes": 0,
+      "capacity_per_ap": 8,
+      "ap_count": 104,
+      "grid_ctas": 4096,
+      "hold_cycles": 5000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 832,
+          "peak_div_ap": 8.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_base_full_t256.mcbin",
+      "256",
+      "0",
+      "2",
+      "1",
+      "4096",
+      "out,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "5000000"
+    ]
+  },
+  {
+    "name": "base_reg8_full_t256",
+    "result": {
+      "regs_per_thread": 142,
+      "private_bytes": 0,
+      "threads": 256,
+      "shared_bytes": 0,
+      "capacity_per_ap": 3,
+      "ap_count": 104,
+      "grid_ctas": 4096,
+      "hold_cycles": 1000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 312,
+          "peak_div_ap": 3.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 312,
+          "peak_div_ap": 3.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 312,
+          "peak_div_ap": 3.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_base_reg8_full_t256.mcbin",
+      "256",
+      "0",
+      "2",
+      "1",
+      "4096",
+      "out,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "1000000"
+    ]
+  },
+  {
+    "name": "base_reg8_full_t256",
+    "result": {
+      "regs_per_thread": 142,
+      "private_bytes": 0,
+      "threads": 256,
+      "shared_bytes": 0,
+      "capacity_per_ap": 3,
+      "ap_count": 104,
+      "grid_ctas": 4096,
+      "hold_cycles": 5000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 312,
+          "peak_div_ap": 3.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 312,
+          "peak_div_ap": 3.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 312,
+          "peak_div_ap": 3.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_base_reg8_full_t256.mcbin",
+      "256",
+      "0",
+      "2",
+      "1",
+      "4096",
+      "out,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "5000000"
+    ]
+  },
+  {
+    "name": "hidden_double_fragment",
+    "result": {
+      "regs_per_thread": 39,
+      "private_bytes": 0,
+      "threads": 128,
+      "shared_bytes": 0,
+      "capacity_per_ap": 16,
+      "ap_count": 104,
+      "grid_ctas": 3584,
+      "hold_cycles": 1000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1662,
+          "peak_div_ap": 15.980769,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1663,
+          "peak_div_ap": 15.990385,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_hidden_double_fragment.mcbin",
+      "128",
+      "0",
+      "1",
+      "7",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "1000000"
+    ]
+  },
+  {
+    "name": "hidden_double_fragment",
+    "result": {
+      "regs_per_thread": 39,
+      "private_bytes": 0,
+      "threads": 128,
+      "shared_bytes": 0,
+      "capacity_per_ap": 16,
+      "ap_count": 104,
+      "grid_ctas": 3584,
+      "hold_cycles": 5000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1664,
+          "peak_div_ap": 16.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 1662,
+          "peak_div_ap": 15.980769,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_hidden_double_fragment.mcbin",
+      "128",
+      "0",
+      "1",
+      "7",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "5000000"
+    ]
+  },
+  {
+    "name": "hidden_double_shared",
+    "result": {
+      "regs_per_thread": 12,
+      "private_bytes": 0,
+      "threads": 128,
+      "shared_bytes": 16384,
+      "capacity_per_ap": 4,
+      "ap_count": 104,
+      "grid_ctas": 3584,
+      "hold_cycles": 1000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 416,
+          "peak_div_ap": 4.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 416,
+          "peak_div_ap": 4.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 416,
+          "peak_div_ap": 4.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_hidden_double_shared.mcbin",
+      "128",
+      "16384",
+      "1",
+      "7",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "1000000"
+    ]
+  },
+  {
+    "name": "hidden_double_shared",
+    "result": {
+      "regs_per_thread": 12,
+      "private_bytes": 0,
+      "threads": 128,
+      "shared_bytes": 16384,
+      "capacity_per_ap": 4,
+      "ap_count": 104,
+      "grid_ctas": 3584,
+      "hold_cycles": 5000000,
+      "runs": [
+        {
+          "live_after": 0,
+          "peak_live_ctas": 416,
+          "peak_div_ap": 4.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 416,
+          "peak_div_ap": 4.0,
+          "wrong_sample": 0
+        },
+        {
+          "live_after": 0,
+          "peak_live_ctas": 416,
+          "peak_div_ap": 4.0,
+          "wrong_sample": 0
+        }
+      ]
+    },
+    "command": [
+      "/data/TileOPs-Metax/profiles/v018/scripts/residency_probe",
+      "/data/TileOPs-Metax/profiles/v018/codegen/hold_hidden_double_shared.mcbin",
+      "128",
+      "16384",
+      "1",
+      "7",
+      "512",
+      "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters",
+      "5000000"
+    ]
+  }
+]

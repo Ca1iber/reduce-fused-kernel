@@ -1,0 +1,97 @@
+{
+  "checks": [
+    {
+      "requirement": "trace 16 configurations",
+      "passed": true
+    },
+    {
+      "requirement": "all original outputs byte-equal",
+      "passed": true
+    },
+    {
+      "requirement": "all native queries successful",
+      "passed": true
+    },
+    {
+      "requirement": "manual/native capacity agreement",
+      "passed": true
+    },
+    {
+      "requirement": "48 finite residency launches",
+      "passed": true
+    },
+    {
+      "requirement": "probe counters finish zero and samples correct",
+      "passed": true
+    },
+    {
+      "requirement": "paired cupti performance data",
+      "passed": true
+    },
+    {
+      "requirement": "formal kernel unchanged",
+      "passed": true
+    },
+    {
+      "requirement": "link ../raw/device_properties.json",
+      "passed": true
+    },
+    {
+      "requirement": "link occupancy_calculations.json",
+      "passed": true
+    },
+    {
+      "requirement": "link ../raw/trace_resources",
+      "passed": true
+    },
+    {
+      "requirement": "link ../raw/kernel_resources.json",
+      "passed": true
+    },
+    {
+      "requirement": "link ../raw/occupancy_summary_16g.csv",
+      "passed": true
+    },
+    {
+      "requirement": "link ../scripts/collect_cases.py",
+      "passed": true
+    },
+    {
+      "requirement": "link ../scripts/resource_query.cpp",
+      "passed": true
+    },
+    {
+      "requirement": "link ../scripts/query_all.py",
+      "passed": true
+    },
+    {
+      "requirement": "link ../scripts/hidden_fragment.py",
+      "passed": true
+    },
+    {
+      "requirement": "link ../scripts/residency_probe.cpp",
+      "passed": true
+    },
+    {
+      "requirement": "link ../scripts/run_residency.py",
+      "passed": true
+    },
+    {
+      "requirement": "link ../meta/hold_specs.json",
+      "passed": true
+    },
+    {
+      "requirement": "link ../raw/benchmark_fp8_h7168_16g.csv",
+      "passed": true
+    },
+    {
+      "requirement": "link ../scripts/benchmark_hidden_fragments.py",
+      "passed": true
+    },
+    {
+      "requirement": "link v018_register_occupancy_16g.md",
+      "passed": true
+    }
+  ],
+  "scope": "AP resource capacity and residency probe; single-workload double-fragment performance"
+}

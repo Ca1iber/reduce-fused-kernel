@@ -1,0 +1,74 @@
+[
+  {
+    "name": "fp8_b512_t128",
+    "threads": 128,
+    "shared_bytes": 0,
+    "out_bytes": 1,
+    "grid_y": 14,
+    "tokens": 512,
+    "arg_order": "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters"
+  },
+  {
+    "name": "fp8_reg8_b512_t128",
+    "threads": 128,
+    "shared_bytes": 0,
+    "out_bytes": 1,
+    "grid_y": 14,
+    "tokens": 512,
+    "arg_order": "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters"
+  },
+  {
+    "name": "fp8_b512_t256",
+    "threads": 256,
+    "shared_bytes": 0,
+    "out_bytes": 1,
+    "grid_y": 14,
+    "tokens": 512,
+    "arg_order": "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters"
+  },
+  {
+    "name": "fp8_reg8_b512_t256",
+    "threads": 256,
+    "shared_bytes": 0,
+    "out_bytes": 1,
+    "grid_y": 14,
+    "tokens": 512,
+    "arg_order": "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters"
+  },
+  {
+    "name": "base_full_t256",
+    "threads": 256,
+    "shared_bytes": 0,
+    "out_bytes": 2,
+    "grid_y": 1,
+    "tokens": 4096,
+    "arg_order": "out,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters"
+  },
+  {
+    "name": "base_reg8_full_t256",
+    "threads": 256,
+    "shared_bytes": 0,
+    "out_bytes": 2,
+    "grid_y": 1,
+    "tokens": 4096,
+    "arg_order": "out,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters"
+  },
+  {
+    "name": "hidden_double_fragment",
+    "threads": 128,
+    "shared_bytes": 0,
+    "out_bytes": 1,
+    "grid_y": 7,
+    "tokens": 512,
+    "arg_order": "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters"
+  },
+  {
+    "name": "hidden_double_shared",
+    "threads": 128,
+    "shared_bytes": 16384,
+    "out_bytes": 1,
+    "grid_y": 7,
+    "tokens": 512,
+    "arg_order": "out,sf,token_topk_to_pos,topk_weights,x,num_tokens,hold_cycles,counters"
+  }
+]

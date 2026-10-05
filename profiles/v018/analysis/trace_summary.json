@@ -1,0 +1,434 @@
+[
+  {
+    "name": "fp8_b512_t128",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 128,
+    "prefetch_rows": 0,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "d020f75f985d804d1bd5a338937bad102ab204125afb6d6ec55523525ee46e5f",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "trace_median_us": 50.432
+  },
+  {
+    "name": "fp8_reg2_b512_t128",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 128,
+    "prefetch_rows": 2,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "d1356811e0407aee331fa1c8e722ec7e352e0bc994792d15b92bfe8b7e2ccf74",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 15,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "trace_median_us": 51.712
+  },
+  {
+    "name": "fp8_reg4_b512_t128",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 128,
+    "prefetch_rows": 4,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "6f714ddf2431b5ac32b855a9ba904169cadb0b6e35dce2edaeaf2d68d41dee6b",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 19,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "trace_median_us": 51.712
+  },
+  {
+    "name": "fp8_reg8_b512_t128",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 128,
+    "prefetch_rows": 8,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "7cc5b1b3eb0194e9da553f13421d682b6bbd4bd5f299b655a9920c3207141d8d",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 22,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "trace_median_us": 46.08
+  },
+  {
+    "name": "fp8_b512_t256",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 256,
+    "prefetch_rows": 0,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "2bc18d9469e7e7f6c95e097f358840ea146378dc0db9408c0fc89ea67c135334",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 8,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "trace_median_us": 62.464
+  },
+  {
+    "name": "fp8_reg8_b512_t256",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 256,
+    "prefetch_rows": 8,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "c0288b9fd4ff9f8f48e4f5551552ce7b79c95a8ad65dbe74b7156a4984966c1c",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "trace_median_us": 47.36
+  },
+  {
+    "name": "fp8_b1024_t128",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 1024,
+    "threads": 128,
+    "prefetch_rows": 0,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "ea504799c819472b7bbdd49795d10f49706826edcfd049d3c2c0c7096dfbff2c",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 20,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "trace_median_us": 50.688
+  },
+  {
+    "name": "fp8_reg8_b1024_t128",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 1024,
+    "threads": 128,
+    "prefetch_rows": 8,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "68a393623455530579abaf355d07024acd2326ea4a346b70b706972ccfb98f46",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 42,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "trace_median_us": 49.408
+  },
+  {
+    "name": "base_full_t256",
+    "with_x_sf": false,
+    "with_sf": false,
+    "tile": 7168,
+    "threads": 256,
+    "prefetch_rows": 0,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "6c35b521776a2f080a8a6fd71758bf59d556f7ef04fe0c01d4518f5879fb2376",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 52,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "trace_median_us": 47.872
+  },
+  {
+    "name": "base_reg8_full_t256",
+    "with_x_sf": false,
+    "with_sf": false,
+    "tile": 7168,
+    "threads": 256,
+    "prefetch_rows": 8,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "2948df1e4e10e57e2496c36682db9fa2b01307dedde29bf182ba6c832be78914",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 130,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "trace_median_us": 48.64
+  },
+  {
+    "name": "xsf_full_t256",
+    "with_x_sf": true,
+    "with_sf": false,
+    "tile": 7168,
+    "threads": 256,
+    "prefetch_rows": 0,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "7c8c69f46f7f7cf69335c32ed555314916e013639cbbd068d89224d6efc1cc1f",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 52,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "trace_median_us": 48.128
+  },
+  {
+    "name": "xsf_reg8_full_t256",
+    "with_x_sf": true,
+    "with_sf": false,
+    "tile": 7168,
+    "threads": 256,
+    "prefetch_rows": 8,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "dff5b3429fee37c0f79e72e247a62649693d43e2135a7cfa84efc481a48ff8a3",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 130,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 1,
+      "z": 1
+    },
+    "trace_median_us": 49.408
+  },
+  {
+    "name": "quant_b512_t128",
+    "with_x_sf": true,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 128,
+    "prefetch_rows": 0,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "5c8f13b1853a48d5f385e37ca9abe95bcf3a7fb88c626ceb76e341c550fd2129",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "trace_median_us": 50.688
+  },
+  {
+    "name": "quant_reg8_b512_t128",
+    "with_x_sf": true,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 128,
+    "prefetch_rows": 8,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "469f35183362f9b1ac204050548eada2610edcfc8b9e9f62b95435a06e54cc3a",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 22,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 14,
+      "z": 1
+    },
+    "trace_median_us": 46.848
+  },
+  {
+    "name": "hidden_double_fragment",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 128,
+    "prefetch_rows": -3,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 0,
+    "source_sha256": "aa771102320f0f3fc35950c2e5cb0ad73fefb4d4fdbc36532f723d0992b964e2",
+    "trace_resources": {
+      "dynamic_shared": 0,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 39,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "trace_median_us": 47.616
+  },
+  {
+    "name": "hidden_double_shared",
+    "with_x_sf": false,
+    "with_sf": true,
+    "tile": 512,
+    "threads": 128,
+    "prefetch_rows": -2,
+    "wrong_bytes": [
+      0,
+      0
+    ],
+    "shared_bytes": 16384,
+    "source_sha256": "b63f4693a5f99b79d5407e47acae595bd1d80d0484fa2768a99ea28c1e0b8173",
+    "trace_resources": {
+      "dynamic_shared": 16384,
+      "private_per_thread": 0,
+      "private_total": 0,
+      "registers_per_thread": 12,
+      "static_shared": 0
+    },
+    "grid": {
+      "x": 512,
+      "y": 7,
+      "z": 1
+    },
+    "trace_median_us": 63.744
+  }
+]
