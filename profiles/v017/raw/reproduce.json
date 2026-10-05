@@ -1,0 +1,3656 @@
+[
+  {
+    "label": "k1_sf0_s2_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf0_s2_mode0",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf0_s2_mode1",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf0_s2_mode3",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf0_s3_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf0_s3_mode0",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf0_s3_mode1",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf0_s3_mode3",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf1_s2_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf1_s2_mode0",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf1_s2_mode1",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf1_s2_mode3",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf1_s3_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf1_s3_mode0",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf1_s3_mode1",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k1_sf1_s3_mode3",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf0_s2_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf0_s2_mode0",
+    "results": [
+      {
+        "wrong_bytes": 13248879,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13314202,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13321508,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf0_s2_mode1",
+    "results": [
+      {
+        "wrong_bytes": 13249120,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13314974,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13328098,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf0_s2_mode3",
+    "results": [
+      {
+        "wrong_bytes": 13387908,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13329634,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13321310,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf0_s3_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf0_s3_mode0",
+    "results": [
+      {
+        "wrong_bytes": 3962917,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3866903,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3798844,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf0_s3_mode1",
+    "results": [
+      {
+        "wrong_bytes": 3705772,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 4563369,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3227164,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf0_s3_mode3",
+    "results": [
+      {
+        "wrong_bytes": 4249537,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            4096
+          ],
+          [
+            0,
+            4097
+          ],
+          [
+            0,
+            4098
+          ],
+          [
+            0,
+            4100
+          ],
+          [
+            0,
+            4101
+          ],
+          [
+            0,
+            4102
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 2840168,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            2048
+          ],
+          [
+            0,
+            2049
+          ],
+          [
+            0,
+            2050
+          ],
+          [
+            0,
+            2052
+          ],
+          [
+            0,
+            2053
+          ],
+          [
+            0,
+            2054
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 2851938,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            3072
+          ],
+          [
+            0,
+            3073
+          ],
+          [
+            0,
+            3074
+          ],
+          [
+            0,
+            3076
+          ],
+          [
+            0,
+            3077
+          ],
+          [
+            0,
+            3078
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf1_s2_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf1_s2_mode0",
+    "results": [
+      {
+        "wrong_bytes": 3615435,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3553443,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3548856,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf1_s2_mode1",
+    "results": [
+      {
+        "wrong_bytes": 3617037,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3465045,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3473895,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf1_s2_mode3",
+    "results": [
+      {
+        "wrong_bytes": 3391647,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            7
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3352259,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            256
+          ],
+          [
+            0,
+            257
+          ],
+          [
+            0,
+            258
+          ],
+          [
+            0,
+            259
+          ],
+          [
+            0,
+            260
+          ],
+          [
+            0,
+            261
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3160662,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            512
+          ],
+          [
+            0,
+            513
+          ],
+          [
+            0,
+            514
+          ],
+          [
+            0,
+            515
+          ],
+          [
+            0,
+            516
+          ],
+          [
+            0,
+            517
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf1_s3_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf1_s3_mode0",
+    "results": [
+      {
+        "wrong_bytes": 1080129,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            256
+          ],
+          [
+            0,
+            257
+          ],
+          [
+            0,
+            258
+          ],
+          [
+            0,
+            260
+          ],
+          [
+            0,
+            261
+          ],
+          [
+            0,
+            262
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 967995,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 980868,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            7
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf1_s3_mode1",
+    "results": [
+      {
+        "wrong_bytes": 736968,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 692548,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            7
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 729728,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            7
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k2_sf1_s3_mode3",
+    "results": [
+      {
+        "wrong_bytes": 874612,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            256
+          ],
+          [
+            0,
+            257
+          ],
+          [
+            0,
+            258
+          ],
+          [
+            0,
+            260
+          ],
+          [
+            0,
+            261
+          ],
+          [
+            0,
+            262
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 613614,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            1536
+          ],
+          [
+            0,
+            1537
+          ],
+          [
+            0,
+            1538
+          ],
+          [
+            0,
+            1539
+          ],
+          [
+            0,
+            1540
+          ],
+          [
+            0,
+            1541
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 610822,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            2816
+          ],
+          [
+            0,
+            2817
+          ],
+          [
+            0,
+            2818
+          ],
+          [
+            0,
+            2819
+          ],
+          [
+            0,
+            2820
+          ],
+          [
+            0,
+            2821
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf0_s2_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf0_s2_mode0",
+    "results": [
+      {
+        "wrong_bytes": 13754200,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13686338,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13685490,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf0_s2_mode1",
+    "results": [
+      {
+        "wrong_bytes": 13763417,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13684406,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13694630,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf0_s2_mode3",
+    "results": [
+      {
+        "wrong_bytes": 13751718,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13686130,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13686770,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf0_s3_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf0_s3_mode0",
+    "results": [
+      {
+        "wrong_bytes": 13586857,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13565057,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13557624,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf0_s3_mode1",
+    "results": [
+      {
+        "wrong_bytes": 13553899,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13573240,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13576525,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf0_s3_mode3",
+    "results": [
+      {
+        "wrong_bytes": 13543889,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13559708,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 13557022,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf1_s2_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "wrapped_source",
+      "pass_configs",
+      "ir_module",
+      "target",
+      "verbose",
+      "libpath",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf1_s2_mode0",
+    "results": [
+      {
+        "wrong_bytes": 3602300,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3605133,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3605741,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "wrapped_source",
+      "pass_configs",
+      "ir_module",
+      "target",
+      "verbose",
+      "libpath",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf1_s2_mode1",
+    "results": [
+      {
+        "wrong_bytes": 3601943,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3607366,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3605972,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "wrapped_source",
+      "pass_configs",
+      "ir_module",
+      "target",
+      "verbose",
+      "libpath",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf1_s2_mode3",
+    "results": [
+      {
+        "wrong_bytes": 3602301,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3606835,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3606800,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf1_s3_mode2",
+    "results": [
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      },
+      {
+        "wrong_bytes": 0,
+        "max_abs": 0.0,
+        "first_indices": []
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "wrapped_source",
+      "pass_configs",
+      "ir_module",
+      "target",
+      "verbose",
+      "libpath",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf1_s3_mode0",
+    "results": [
+      {
+        "wrong_bytes": 3599591,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3595808,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3593755,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "wrapped_source",
+      "pass_configs",
+      "ir_module",
+      "target",
+      "verbose",
+      "libpath",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf1_s3_mode1",
+    "results": [
+      {
+        "wrong_bytes": 3595422,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3594456,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3594308,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "wrapped_source",
+      "pass_configs",
+      "ir_module",
+      "target",
+      "verbose",
+      "libpath",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  },
+  {
+    "label": "k8_sf1_s3_mode3",
+    "results": [
+      {
+        "wrong_bytes": 3585497,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3502020,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "wrong_bytes": 3587888,
+        "max_abs": NaN,
+        "first_indices": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      }
+    ],
+    "adapter_type": "<class 'tilelang.jit.adapter.tvm_ffi.TVMFFIKernelAdapter'>",
+    "adapter_fields": [
+      "params",
+      "result_idx",
+      "host_kernel_source",
+      "device_kernel_source",
+      "ir_module",
+      "target",
+      "host_mod",
+      "device_mod",
+      "rt_mod",
+      "verbose",
+      "pass_configs",
+      "compile_flags",
+      "dynamic_symbolic_map",
+      "kernel_global_source",
+      "executable",
+      "func"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "conditional_b7168_if1_order0_cta0": [
+    "ARRIVE 12288",
+    "BARRIER debug-location !33; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:61:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if1_order0_cta0.cu:15:3 ] ]",
+    "ARRIVE 4096",
+    "ARRIVE 8192",
+    "ARRIVE 8192",
+    "ARRIVE 65",
+    "BARRIER debug-location !59; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if1_order0_cta0.cu:23:5 ]",
+    "ARRIVE 4096",
+    "ARRIVE 66",
+    "BARRIER debug-location !73; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if1_order0_cta0.cu:27:5 ]",
+    "ARRIVE 4096"
+  ],
+  "conditional_b7168_if0_order0_cta0": [
+    "ARRIVE 12288",
+    "BARRIER debug-location !33; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:61:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]",
+    "ARRIVE 4096",
+    "ARRIVE 65",
+    "BARRIER debug-location !60; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:18:3 ]",
+    "ARRIVE 4096",
+    "ARRIVE 65",
+    "BARRIER debug-location !65; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:20:3 ]",
+    "ARRIVE 4096"
+  ],
+  "mask2": [
+    "ARRIVE 12288",
+    "BARRIER debug-location !33; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:61:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:15:3 ] ]",
+    "ARRIVE 4096",
+    "ARRIVE 8192",
+    "ARRIVE 65",
+    "BARRIER debug-location !62; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:20:3 ]",
+    "ARRIVE 4096",
+    "BARRIER debug-location !67; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:22:3 ]",
+    "ARRIVE 4096"
+  ]
+}

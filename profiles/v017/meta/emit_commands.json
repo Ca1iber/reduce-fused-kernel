@@ -1,0 +1,119 @@
+[
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-maca-device-only",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-S",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-emit-llvm",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode0.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode0.ll"
+    ],
+    "exitcode": 0,
+    "stderr": "/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true\n  608 |     } else if (lane_id < 64) {\n      |            ^~~~~~~~~~~~~~~~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:595:24: note: initialize the variable 'cc2' to silence this warning\n  595 |     float cc0, cc1, cc2, cc3;\n      |                        ^\n      |                         = 0.0\n/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc3' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]\n  608 |     } else if (lane_id < 64) {\n      |                ^~~~~~~~~~~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:626:65: note: uninitialized use occurs here\n  626 |                                                 {cc0, cc1, cc2, cc3});\n      |                                                                 ^~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true\n  608 |     } else if (lane_id < 64) {\n      |            ^~~~~~~~~~~~~~~~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:595:29: note: initialize the variable 'cc3' to silence this warning\n  595 |     float cc0, cc1, cc2, cc3;\n      |                             ^\n      |                              = 0.0\n/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode0.cu:10:51: warning: set minimum blocks' number is illegal in Maca and the value will be ignored [-Wmaca-min-blocks-per-multiprocessor]\n   10 | extern \"C\" __global__ void __launch_bounds__(128, 1) reduce_fused_kernel_kernel(float* __restrict__ out, const int* __restrict__ token_topk_to_pos, const float* __restrict__ topk_weights, const bfloat16_t* __restrict__ x, int num_tokens) {\n      |                                                   ^\n13 warnings generated when compiling for xcore1000.\n"
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-maca-device-only",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-S",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode0.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode0.s"
+    ],
+    "exitcode": 1,
+    "stderr": "mxcc: error: unknown argument: '-S'\n"
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-maca-device-only",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-S",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-emit-llvm",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.ll"
+    ],
+    "exitcode": 0,
+    "stderr": "/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true\n  608 |     } else if (lane_id < 64) {\n      |            ^~~~~~~~~~~~~~~~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:595:24: note: initialize the variable 'cc2' to silence this warning\n  595 |     float cc0, cc1, cc2, cc3;\n      |                        ^\n      |                         = 0.0\n/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc3' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]\n  608 |     } else if (lane_id < 64) {\n      |                ^~~~~~~~~~~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:626:65: note: uninitialized use occurs here\n  626 |                                                 {cc0, cc1, cc2, cc3});\n      |                                                                 ^~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true\n  608 |     } else if (lane_id < 64) {\n      |            ^~~~~~~~~~~~~~~~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:595:29: note: initialize the variable 'cc3' to silence this warning\n  595 |     float cc0, cc1, cc2, cc3;\n      |                             ^\n      |                              = 0.0\n/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu:10:51: warning: set minimum blocks' number is illegal in Maca and the value will be ignored [-Wmaca-min-blocks-per-multiprocessor]\n   10 | extern \"C\" __global__ void __launch_bounds__(128, 1) reduce_fused_kernel_kernel(float* __restrict__ out, const int* __restrict__ token_topk_to_pos, const float* __restrict__ topk_weights, const bfloat16_t* __restrict__ x, int num_tokens) {\n      |                                                   ^\n13 warnings generated when compiling for xcore1000.\n"
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-maca-device-only",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-S",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.s"
+    ],
+    "exitcode": 1,
+    "stderr": "mxcc: error: unknown argument: '-S'\n"
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-maca-device-only",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-S",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-emit-llvm",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode3.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode3.ll"
+    ],
+    "exitcode": 0,
+    "stderr": "/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true\n  608 |     } else if (lane_id < 64) {\n      |            ^~~~~~~~~~~~~~~~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:595:24: note: initialize the variable 'cc2' to silence this warning\n  595 |     float cc0, cc1, cc2, cc3;\n      |                        ^\n      |                         = 0.0\n/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc3' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]\n  608 |     } else if (lane_id < 64) {\n      |                ^~~~~~~~~~~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:626:65: note: uninitialized use occurs here\n  626 |                                                 {cc0, cc1, cc2, cc3});\n      |                                                                 ^~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true\n  608 |     } else if (lane_id < 64) {\n      |            ^~~~~~~~~~~~~~~~~\n/opt/maca/include/cute/arch/mma_sm80.hpp:595:29: note: initialize the variable 'cc3' to silence this warning\n  595 |     float cc0, cc1, cc2, cc3;\n      |                             ^\n      |                              = 0.0\n/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode3.cu:10:51: warning: set minimum blocks' number is illegal in Maca and the value will be ignored [-Wmaca-min-blocks-per-multiprocessor]\n   10 | extern \"C\" __global__ void __launch_bounds__(128, 1) reduce_fused_kernel_kernel(float* __restrict__ out, const int* __restrict__ token_topk_to_pos, const float* __restrict__ topk_weights, const bfloat16_t* __restrict__ x, int num_tokens) {\n      |                                                   ^\n13 warnings generated when compiling for xcore1000.\n"
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-maca-device-only",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-S",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode3.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode3.s"
+    ],
+    "exitcode": 1,
+    "stderr": "mxcc: error: unknown argument: '-S'\n"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=machine-scheduler",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode0.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/mode0_machine-scheduler.mcbin"
+    ],
+    "exitcode": 0,
+    "log": "/data/TileOPs-Metax/profiles/v017/codegen/mode0_machine-scheduler.mir"
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=virtregrewriter",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode0.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/mode0_virtregrewriter.mcbin"
+    ],
+    "exitcode": 0,
+    "log": "/data/TileOPs-Metax/profiles/v017/codegen/mode0_virtregrewriter.mir"
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=machine-scheduler",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/mode2_machine-scheduler.mcbin"
+    ],
+    "exitcode": 0,
+    "log": "/data/TileOPs-Metax/profiles/v017/codegen/mode2_machine-scheduler.mir"
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=virtregrewriter",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/mode2_virtregrewriter.mcbin"
+    ],
+    "exitcode": 0,
+    "log": "/data/TileOPs-Metax/profiles/v017/codegen/mode2_virtregrewriter.mir"
+  }
+]

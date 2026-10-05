@@ -1,0 +1,135 @@
+{
+  "scope": "v013 CTA barrier removal root cause: conditional async-copy completion-wait generation, direct stale-read proof and backend-only workaround",
+  "checks": [
+    {
+      "requirement": "report link ../scripts/conditional_copy.py",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../scripts/conditional_copy.py"
+    },
+    {
+      "requirement": "report link ../scripts/mask_copy.py",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../scripts/mask_copy.py"
+    },
+    {
+      "requirement": "report link ../scripts/mask_individual.py",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../scripts/mask_individual.py"
+    },
+    {
+      "requirement": "report link conditional_b7168_if1_order0_cta0_instructions.txt",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/conditional_b7168_if1_order0_cta0_instructions.txt"
+    },
+    {
+      "requirement": "report link conditional_b7168_if0_order0_cta0_instructions.txt",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/conditional_b7168_if0_order0_cta0_instructions.txt"
+    },
+    {
+      "requirement": "report link mask2_instructions.txt",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/mask2_instructions.txt"
+    },
+    {
+      "requirement": "report link ../meta/matched_mir_commands.json",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../meta/matched_mir_commands.json"
+    },
+    {
+      "requirement": "report link ../raw/correctness_workaround.xml",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../raw/correctness_workaround.xml"
+    },
+    {
+      "requirement": "report link ../raw/ring3_workaround.json",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../raw/ring3_workaround.json"
+    },
+    {
+      "requirement": "report link ../raw/reproduce.json",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../raw/reproduce.json"
+    },
+    {
+      "requirement": "report link ../raw/conditional_copy.json",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../raw/conditional_copy.json"
+    },
+    {
+      "requirement": "report link ../raw/mask_copy.json",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../raw/mask_copy.json"
+    },
+    {
+      "requirement": "report link ../raw/mask_individual.json",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../raw/mask_individual.json"
+    },
+    {
+      "requirement": "report link ../raw/one_warp.json",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../raw/one_warp.json"
+    },
+    {
+      "requirement": "report link instruction_comparison.json",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/instruction_comparison.json"
+    },
+    {
+      "requirement": "report link ../raw/options_results.json",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/../raw/options_results.json"
+    },
+    {
+      "requirement": "report link v017_barrier_root_cause_16g.md",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/analysis/v017_barrier_root_cause_16g.md"
+    },
+    {
+      "requirement": "131 existing cases",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/raw/correctness_workaround.xml"
+    },
+    {
+      "requirement": "original failure reproduced",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/raw/reproduce.json"
+    },
+    {
+      "requirement": "read-before-copy direct sentinel evidence",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/raw/conditional_copy.json"
+    },
+    {
+      "requirement": "second conditional copy sufficient",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/raw/mask_individual.json"
+    },
+    {
+      "requirement": "inter-warp hypothesis excluded",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/raw/one_warp.json"
+    },
+    {
+      "requirement": "only backend wait policy fixes both K2/K8",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/raw/options_results.json"
+    },
+    {
+      "requirement": "three-buffer variants and invalid routes",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/raw/ring3_workaround.json"
+    },
+    {
+      "requirement": "matched compiler instruction evidence",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/profiles/v017/meta/matched_mir_commands.json"
+    },
+    {
+      "requirement": "production unchanged",
+      "passed": true,
+      "evidence": "/data/TileOPs-Metax/tileops/kernels/moe/reduce_fused.py"
+    }
+  ]
+}

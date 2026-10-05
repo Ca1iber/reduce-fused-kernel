@@ -1,0 +1,199 @@
+*** IR Dump After Stack Frame Layout Analysis (stack-frame-layout) ***:
+# Machine code for function reduce_fused_kernel_kernel: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_32bit_4, $streg_32bit_5, $streg_32bit_6
+
+bb.0.entry:
+  successors: %bb.1(0x40000000), %bb.2(0x40000000); %bb.1(50.00%), %bb.2(50.00%)
+  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_32bit_5, $streg_64bits_0, $streg_32bit_6
+  renamable $streg_256bits_8 = LDU_B256 killed renamable $streg_64bits_0, 0 :: (dereferenceable invariant load (s256), align 16, addrspace 4)
+  renamable $streg_32bit_16 = nuw SSHL_B32 1, renamable $streg_32bit_4, implicit-def dead $smsk
+  renamable $streg_32bit_17 = SMOV_B32 0
+  renamable $streg_64bits_0 = SSHL_B64 2, renamable $streg_64bits_16, implicit-def dead $smsk
+  $streg_32bit_2 = SMOV_B32 killed $streg_32bit_5
+  ARRIVE 8192
+  renamable $streg_32bit_12 = SADD_CO_U32 killed renamable $streg_32bit_12, renamable $streg_32bit_0, implicit-def $smsk
+  renamable $streg_32bit_13 = SADDC_CO_U32 killed renamable $streg_32bit_13, renamable $streg_32bit_1, implicit-def dead $smsk, implicit killed $smsk
+  renamable $streg_32bit_0 = SADD_CO_U32 killed renamable $streg_32bit_10, killed renamable $streg_32bit_0, implicit-def $smsk
+  renamable $streg_32bit_1 = SADDC_CO_U32 killed renamable $streg_32bit_11, killed renamable $streg_32bit_1, implicit-def dead $smsk, implicit killed $smsk
+  renamable $streg_64bits_10 = LDU_B64 killed renamable $streg_64bits_0, 0 :: ("metaxgpu-noclobber" load (s64) from %ir.add.ptr12, addrspace 1)
+  renamable $streg_64bits_0 = LDU_B64 killed renamable $streg_64bits_12, 0 :: ("metaxgpu-noclobber" load (s64) from %ir.add.ptr6, addrspace 1)
+  ARRIVE 8192
+  renamable $streg_64bits_6 = CMP_GT_I32 $streg_32bit_10, -1, implicit $xmsk
+  SNOP 3
+  $cmsk = SAND_B64 $xmsk, renamable $streg_64bits_6, implicit-def dead $smsk
+  SNOP 0
+  BRA_CMSKS %bb.2, implicit killed $cmsk
+
+bb.1.entry.if.end_crit_edge:
+; predecessors: %bb.0
+  successors: %bb.3(0x40000000), %bb.4(0x40000000); %bb.3(50.00%), %bb.4(50.00%)
+  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x0000000000000003, $streg_64bits_6, $streg_64bits_10:0x000000000000000F, $streg_64bits_16:0x000000000000000C, $streg_256bits_8:0x000000000000F00F
+  $streg_32bit_3 = SMOV_B32 killed $streg_32bit_17
+  renamable $mtreg_32bit_1 = AND_B32_Const 1023, $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_2 = nuw nsw SHL_B32 2, $mtreg_32bit_1, implicit $xmsk
+  renamable $mtreg_32bit_3 = MOV_B32 0, implicit $xmsk
+  renamable $streg_64bits_12 = nuw nsw SSHL_B64 10, renamable $streg_64bits_2, implicit-def dead $smsk
+  $streg_32bit_16 = SMOV_B32 $streg_32bit_11
+  BRA_XMSKZ %bb.3, implicit $xmsk
+  BRA %bb.4
+
+bb.2:
+; predecessors: %bb.0
+  successors: %bb.3(0x40000000); %bb.3(50.00%)
+  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x0000000000000003, $streg_64bits_6, $streg_64bits_10:0x000000000000000F, $streg_256bits_8:0x000000000000F00F
+  renamable $mtreg_32bit_1 = IMPLICIT_DEF
+  renamable $mtreg_32bit_2 = IMPLICIT_DEF
+  renamable $streg_64bits_12 = IMPLICIT_DEF
+  $streg_32bit_16 = SMOV_B32 $streg_32bit_11
+
+bb.3.if.then:
+; predecessors: %bb.2, %bb.1
+  successors: %bb.4(0x80000000); %bb.4(100.00%)
+  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x0000000000000003, $streg_64bits_6, $streg_64bits_10:0x000000000000000F, $streg_64bits_16:0x0000000000000003, $streg_256bits_8:0x000000000000F00F
+  renamable $streg_32bit_3 = SAND_B32_Const 2147483647, renamable $streg_32bit_10, implicit-def dead $smsk
+  renamable $mtreg_32bit_1 = MOV_B32_Const 14336, implicit $xmsk
+  $mtreg_64bits_2 = SHL_B64 0, $streg_64bits_14, implicit $xmsk
+  renamable $mtreg_64bits_2 = MAD_U32 killed $streg_32bit_3, killed $mtreg_32bit_1, killed $mtreg_64bits_2, 0, implicit-def dead $cmsk, implicit $xmsk
+  renamable $mtreg_32bit_1 = MOV_B32_Const 1024, implicit $xmsk
+  renamable $mtreg_64bits_6 = MAD_U32 $streg_32bit_2, killed $mtreg_32bit_1, killed $mtreg_64bits_2, 0, implicit-def dead $cmsk, implicit $xmsk
+  renamable $mtreg_32bit_1 = AND_B32_Const 1023, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_0 = SHL_B32 3, $mtreg_32bit_1, implicit $xmsk
+  renamable $mtreg_32bit_4 = ADD_U32 0, $mtreg_32bit_0, 0, implicit $xmsk
+  renamable $streg_32bit_18 = RFL_B32 killed renamable $mtreg_32bit_6, implicit $xmsk
+  renamable $streg_32bit_19 = RFL_B32 killed renamable $mtreg_32bit_7, implicit $xmsk
+  renamable $streg_32bit_17 = RFL_B32 killed renamable $mtreg_32bit_4, implicit $xmsk
+  renamable $streg_32bit_5 = SMOV_B32 $md
+  renamable $streg_32bit_3 = SMOV_B32 0
+  renamable $streg_64bits_12 = nuw nsw SSHL_B64 10, renamable $streg_64bits_2, implicit-def dead $smsk
+  renamable $mtreg_32bit_2 = nuw nsw SHL_B32 2, $mtreg_32bit_1, implicit $xmsk
+  $md = SMOV_B32 killed renamable $streg_32bit_17
+  renamable $mtreg_32bit_3 = MOV_B32 0, implicit $xmsk
+  $mtreg_64bits_0 = LDG_B64_SADDR killed renamable $streg_64bits_18, killed renamable $mtreg_32bit_0, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md :: (volatile load (s64) from %ir.arrayidx17, !alias.scope !5, addrspace 3)
+  $md = SMOV_B32 killed renamable $streg_32bit_5
+
+bb.4.if.end:
+; predecessors: %bb.3, %bb.1
+  successors: %bb.5(0x40000000), %bb.6(0x40000000); %bb.5(50.00%), %bb.6(50.00%)
+  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_64bits_10:0x000000000000000F, $streg_64bits_12:0x000000000000000F, $streg_64bits_16:0x0000000000000003, $streg_256bits_8:0x000000000000F00F
+  renamable $mtreg_32bit_0 = MOV_B32_Const 14336, implicit $xmsk
+  $mtreg_64bits_4 = SHL_B64 0, killed $streg_64bits_14, implicit $xmsk
+  renamable $mtreg_64bits_4 = MAD_U32 killed $streg_32bit_16, killed $mtreg_32bit_0, killed $mtreg_64bits_4, 0, implicit-def dead $cmsk, implicit $xmsk
+  renamable $mtreg_32bit_0 = ADD_CO_U32 killed $mtreg_32bit_4, killed $streg_32bit_12, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_4 = MOV_B32 killed $streg_32bit_13, implicit $xmsk
+  renamable $streg_64bits_10 = CMP_GT_I64 killed $streg_64bits_10, -1, implicit $xmsk
+  renamable $mtreg_32bit_5 = ADDC_CO_U32 killed $mtreg_32bit_5, killed $mtreg_32bit_4, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  renamable $mtreg_64bits_6 = SHL_B64 1, $mtreg_64bits_2, implicit $xmsk
+  renamable $mtreg_32bit_4 = ADD_CO_U32 killed $mtreg_32bit_0, killed $mtreg_32bit_6, 0, implicit-def $cmsk, implicit $xmsk
+  renamable $mtreg_32bit_5 = ADDC_CO_U32 killed $mtreg_32bit_5, killed $mtreg_32bit_7, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  SNOP 2
+  $cmsk = SANDN_B64 $xmsk, renamable $streg_64bits_6, implicit-def dead $smsk
+  SNOP 0
+  BRA_CMSKS %bb.6, implicit killed $cmsk
+
+bb.5.if.then34:
+; predecessors: %bb.4
+  successors: %bb.6(0x80000000); %bb.6(100.00%)
+  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $mtreg_64bits_4:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+  ARRIVE 64
+  BARRIER
+
+bb.6.if.then39:
+; predecessors: %bb.4, %bb.5
+  successors: %bb.7(0x50000000), %bb.8(0x30000000); %bb.7(62.50%), %bb.8(37.50%)
+  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $mtreg_64bits_4:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+  $cmsk = SANDN_B64 $xmsk, renamable $streg_64bits_10, implicit-def dead $smsk
+  SNOP 0
+  BRA_CMSKS %bb.8, implicit killed $cmsk
+
+bb.7.if.then42:
+; predecessors: %bb.6
+  successors: %bb.8(0x80000000); %bb.8(100.00%)
+  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $mtreg_64bits_4:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+  renamable $mtreg_32bit_0 = SHL_ADD_U32 1, $mtreg_32bit_2, 0, implicit $xmsk
+  renamable $mtreg_32bit_0 = ADD_U32_Const 1024, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $streg_32bit_5 = SMOV_B32 $md
+  renamable $streg_32bit_12 = RFL_B32 killed renamable $mtreg_32bit_0, implicit $xmsk
+  SNOP 3
+  $md = SMOV_B32 killed renamable $streg_32bit_12
+  SNOP 0
+  $mtreg_64bits_0 = LDG_B64 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md :: (volatile load (s64) from %ir.arrayidx49, !alias.scope !10, addrspace 3)
+  $md = SMOV_B32 killed renamable $streg_32bit_5
+
+bb.8.if.end64:
+; predecessors: %bb.6, %bb.7
+  successors: %bb.9(0x40000000), %bb.10(0x40000000); %bb.9(50.00%), %bb.10(50.00%)
+  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+  $cmsk = SANDN_B64 $xmsk, killed renamable $streg_64bits_6, implicit-def dead $smsk
+  renamable $mtreg_32bit_0 = SHL_ADD_U32 3, killed $mtreg_32bit_1, 0, implicit $xmsk
+  BRA_CMSKS %bb.10, implicit killed $cmsk
+
+bb.9.if.then66:
+; predecessors: %bb.8
+  successors: %bb.11(0x50000000), %bb.12(0x30000000); %bb.11(62.50%), %bb.12(37.50%)
+  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+  SNOP 0
+  renamable $mtreg_64bits_8 = LDS_B64 renamable $mtreg_32bit_0, 0, implicit $xmsk :: (load (s64) from %ir.invariant.gep, addrspace 3)
+  $mtreg_32bit_1 = MOV_B32 killed $streg_32bit_0, implicit $xmsk
+  ARRIVE 4096
+  renamable $mtreg_32bit_5 = AND_B32_Const -65536, $mtreg_32bit_8, implicit $xmsk
+  renamable $mtreg_32bit_5 = contract FMAK_F32 $mtreg_32bit_1, killed $mtreg_32bit_5, float 0.000000e+00, implicit $xmsk, implicit $mode
+  renamable $mtreg_32bit_4 = SHL_B32 16, killed $mtreg_32bit_8, implicit $xmsk
+  renamable $mtreg_32bit_4 = contract FMAK_F32 $mtreg_32bit_1, killed $mtreg_32bit_4, float 0.000000e+00, implicit $xmsk, implicit $mode
+  renamable $mtreg_32bit_7 = AND_B32_Const -65536, $mtreg_32bit_9, implicit $xmsk
+  renamable $mtreg_32bit_6 = SHL_B32 16, killed $mtreg_32bit_9, implicit $xmsk
+  renamable $mtreg_32bit_6 = contract FMAK_F32 $mtreg_32bit_1, killed $mtreg_32bit_6, float 0.000000e+00, implicit $xmsk, implicit $mode
+  renamable $mtreg_32bit_7 = contract FMAK_F32 killed $mtreg_32bit_1, killed $mtreg_32bit_7, float 0.000000e+00, implicit $xmsk, implicit $mode
+  $cmsk = SANDN_B64 $xmsk, killed renamable $streg_64bits_10, implicit-def dead $smsk
+  SNOP 0
+  BRA_CMSKZ %bb.11, implicit killed $cmsk
+  BRA %bb.12
+
+bb.10:
+; predecessors: %bb.8
+  successors: %bb.11(0x50000000), %bb.12(0x30000000); %bb.11(62.50%), %bb.12(37.50%)
+  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000C, $streg_64bits_2:0x000000000000000F, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+  $mtreg_64bits_4 = SHL_B64 0, 0, implicit $xmsk
+  $mtreg_64bits_6 = SHL_B64 0, 0, implicit $xmsk
+  $cmsk = SANDN_B64 $xmsk, killed renamable $streg_64bits_10, implicit-def dead $smsk
+  SNOP 0
+  BRA_CMSKS %bb.12, implicit killed $cmsk
+
+bb.11.if.then34.1:
+; predecessors: %bb.10, %bb.9
+  successors: %bb.12(0x80000000); %bb.12(100.00%)
+  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $mtreg_128bits_4:0x00000000000000FF, $streg_32bit_4, $streg_64bits_0:0x000000000000000C, $streg_64bits_2:0x000000000000000F, $streg_256bits_8:0x000000000000000F
+  ARRIVE 65
+  BARRIER
+  renamable $mtreg_32bit_0 = ADD_I32_Const 1024, killed $mtreg_32bit_0, implicit $xmsk
+  SNOP 1
+  renamable $mtreg_64bits_8 = LDS_B64 killed renamable $mtreg_32bit_0, 0, implicit $xmsk :: (load (s64) from %ir.gep.1, addrspace 3)
+  ARRIVE 4096
+  renamable $mtreg_32bit_0 = AND_B32_Const -65536, $mtreg_32bit_8, implicit $xmsk
+  renamable $mtreg_32bit_5 = contract FMAC_F32 0, $streg_32bit_1, 0, killed $mtreg_32bit_0, killed $mtreg_32bit_5(tied-def 0), 0, implicit $xmsk, implicit $mode
+  renamable $mtreg_32bit_1 = SHL_B32 16, killed $mtreg_32bit_8, implicit $xmsk
+  renamable $mtreg_32bit_4 = contract FMAC_F32 0, $streg_32bit_1, 0, killed $mtreg_32bit_1, killed $mtreg_32bit_4(tied-def 0), 0, implicit $xmsk, implicit $mode
+  renamable $mtreg_32bit_8 = AND_B32_Const -65536, $mtreg_32bit_9, implicit $xmsk
+  renamable $mtreg_32bit_9 = SHL_B32 16, killed $mtreg_32bit_9, implicit $xmsk
+  renamable $mtreg_32bit_6 = contract FMAC_F32 0, $streg_32bit_1, 0, killed $mtreg_32bit_9, killed $mtreg_32bit_6(tied-def 0), 0, implicit $xmsk, implicit $mode
+  renamable $mtreg_32bit_7 = contract FMAC_F32 0, killed $streg_32bit_1, 0, killed $mtreg_32bit_8, killed $mtreg_32bit_7(tied-def 0), 0, implicit $xmsk, implicit $mode
+
+bb.12.if.end121.1:
+; predecessors: %bb.11, %bb.10, %bb.9
+  liveins: $mtreg_64bits_2:0x000000000000000F, $mtreg_128bits_4:0x00000000000000FF, $streg_32bit_4, $streg_64bits_2:0x000000000000000F, $streg_256bits_8:0x000000000000000F
+  renamable $mtreg_32bit_0 = MOV_B32_Const 28672, implicit $xmsk
+  $mtreg_64bits_8 = SHL_B64 0, killed $streg_64bits_8, implicit $xmsk
+  renamable $streg_64bits_0 = nuw nsw SSHL_B64 11, killed renamable $streg_64bits_2, implicit-def dead $smsk
+  renamable $mtreg_64bits_8 = MAD_U32 killed $streg_32bit_4, killed $mtreg_32bit_0, killed $mtreg_64bits_8, 0, implicit-def dead $cmsk, implicit $xmsk
+  renamable $mtreg_32bit_0 = ADD_CO_U32 killed $mtreg_32bit_8, killed $streg_32bit_0, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_1 = MOV_B32 killed $streg_32bit_1, implicit $xmsk
+  renamable $mtreg_32bit_1 = ADDC_CO_U32 killed $mtreg_32bit_9, killed $mtreg_32bit_1, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  renamable $mtreg_64bits_2 = SHL_B64 2, killed $mtreg_64bits_2, implicit $xmsk
+  renamable $mtreg_32bit_0 = ADD_CO_U32 killed $mtreg_32bit_0, killed $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  renamable $mtreg_32bit_1 = ADDC_CO_U32 killed $mtreg_32bit_1, killed $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  SNOP 1
+  STG_B128 killed renamable $mtreg_64bits_0, 0, killed renamable $mtreg_128bits_4, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.add.ptr135, !tbaa !14, addrspace 1)
+  SNOP 2
+  ENDK
+
+# End machine code for function reduce_fused_kernel_kernel.
+

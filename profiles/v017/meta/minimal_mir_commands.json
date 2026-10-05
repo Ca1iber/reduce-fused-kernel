@@ -1,0 +1,62 @@
+[
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=minimal_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if1_order0_cta0.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if1_order0_cta0.mcbin"
+    ],
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=minimal_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if1_order0_cta1.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if1_order0_cta1.mcbin"
+    ],
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=minimal_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.mcbin"
+    ],
+    "exitcode": 0
+  }
+]

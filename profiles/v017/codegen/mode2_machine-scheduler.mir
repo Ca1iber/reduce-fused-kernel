@@ -1,0 +1,362 @@
+In file included from /data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu:1:
+In file included from /opt/tilelang-metax-v0.1.10/src/tl_templates/maca/gemm.h:6:
+In file included from /opt/tilelang-metax-v0.1.10/src/tl_templates/maca/common.h:6:
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:179:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  179 | TL_DEVICE inline void AtomicMax(float *address, float val,
+      |           ^
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:192:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  192 | TL_DEVICE inline float AtomicMaxRet(float *address, float val,
+      |           ^
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:206:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  206 | TL_DEVICE inline void AtomicMin(float *address, float val,
+      |           ^
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:219:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  219 | TL_DEVICE inline float AtomicMinRet(float *address, float val,
+      |           ^
+In file included from /data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu:1:
+In file included from /opt/tilelang-metax-v0.1.10/src/tl_templates/maca/gemm.h:7:
+In file included from /opt/maca/include/cute/tensor.hpp:956:
+In file included from /opt/maca/include/cute/algorithm/gemm.hpp:40:
+In file included from /opt/maca/include/cute/atom/mma_atom.hpp:1060:
+In file included from /opt/maca/include/cute/atom/mma_traits_sm80.hpp:33:
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc0' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:50: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                  ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:14: note: initialize the variable 'cc0' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |              ^
+      |               = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc1' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:55: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                       ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:19: note: initialize the variable 'cc1' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |                   ^
+      |                    = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc2' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:60: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                            ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:24: note: initialize the variable 'cc2' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |                        ^
+      |                         = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc3' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:65: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                                 ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:29: note: initialize the variable 'cc3' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |                             ^
+      |                              = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc0' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:50: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                  ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:14: note: initialize the variable 'cc0' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |              ^
+      |               = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc1' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:55: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                       ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:19: note: initialize the variable 'cc1' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |                   ^
+      |                    = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc2' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:60: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                            ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:24: note: initialize the variable 'cc2' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |                        ^
+      |                         = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc3' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:65: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                                 ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:29: note: initialize the variable 'cc3' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |                             ^
+      |                              = 0.0
+/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu:10:51: warning: set minimum blocks' number is illegal in Maca and the value will be ignored [-Wmaca-min-blocks-per-multiprocessor]
+   10 | extern "C" __global__ void __launch_bounds__(128, 1) reduce_fused_kernel_kernel(float* __restrict__ out, const int* __restrict__ token_topk_to_pos, const float* __restrict__ topk_weights, const bfloat16_t* __restrict__ x, int num_tokens) {
+      |                                                   ^
+13 warnings generated when compiling for xcore1000.
+# *** IR Dump After Machine Instruction Scheduler (machine-scheduler) ***:
+# Machine code for function reduce_fused_kernel_kernel: NoPHIs, TracksLiveness, TiedOpsRewritten, FailsVerification
+Function Live Ins: $mtreg_32bit_0 in %47, $streg_64bits_0 in %48, $streg_32bit_4 in %50, $streg_32bit_5 in %51
+
+0B	bb.0.entry:
+	  successors: %bb.2(0x40000000), %bb.1(0x40000000); %bb.2(50.00%), %bb.1(50.00%)
+	  liveins: $mtreg_32bit_0, $streg_64bits_0, $streg_32bit_4, $streg_32bit_5
+16B	  undef %95.sub_32bit_0:str_64 = COPY $streg_32bit_5
+24B	  %48:str_64(p4) = COPY $streg_64bits_0
+32B	  %50:str_32 = COPY $streg_32bit_4
+64B	  %47:mtr_32(s32) = COPY $mtreg_32bit_0
+80B	  %268:xcore1000_str_256 = LDU_B256 %48:str_64(p4), 0 :: (dereferenceable invariant load (s256), align 16, addrspace 4)
+608B	  undef %63.sub_32bit_0:str_64 = nuw SSHL_B32 1, %50:str_32, implicit-def dead $smsk
+624B	  %63.sub_32bit_1:str_64 = SMOV_B32 0
+672B	  %65:str_64 = SSHL_B64 2, %63:str_64, implicit-def dead $smsk
+752B	  undef %66.sub_32bit_0:str_64 = SADD_CO_U32 %268.sub_32bit_4:xcore1000_str_256, %65.sub_32bit_0:str_64, implicit-def $smsk
+768B	  %66.sub_32bit_1:str_64 = SADDC_CO_U32 %268.sub_32bit_5:xcore1000_str_256, %65.sub_32bit_1:str_64, implicit-def dead $smsk, implicit killed $smsk
+864B	  undef %68.sub_32bit_0:str_64 = SADD_CO_U32 %268.sub_32bit_2:xcore1000_str_256, %65.sub_32bit_0:str_64, implicit-def $smsk
+880B	  %68.sub_32bit_1:str_64 = SADDC_CO_U32 %268.sub_32bit_3:xcore1000_str_256, %65.sub_32bit_1:str_64, implicit-def dead $smsk, implicit killed $smsk
+928B	  %3:str_64 = LDU_B64 %68:str_64, 0 :: ("metaxgpu-noclobber" load (s64) from %ir.add.ptr12, addrspace 1)
+960B	  %5:str_64 = CMP_GT_I32 %3.sub_32bit_0:str_64, -1, implicit $xmsk
+968B	  %67:str_64 = LDU_B64 %66:str_64, 0 :: ("metaxgpu-noclobber" load (s64) from %ir.add.ptr6, addrspace 1)
+976B	  %75:str_64 = SAND_B64 $xmsk, %5:str_64, implicit-def dead $smsk
+992B	  $cmsk = COPY %75:str_64
+1008B	  BRA_CMSKZ %bb.2, implicit $cmsk
+
+1024B	bb.1:
+	; predecessors: %bb.0
+	  successors: %bb.3(0x80000000); %bb.3(100.00%)
+
+1040B	  %282:str_64 = SMOV_B64 -1
+1056B	  %287:mtr_32 = IMPLICIT_DEF
+1072B	  undef %187.sub_32bit_0:mtr_64 = IMPLICIT_DEF
+1120B	  %283:str_64 = IMPLICIT_DEF
+1152B	  BRA %bb.3
+
+1168B	bb.2.entry.if.end_crit_edge:
+	; predecessors: %bb.0
+	  successors: %bb.3(0x80000000); %bb.3(100.00%)
+
+1184B	  %287:mtr_32 = AND_B32 1023, %47:mtr_32(s32), implicit $xmsk
+1200B	  undef %187.sub_32bit_0:mtr_64 = nuw nsw SHL_B32 2, %287:mtr_32, implicit $xmsk
+1232B	  %95.sub_32bit_1:str_64 = COPY %63.sub_32bit_1:str_64
+1248B	  %187.sub_32bit_1:mtr_64 = MOV_B32 0, implicit $xmsk
+1296B	  %283:str_64 = nuw nsw SSHL_B64 10, %95:str_64, implicit-def dead $smsk
+1312B	  %282:str_64 = SMOV_B64 0
+
+1424B	bb.3.Flow:
+	; predecessors: %bb.2, %bb.1
+	  successors: %bb.4(0x40000000), %bb.5(0x40000000); %bb.4(50.00%), %bb.5(50.00%)
+
+1536B	  %83:mtr_32 = CSEL_B32 1, 0, %282:str_64, implicit $xmsk
+1552B	  %192:ssr_64_xt_xprvt = CMP_LG_U32 %83:mtr_32, 1, implicit $xmsk
+1568B	  $cmsk = SAND_B64 $xmsk, %192:ssr_64_xt_xprvt, implicit-def dead $smsk
+1664B	  BRA_CMSKS %bb.5, implicit $cmsk
+1680B	  BRA %bb.4
+
+1696B	bb.4.if.then:
+	; predecessors: %bb.3
+	  successors: %bb.5(0x80000000); %bb.5(100.00%)
+
+1728B	  %89:str_32 = SAND_B32 2147483647, %3.sub_32bit_0:str_64, implicit-def dead $smsk
+1744B	  %92:mtr_32 = MOV_B32 14336, implicit $xmsk
+1760B	  %93:mtr_64 = COPY %268.sub_32bit_6_sub_32bit_7:xcore1000_str_256
+1776B	  %91:mtr_64 = MAD_U32 %89:str_32, %92:mtr_32, %93:mtr_64, 0, implicit-def dead $cmsk, implicit $xmsk
+1792B	  %95.sub_32bit_1:str_64 = SMOV_B32 0
+1840B	  %283:str_64 = nuw nsw SSHL_B64 10, %95:str_64, implicit-def dead $smsk
+1856B	  %99:mtr_32 = MOV_B32 1024, implicit $xmsk
+1872B	  %98:mtr_64 = MAD_U32 %95.sub_32bit_0:str_64, %99:mtr_32, %91:mtr_64, 0, implicit-def dead $cmsk, implicit $xmsk
+1888B	  %287:mtr_32 = AND_B32 1023, %47:mtr_32(s32), implicit $xmsk
+1904B	  undef %187.sub_32bit_0:mtr_64 = nuw nsw SHL_B32 2, %287:mtr_32, implicit $xmsk
+1920B	  %187.sub_32bit_1:mtr_64 = MOV_B32 0, implicit $xmsk
+1968B	  %104:mtr_32 = SHL_B32 3, %287:mtr_32, implicit $xmsk
+1984B	  %106:mtr_32 = ADD_U32 0, %104:mtr_32, 0, implicit $xmsk
+2000B	  undef %195.sub_32bit_0:str_64 = RFL_B32 %98.sub_32bit_0:mtr_64, implicit $xmsk
+2016B	  %195.sub_32bit_1:str_64 = RFL_B32 %98.sub_32bit_1:mtr_64, implicit $xmsk
+2064B	  %229:str_32 = SMOV_B32 $md
+2080B	  %230:str_32 = RFL_B32 %106:mtr_32, implicit $xmsk
+2096B	  $md = SMOV_B32 %230:str_32
+2112B	  dead %107:amtr_64 = LDG_B64_AMTR_SADDR %195:str_64, %104:mtr_32, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md :: (volatile load (s64) from %ir.arrayidx17, !alias.scope !5, addrspace 3)
+2128B	  $md = SMOV_B32 %229:str_32
+
+2224B	bb.5.if.end:
+	; predecessors: %bb.3, %bb.4
+	  successors: %bb.6(0x40000000), %bb.7(0x40000000); %bb.6(50.00%), %bb.7(50.00%)
+
+2384B	  %231:str_32 = SADD_CO_U32 %268.sub_32bit_6:xcore1000_str_256, %283.sub_32bit_0:str_64, implicit-def $smsk
+2400B	  %232:str_32 = SADDC_CO_U32 %268.sub_32bit_7:xcore1000_str_256, %283.sub_32bit_1:str_64, implicit-def dead $smsk, implicit killed $smsk
+2416B	  %115:mtr_64 = SHL_B64 1, %187:mtr_64, implicit $xmsk
+2512B	  %118:mtr_32 = CSEL_B32 1, 0, %5:str_64, implicit $xmsk
+2528B	  %198:ssr_64_xt_xprvt = CMP_LG_U32 %118:mtr_32, 1, implicit $xmsk
+2536B	  undef %28.sub_32bit_0:mtr_64 = ADD_CO_U32 %231:str_32, %115.sub_32bit_0:mtr_64, 0, implicit-def $cmsk, implicit $xmsk
+2544B	  %244:mtr_32 = COPY %232:str_32
+2552B	  %28.sub_32bit_1:mtr_64 = ADDC_CO_U32 %244:mtr_32, %115.sub_32bit_1:mtr_64, 0, implicit-def dead $cmsk, implicit $cmsk, implicit $xmsk
+2560B	  $cmsk = SAND_B64 $xmsk, %198:ssr_64_xt_xprvt, implicit-def dead $smsk
+2568B	  BRA_CMSKS %bb.7, implicit $cmsk
+2576B	  BRA %bb.6
+
+2592B	bb.6.if.then34:
+	; predecessors: %bb.5
+	  successors: %bb.7(0x80000000); %bb.7(100.00%)
+
+2608B	  MetaXGPU_BARRIER_AND_ARRIVE_V2 1, undef %122:amtr_64
+
+2624B	bb.7.if.end37:
+	; predecessors: %bb.5, %bb.6
+	  successors: %bb.8(0x50000000), %bb.9(0x30000000); %bb.8(62.50%), %bb.9(37.50%)
+
+2640B	  ATOMIC_FENCE 5, 3
+2656B	  BARRIER
+2672B	  ATOMIC_FENCE 4, 3
+2688B	  %127:str_64 = CMP_LT_I64 %3:str_64, 0, implicit $xmsk
+2704B	  %129:str_64 = SAND_B64 $xmsk, %127:str_64, implicit-def dead $smsk
+2720B	  $cmsk = COPY %129:str_64
+2736B	  BRA_CMSKS %bb.9, implicit $cmsk
+2752B	  BRA %bb.8
+
+2768B	bb.8.if.then42:
+	; predecessors: %bb.7
+	  successors: %bb.9(0x80000000); %bb.9(100.00%)
+
+2784B	  %111:mtr_32 = SHL_ADD_U32 1, %187.sub_32bit_0:mtr_64, 0, implicit $xmsk
+2800B	  undef %71.sub_32bit_0:str_64 = COPY %3.sub_32bit_1:str_64
+2816B	  %27:mtr_32 = ADD_U32 1024, %111:mtr_32, 0, implicit $xmsk
+2880B	  %133:mtr_32 = MOV_B32 14336, implicit $xmsk
+2896B	  %132:mtr_64 = MAD_U32 %71.sub_32bit_0:str_64, %133:mtr_32, %28:mtr_64, 0, implicit-def dead $cmsk, implicit $xmsk
+2912B	  %246:str_32 = SMOV_B32 $md
+2928B	  %247:str_32 = RFL_B32 %27:mtr_32, implicit $xmsk
+2944B	  $md = SMOV_B32 %247:str_32
+2960B	  dead %134:amtr_64 = LDG_B64_AMTR %132:mtr_64, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md :: (volatile load (s64) from %ir.arrayidx49, !alias.scope !10, addrspace 3)
+2976B	  $md = SMOV_B32 %246:str_32
+
+2992B	bb.9.if.end64:
+	; predecessors: %bb.7, %bb.8
+	  successors: %bb.11(0x40000000), %bb.10(0x40000000); %bb.11(50.00%), %bb.10(50.00%)
+
+3040B	  %199:ssr_64_xt_xprvt = CMP_LG_U32 %118:mtr_32, 1, implicit $xmsk
+3048B	  %30:str_64 = CMP_GT_I64 %3:str_64, -1, implicit $xmsk
+3056B	  $cmsk = SAND_B64 $xmsk, %199:ssr_64_xt_xprvt, implicit-def dead $smsk
+3064B	  %29:mtr_32 = SHL_ADD_U32 3, %287:mtr_32, 0, implicit $xmsk
+3072B	  BRA_CMSKZ %bb.11, implicit $cmsk
+
+3088B	bb.10:
+	; predecessors: %bb.9
+	  successors: %bb.12(0x80000000); %bb.12(100.00%)
+
+3104B	  undef %214.sub_32bit_0:mtr_128 = MOV_B32 0, implicit $xmsk
+3136B	  %214.sub_32bit_1:mtr_128 = COPY %214.sub_32bit_0:mtr_128
+3152B	  %214.sub_32bit_2:mtr_128 = COPY %214.sub_32bit_0:mtr_128
+3168B	  %214.sub_32bit_3:mtr_128 = COPY %214.sub_32bit_0:mtr_128
+3184B	  BRA %bb.12
+
+3200B	bb.11.if.then66:
+	; predecessors: %bb.9
+	  successors: %bb.12(0x80000000); %bb.12(100.00%)
+
+3232B	  %140:mtr_64 = LDS_B64 %29:mtr_32, 0, implicit $xmsk :: (load (s64) from %ir.invariant.gep172, addrspace 3)
+3344B	  %149:mtr_32 = COPY %67.sub_32bit_0:str_64
+3348B	  %144:mtr_32 = AND_B32 -65536, %140.sub_32bit_0:mtr_64, implicit $xmsk
+3352B	  %146:mtr_32 = SHL_B32 16, %140.sub_32bit_0:mtr_64, implicit $xmsk
+3360B	  %147:mtr_32 = AND_B32 -65536, %140.sub_32bit_1:mtr_64, implicit $xmsk
+3368B	  %148:mtr_32 = SHL_B32 16, %140.sub_32bit_1:mtr_64, implicit $xmsk
+3376B	  undef %214.sub_32bit_0:mtr_128 = contract FMAK_F32 %149:mtr_32, %146:mtr_32, float 0.000000e+00, implicit $xmsk, implicit $mode
+3384B	  %214.sub_32bit_1:mtr_128 = contract FMAK_F32 %149:mtr_32, %144:mtr_32, float 0.000000e+00, implicit $xmsk, implicit $mode
+3392B	  %214.sub_32bit_2:mtr_128 = contract FMAK_F32 %149:mtr_32, %148:mtr_32, float 0.000000e+00, implicit $xmsk, implicit $mode
+3408B	  %214.sub_32bit_3:mtr_128 = contract FMAK_F32 %149:mtr_32, %147:mtr_32, float 0.000000e+00, implicit $xmsk, implicit $mode
+
+3488B	bb.12.if.end121:
+	; predecessors: %bb.11, %bb.10
+	  successors: %bb.13(0x50000000), %bb.14(0x30000000); %bb.13(62.50%), %bb.14(37.50%)
+
+3568B	  %153:mtr_32 = CSEL_B32 1, 0, %30:str_64, implicit $xmsk
+3584B	  %204:ssr_64_xt_xprvt = CMP_LG_U32 %153:mtr_32, 1, implicit $xmsk
+3600B	  $cmsk = SAND_B64 $xmsk, %204:ssr_64_xt_xprvt, implicit-def dead $smsk
+3616B	  BRA_CMSKS %bb.14, implicit $cmsk
+3632B	  BRA %bb.13
+
+3648B	bb.13.if.then34.1:
+	; predecessors: %bb.12
+	  successors: %bb.14(0x80000000); %bb.14(100.00%)
+
+3664B	  MetaXGPU_BARRIER_AND_ARRIVE_V2 1, undef %158:amtr_64
+
+3680B	bb.14.if.end37.1:
+	; predecessors: %bb.12, %bb.13
+	  successors: %bb.15(0x50000000), %bb.17(0x30000000); %bb.15(62.50%), %bb.17(37.50%)
+
+3696B	  ATOMIC_FENCE 5, 3
+3712B	  BARRIER
+3728B	  ATOMIC_FENCE 4, 3
+3744B	  %205:ssr_64_xt_xprvt = CMP_LG_U32 %153:mtr_32, 1, implicit $xmsk
+3760B	  $cmsk = SAND_B64 $xmsk, %205:ssr_64_xt_xprvt, implicit-def dead $smsk
+3776B	  BRA_CMSKZ %bb.15, implicit $cmsk
+
+3792B	bb.17:
+	; predecessors: %bb.14
+	  successors: %bb.16(0x80000000); %bb.16(100.00%)
+
+3872B	  BRA %bb.16
+
+3888B	bb.15.if.then66.1:
+	; predecessors: %bb.14
+	  successors: %bb.16(0x80000000); %bb.16(100.00%)
+
+3920B	  %165:mtr_32 = ADD_I32 1024, %29:mtr_32, 0, implicit $xmsk
+3936B	  %164:mtr_64 = LDS_B64 %165:mtr_32, 0, implicit $xmsk :: (load (s64) from %ir.gep.1, addrspace 3)
+3984B	  %169:mtr_32 = AND_B32 -65536, %164.sub_32bit_0:mtr_64, implicit $xmsk
+4000B	  %171:mtr_32 = SHL_B32 16, %164.sub_32bit_0:mtr_64, implicit $xmsk
+4016B	  %172:mtr_32 = AND_B32 -65536, %164.sub_32bit_1:mtr_64, implicit $xmsk
+4032B	  %173:mtr_32 = SHL_B32 16, %164.sub_32bit_1:mtr_64, implicit $xmsk
+4064B	  %214.sub_32bit_0:mtr_128 = contract FMAC_F32 0, %67.sub_32bit_1:str_64, 0, %171:mtr_32, %214.sub_32bit_0:mtr_128(tied-def 0), 0, implicit $xmsk, implicit $mode
+4096B	  %214.sub_32bit_1:mtr_128 = contract FMAC_F32 0, %67.sub_32bit_1:str_64, 0, %169:mtr_32, %214.sub_32bit_1:mtr_128(tied-def 0), 0, implicit $xmsk, implicit $mode
+4128B	  %214.sub_32bit_2:mtr_128 = contract FMAC_F32 0, %67.sub_32bit_1:str_64, 0, %173:mtr_32, %214.sub_32bit_2:mtr_128(tied-def 0), 0, implicit $xmsk, implicit $mode
+4160B	  %214.sub_32bit_3:mtr_128 = contract FMAC_F32 0, %67.sub_32bit_1:str_64, 0, %172:mtr_32, %214.sub_32bit_3:mtr_128(tied-def 0), 0, implicit $xmsk, implicit $mode
+
+4240B	bb.16.if.end121.1:
+	; predecessors: %bb.15, %bb.17
+
+4304B	  %176:mtr_32 = MOV_B32 28672, implicit $xmsk
+4320B	  %177:mtr_64 = COPY %268.sub_32bit_0_sub_32bit_1:xcore1000_str_256
+4336B	  %175:mtr_64 = MAD_U32 %50:str_32, %176:mtr_32, %177:mtr_64, 0, implicit-def dead $cmsk, implicit $xmsk
+4352B	  %179:str_64 = nuw nsw SSHL_B64 11, %95:str_64, implicit-def dead $smsk
+4432B	  %207:mtr_32 = ADD_CO_U32 %175.sub_32bit_0:mtr_64, %179.sub_32bit_0:str_64, 0, implicit-def $cmsk, implicit $xmsk
+4448B	  %213:mtr_32 = COPY %179.sub_32bit_1:str_64
+4464B	  %208:mtr_32 = ADDC_CO_U32 %175.sub_32bit_1:mtr_64, %213:mtr_32, 0, implicit-def dead $cmsk, implicit $cmsk, implicit $xmsk
+4480B	  %183:mtr_64 = SHL_B64 2, %187:mtr_64, implicit $xmsk
+4528B	  undef %184.sub_32bit_0:mtr_64 = ADD_CO_U32 %207:mtr_32, %183.sub_32bit_0:mtr_64, 0, implicit-def $cmsk, implicit $xmsk
+4544B	  %184.sub_32bit_1:mtr_64 = ADDC_CO_U32 %208:mtr_32, %183.sub_32bit_1:mtr_64, 0, implicit-def dead $cmsk, implicit $cmsk, implicit $xmsk
+4672B	  STG_B128 %184:mtr_64, 0, %214:mtr_128, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.add.ptr135, !tbaa !14, addrspace 1)
+4688B	  ENDK
+
+# End machine code for function reduce_fused_kernel_kernel.
+

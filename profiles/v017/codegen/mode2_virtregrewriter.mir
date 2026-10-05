@@ -1,0 +1,351 @@
+In file included from /data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu:1:
+In file included from /opt/tilelang-metax-v0.1.10/src/tl_templates/maca/gemm.h:6:
+In file included from /opt/tilelang-metax-v0.1.10/src/tl_templates/maca/common.h:6:
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:179:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  179 | TL_DEVICE inline void AtomicMax(float *address, float val,
+      |           ^
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:192:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  192 | TL_DEVICE inline float AtomicMaxRet(float *address, float val,
+      |           ^
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:206:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  206 | TL_DEVICE inline void AtomicMin(float *address, float val,
+      |           ^
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:219:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  219 | TL_DEVICE inline float AtomicMinRet(float *address, float val,
+      |           ^
+In file included from /data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu:1:
+In file included from /opt/tilelang-metax-v0.1.10/src/tl_templates/maca/gemm.h:7:
+In file included from /opt/maca/include/cute/tensor.hpp:956:
+In file included from /opt/maca/include/cute/algorithm/gemm.hpp:40:
+In file included from /opt/maca/include/cute/atom/mma_atom.hpp:1060:
+In file included from /opt/maca/include/cute/atom/mma_traits_sm80.hpp:33:
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc0' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:50: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                  ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:14: note: initialize the variable 'cc0' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |              ^
+      |               = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc1' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:55: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                       ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:19: note: initialize the variable 'cc1' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |                   ^
+      |                    = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc2' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:60: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                            ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:24: note: initialize the variable 'cc2' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |                        ^
+      |                         = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc3' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:65: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                                 ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:29: note: initialize the variable 'cc3' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |                             ^
+      |                              = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc0' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:50: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                  ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:14: note: initialize the variable 'cc0' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |              ^
+      |               = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc1' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:55: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                       ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:19: note: initialize the variable 'cc1' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |                   ^
+      |                    = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc2' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:60: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                            ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:24: note: initialize the variable 'cc2' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |                        ^
+      |                         = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc3' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:65: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                                 ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:29: note: initialize the variable 'cc3' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |                             ^
+      |                              = 0.0
+/data/TileOPs-Metax/profiles/v017/codegen/k2_sf0_s2_mode2.cu:10:51: warning: set minimum blocks' number is illegal in Maca and the value will be ignored [-Wmaca-min-blocks-per-multiprocessor]
+   10 | extern "C" __global__ void __launch_bounds__(128, 1) reduce_fused_kernel_kernel(float* __restrict__ out, const int* __restrict__ token_topk_to_pos, const float* __restrict__ topk_weights, const bfloat16_t* __restrict__ x, int num_tokens) {
+      |                                                   ^
+13 warnings generated when compiling for xcore1000.
+# *** IR Dump After Virtual Register Rewriter (virtregrewriter) ***:
+# Machine code for function reduce_fused_kernel_kernel: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_32bit_4, $streg_32bit_5
+
+0B	bb.0.entry:
+	  successors: %bb.2(0x40000000), %bb.1(0x40000000); %bb.2(50.00%), %bb.1(50.00%)
+	  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_32bit_5, $streg_64bits_0
+16B	  renamable $streg_32bit_2 = COPY $streg_32bit_5
+96B	  renamable $streg_256bits_8 = LDU_B256 killed renamable $streg_64bits_0, 0 :: (dereferenceable invariant load (s256), align 16, addrspace 4)
+624B	  renamable $streg_32bit_16 = nuw SSHL_B32 1, renamable $streg_32bit_4, implicit-def dead $smsk
+640B	  renamable $streg_32bit_17 = SMOV_B32 0
+688B	  renamable $streg_64bits_0 = SSHL_B64 2, renamable $streg_64bits_16, implicit-def dead $smsk
+768B	  renamable $streg_32bit_12 = SADD_CO_U32 renamable $streg_32bit_12, renamable $streg_32bit_0, implicit-def $smsk
+784B	  renamable $streg_32bit_13 = SADDC_CO_U32 renamable $streg_32bit_13, renamable $streg_32bit_1, implicit-def dead $smsk, implicit killed $smsk
+880B	  renamable $streg_32bit_0 = SADD_CO_U32 renamable $streg_32bit_10, renamable $streg_32bit_0, implicit-def $smsk
+896B	  renamable $streg_32bit_1 = SADDC_CO_U32 renamable $streg_32bit_11, killed renamable $streg_32bit_1, implicit-def dead $smsk, implicit killed $smsk
+944B	  renamable $streg_64bits_6 = LDU_B64 killed renamable $streg_64bits_0, 0 :: ("metaxgpu-noclobber" load (s64) from %ir.add.ptr12, addrspace 1)
+976B	  renamable $streg_64bits_10 = CMP_GT_I32 $streg_32bit_6, -1, implicit $xmsk
+992B	  renamable $streg_64bits_0 = LDU_B64 killed renamable $streg_64bits_12, 0 :: ("metaxgpu-noclobber" load (s64) from %ir.add.ptr6, addrspace 1)
+1008B	  renamable $streg_64bits_12 = SAND_B64 $xmsk, renamable $streg_64bits_10, implicit-def dead $smsk
+1024B	  $cmsk = COPY killed renamable $streg_64bits_12
+1040B	  BRA_CMSKZ %bb.2, implicit $cmsk
+
+1056B	bb.1:
+	; predecessors: %bb.0
+	  successors: %bb.3(0x80000000); %bb.3(100.00%)
+	  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x0000000000000003, $streg_64bits_6:0x000000000000000F, $streg_64bits_10, $streg_256bits_8:0x000000000000F00F
+1072B	  renamable $streg_64bits_16 = SMOV_B64 -1
+1088B	  renamable $mtreg_32bit_1 = IMPLICIT_DEF
+1104B	  renamable $mtreg_32bit_2 = IMPLICIT_DEF
+1152B	  renamable $streg_64bits_12 = IMPLICIT_DEF
+1184B	  BRA %bb.3
+
+1200B	bb.2.entry.if.end_crit_edge:
+	; predecessors: %bb.0
+	  successors: %bb.3(0x80000000); %bb.3(100.00%)
+	  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x0000000000000003, $streg_64bits_6:0x000000000000000F, $streg_64bits_10, $streg_64bits_16:0x000000000000000C, $streg_256bits_8:0x000000000000F00F
+1216B	  renamable $mtreg_32bit_1 = AND_B32 1023, $mtreg_32bit_0, implicit $xmsk
+1232B	  renamable $mtreg_32bit_2 = nuw nsw SHL_B32 2, $mtreg_32bit_1, implicit $xmsk
+1264B	  renamable $streg_32bit_3 = COPY killed renamable $streg_32bit_17
+1280B	  renamable $mtreg_32bit_3 = MOV_B32 0, implicit $xmsk
+1328B	  renamable $streg_64bits_12 = nuw nsw SSHL_B64 10, renamable $streg_64bits_2, implicit-def dead $smsk
+1344B	  renamable $streg_64bits_16 = SMOV_B64 0
+
+1456B	bb.3.Flow:
+	; predecessors: %bb.2, %bb.1
+	  successors: %bb.4(0x40000000), %bb.5(0x40000000); %bb.4(50.00%), %bb.5(50.00%)
+	  liveins: $mtreg_32bit_0, $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6:0x000000000000000F, $streg_64bits_10, $streg_64bits_12:0x000000000000000F, $streg_64bits_16, $streg_256bits_8:0x000000000000F00F
+1600B	  $cmsk = SANDN_B64 $xmsk, killed renamable $streg_64bits_16, implicit-def dead $smsk
+1712B	  BRA_CMSKS %bb.5, implicit $cmsk
+1728B	  BRA %bb.4
+
+1744B	bb.4.if.then:
+	; predecessors: %bb.3
+	  successors: %bb.5(0x80000000); %bb.5(100.00%)
+	  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x0000000000000003, $streg_64bits_6:0x000000000000000F, $streg_64bits_10, $streg_256bits_8:0x000000000000F00F
+1776B	  renamable $streg_32bit_3 = SAND_B32 2147483647, renamable $streg_32bit_6, implicit-def dead $smsk
+1792B	  renamable $mtreg_32bit_1 = MOV_B32 14336, implicit $xmsk
+1808B	  renamable $mtreg_64bits_2 = COPY renamable $streg_64bits_14
+1824B	  renamable $mtreg_64bits_2 = MAD_U32 killed $streg_32bit_3, killed $mtreg_32bit_1, killed $mtreg_64bits_2, 0, implicit-def dead $cmsk, implicit $xmsk
+1840B	  renamable $streg_32bit_3 = SMOV_B32 0
+1888B	  renamable $streg_64bits_12 = nuw nsw SSHL_B64 10, renamable $streg_64bits_2, implicit-def dead $smsk
+1904B	  renamable $mtreg_32bit_1 = MOV_B32 1024, implicit $xmsk
+1920B	  renamable $mtreg_64bits_6 = MAD_U32 $streg_32bit_2, killed $mtreg_32bit_1, killed $mtreg_64bits_2, 0, implicit-def dead $cmsk, implicit $xmsk
+1936B	  renamable $mtreg_32bit_1 = AND_B32 1023, killed $mtreg_32bit_0, implicit $xmsk
+1952B	  renamable $mtreg_32bit_2 = nuw nsw SHL_B32 2, $mtreg_32bit_1, implicit $xmsk
+1968B	  renamable $mtreg_32bit_3 = MOV_B32 0, implicit $xmsk
+2016B	  renamable $mtreg_32bit_0 = SHL_B32 3, $mtreg_32bit_1, implicit $xmsk
+2032B	  renamable $mtreg_32bit_4 = ADD_U32 0, $mtreg_32bit_0, 0, implicit $xmsk
+2048B	  renamable $streg_32bit_18 = RFL_B32 renamable $mtreg_32bit_6, implicit $xmsk
+2064B	  renamable $streg_32bit_19 = RFL_B32 killed renamable $mtreg_32bit_7, implicit $xmsk
+2112B	  renamable $streg_32bit_5 = SMOV_B32 $md
+2128B	  renamable $streg_32bit_16 = RFL_B32 killed renamable $mtreg_32bit_4, implicit $xmsk
+2144B	  $md = SMOV_B32 killed renamable $streg_32bit_16
+2160B	  dead renamable $amtreg_64bits_0 = LDG_B64_AMTR_SADDR killed renamable $streg_64bits_18, killed renamable $mtreg_32bit_0, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md :: (volatile load (s64) from %ir.arrayidx17, !alias.scope !5, addrspace 3)
+2176B	  $md = SMOV_B32 killed renamable $streg_32bit_5
+
+2272B	bb.5.if.end:
+	; predecessors: %bb.3, %bb.4
+	  successors: %bb.6(0x40000000), %bb.7(0x40000000); %bb.6(50.00%), %bb.7(50.00%)
+	  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6:0x000000000000000F, $streg_64bits_10, $streg_64bits_12:0x000000000000000F, $streg_256bits_8:0x000000000000F00F
+2432B	  renamable $streg_32bit_5 = SADD_CO_U32 renamable $streg_32bit_14, renamable $streg_32bit_12, implicit-def $smsk
+2448B	  renamable $streg_32bit_12 = SADDC_CO_U32 renamable $streg_32bit_15, killed renamable $streg_32bit_13, implicit-def dead $smsk, implicit killed $smsk
+2464B	  renamable $mtreg_64bits_4 = SHL_B64 1, $mtreg_64bits_2, implicit $xmsk
+2592B	  renamable $mtreg_32bit_4 = ADD_CO_U32 killed $streg_32bit_5, $mtreg_32bit_4, 0, implicit-def $cmsk, implicit $xmsk
+2608B	  renamable $mtreg_32bit_0 = COPY killed renamable $streg_32bit_12
+2624B	  renamable $mtreg_32bit_5 = ADDC_CO_U32 killed $mtreg_32bit_0, killed $mtreg_32bit_5, 0, implicit-def dead $cmsk, implicit $cmsk, implicit $xmsk
+2640B	  $cmsk = SANDN_B64 $xmsk, renamable $streg_64bits_10, implicit-def dead $smsk
+2672B	  BRA_CMSKS %bb.7, implicit $cmsk
+2688B	  BRA %bb.6
+
+2704B	bb.6.if.then34:
+	; predecessors: %bb.5
+	  successors: %bb.7(0x80000000); %bb.7(100.00%)
+	  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $mtreg_64bits_4:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6:0x000000000000000F, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+2720B	  MetaXGPU_BARRIER_AND_ARRIVE_V2 1, undef renamable $amtreg_64bits_0
+
+2736B	bb.7.if.end37:
+	; predecessors: %bb.5, %bb.6
+	  successors: %bb.8(0x50000000), %bb.9(0x30000000); %bb.8(62.50%), %bb.9(37.50%)
+	  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $mtreg_64bits_4:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6:0x000000000000000F, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+2752B	  ATOMIC_FENCE 5, 3
+2768B	  BARRIER
+2784B	  ATOMIC_FENCE 4, 3
+2800B	  renamable $streg_64bits_12 = CMP_LT_I64 $streg_64bits_6, 0, implicit $xmsk
+2816B	  renamable $streg_64bits_12 = SAND_B64 $xmsk, killed renamable $streg_64bits_12, implicit-def dead $smsk
+2832B	  $cmsk = COPY killed renamable $streg_64bits_12
+2848B	  BRA_CMSKS %bb.9, implicit $cmsk
+2864B	  BRA %bb.8
+
+2880B	bb.8.if.then42:
+	; predecessors: %bb.7
+	  successors: %bb.9(0x80000000); %bb.9(100.00%)
+	  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $mtreg_64bits_4:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6:0x000000000000000F, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+2896B	  renamable $mtreg_32bit_0 = SHL_ADD_U32 1, $mtreg_32bit_2, 0, implicit $xmsk
+2912B	  renamable $streg_32bit_12 = COPY renamable $streg_32bit_7
+2928B	  renamable $mtreg_32bit_0 = ADD_U32 1024, killed $mtreg_32bit_0, 0, implicit $xmsk
+2992B	  renamable $mtreg_32bit_6 = MOV_B32 14336, implicit $xmsk
+3008B	  renamable $mtreg_64bits_4 = MAD_U32 killed $streg_32bit_12, killed $mtreg_32bit_6, killed $mtreg_64bits_4, 0, implicit-def dead $cmsk, implicit $xmsk
+3024B	  renamable $streg_32bit_5 = SMOV_B32 $md
+3040B	  renamable $streg_32bit_12 = RFL_B32 killed renamable $mtreg_32bit_0, implicit $xmsk
+3056B	  $md = SMOV_B32 killed renamable $streg_32bit_12
+3072B	  dead renamable $amtreg_64bits_0 = LDG_B64_AMTR killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md :: (volatile load (s64) from %ir.arrayidx49, !alias.scope !10, addrspace 3)
+3088B	  $md = SMOV_B32 killed renamable $streg_32bit_5
+
+3104B	bb.9.if.end64:
+	; predecessors: %bb.7, %bb.8
+	  successors: %bb.11(0x40000000), %bb.10(0x40000000); %bb.11(50.00%), %bb.10(50.00%)
+	  liveins: $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6:0x000000000000000F, $streg_64bits_10, $streg_256bits_8:0x000000000000000F
+3168B	  renamable $streg_64bits_6 = CMP_GT_I64 killed $streg_64bits_6, -1, implicit $xmsk
+3184B	  $cmsk = SANDN_B64 $xmsk, killed renamable $streg_64bits_10, implicit-def dead $smsk
+3216B	  renamable $mtreg_32bit_0 = SHL_ADD_U32 3, killed $mtreg_32bit_1, 0, implicit $xmsk
+3232B	  BRA_CMSKZ %bb.11, implicit $cmsk
+
+3248B	bb.10:
+	; predecessors: %bb.9
+	  successors: %bb.12(0x80000000); %bb.12(100.00%)
+	  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000C, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_256bits_8:0x000000000000000F
+3264B	  renamable $mtreg_32bit_4 = MOV_B32 0, implicit $xmsk
+3296B	  renamable $mtreg_32bit_5 = COPY renamable $mtreg_32bit_4
+3312B	  renamable $mtreg_32bit_6 = COPY renamable $mtreg_32bit_4
+3328B	  renamable $mtreg_32bit_7 = COPY renamable $mtreg_32bit_4
+3344B	  BRA %bb.12
+
+3360B	bb.11.if.then66:
+	; predecessors: %bb.9
+	  successors: %bb.12(0x80000000); %bb.12(100.00%)
+	  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_256bits_8:0x000000000000000F
+3392B	  renamable $mtreg_64bits_8 = LDS_B64 renamable $mtreg_32bit_0, 0, implicit $xmsk :: (load (s64) from %ir.invariant.gep172, addrspace 3)
+3504B	  renamable $mtreg_32bit_1 = COPY renamable $streg_32bit_0
+3520B	  renamable $mtreg_32bit_5 = AND_B32 -65536, $mtreg_32bit_8, implicit $xmsk
+3536B	  renamable $mtreg_32bit_4 = SHL_B32 16, $mtreg_32bit_8, implicit $xmsk
+3552B	  renamable $mtreg_32bit_7 = AND_B32 -65536, $mtreg_32bit_9, implicit $xmsk
+3568B	  renamable $mtreg_32bit_6 = SHL_B32 16, killed $mtreg_32bit_9, implicit $xmsk
+3584B	  renamable $mtreg_32bit_4 = contract FMAK_F32 $mtreg_32bit_1, killed $mtreg_32bit_4, float 0.000000e+00, implicit $xmsk, implicit $mode
+3600B	  renamable $mtreg_32bit_5 = contract FMAK_F32 $mtreg_32bit_1, killed $mtreg_32bit_5, float 0.000000e+00, implicit $xmsk, implicit $mode
+3616B	  renamable $mtreg_32bit_6 = contract FMAK_F32 $mtreg_32bit_1, killed $mtreg_32bit_6, float 0.000000e+00, implicit $xmsk, implicit $mode
+3632B	  renamable $mtreg_32bit_7 = contract FMAK_F32 killed $mtreg_32bit_1, killed $mtreg_32bit_7, float 0.000000e+00, implicit $xmsk, implicit $mode
+
+3712B	bb.12.if.end121:
+	; predecessors: %bb.11, %bb.10
+	  successors: %bb.13(0x50000000), %bb.14(0x30000000); %bb.13(62.50%), %bb.14(37.50%)
+	  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $mtreg_128bits_4:0x00000000000000FF, $streg_32bit_4, $streg_64bits_0:0x000000000000000C, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_256bits_8:0x000000000000000F
+3824B	  $cmsk = SANDN_B64 $xmsk, renamable $streg_64bits_6, implicit-def dead $smsk
+3856B	  BRA_CMSKS %bb.14, implicit $cmsk
+3872B	  BRA %bb.13
+
+3888B	bb.13.if.then34.1:
+	; predecessors: %bb.12
+	  successors: %bb.14(0x80000000); %bb.14(100.00%)
+	  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $mtreg_128bits_4:0x00000000000000FF, $streg_32bit_4, $streg_64bits_0:0x000000000000000C, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_256bits_8:0x000000000000000F
+3904B	  MetaXGPU_BARRIER_AND_ARRIVE_V2 1, undef renamable $amtreg_64bits_0
+
+3920B	bb.14.if.end37.1:
+	; predecessors: %bb.12, %bb.13
+	  successors: %bb.15(0x50000000), %bb.17(0x30000000); %bb.15(62.50%), %bb.17(37.50%)
+	  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $mtreg_128bits_4:0x00000000000000FF, $streg_32bit_4, $streg_64bits_0:0x000000000000000C, $streg_64bits_2:0x000000000000000F, $streg_64bits_6, $streg_256bits_8:0x000000000000000F
+3936B	  ATOMIC_FENCE 5, 3
+3952B	  BARRIER
+3968B	  ATOMIC_FENCE 4, 3
+4000B	  $cmsk = SANDN_B64 $xmsk, killed renamable $streg_64bits_6, implicit-def dead $smsk
+4032B	  BRA_CMSKZ %bb.15, implicit $cmsk
+
+4048B	bb.17:
+	; predecessors: %bb.14
+	  successors: %bb.16(0x80000000); %bb.16(100.00%)
+	  liveins: $mtreg_64bits_2:0x000000000000000F, $mtreg_128bits_4:0x00000000000000FF, $streg_32bit_4, $streg_64bits_2:0x000000000000000F, $streg_256bits_8:0x000000000000000F
+4128B	  BRA %bb.16
+
+4144B	bb.15.if.then66.1:
+	; predecessors: %bb.14
+	  successors: %bb.16(0x80000000); %bb.16(100.00%)
+	  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $mtreg_128bits_4:0x00000000000000FF, $streg_32bit_4, $streg_64bits_0:0x000000000000000C, $streg_64bits_2:0x000000000000000F, $streg_256bits_8:0x000000000000000F
+4176B	  renamable $mtreg_32bit_0 = ADD_I32 1024, killed $mtreg_32bit_0, 0, implicit $xmsk
+4192B	  renamable $mtreg_64bits_8 = LDS_B64 killed renamable $mtreg_32bit_0, 0, implicit $xmsk :: (load (s64) from %ir.gep.1, addrspace 3)
+4240B	  renamable $mtreg_32bit_0 = AND_B32 -65536, $mtreg_32bit_8, implicit $xmsk
+4256B	  renamable $mtreg_32bit_1 = SHL_B32 16, $mtreg_32bit_8, implicit $xmsk
+4272B	  renamable $mtreg_32bit_8 = AND_B32 -65536, $mtreg_32bit_9, implicit $xmsk
+4288B	  renamable $mtreg_32bit_9 = SHL_B32 16, killed $mtreg_32bit_9, implicit $xmsk
+4320B	  renamable $mtreg_32bit_4 = contract FMAC_F32 0, $streg_32bit_1, 0, killed $mtreg_32bit_1, $mtreg_32bit_4(tied-def 0), 0, implicit $xmsk, implicit $mode
+4352B	  renamable $mtreg_32bit_5 = contract FMAC_F32 0, $streg_32bit_1, 0, killed $mtreg_32bit_0, $mtreg_32bit_5(tied-def 0), 0, implicit $xmsk, implicit $mode
+4384B	  renamable $mtreg_32bit_6 = contract FMAC_F32 0, $streg_32bit_1, 0, killed $mtreg_32bit_9, $mtreg_32bit_6(tied-def 0), 0, implicit $xmsk, implicit $mode
+4416B	  renamable $mtreg_32bit_7 = contract FMAC_F32 0, killed $streg_32bit_1, 0, killed $mtreg_32bit_8, $mtreg_32bit_7(tied-def 0), 0, implicit $xmsk, implicit $mode
+
+4496B	bb.16.if.end121.1:
+	; predecessors: %bb.15, %bb.17
+	  liveins: $mtreg_64bits_2:0x000000000000000F, $mtreg_128bits_4:0x00000000000000FF, $streg_32bit_4, $streg_64bits_2:0x000000000000000F, $streg_256bits_8:0x000000000000000F
+4560B	  renamable $mtreg_32bit_0 = MOV_B32 28672, implicit $xmsk
+4576B	  renamable $mtreg_64bits_8 = COPY killed renamable $streg_64bits_8
+4592B	  renamable $mtreg_64bits_8 = MAD_U32 killed $streg_32bit_4, killed $mtreg_32bit_0, killed $mtreg_64bits_8, 0, implicit-def dead $cmsk, implicit $xmsk
+4608B	  renamable $streg_64bits_0 = nuw nsw SSHL_B64 11, killed renamable $streg_64bits_2, implicit-def dead $smsk
+4688B	  renamable $mtreg_32bit_0 = ADD_CO_U32 $mtreg_32bit_8, $streg_32bit_0, 0, implicit-def $cmsk, implicit $xmsk
+4704B	  renamable $mtreg_32bit_1 = COPY killed renamable $streg_32bit_1
+4720B	  renamable $mtreg_32bit_1 = ADDC_CO_U32 killed $mtreg_32bit_9, killed $mtreg_32bit_1, 0, implicit-def dead $cmsk, implicit $cmsk, implicit $xmsk
+4736B	  renamable $mtreg_64bits_2 = SHL_B64 2, killed $mtreg_64bits_2, implicit $xmsk
+4784B	  renamable $mtreg_32bit_0 = ADD_CO_U32 killed $mtreg_32bit_0, $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+4800B	  renamable $mtreg_32bit_1 = ADDC_CO_U32 killed $mtreg_32bit_1, killed $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit $cmsk, implicit $xmsk
+4928B	  STG_B128 killed renamable $mtreg_64bits_0, 0, killed renamable $mtreg_128bits_4, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.add.ptr135, !tbaa !14, addrspace 1)
+4944B	  ENDK
+
+# End machine code for function reduce_fused_kernel_kernel.
+

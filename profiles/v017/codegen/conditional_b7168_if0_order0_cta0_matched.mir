@@ -1,0 +1,288 @@
+In file included from /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:1:
+In file included from /opt/tilelang-metax-v0.1.10/src/tl_templates/maca/gemm.h:6:
+In file included from /opt/tilelang-metax-v0.1.10/src/tl_templates/maca/common.h:6:
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:179:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  179 | TL_DEVICE inline void AtomicMax(float *address, float val,
+      |           ^
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:192:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  192 | TL_DEVICE inline float AtomicMaxRet(float *address, float val,
+      |           ^
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:206:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  206 | TL_DEVICE inline void AtomicMin(float *address, float val,
+      |           ^
+/opt/tilelang-metax-v0.1.10/src/tl_templates/maca/atomic.h:219:11: warning: duplicate 'inline' declaration specifier [-Wduplicate-decl-specifier]
+  219 | TL_DEVICE inline float AtomicMinRet(float *address, float val,
+      |           ^
+In file included from /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:1:
+In file included from /opt/tilelang-metax-v0.1.10/src/tl_templates/maca/gemm.h:7:
+In file included from /opt/maca/include/cute/tensor.hpp:956:
+In file included from /opt/maca/include/cute/algorithm/gemm.hpp:40:
+In file included from /opt/maca/include/cute/atom/mma_atom.hpp:1060:
+In file included from /opt/maca/include/cute/atom/mma_traits_sm80.hpp:33:
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc0' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:50: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                  ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:14: note: initialize the variable 'cc0' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |              ^
+      |               = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc1' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:55: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                       ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:19: note: initialize the variable 'cc1' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |                   ^
+      |                    = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc2' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:60: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                            ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:24: note: initialize the variable 'cc2' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |                        ^
+      |                         = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:16: warning: variable 'cc3' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  334 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:352:65: note: uninitialized use occurs here
+  352 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                                 ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:334:12: note: remove the 'if' if its condition is always true
+  334 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:321:29: note: initialize the variable 'cc3' to silence this warning
+  321 |     float cc0, cc1, cc2, cc3;
+      |                             ^
+      |                              = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc0' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:50: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                  ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:14: note: initialize the variable 'cc0' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |              ^
+      |               = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc1' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:55: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                       ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:19: note: initialize the variable 'cc1' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |                   ^
+      |                    = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc2' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:60: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                            ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:24: note: initialize the variable 'cc2' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |                        ^
+      |                         = 0.0
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:16: warning: variable 'cc3' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  608 |     } else if (lane_id < 64) {
+      |                ^~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:626:65: note: uninitialized use occurs here
+  626 |                                                 {cc0, cc1, cc2, cc3});
+      |                                                                 ^~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:608:12: note: remove the 'if' if its condition is always true
+  608 |     } else if (lane_id < 64) {
+      |            ^~~~~~~~~~~~~~~~~
+/opt/maca/include/cute/arch/mma_sm80.hpp:595:29: note: initialize the variable 'cc3' to silence this warning
+  595 |     float cc0, cc1, cc2, cc3;
+      |                             ^
+      |                              = 0.0
+/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:10:51: warning: set minimum blocks' number is illegal in Maca and the value will be ignored [-Wmaca-min-blocks-per-multiprocessor]
+   10 | extern "C" __global__ void __launch_bounds__(128, 1) minimal_kernel(int* __restrict__ out, const int* __restrict__ x) {
+      |                                                   ^
+13 warnings generated when compiling for xcore1000.
+# *** IR Dump Before MetaXGPU insert arrive instructions (metaxgpu-insert-arrivecnts) ***:
+# Machine code for function minimal_kernel: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_32bit_4, $streg_32bit_5
+
+bb.0.entry:
+  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0, $streg_32bit_5
+  renamable $streg_128bits_0 = LDU_B128 killed renamable $streg_64bits_0, 0 :: (dereferenceable invariant load (s128), addrspace 4)
+  renamable $mtreg_32bit_2 = MOV_B32 -999, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  renamable $mtreg_32bit_0 = AND_B32 1023, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_1 = SHL_ADD_U32 4, $mtreg_32bit_0, 0, implicit $xmsk, debug-location !21; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:19
+  $mtreg_32bit_3 = MOV_B32 $mtreg_32bit_2, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  $mtreg_32bit_4 = MOV_B32 $mtreg_32bit_2, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  $mtreg_32bit_5 = MOV_B32 $mtreg_32bit_2, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  STS_B128 renamable $mtreg_32bit_1, 0, killed renamable $mtreg_128bits_2, implicit $xmsk, debug-location !22 :: (store (s128) into %ir.add.ptr, !tbaa !23, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  ARRIVE 4096, debug-location !27; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:60:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]
+  BARRIER debug-location !33; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:61:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]
+  ARRIVE 4096, debug-location !34; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:62:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]
+  renamable $mtreg_32bit_2 = nuw nsw SHL_B32 1, $mtreg_32bit_0, implicit $xmsk, debug-location !35; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:82
+  renamable $mtreg_32bit_0 = SHL_B32 3, killed $mtreg_32bit_0, implicit $xmsk, debug-location !36; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:55
+  renamable $mtreg_32bit_0 = SUB_U32 killed $mtreg_32bit_1, killed $mtreg_32bit_0, 0, implicit $xmsk, debug-location !36; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:55
+  $mtreg_32bit_1 = MOV_B32 killed $streg_32bit_4, implicit $xmsk, debug-location !42; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:143
+  renamable $mtreg_32bit_2 = nuw nsw SHL_ADD_U32 9, killed $mtreg_32bit_1, killed $mtreg_32bit_2, implicit $xmsk, debug-location !42; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:143
+  renamable $mtreg_32bit_3 = MOV_B32 0, implicit $xmsk, debug-location !43; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:114
+  renamable $mtreg_64bits_4 = SHL_B64 2, $mtreg_64bits_2, implicit $xmsk, debug-location !43; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:114
+  renamable $mtreg_64bits_2 = MAD_U32 killed $mtreg_32bit_2, 4, killed $streg_64bits_2, 0, implicit-def dead $cmsk, implicit $xmsk, debug-location !43; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:114
+  renamable $streg_32bit_3 = RFL_B32 renamable $mtreg_32bit_0, implicit $xmsk, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  renamable $streg_32bit_2 = SMOV_B32 $md, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  $md = SMOV_B32 killed renamable $streg_32bit_3, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  renamable $amtreg_64bits_0 = LDG_B64_AMTR renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md, debug-location !44 :: (volatile load (s64) from %ir.arrayidx, !alias.scope !47, addrspace 3); /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  renamable $mtreg_32bit_2 = ADD_CO_U32 1024, killed $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk, debug-location !53; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:122
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_3, 0, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk, debug-location !53; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:122
+  $md = SADD_CO_U32 1024, $md, implicit-def dead $smsk, debug-location !54; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:16 ]
+  renamable $amtreg_64bits_2 = LDG_B64_AMTR killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md, debug-location !54 :: (volatile load (s64) from %ir.arrayidx18, !alias.scope !56, addrspace 3); /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:16 ]
+  $md = SMOV_B32 killed renamable $streg_32bit_2, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  MetaXGPU_BARRIER_AND_ARRIVE_V2 1, killed renamable $amtreg_64bits_0, debug-location !60; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:18:3 ]
+  renamable $mtreg_64bits_6 = LDS_B64 renamable $mtreg_32bit_0, 0, implicit $xmsk, debug-location !64 :: (load (s64) from %ir.arrayidx, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:74
+  renamable $mtreg_32bit_2 = ADD_CO_U32 killed $streg_32bit_0, killed $mtreg_32bit_4, 0, implicit-def $cmsk, implicit $xmsk, debug-location !63; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:16
+  $mtreg_32bit_1 = MOV_B32 killed $streg_32bit_1, implicit $xmsk, debug-location !63; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:16
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_1, killed $mtreg_32bit_5, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk, debug-location !63; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:16
+  STG_B64 renamable $mtreg_64bits_2, 0, killed renamable $mtreg_64bits_6, 0, 1, 0, 0, 124, 0, implicit $xmsk, debug-location !64 :: (store (s64) into %ir.add.ptr40, addrspace 1); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:74
+  MetaXGPU_BARRIER_AND_ARRIVE_V2 1, killed renamable $amtreg_64bits_2, debug-location !65; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:20:3 ]
+  renamable $mtreg_32bit_0 = ADD_I32 1024, killed $mtreg_32bit_0, 0, implicit $xmsk, debug-location !68; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  renamable $mtreg_64bits_0 = LDS_B64 killed renamable $mtreg_32bit_0, 0, implicit $xmsk, debug-location !68 :: (load (s64) from %ir.arrayidx18, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  STG_B64 killed renamable $mtreg_64bits_2, 1024, killed renamable $mtreg_64bits_0, 0, 1, 0, 0, 124, 0, implicit $xmsk, debug-location !68 :: (store (s64) into %ir.add.ptr54, addrspace 1); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  ENDK debug-location !69; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:22:1
+
+# End machine code for function minimal_kernel.
+
+# *** IR Dump After MetaXGPU insert arrive instructions (metaxgpu-insert-arrivecnts) ***:
+# Machine code for function minimal_kernel: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_32bit_4, $streg_32bit_5
+
+bb.0.entry:
+  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0, $streg_32bit_5
+  renamable $streg_128bits_0 = LDU_B128 killed renamable $streg_64bits_0, 0 :: (dereferenceable invariant load (s128), addrspace 4)
+  renamable $mtreg_32bit_2 = MOV_B32 -999, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  renamable $mtreg_32bit_0 = AND_B32 1023, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_1 = SHL_ADD_U32 4, $mtreg_32bit_0, 0, implicit $xmsk, debug-location !21; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:19
+  $mtreg_32bit_3 = MOV_B32 $mtreg_32bit_2, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  $mtreg_32bit_4 = MOV_B32 $mtreg_32bit_2, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  $mtreg_32bit_5 = MOV_B32 $mtreg_32bit_2, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  STS_B128 renamable $mtreg_32bit_1, 0, killed renamable $mtreg_128bits_2, implicit $xmsk, debug-location !22 :: (store (s128) into %ir.add.ptr, !tbaa !23, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  ARRIVE 12288, debug-location !27; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:60:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]
+  BARRIER debug-location !33; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:61:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]
+  ARRIVE 4096, debug-location !34; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:62:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]
+  renamable $mtreg_32bit_2 = nuw nsw SHL_B32 1, $mtreg_32bit_0, implicit $xmsk, debug-location !35; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:82
+  renamable $mtreg_32bit_0 = SHL_B32 3, killed $mtreg_32bit_0, implicit $xmsk, debug-location !36; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:55
+  renamable $mtreg_32bit_0 = SUB_U32 killed $mtreg_32bit_1, killed $mtreg_32bit_0, 0, implicit $xmsk, debug-location !36; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:55
+  $mtreg_32bit_1 = MOV_B32 killed $streg_32bit_4, implicit $xmsk, debug-location !42; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:143
+  renamable $mtreg_32bit_2 = nuw nsw SHL_ADD_U32 9, killed $mtreg_32bit_1, killed $mtreg_32bit_2, implicit $xmsk, debug-location !42; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:143
+  renamable $mtreg_32bit_3 = MOV_B32 0, implicit $xmsk, debug-location !43; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:114
+  renamable $mtreg_64bits_4 = SHL_B64 2, $mtreg_64bits_2, implicit $xmsk, debug-location !43; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:114
+  renamable $mtreg_64bits_2 = MAD_U32 killed $mtreg_32bit_2, 4, killed $streg_64bits_2, 0, implicit-def dead $cmsk, implicit $xmsk, debug-location !43; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:114
+  renamable $streg_32bit_3 = RFL_B32 renamable $mtreg_32bit_0, implicit $xmsk, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  renamable $streg_32bit_2 = SMOV_B32 $md, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  $md = SMOV_B32 killed renamable $streg_32bit_3, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  renamable $amtreg_64bits_0 = LDG_B64_AMTR renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md, debug-location !44 :: (volatile load (s64) from %ir.arrayidx, !alias.scope !47, addrspace 3); /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  renamable $mtreg_32bit_2 = ADD_CO_U32 1024, killed $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk, debug-location !53; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:122
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_3, 0, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk, debug-location !53; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:122
+  $md = SADD_CO_U32 1024, $md, implicit-def dead $smsk, debug-location !54; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:16 ]
+  renamable $amtreg_64bits_2 = LDG_B64_AMTR killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md, debug-location !54 :: (volatile load (s64) from %ir.arrayidx18, !alias.scope !56, addrspace 3); /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:16 ]
+  $md = SMOV_B32 killed renamable $streg_32bit_2, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  ARRIVE 65, debug-location !60; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:18:3 ]
+  MetaXGPU_BARRIER_AND_ARRIVE_V2 1, killed renamable $amtreg_64bits_0, debug-location !60; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:18:3 ]
+  renamable $mtreg_64bits_6 = LDS_B64 renamable $mtreg_32bit_0, 0, implicit $xmsk, debug-location !64 :: (load (s64) from %ir.arrayidx, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:74
+  renamable $mtreg_32bit_2 = ADD_CO_U32 killed $streg_32bit_0, killed $mtreg_32bit_4, 0, implicit-def $cmsk, implicit $xmsk, debug-location !63; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:16
+  $mtreg_32bit_1 = MOV_B32 killed $streg_32bit_1, implicit $xmsk, debug-location !63; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:16
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_1, killed $mtreg_32bit_5, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk, debug-location !63; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:16
+  ARRIVE 4096, debug-location !64; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:74
+  STG_B64 renamable $mtreg_64bits_2, 0, killed renamable $mtreg_64bits_6, 0, 1, 0, 0, 124, 0, implicit $xmsk, debug-location !64 :: (store (s64) into %ir.add.ptr40, addrspace 1); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:74
+  ARRIVE 65, debug-location !65; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:20:3 ]
+  MetaXGPU_BARRIER_AND_ARRIVE_V2 1, killed renamable $amtreg_64bits_2, debug-location !65; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:20:3 ]
+  renamable $mtreg_32bit_0 = ADD_I32 1024, killed $mtreg_32bit_0, 0, implicit $xmsk, debug-location !68; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  renamable $mtreg_64bits_0 = LDS_B64 killed renamable $mtreg_32bit_0, 0, implicit $xmsk, debug-location !68 :: (load (s64) from %ir.arrayidx18, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  ARRIVE 4096, debug-location !68; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  STG_B64 killed renamable $mtreg_64bits_2, 1024, killed renamable $mtreg_64bits_0, 0, 1, 0, 0, 124, 0, implicit $xmsk, debug-location !68 :: (store (s64) into %ir.add.ptr54, addrspace 1); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  ENDK debug-location !69; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:22:1
+
+# End machine code for function minimal_kernel.
+
+# *** IR Dump After Stack Frame Layout Analysis (stack-frame-layout) ***:
+# Machine code for function minimal_kernel: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_32bit_4, $streg_32bit_5
+
+bb.0.entry:
+  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0, $streg_32bit_5
+  renamable $streg_128bits_0 = LDU_B128 killed renamable $streg_64bits_0, 0 :: (dereferenceable invariant load (s128), addrspace 4)
+  renamable $mtreg_32bit_2 = MOV_B32_Const -999, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  renamable $mtreg_32bit_0 = AND_B32_Const 1023, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_1 = SHL_ADD_U32 4, $mtreg_32bit_0, 0, implicit $xmsk, debug-location !21; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:19
+  $mtreg_32bit_3 = MOV_B32 $mtreg_32bit_2, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  $mtreg_32bit_4 = MOV_B32 $mtreg_32bit_2, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  $mtreg_32bit_5 = MOV_B32 $mtreg_32bit_2, implicit $xmsk, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  SNOP 1, debug-location !22; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  STS_B128 renamable $mtreg_32bit_1, 0, killed renamable $mtreg_128bits_2, implicit $xmsk, debug-location !22 :: (store (s128) into %ir.add.ptr, !tbaa !23, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:14:47
+  ARRIVE 12288, debug-location !27; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:60:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]
+  BARRIER debug-location !33; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:61:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]
+  ARRIVE 4096, debug-location !34; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:62:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:15:3 ] ]
+  renamable $mtreg_32bit_2 = nuw nsw SHL_B32 1, $mtreg_32bit_0, implicit $xmsk, debug-location !35; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:82
+  renamable $mtreg_32bit_0 = SHL_B32 3, killed $mtreg_32bit_0, implicit $xmsk, debug-location !36; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:55
+  renamable $mtreg_32bit_0 = SUB_U32 killed $mtreg_32bit_1, killed $mtreg_32bit_0, 0, implicit $xmsk, debug-location !36; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:55
+  $mtreg_32bit_1 = MOV_B32 killed $streg_32bit_4, implicit $xmsk, debug-location !42; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:143
+  renamable $mtreg_32bit_2 = nuw nsw SHL_ADD_U32 9, killed $mtreg_32bit_1, killed $mtreg_32bit_2, implicit $xmsk, debug-location !42; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:143
+  renamable $mtreg_32bit_3 = MOV_B32 0, implicit $xmsk, debug-location !43; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:114
+  renamable $mtreg_64bits_4 = SHL_B64 2, $mtreg_64bits_2, implicit $xmsk, debug-location !43; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:114
+  renamable $mtreg_64bits_2 = MAD_U32 killed $mtreg_32bit_2, 4, killed $streg_64bits_2, 0, implicit-def dead $cmsk, implicit $xmsk, debug-location !43; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:114
+  renamable $streg_32bit_3 = RFL_B32 renamable $mtreg_32bit_0, implicit $xmsk, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  renamable $streg_32bit_2 = SMOV_B32 $md, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  SNOP 2, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  $md = SMOV_B32 killed renamable $streg_32bit_3, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  SNOP 0, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  $mtreg_64bits_0 = LDG_B64 renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md, debug-location !44 :: (volatile load (s64) from %ir.arrayidx, !alias.scope !47, addrspace 3); /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  renamable $mtreg_32bit_2 = ADD_CO_U32_Const 1024, killed $mtreg_32bit_2, implicit-def $cmsk, implicit $xmsk, debug-location !53; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:122
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_3, 0, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk, debug-location !53; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:122
+  $md = SADD_CO_U32_Const 1024, $md, implicit-def dead $smsk, debug-location !54; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:16 ]
+  SNOP 0, debug-location !54; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:16 ]
+  $mtreg_64bits_0 = LDG_B64 killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md, debug-location !54 :: (volatile load (s64) from %ir.arrayidx18, !alias.scope !56, addrspace 3); /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:17:16 ]
+  $md = SMOV_B32 killed renamable $streg_32bit_2, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:16:16 ]
+  ARRIVE 65, debug-location !60; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:18:3 ]
+  BARRIER debug-location !60; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:18:3 ]
+  renamable $mtreg_64bits_6 = LDS_B64 renamable $mtreg_32bit_0, 0, implicit $xmsk, debug-location !64 :: (load (s64) from %ir.arrayidx, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:74
+  renamable $mtreg_32bit_2 = ADD_CO_U32 killed $streg_32bit_0, killed $mtreg_32bit_4, 0, implicit-def $cmsk, implicit $xmsk, debug-location !63; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:16
+  $mtreg_32bit_1 = MOV_B32 killed $streg_32bit_1, implicit $xmsk, debug-location !63; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:16
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_1, killed $mtreg_32bit_5, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk, debug-location !63; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:16
+  ARRIVE 4096, debug-location !64; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:74
+  SNOP 0, debug-location !64; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:74
+  STG_B64 renamable $mtreg_64bits_2, 0, killed renamable $mtreg_64bits_6, 0, 1, 0, 0, 124, 0, implicit $xmsk, debug-location !64 :: (store (s64) into %ir.add.ptr40, addrspace 1); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:19:74
+  ARRIVE 65, debug-location !65; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:20:3 ]
+  BARRIER debug-location !65; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:20:3 ]
+  renamable $mtreg_32bit_0 = ADD_I32_Const 1024, killed $mtreg_32bit_0, implicit $xmsk, debug-location !68; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  SNOP 1, debug-location !68; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  renamable $mtreg_64bits_0 = LDS_B64 killed renamable $mtreg_32bit_0, 0, implicit $xmsk, debug-location !68 :: (load (s64) from %ir.arrayidx18, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  ARRIVE 4096, debug-location !68; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  STG_B64 killed renamable $mtreg_64bits_2, 1024, killed renamable $mtreg_64bits_0, 0, 1, 0, 0, 124, 0, implicit $xmsk, debug-location !68 :: (store (s64) into %ir.add.ptr54, addrspace 1); /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:21:82
+  SNOP 0, debug-location !69; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:22:1
+  ENDK debug-location !69; /data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu:22:1
+
+# End machine code for function minimal_kernel.
+

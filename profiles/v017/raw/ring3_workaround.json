@@ -1,0 +1,90 @@
+[
+  {
+    "variant": "base",
+    "invalid_routes": false,
+    "wrong_bytes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "variant": "base",
+    "invalid_routes": true,
+    "wrong_bytes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "variant": "xsf",
+    "invalid_routes": false,
+    "wrong_bytes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "variant": "xsf",
+    "invalid_routes": true,
+    "wrong_bytes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "variant": "fp8",
+    "invalid_routes": false,
+    "wrong_bytes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "variant": "fp8",
+    "invalid_routes": true,
+    "wrong_bytes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "variant": "quantized",
+    "invalid_routes": false,
+    "wrong_bytes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "variant": "quantized",
+    "invalid_routes": true,
+    "wrong_bytes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

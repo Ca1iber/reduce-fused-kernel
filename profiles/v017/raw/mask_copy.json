@@ -1,0 +1,330 @@
+[
+  {
+    "name": "mask0",
+    "mask": 0,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      }
+    ]
+  },
+  {
+    "name": "mask4",
+    "mask": 4,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      }
+    ]
+  },
+  {
+    "name": "mask8",
+    "mask": 8,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      }
+    ]
+  },
+  {
+    "name": "mask12",
+    "mask": 12,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      }
+    ]
+  },
+  {
+    "name": "mask3",
+    "mask": 3,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          572800
+        ],
+        "poison_count": 572800
+      },
+      {
+        "wrong_per_row": [
+          0,
+          531584
+        ],
+        "poison_count": 531584
+      },
+      {
+        "wrong_per_row": [
+          0,
+          562880
+        ],
+        "poison_count": 562880
+      },
+      {
+        "wrong_per_row": [
+          0,
+          552384
+        ],
+        "poison_count": 552384
+      },
+      {
+        "wrong_per_row": [
+          0,
+          588800
+        ],
+        "poison_count": 588800
+      }
+    ]
+  },
+  {
+    "name": "mask7",
+    "mask": 7,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          513632
+        ],
+        "poison_count": 513632
+      },
+      {
+        "wrong_per_row": [
+          0,
+          495168
+        ],
+        "poison_count": 495168
+      },
+      {
+        "wrong_per_row": [
+          0,
+          522976
+        ],
+        "poison_count": 522976
+      },
+      {
+        "wrong_per_row": [
+          0,
+          526368
+        ],
+        "poison_count": 526368
+      },
+      {
+        "wrong_per_row": [
+          0,
+          506592
+        ],
+        "poison_count": 506592
+      }
+    ]
+  },
+  {
+    "name": "mask11",
+    "mask": 11,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          608768
+        ],
+        "poison_count": 608768
+      },
+      {
+        "wrong_per_row": [
+          0,
+          566912
+        ],
+        "poison_count": 566912
+      },
+      {
+        "wrong_per_row": [
+          0,
+          591104
+        ],
+        "poison_count": 591104
+      },
+      {
+        "wrong_per_row": [
+          0,
+          564960
+        ],
+        "poison_count": 564960
+      },
+      {
+        "wrong_per_row": [
+          0,
+          584544
+        ],
+        "poison_count": 584544
+      }
+    ]
+  },
+  {
+    "name": "mask15",
+    "mask": 15,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          474016
+        ],
+        "poison_count": 474016
+      },
+      {
+        "wrong_per_row": [
+          0,
+          489280
+        ],
+        "poison_count": 489280
+      },
+      {
+        "wrong_per_row": [
+          0,
+          466432
+        ],
+        "poison_count": 466432
+      },
+      {
+        "wrong_per_row": [
+          0,
+          485120
+        ],
+        "poison_count": 485120
+      },
+      {
+        "wrong_per_row": [
+          0,
+          474624
+        ],
+        "poison_count": 474624
+      }
+    ]
+  }
+]

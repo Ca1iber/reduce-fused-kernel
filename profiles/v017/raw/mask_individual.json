@@ -1,0 +1,84 @@
+[
+  {
+    "name": "mask1",
+    "mask": 1,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      },
+      {
+        "wrong_per_row": [
+          0,
+          0
+        ],
+        "poison_count": 0
+      }
+    ]
+  },
+  {
+    "name": "mask2",
+    "mask": 2,
+    "results": [
+      {
+        "wrong_per_row": [
+          0,
+          614048
+        ],
+        "poison_count": 614048
+      },
+      {
+        "wrong_per_row": [
+          0,
+          525984
+        ],
+        "poison_count": 525984
+      },
+      {
+        "wrong_per_row": [
+          0,
+          554208
+        ],
+        "poison_count": 554208
+      },
+      {
+        "wrong_per_row": [
+          0,
+          485440
+        ],
+        "poison_count": 485440
+      },
+      {
+        "wrong_per_row": [
+          0,
+          516928
+        ],
+        "poison_count": 516928
+      }
+    ]
+  }
+]

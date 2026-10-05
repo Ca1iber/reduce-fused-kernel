@@ -1,0 +1,80 @@
+[
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-lineinfo",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-before=metaxgpu-insert-arrivecnts",
+      "-mllvm",
+      "-print-after=metaxgpu-insert-arrivecnts",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=minimal_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if1_order0_cta0.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if1_order0_cta0_matched.mcbin"
+    ],
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-lineinfo",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-before=metaxgpu-insert-arrivecnts",
+      "-mllvm",
+      "-print-after=metaxgpu-insert-arrivecnts",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=minimal_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/conditional_b7168_if0_order0_cta0_matched.mcbin"
+    ],
+    "exitcode": 0
+  },
+  {
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-lineinfo",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-before=metaxgpu-insert-arrivecnts",
+      "-mllvm",
+      "-print-after=metaxgpu-insert-arrivecnts",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=minimal_kernel",
+      "/data/TileOPs-Metax/profiles/v017/codegen/mask2.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v017/codegen/mask2_matched.mcbin"
+    ],
+    "exitcode": 0
+  }
+]

@@ -1,0 +1,28 @@
+17:   STS_B128 renamable $mtreg_32bit_1, 0, killed renamable $mtreg_128bits_2, implicit $xmsk, debug-location !22 :: (store (s128) into %ir.add.ptr, !tbaa !23, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:14:47
+18:   ARRIVE 12288, debug-location !27; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:60:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:15:3 ] ]
+19:   BARRIER debug-location !33; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:61:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:15:3 ] ]
+20:   ARRIVE 4096, debug-location !34; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:62:3 @[ /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:74:3 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:15:3 ] ]
+21:   renamable $mtreg_32bit_2 = nuw nsw SHL_B32 1, $mtreg_32bit_0, implicit $xmsk, debug-location !35; /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:16:82
+31:   SNOP 0, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:16:16 ]
+32:   $mtreg_64bits_0 = LDG_B64 renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md, debug-location !44 :: (volatile load (s64) from %ir.arrayidx, !alias.scope !47, addrspace 3); /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:16:16 ]
+33:   renamable $streg_32bit_1 = LDU_B32 killed renamable $streg_64bits_10, 4, debug-location !52 :: ("metaxgpu-noclobber" load (s32) from %ir.arrayidx15, !tbaa !23, addrspace 1); /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:17:12
+34:   $md = SMOV_B32 killed renamable $streg_32bit_0, debug-location !44; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:16:16 ]
+35:   ARRIVE 8192, debug-location !53; /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:17:9
+36:   SCMP_LT_I32 killed renamable $streg_32bit_1, 0, implicit-def $smsk, debug-location !53; /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:17:9
+51:   SNOP 0, debug-location !55; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:18:18 ]
+52:   $mtreg_64bits_0 = LDG_B64 killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 1, 124, 0, implicit $xmsk, implicit $md, debug-location !55 :: (volatile load (s64) from %ir.arrayidx20, !alias.scope !57, addrspace 3); /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:18:18 ]
+53:   $md = SMOV_B32 killed renamable $streg_32bit_0, debug-location !55; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3779:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:18:18 ]
+64:   liveins: $amtreg_64bits_0, $amtreg_64bits_2, $mtreg_32bit_0, $mtreg_32bit_1, $streg_128bits_8:0x000000000000000F
+65:   ARRIVE 65, debug-location !62; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:20:3 ]
+66:   BARRIER debug-location !62; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:20:3 ]
+67:   renamable $mtreg_64bits_4 = LDS_B64 renamable $mtreg_32bit_0, 0, implicit $xmsk, debug-location !66 :: (load (s64) from %ir.arrayidx, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:21:74
+68:   renamable $mtreg_64bits_2 = MAD_U32 killed $mtreg_32bit_1, 4, killed $streg_64bits_8, 0, implicit-def dead $cmsk, implicit $xmsk, debug-location !65; /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:21:16
+69:   ARRIVE 4096, debug-location !66; /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:21:74
+70:   SNOP 0, debug-location !66; /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:21:74
+71:   STG_B64 renamable $mtreg_64bits_2, 0, killed renamable $mtreg_64bits_4, 0, 1, 0, 0, 124, 0, implicit $xmsk, debug-location !66 :: (store (s64) into %ir.add.ptr42, addrspace 1); /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:21:74
+72:   BARRIER debug-location !67; /opt/maca-3.7.1/mxgpu_llvm/lib/clang/19/include/__clang_maca_device_functions.h:3845:10 @[ /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:22:3 ]
+73:   renamable $mtreg_32bit_0 = ADD_I32_Const 1024, killed $mtreg_32bit_0, implicit $xmsk, debug-location !71; /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:23:82
+74:   SNOP 1, debug-location !71; /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:23:82
+75:   renamable $mtreg_64bits_0 = LDS_B64 killed renamable $mtreg_32bit_0, 0, implicit $xmsk, debug-location !71 :: (load (s64) from %ir.add.ptr48, addrspace 3); /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:23:82
+76:   ARRIVE 4096, debug-location !71; /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:23:82
+77:   STG_B64 killed renamable $mtreg_64bits_2, 1024, killed renamable $mtreg_64bits_0, 0, 1, 0, 0, 124, 0, implicit $xmsk, debug-location !71 :: (store (s64) into %ir.add.ptr56, addrspace 1); /data/TileOPs-Metax/profiles/v017/codegen/mask2.cu:23:82
