@@ -48,3 +48,5 @@ v012设备代码显示tile512/threads128的copy dst与消费load均为stage_slot
 所以准确的表述应该是：
 
 > 地址映射让我们怀疑 CTA barrier 可以省掉，但正确性实验否定了当前实现的这种修改。具体原因尚未定位，仍需保留 CTA barrier。
+
+#### 后续排查见 v017
