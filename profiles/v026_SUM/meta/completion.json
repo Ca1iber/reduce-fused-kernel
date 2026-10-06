@@ -1,0 +1,9 @@
+{
+  "cases": 16,
+  "all_byte_equal": true,
+  "all_timing_cupti": true,
+  "baseline": "v000",
+  "current": "v025",
+  "current_commit": "7f3b4c92eaee23264e398ff46d6e4785fbcbdf35",
+  "summary_only": true
+}

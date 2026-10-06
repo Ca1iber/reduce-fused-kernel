@@ -1,0 +1,71 @@
+{
+  "done": true,
+  "cases": 16,
+  "seconds": 37.831018924713135,
+  "completed": [
+    {
+      "case": "base_tiny",
+      "seconds": 1.872051477432251
+    },
+    {
+      "case": "base_h3072",
+      "seconds": 1.1089999675750732
+    },
+    {
+      "case": "base_h7168",
+      "seconds": 1.1364927291870117
+    },
+    {
+      "case": "base_prefill",
+      "seconds": 1.589646339416504
+    },
+    {
+      "case": "xsf_tiny",
+      "seconds": 3.528723955154419
+    },
+    {
+      "case": "xsf_h3072",
+      "seconds": 3.7386279106140137
+    },
+    {
+      "case": "xsf_h7168",
+      "seconds": 4.0254786014556885
+    },
+    {
+      "case": "xsf_prefill",
+      "seconds": 1.5884313583374023
+    },
+    {
+      "case": "fp8_tiny",
+      "seconds": 1.0348801612854004
+    },
+    {
+      "case": "fp8_h3072",
+      "seconds": 1.1002559661865234
+    },
+    {
+      "case": "fp8_h7168",
+      "seconds": 1.1689579486846924
+    },
+    {
+      "case": "fp8_prefill",
+      "seconds": 1.6538751125335693
+    },
+    {
+      "case": "quantized_tiny",
+      "seconds": 3.506747007369995
+    },
+    {
+      "case": "quantized_h3072",
+      "seconds": 4.133662939071655
+    },
+    {
+      "case": "quantized_h7168",
+      "seconds": 4.962436199188232
+    },
+    {
+      "case": "quantized_prefill",
+      "seconds": 1.681283712387085
+    }
+  ]
+}

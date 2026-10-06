@@ -1,0 +1,5 @@
+{
+  "torch": "2.8.0+metax3.7.1.3",
+  "gpu": "MetaX C500",
+  "device_properties": "_CudaDeviceProperties(name='MetaX C500', major=8, minor=0, total_memory=15584MB, multi_processor_count=104, uuid=d7931e4c-b4b9-dda8-816d-52b47cc34fb8, pci_bus_id=15, pci_device_id=0, pci_domain_id=0, L2_cache_size=8MB)"
+}
