@@ -1,0 +1,5 @@
+{
+  "case": "fp8_tiny",
+  "reason": "Vector size 2 is not divisible by coalesced width 8",
+  "fix": "bound width by per-thread values and divisibility; tiny2, h3072/h7168 4, prefill8"
+}

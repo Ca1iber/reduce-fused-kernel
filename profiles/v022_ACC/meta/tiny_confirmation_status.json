@@ -1,0 +1,13 @@
+{
+  "done": true,
+  "completed": [
+    {
+      "variant": "fp8",
+      "exitcode": 0
+    },
+    {
+      "variant": "quantized",
+      "exitcode": 0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "done": true,
+  "completed": [
+    {
+      "task": "dispatch",
+      "exitcode": 0,
+      "seconds": 62.475823402404785
+    },
+    {
+      "task": "fp8_prefill",
+      "exitcode": 0,
+      "seconds": 36.09146070480347
+    },
+    {
+      "task": "quantized_prefill",
+      "exitcode": 0,
+      "seconds": 25.381304264068604
+    },
+    {
+      "task": "fp8_tiny",
+      "exitcode": 0,
+      "seconds": 1.087855339050293
+    },
+    {
+      "task": "quantized_tiny",
+      "exitcode": 0,
+      "seconds": 1.1023192405700684
+    },
+    {
+      "task": "fp8_h3072",
+      "exitcode": 0,
+      "seconds": 1.1342213153839111
+    },
+    {
+      "task": "quantized_h3072",
+      "exitcode": 0,
+      "seconds": 1.1419532299041748
+    },
+    {
+      "task": "fp8_h7168",
+      "exitcode": 0,
+      "seconds": 1.1873054504394531
+    },
+    {
+      "task": "quantized_h7168",
+      "exitcode": 0,
+      "seconds": 1.1917033195495605
+    },
+    {
+      "task": "correctness",
+      "exitcode": 0,
+      "seconds": 37.61957287788391
+    }
+  ]
+}

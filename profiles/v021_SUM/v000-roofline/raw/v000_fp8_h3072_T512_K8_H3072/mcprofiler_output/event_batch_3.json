@@ -1,0 +1,23 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        35,
+        "AP_PERF_INST_MMA_TF32"
+      ],
+      [
+        36,
+        "AP_PERF_INST_MMA_FP16"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [],
+    "include": false,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

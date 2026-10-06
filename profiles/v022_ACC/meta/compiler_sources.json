@@ -1,0 +1,72 @@
+[
+  {
+    "file": "/opt/tilelang-metax-v0.1.10/src/transform/loop_vectorize.cc",
+    "sha256": "ffef0e0fc3939787877d2455e1411196637fa4898dc4ba17c56b505cd895e91a",
+    "relevant_lines": [
+      {
+        "line": 426,
+        "text": "return dtype.bits() * dtype.lanes();"
+      },
+      {
+        "line": 434,
+        "text": "return dtype.bits() * dtype.lanes();"
+      },
+      {
+        "line": 661,
+        "text": "int dtype_bits = dtype.bits() * dtype.lanes();"
+      },
+      {
+        "line": 780,
+        "text": "vector_load_bits_max_ / (buffer->dtype.bits() * buffer->dtype.lanes()));"
+      }
+    ]
+  },
+  {
+    "file": "/opt/tilelang-metax-v0.1.10/src/transform/vectorize_loop.cc",
+    "sha256": "b860c18e271dcf547f5cee73d9ff25f7fbdea54472f4110236902ce9ae98b3c7",
+    "relevant_lines": [
+      {
+        "line": 658,
+        "text": "return dtype.bits() * dtype.lanes();"
+      },
+      {
+        "line": 665,
+        "text": "return dtype.bits() * dtype.lanes();"
+      }
+    ]
+  },
+  {
+    "file": "/opt/tilelang-metax-v0.1.10/src/target/codegen_maca.cc",
+    "sha256": "03ecb9dda45c56ba8ca996debc9e5adb34fea9a87d480fa884bb17e5d1e080f0",
+    "relevant_lines": [
+      {
+        "line": 1499,
+        "text": "if (scope != \"global\" || t.bits() * t.lanes() <= 128) {"
+      },
+      {
+        "line": 1502,
+        "text": "ICHECK_EQ(t.bits() * t.lanes(), 256)"
+      },
+      {
+        "line": 1503,
+        "text": "<< \"Unsupported vector load size: \" << t.bits() * t.lanes();"
+      },
+      {
+        "line": 1522,
+        "text": "if (scope != \"global\" || t.bits() * t.lanes() <= 128) {"
+      },
+      {
+        "line": 1526,
+        "text": "ICHECK_EQ(t.bits() * t.lanes(), 256)"
+      },
+      {
+        "line": 1527,
+        "text": "<< \"Unsupported vector load size: \" << t.bits() * t.lanes();"
+      },
+      {
+        "line": 2720,
+        "text": "<< \"or uint4 or int4 or int1 type for now\";"
+      }
+    ]
+  }
+]

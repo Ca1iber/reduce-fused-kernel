@@ -1,0 +1,30 @@
+{
+  "case": "v000_fp8_tiny_T32_K2_H256",
+  "command": [
+    "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+    "perf_exec",
+    "--cmdline",
+    "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/v021_SUM/v000-roofline/raw/v000_fp8_tiny_T32_K2_H256 /opt/conda/bin/python /data/TileOPs-Metax/profiles/v021_SUM/scripts/profile_case.py --version v000 --variant fp8 --workload tiny",
+    "--kernelname",
+    "reduce_fused_kernel_kernel",
+    "--casename",
+    "v000_fp8_tiny_T32_K2_H256",
+    "--cwd",
+    "/data/TileOPs-Metax/profiles/v021_SUM/v000-roofline/raw/v000_fp8_tiny_T32_K2_H256",
+    "--per-kernel",
+    "--profile-from-start",
+    "0",
+    "--counts",
+    "1",
+    "--metrics",
+    "RoofLine",
+    "Total Cycles",
+    "WORKGROUPS"
+  ],
+  "started": 1791278090.7326245,
+  "pid": 406594,
+  "exitcode": 0,
+  "seconds": 153.84427213668823,
+  "image": "v000-roofline/v000_fp8_tiny_T32_K2_H256.png",
+  "tool_output": "v000-roofline/raw/v000_fp8_tiny_T32_K2_H256/mcprofiler_output"
+}

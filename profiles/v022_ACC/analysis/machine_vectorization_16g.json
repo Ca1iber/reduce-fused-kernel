@@ -1,0 +1,437 @@
+{
+  "quantized_prefill_vector_store": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B128": 3,
+      "LDU_B64": 1,
+      "LDG_B128": 8,
+      "LDU_B32": 11,
+      "STG_B64": 1
+    },
+    "global_load_lines": [
+      "renamable $mtreg_128bits_4 = LDG_B128 killed renamable $mtreg_64bits_0, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep313, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep313.1, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep313.2, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep313.3, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep313.4, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep313.5, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep313.6, addrspace 4)",
+      "renamable $mtreg_128bits_14 = LDG_B128 killed renamable $mtreg_64bits_10, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep313.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B64 killed renamable $mtreg_64bits_10, 0, killed renamable $mtreg_64bits_12, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.add.ptr247, addrspace 1)"
+    ]
+  },
+  "quantized_h7168_baseline": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B128": 2,
+      "LDU_B64": 1,
+      "LDG_B64": 8,
+      "LDU_B32": 11,
+      "STG_B32": 1
+    },
+    "global_load_lines": [
+      "renamable $mtreg_64bits_8 = LDG_B64 killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep202, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep202.1, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep202.2, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep202.3, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep202.4, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep202.5, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep202.6, addrspace 4)",
+      "renamable $mtreg_64bits_8 = LDG_B64 killed renamable $mtreg_64bits_6, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep202.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B32 killed renamable $mtreg_64bits_8, 0, killed renamable $mtreg_32bit_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s32) into %ir.add.ptr158, addrspace 1)"
+    ]
+  },
+  "fp8_h7168_baseline": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B64": 2,
+      "LDU_B32": 3,
+      "LDG_B64": 8,
+      "LDU_B128": 1,
+      "STG_B32": 1
+    },
+    "global_load_lines": [
+      "renamable $mtreg_64bits_8 = LDG_B64 killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.1, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.2, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.3, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.4, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.5, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.6, addrspace 4)",
+      "renamable $mtreg_64bits_8 = LDG_B64 killed renamable $mtreg_64bits_6, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B32 killed renamable $mtreg_64bits_8, 0, killed renamable $mtreg_32bit_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s32) into %ir.add.ptr154, addrspace 1)"
+    ]
+  },
+  "xsf_h7168_baseline": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B64": 2,
+      "LDG_B64": 56,
+      "LDU_B32": 10,
+      "LDU_B128": 2,
+      "STG_B64": 5
+    },
+    "global_load_lines": [
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2, addrspace 4)",
+      "renamable $mtreg_64bits_8 = LDG_B64 renamable $mtreg_64bits_0, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1, addrspace 4)",
+      "renamable $mtreg_64bits_6 = LDG_B64 renamable $mtreg_64bits_0, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep224, addrspace 4)",
+      "renamable $mtreg_64bits_14 = LDG_B64 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3, addrspace 4)",
+      "renamable $mtreg_64bits_32 = LDG_B64 killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4, addrspace 4)",
+      "renamable $mtreg_64bits_34 = LDG_B64 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5, addrspace 4)",
+      "renamable $mtreg_64bits_36 = LDG_B64 killed renamable $mtreg_64bits_0, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.1, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.1, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep224.1, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.1, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.1, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.1, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.1, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.2, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.2, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep224.2, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.2, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.2, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.2, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.2, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.3, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.3, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep224.3, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.3, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.3, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.3, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.3, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.4, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.4, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep224.4, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.4, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.4, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.4, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.4, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.5, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.5, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep224.5, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.5, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.5, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.5, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.5, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.6, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.6, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep224.6, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.6, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.6, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.6, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.6, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.7, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_30, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.7, addrspace 4)",
+      "renamable $mtreg_64bits_36 = LDG_B64 renamable $mtreg_64bits_30, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep224.7, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.7, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.7, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.7, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_30, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B64 killed renamable $mtreg_64bits_18, 0, killed renamable $mtreg_64bits_20, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep225.2, addrspace 1)",
+      "STG_B64 killed renamable $mtreg_64bits_14, 0, killed renamable $mtreg_64bits_12, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep225.3, addrspace 1)",
+      "STG_B64 killed renamable $mtreg_64bits_10, 0, killed renamable $mtreg_64bits_8, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep225.4, addrspace 1)",
+      "STG_B64 killed renamable $mtreg_64bits_6, 0, killed renamable $mtreg_64bits_4, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep225.5, addrspace 1)",
+      "STG_B64 killed renamable $mtreg_64bits_2, 0, killed renamable $mtreg_64bits_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep225.6, addrspace 1)"
+    ]
+  },
+  "fp8_prefill_baseline": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B64": 2,
+      "LDU_B32": 3,
+      "LDG_B128": 8,
+      "LDU_B128": 1,
+      "STG_B32": 2
+    },
+    "global_load_lines": [
+      "renamable $mtreg_128bits_4 = LDG_B128 killed renamable $mtreg_64bits_0, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep235, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep235.1, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep235.2, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep235.3, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep235.4, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep235.5, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep235.6, addrspace 4)",
+      "renamable $mtreg_128bits_14 = LDG_B128 killed renamable $mtreg_64bits_10, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep235.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B32 renamable $mtreg_64bits_10, 0, killed renamable $mtreg_32bit_3, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s32) into %ir.164, addrspace 1)",
+      "STG_B32 killed renamable $mtreg_64bits_10, 4, killed renamable $mtreg_32bit_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s32) into %ir.add.ptr185.1, addrspace 1)"
+    ]
+  },
+  "quantized_prefill_baseline": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B128": 2,
+      "LDU_B64": 1,
+      "LDG_B128": 8,
+      "LDU_B32": 11,
+      "STG_B32": 2
+    },
+    "global_load_lines": [
+      "renamable $mtreg_128bits_4 = LDG_B128 killed renamable $mtreg_64bits_0, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep241, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep241.1, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep241.2, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep241.3, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep241.4, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep241.5, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep241.6, addrspace 4)",
+      "renamable $mtreg_128bits_14 = LDG_B128 killed renamable $mtreg_64bits_10, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep241.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B32 renamable $mtreg_64bits_10, 0, killed renamable $mtreg_32bit_3, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s32) into %ir.172, addrspace 1)",
+      "STG_B32 killed renamable $mtreg_64bits_10, 4, killed renamable $mtreg_32bit_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s32) into %ir.add.ptr189.1, addrspace 1)"
+    ]
+  },
+  "base_h7168_baseline": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B64": 1,
+      "LDG_B64": 56,
+      "LDU_B32": 2,
+      "LDU_B128": 2,
+      "STG_B64": 5
+    },
+    "global_load_lines": [
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2, addrspace 4)",
+      "renamable $mtreg_64bits_8 = LDG_B64 renamable $mtreg_64bits_0, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1, addrspace 4)",
+      "renamable $mtreg_64bits_6 = LDG_B64 renamable $mtreg_64bits_0, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep218, addrspace 4)",
+      "renamable $mtreg_64bits_12 = LDG_B64 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3, addrspace 4)",
+      "renamable $mtreg_64bits_32 = LDG_B64 killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4, addrspace 4)",
+      "renamable $mtreg_64bits_34 = LDG_B64 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5, addrspace 4)",
+      "renamable $mtreg_64bits_36 = LDG_B64 killed renamable $mtreg_64bits_0, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep218.1, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.1, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.1, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.1, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.1, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.1, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.1, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep218.2, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.2, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.2, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.2, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.2, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.2, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.2, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep218.3, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.3, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.3, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.3, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.3, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.3, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.3, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep218.4, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.4, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.4, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.4, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.4, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.4, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.4, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep218.5, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.5, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.5, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.5, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.5, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.5, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.5, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep218.6, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.6, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.6, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.6, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 renamable $mtreg_64bits_32, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.6, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_36, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.6, addrspace 4)",
+      "renamable $mtreg_64bits_50 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.6, addrspace 4)",
+      "renamable $mtreg_64bits_36 = LDG_B64 renamable $mtreg_64bits_30, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep218.7, addrspace 4)",
+      "renamable $mtreg_64bits_40 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.2.7, addrspace 4)",
+      "renamable $mtreg_64bits_42 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.3.7, addrspace 4)",
+      "renamable $mtreg_64bits_44 = LDG_B64 killed renamable $mtreg_64bits_32, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.4.7, addrspace 4)",
+      "renamable $mtreg_64bits_38 = LDG_B64 renamable $mtreg_64bits_30, 2048, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.1.7, addrspace 4)",
+      "renamable $mtreg_64bits_46 = LDG_B64 killed renamable $mtreg_64bits_34, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.5.7, addrspace 4)",
+      "renamable $mtreg_64bits_48 = LDG_B64 killed renamable $mtreg_64bits_30, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep.6.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B64 killed renamable $mtreg_64bits_18, 0, killed renamable $mtreg_64bits_20, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep219.2, addrspace 1)",
+      "STG_B64 killed renamable $mtreg_64bits_14, 0, killed renamable $mtreg_64bits_12, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep219.3, addrspace 1)",
+      "STG_B64 killed renamable $mtreg_64bits_10, 0, killed renamable $mtreg_64bits_8, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep219.4, addrspace 1)",
+      "STG_B64 killed renamable $mtreg_64bits_6, 0, killed renamable $mtreg_64bits_4, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep219.5, addrspace 1)",
+      "STG_B64 killed renamable $mtreg_64bits_2, 0, killed renamable $mtreg_64bits_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.gep219.6, addrspace 1)"
+    ]
+  },
+  "fp8_prefill_vector_store": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B64": 2,
+      "LDU_B32": 3,
+      "LDG_B128": 8,
+      "LDU_B128": 2,
+      "STG_B64": 1
+    },
+    "global_load_lines": [
+      "renamable $mtreg_128bits_4 = LDG_B128 killed renamable $mtreg_64bits_0, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep307, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep307.1, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep307.2, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep307.3, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep307.4, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep307.5, addrspace 4)",
+      "renamable $mtreg_128bits_16 = LDG_B128 killed renamable $mtreg_64bits_12, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep307.6, addrspace 4)",
+      "renamable $mtreg_128bits_14 = LDG_B128 killed renamable $mtreg_64bits_10, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.gep307.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B64 killed renamable $mtreg_64bits_10, 0, killed renamable $mtreg_64bits_12, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.add.ptr243, addrspace 1)"
+    ]
+  },
+  "base_tiny_baseline": {
+    "memory_opcodes": {
+      "LDU_B256": 1,
+      "LDU_B64": 1,
+      "LDU_B32": 2,
+      "LDG_U16": 2,
+      "STG_B16_SADDR": 1
+    },
+    "global_load_lines": [],
+    "global_store_lines": [],
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/base_tiny_baseline.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/base_tiny_baseline.mcbin"
+    ]
+  },
+  "fp8_tiny_baseline": {
+    "memory_opcodes": {
+      "LDU_B256": 1,
+      "LDU_B64": 2,
+      "LDU_B32": 3,
+      "LDG_B32": 2,
+      "STG_B16": 1
+    },
+    "global_load_lines": [
+      "renamable $mtreg_32bit_1 = LDG_B32 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s32) from %ir.gep, !tbaa !9, addrspace 4)",
+      "renamable $mtreg_32bit_2 = LDG_B32 killed renamable $mtreg_64bits_6, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s32) from %ir.gep.1, !tbaa !9, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B16 killed renamable $mtreg_64bits_6, 0, killed renamable $mtreg_32bit_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s16) into %ir.add.ptr94, addrspace 1)"
+    ],
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_tiny_baseline.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_tiny_baseline.mcbin"
+    ]
+  },
+  "fp8_h3072_baseline": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B64": 2,
+      "LDU_B32": 3,
+      "LDG_B64": 8,
+      "LDU_B128": 1,
+      "STG_B32": 1
+    },
+    "global_load_lines": [
+      "renamable $mtreg_64bits_8 = LDG_B64 killed renamable $mtreg_64bits_2, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.1, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.2, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.3, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.4, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.5, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.6, addrspace 4)",
+      "renamable $mtreg_64bits_8 = LDG_B64 killed renamable $mtreg_64bits_6, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep196.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B32 killed renamable $mtreg_64bits_8, 0, killed renamable $mtreg_32bit_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s32) into %ir.add.ptr154, addrspace 1)"
+    ],
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_h3072_baseline.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_h3072_baseline.mcbin"
+    ]
+  },
+  "fp8_h7168_vector_store": {
+    "memory_opcodes": {
+      "LDU_B256": 2,
+      "LDU_B64": 2,
+      "LDU_B32": 3,
+      "LDG_B64": 8,
+      "LDU_B128": 2,
+      "STG_B32": 1
+    },
+    "global_load_lines": [
+      "renamable $mtreg_64bits_2 = LDG_B64 killed renamable $mtreg_64bits_0, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep283, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep283.1, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep283.2, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep283.3, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep283.4, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep283.5, addrspace 4)",
+      "renamable $mtreg_64bits_10 = LDG_B64 killed renamable $mtreg_64bits_8, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep283.6, addrspace 4)",
+      "renamable $mtreg_64bits_8 = LDG_B64 killed renamable $mtreg_64bits_6, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.gep283.7, addrspace 4)"
+    ],
+    "global_store_lines": [
+      "STG_B32 killed renamable $mtreg_64bits_6, 0, killed renamable $mtreg_32bit_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s32) into %ir.add.ptr221, addrspace 1)"
+    ],
+    "command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_h7168_vector_store.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_h7168_vector_store.mcbin"
+    ]
+  }
+}

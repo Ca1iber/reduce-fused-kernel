@@ -1,0 +1,16 @@
+##############################
+Sub-module: Summary
+------------------------------
+Name: Total Cycles
+Description: cycles use by kernel
+Value: 8,365,763.96(Kcycles)
+------------------------------
+Name: RoofLine
+Description: 
+Value: cannot draw from data: 'processed_data'
+##############################
+Sub-module: CE Statistics
+------------------------------
+Name: WORKGROUPS
+Description: ce send workgroup
+Value: 162,056.0

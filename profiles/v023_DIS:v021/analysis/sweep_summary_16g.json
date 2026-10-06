@@ -1,0 +1,218 @@
+[
+  {
+    "mode": "copy_1to1",
+    "threads": 128,
+    "blocks": 416,
+    "median_TBps": 1.452926631,
+    "min_TBps": 1.451622375,
+    "max_TBps": 1.453800058
+  },
+  {
+    "mode": "read8_write_8to1",
+    "threads": 128,
+    "blocks": 416,
+    "median_TBps": 1.466753549,
+    "min_TBps": 1.466397484,
+    "max_TBps": 1.468965336
+  },
+  {
+    "mode": "read8_write_16to1",
+    "threads": 128,
+    "blocks": 416,
+    "median_TBps": 1.495029099,
+    "min_TBps": 1.491760483,
+    "max_TBps": 1.497320817
+  },
+  {
+    "mode": "copy_1to1",
+    "threads": 128,
+    "blocks": 832,
+    "median_TBps": 1.452203498,
+    "min_TBps": 1.451339822,
+    "max_TBps": 1.454185924
+  },
+  {
+    "mode": "read8_write_8to1",
+    "threads": 128,
+    "blocks": 832,
+    "median_TBps": 1.455864053,
+    "min_TBps": 1.454209623,
+    "max_TBps": 1.45700199
+  },
+  {
+    "mode": "read8_write_16to1",
+    "threads": 128,
+    "blocks": 832,
+    "median_TBps": 1.481439563,
+    "min_TBps": 1.479917616,
+    "max_TBps": 1.484925788
+  },
+  {
+    "mode": "copy_1to1",
+    "threads": 128,
+    "blocks": 1664,
+    "median_TBps": 1.412840479,
+    "min_TBps": 1.412245808,
+    "max_TBps": 1.414165419
+  },
+  {
+    "mode": "read8_write_8to1",
+    "threads": 128,
+    "blocks": 1664,
+    "median_TBps": 1.449574618,
+    "min_TBps": 1.448601167,
+    "max_TBps": 1.452838331
+  },
+  {
+    "mode": "read8_write_16to1",
+    "threads": 128,
+    "blocks": 1664,
+    "median_TBps": 1.476118595,
+    "min_TBps": 1.475492401,
+    "max_TBps": 1.479134667
+  },
+  {
+    "mode": "copy_1to1",
+    "threads": 256,
+    "blocks": 416,
+    "median_TBps": 1.465979236,
+    "min_TBps": 1.464835219,
+    "max_TBps": 1.467116916
+  },
+  {
+    "mode": "read8_write_8to1",
+    "threads": 256,
+    "blocks": 416,
+    "median_TBps": 1.457044205,
+    "min_TBps": 1.455906202,
+    "max_TBps": 1.458057153
+  },
+  {
+    "mode": "read8_write_16to1",
+    "threads": 256,
+    "blocks": 416,
+    "median_TBps": 1.482255718,
+    "min_TBps": 1.481947575,
+    "max_TBps": 1.483628133
+  },
+  {
+    "mode": "copy_1to1",
+    "threads": 256,
+    "blocks": 832,
+    "median_TBps": 1.41588101,
+    "min_TBps": 1.414962954,
+    "max_TBps": 1.41651606
+  },
+  {
+    "mode": "read8_write_8to1",
+    "threads": 256,
+    "blocks": 832,
+    "median_TBps": 1.451637218,
+    "min_TBps": 1.450633064,
+    "max_TBps": 1.452796464
+  },
+  {
+    "mode": "read8_write_16to1",
+    "threads": 256,
+    "blocks": 832,
+    "median_TBps": 1.476928781,
+    "min_TBps": 1.476531151,
+    "max_TBps": 1.477739971
+  },
+  {
+    "mode": "copy_1to1",
+    "threads": 256,
+    "blocks": 1664,
+    "median_TBps": 1.410087098,
+    "min_TBps": 1.409842659,
+    "max_TBps": 1.411250973
+  },
+  {
+    "mode": "read8_write_8to1",
+    "threads": 256,
+    "blocks": 1664,
+    "median_TBps": 1.436514785,
+    "min_TBps": 1.436050315,
+    "max_TBps": 1.43782798
+  },
+  {
+    "mode": "read8_write_16to1",
+    "threads": 256,
+    "blocks": 1664,
+    "median_TBps": 1.47141226,
+    "min_TBps": 1.471017708,
+    "max_TBps": 1.473617002
+  },
+  {
+    "mode": "copy_1to1",
+    "threads": 512,
+    "blocks": 416,
+    "median_TBps": 1.419684994,
+    "min_TBps": 1.419129601,
+    "max_TBps": 1.420045461
+  },
+  {
+    "mode": "read8_write_8to1",
+    "threads": 512,
+    "blocks": 416,
+    "median_TBps": 1.451399977,
+    "min_TBps": 1.45067491,
+    "max_TBps": 1.452614754
+  },
+  {
+    "mode": "read8_write_16to1",
+    "threads": 512,
+    "blocks": 416,
+    "median_TBps": 1.465259082,
+    "min_TBps": 1.464927916,
+    "max_TBps": 1.467188603
+  },
+  {
+    "mode": "copy_1to1",
+    "threads": 512,
+    "blocks": 832,
+    "median_TBps": 1.423237758,
+    "min_TBps": 1.422634416,
+    "max_TBps": 1.424551975
+  },
+  {
+    "mode": "read8_write_8to1",
+    "threads": 512,
+    "blocks": 832,
+    "median_TBps": 1.447823348,
+    "min_TBps": 1.444720301,
+    "max_TBps": 1.44855944
+  },
+  {
+    "mode": "read8_write_16to1",
+    "threads": 512,
+    "blocks": 832,
+    "median_TBps": 1.464852687,
+    "min_TBps": 1.464130727,
+    "max_TBps": 1.467611486
+  },
+  {
+    "mode": "copy_1to1",
+    "threads": 512,
+    "blocks": 1664,
+    "median_TBps": 1.427119415,
+    "min_TBps": 1.426459688,
+    "max_TBps": 1.427969664
+  },
+  {
+    "mode": "read8_write_8to1",
+    "threads": 512,
+    "blocks": 1664,
+    "median_TBps": 1.444540606,
+    "min_TBps": 1.443725691,
+    "max_TBps": 1.445522524
+  },
+  {
+    "mode": "read8_write_16to1",
+    "threads": 512,
+    "blocks": 1664,
+    "median_TBps": 1.455954076,
+    "min_TBps": 1.45501817,
+    "max_TBps": 1.457471834
+  }
+]

@@ -33,6 +33,9 @@
 | [v018_DIS:v016](v018_DIS:v016/analysis/README.md) | 围绕 v016 的寄存器、驻留与双 fragment 对照 |
 | [v019_SUM](v019_SUM/analysis/README.md) | v000 与 v010 的 16 组加速比总结 |
 | [v020_ACC](v020_ACC/analysis/README.md) | h7168/prefill 的 FP8/Quantized 采用 hidden-first grid，已接入 |
+| [v021_SUM](v021_SUM/analysis/README.md) | v000/v020 的 Base/FP8 八组原生 Roofline 对照 |
+| [v022_ACC](v022_ACC/analysis/README.md) | 向量写回已接入 FP8/Quantized 的 tiny/prefill 四组合 |
+| [v023_DIS:v021](v023_DIS:v021/analysis/README.md) | 当前实例 1:1、8:1、16:1 实测带宽，解释 Roofline 屋顶 |
 
 ## 后续约定
 

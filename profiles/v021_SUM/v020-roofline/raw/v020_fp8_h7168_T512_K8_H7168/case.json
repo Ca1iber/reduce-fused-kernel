@@ -1,0 +1,16 @@
+{
+  "version": "v020",
+  "variant": "fp8",
+  "workload": "h7168",
+  "T": 512,
+  "K": 8,
+  "H": 7168,
+  "input_dtype": "torch.bfloat16",
+  "config": {
+    "tile_hidden": 512,
+    "num_threads": 128
+  },
+  "grid_hidden_first": true,
+  "expected_x_bytes": 58720256,
+  "expected_out_bytes": 3670016
+}

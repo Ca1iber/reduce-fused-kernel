@@ -1,0 +1,35 @@
+{
+  "static_compile_only": true,
+  "command": [
+    "/opt/maca/mxgpu_llvm/bin/mxcc",
+    "-x",
+    "maca",
+    "-device-obj",
+    "--offload-arch=xcore1000",
+    "-O3",
+    "-std=c++17",
+    "-mllvm",
+    "-print-after=stack-frame-layout",
+    "/data/TileOPs-Metax/profiles/v022_DEP/codegen/vector_width_probe.cu",
+    "-o",
+    "/data/TileOPs-Metax/profiles/v022_DEP/codegen/vector_width_probe.mcbin"
+  ],
+  "instruction_counts": {
+    "width64": {
+      "LDG_B64": 1,
+      "STG_B64": 1
+    },
+    "width128": {
+      "LDG_B128": 1,
+      "STG_B128": 1
+    },
+    "width256": {
+      "LDG_B128": 2,
+      "STG_B128": 2
+    },
+    "width512": {
+      "LDG_B128": 4,
+      "STG_B128": 4
+    }
+  }
+}

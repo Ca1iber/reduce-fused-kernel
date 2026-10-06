@@ -1,0 +1,183 @@
+{
+  "measured_cases": [
+    {
+      "variant": "base",
+      "workload": "tiny",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 256,
+        "num_threads": 256
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "xsf",
+      "workload": "tiny",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 256,
+        "num_threads": 256
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "fp8",
+      "workload": "tiny",
+      "vector_store": true,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 256,
+        "num_threads": 128
+      },
+      "cpp_equal_to_v020": false
+    },
+    {
+      "variant": "quantized",
+      "workload": "tiny",
+      "vector_store": true,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 256,
+        "num_threads": 128
+      },
+      "cpp_equal_to_v020": false
+    },
+    {
+      "variant": "base",
+      "workload": "h3072",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 3072,
+        "num_threads": 256
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "xsf",
+      "workload": "h3072",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 3072,
+        "num_threads": 256
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "fp8",
+      "workload": "h3072",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "quantized",
+      "workload": "h3072",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "base",
+      "workload": "h7168",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "xsf",
+      "workload": "h7168",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "fp8",
+      "workload": "h7168",
+      "vector_store": false,
+      "grid_hidden_first": true,
+      "config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "quantized",
+      "workload": "h7168",
+      "vector_store": false,
+      "grid_hidden_first": true,
+      "config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "base",
+      "workload": "prefill",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "xsf",
+      "workload": "prefill",
+      "vector_store": false,
+      "grid_hidden_first": false,
+      "config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "cpp_equal_to_v020": true
+    },
+    {
+      "variant": "fp8",
+      "workload": "prefill",
+      "vector_store": true,
+      "grid_hidden_first": true,
+      "config": {
+        "tile_hidden": 1024,
+        "num_threads": 128
+      },
+      "cpp_equal_to_v020": false
+    },
+    {
+      "variant": "quantized",
+      "workload": "prefill",
+      "vector_store": true,
+      "grid_hidden_first": true,
+      "config": {
+        "tile_hidden": 1024,
+        "num_threads": 128
+      },
+      "cpp_equal_to_v020": false
+    }
+  ],
+  "fallback_checks": 5,
+  "selected_count": 4,
+  "unselected_cpp_identical": true
+}

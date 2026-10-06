@@ -1,0 +1,442 @@
+[
+  {
+    "image": "v000-roofline/v000_base_tiny_T32_K2_H256.png",
+    "sha256": "c8838d20f9910df36bceaf7033e9b81def34d420cd2e8e9b217c0fab8c90665d",
+    "size": 83557,
+    "case": {
+      "version": "v000",
+      "variant": "base",
+      "workload": "tiny",
+      "T": 32,
+      "K": 2,
+      "H": 256,
+      "input_dtype": "torch.float16",
+      "config": {},
+      "grid_hidden_first": false,
+      "expected_x_bytes": 32768,
+      "expected_out_bytes": 16384
+    },
+    "native_roofline": {
+      "all_ops": 115072.0,
+      "all_memacs": 51616.0,
+      "during": 2603.0,
+      "block_num": 104,
+      "vl1_memacs": 47616.0,
+      "l2c_memacs": 31744.0
+    }
+  },
+  {
+    "image": "v000-roofline/v000_base_h3072_T512_K8_H3072.png",
+    "sha256": "54308bbebaab9bf58d6c2aa31315c56384ae70460309958eda1a61e09fb2a3c9",
+    "size": 83373,
+    "case": {
+      "version": "v000",
+      "variant": "base",
+      "workload": "h3072",
+      "T": 512,
+      "K": 8,
+      "H": 3072,
+      "input_dtype": "torch.bfloat16",
+      "config": {},
+      "grid_hidden_first": false,
+      "expected_x_bytes": 25165824,
+      "expected_out_bytes": 3145728
+    },
+    "native_roofline": {
+      "all_ops": 50164608.0,
+      "all_memacs": 28351744.0,
+      "during": 21991.0,
+      "block_num": 104,
+      "vl1_memacs": 7008768.0,
+      "l2c_memacs": 24920064.0
+    }
+  },
+  {
+    "image": "v000-roofline/v000_base_h7168_T512_K8_H7168.png",
+    "sha256": "92850b656f2bc6c25d6a4cbd1ca6c92a179246be6d4409f3c9eb82e8923e8e6f",
+    "size": 83583,
+    "case": {
+      "version": "v000",
+      "variant": "base",
+      "workload": "h7168",
+      "T": 512,
+      "K": 8,
+      "H": 7168,
+      "input_dtype": "torch.bfloat16",
+      "config": {},
+      "grid_hidden_first": false,
+      "expected_x_bytes": 58720256,
+      "expected_out_bytes": 7340032
+    },
+    "native_roofline": {
+      "all_ops": 117656448.0,
+      "all_memacs": 66107232.0,
+      "during": 47803.0,
+      "block_num": 104,
+      "vl1_memacs": 16353792.0,
+      "l2c_memacs": 58146816.0
+    }
+  },
+  {
+    "image": "v000-roofline/v000_base_prefill_T4096_K8_H7168.png",
+    "sha256": "208484588c4520f0e524d56181c2b11f49683901c315765e7d8130e83d718662",
+    "size": 83971,
+    "case": {
+      "version": "v000",
+      "variant": "base",
+      "workload": "prefill",
+      "T": 4096,
+      "K": 8,
+      "H": 7168,
+      "input_dtype": "torch.bfloat16",
+      "config": {},
+      "grid_hidden_first": false,
+      "expected_x_bytes": 469762048,
+      "expected_out_bytes": 58720256
+    },
+    "native_roofline": {
+      "all_ops": 941601024.0,
+      "all_memacs": 528766880.0,
+      "during": 399203.0,
+      "block_num": 104,
+      "vl1_memacs": 130894848.0,
+      "l2c_memacs": 465403904.0
+    }
+  },
+  {
+    "image": "v000-roofline/v000_fp8_tiny_T32_K2_H256.png",
+    "sha256": "5431409a1f32395cdf44bb7a288b29c130ab0e7daa060971389aa18303fc7e4f",
+    "size": 83280,
+    "case": {
+      "version": "v000",
+      "variant": "fp8",
+      "workload": "tiny",
+      "T": 32,
+      "K": 2,
+      "H": 256,
+      "input_dtype": "torch.float16",
+      "config": {},
+      "grid_hidden_first": false,
+      "expected_x_bytes": 32768,
+      "expected_out_bytes": 8192
+    },
+    "native_roofline": {
+      "all_ops": 645504.0,
+      "all_memacs": 45408.0,
+      "during": 3766.0,
+      "block_num": 104,
+      "vl1_memacs": 49152.0,
+      "l2c_memacs": 32768.0
+    }
+  },
+  {
+    "image": "v000-roofline/v000_fp8_h3072_T512_K8_H3072.png",
+    "sha256": "85b296446864c503b1fe50baa2c8cb19c53f81108af18a216d9f5b7fe51d448b",
+    "size": 83580,
+    "case": {
+      "version": "v000",
+      "variant": "fp8",
+      "workload": "h3072",
+      "T": 512,
+      "K": 8,
+      "H": 3072,
+      "input_dtype": "torch.bfloat16",
+      "config": {},
+      "grid_hidden_first": false,
+      "expected_x_bytes": 25165824,
+      "expected_out_bytes": 1572864
+    },
+    "native_roofline": {
+      "all_ops": 138437184.0,
+      "all_memacs": 26802336.0,
+      "during": 45738.0,
+      "block_num": 104,
+      "vl1_memacs": 7008768.0,
+      "l2c_memacs": 24920064.0
+    }
+  },
+  {
+    "image": "v000-roofline/v000_fp8_h7168_T512_K8_H7168.png",
+    "sha256": "a23433cd781e3f09fd19d99539bf4b2913c498e984ab064bbceba562cfc283d3",
+    "size": 83657,
+    "case": {
+      "version": "v000",
+      "variant": "fp8",
+      "workload": "h7168",
+      "T": 512,
+      "K": 8,
+      "H": 7168,
+      "input_dtype": "torch.bfloat16",
+      "config": {},
+      "grid_hidden_first": false,
+      "expected_x_bytes": 58720256,
+      "expected_out_bytes": 3670016
+    },
+    "native_roofline": {
+      "all_ops": 323950848.0,
+      "all_memacs": 62491840.0,
+      "during": 104333.0,
+      "block_num": 104,
+      "vl1_memacs": 16353792.0,
+      "l2c_memacs": 58146816.0
+    }
+  },
+  {
+    "image": "v000-roofline/v000_fp8_prefill_T4096_K8_H7168.png",
+    "sha256": "ec5001c976acdc38242b221593fdde8415ffa5cfb939dd680aae599920893e67",
+    "size": 83987,
+    "case": {
+      "version": "v000",
+      "variant": "fp8",
+      "workload": "prefill",
+      "T": 4096,
+      "K": 8,
+      "H": 7168,
+      "input_dtype": "torch.bfloat16",
+      "config": {},
+      "grid_hidden_first": false,
+      "expected_x_bytes": 469762048,
+      "expected_out_bytes": 29360128
+    },
+    "native_roofline": {
+      "all_ops": 2591200640.0,
+      "all_memacs": 499842080.0,
+      "during": 476582.0,
+      "block_num": 104,
+      "vl1_memacs": 130830336.0,
+      "l2c_memacs": 465174528.0
+    }
+  },
+  {
+    "image": "v020-roofline/v020_base_tiny_T32_K2_H256.png",
+    "sha256": "4bbc72ff7da5210696e9b7fae29e44172319d1557dea794e3bea1875c78964f9",
+    "size": 83304,
+    "case": {
+      "version": "v020",
+      "variant": "base",
+      "workload": "tiny",
+      "T": 32,
+      "K": 2,
+      "H": 256,
+      "input_dtype": "torch.float16",
+      "config": {
+        "tile_hidden": 256,
+        "num_threads": 256
+      },
+      "grid_hidden_first": false,
+      "expected_x_bytes": 32768,
+      "expected_out_bytes": 16384
+    },
+    "native_roofline": {
+      "all_ops": 188416.0,
+      "all_memacs": 51424.0,
+      "during": 3010.0,
+      "block_num": 104,
+      "vl1_memacs": 98304.0,
+      "l2c_memacs": 32768.0
+    }
+  },
+  {
+    "image": "v020-roofline/v020_base_h3072_T512_K8_H3072.png",
+    "sha256": "8c4f2aab2da755fb64d228ddf08826ccd1c5d354d8634653ff680b2d1379d5d8",
+    "size": 83677,
+    "case": {
+      "version": "v020",
+      "variant": "base",
+      "workload": "h3072",
+      "T": 512,
+      "K": 8,
+      "H": 3072,
+      "input_dtype": "torch.bfloat16",
+      "config": {
+        "tile_hidden": 3072,
+        "num_threads": 256
+      },
+      "grid_hidden_first": false,
+      "expected_x_bytes": 25165824,
+      "expected_out_bytes": 3145728
+    },
+    "native_roofline": {
+      "all_ops": 53214720.0,
+      "all_memacs": 28349472.0,
+      "during": 21879.0,
+      "block_num": 104,
+      "vl1_memacs": 14017536.0,
+      "l2c_memacs": 24920064.0
+    }
+  },
+  {
+    "image": "v020-roofline/v020_base_h7168_T512_K8_H7168.png",
+    "sha256": "91a141db690539e1cef4e9a8a22912b921bdeb83a5f97782608d38e17e3549d4",
+    "size": 83701,
+    "case": {
+      "version": "v020",
+      "variant": "base",
+      "workload": "h7168",
+      "T": 512,
+      "K": 8,
+      "H": 7168,
+      "input_dtype": "torch.bfloat16",
+      "config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "grid_hidden_first": false,
+      "expected_x_bytes": 58720256,
+      "expected_out_bytes": 7340032
+    },
+    "native_roofline": {
+      "all_ops": 125379072.0,
+      "all_memacs": 66101856.0,
+      "during": 47566.0,
+      "block_num": 104,
+      "vl1_memacs": 32707584.0,
+      "l2c_memacs": 58146816.0
+    }
+  },
+  {
+    "image": "v020-roofline/v020_base_prefill_T4096_K8_H7168.png",
+    "sha256": "c09354109c324fc069b17e67f87bc1d0d3e8111d274a228d9365e6367ffbe746",
+    "size": 84173,
+    "case": {
+      "version": "v020",
+      "variant": "base",
+      "workload": "prefill",
+      "T": 4096,
+      "K": 8,
+      "H": 7168,
+      "input_dtype": "torch.bfloat16",
+      "config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "grid_hidden_first": false,
+      "expected_x_bytes": 469762048,
+      "expected_out_bytes": 58720256
+    },
+    "native_roofline": {
+      "all_ops": 1003279872.0,
+      "all_memacs": 528757664.0,
+      "during": 392179.0,
+      "block_num": 104,
+      "vl1_memacs": 261725184.0,
+      "l2c_memacs": 465289216.0
+    }
+  },
+  {
+    "image": "v020-roofline/v020_fp8_tiny_T32_K2_H256.png",
+    "sha256": "35fdcd6537881952f88196c801fd36b903b0b2ce8d492ce94dfdb8e3dc3fa55e",
+    "size": 83194,
+    "case": {
+      "version": "v020",
+      "variant": "fp8",
+      "workload": "tiny",
+      "T": 32,
+      "K": 2,
+      "H": 256,
+      "input_dtype": "torch.float16",
+      "config": {
+        "tile_hidden": 256,
+        "num_threads": 128
+      },
+      "grid_hidden_first": false,
+      "expected_x_bytes": 32768,
+      "expected_out_bytes": 8192
+    },
+    "native_roofline": {
+      "all_ops": 278464.0,
+      "all_memacs": 43616.0,
+      "during": 2665.0,
+      "block_num": 104,
+      "vl1_memacs": 49152.0,
+      "l2c_memacs": 32768.0
+    }
+  },
+  {
+    "image": "v020-roofline/v020_fp8_h3072_T512_K8_H3072.png",
+    "sha256": "6f9418099ff0a758e757d38af89a203249fc91d3e7c168c832f0620a2ddfebf4",
+    "size": 83589,
+    "case": {
+      "version": "v020",
+      "variant": "fp8",
+      "workload": "h3072",
+      "T": 512,
+      "K": 8,
+      "H": 3072,
+      "input_dtype": "torch.bfloat16",
+      "config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "grid_hidden_first": false,
+      "expected_x_bytes": 25165824,
+      "expected_out_bytes": 1572864
+    },
+    "native_roofline": {
+      "all_ops": 78702976.0,
+      "all_memacs": 26799968.0,
+      "during": 23112.0,
+      "block_num": 104,
+      "vl1_memacs": 14008320.0,
+      "l2c_memacs": 24903680.0
+    }
+  },
+  {
+    "image": "v020-roofline/v020_fp8_h7168_T512_K8_H7168.png",
+    "sha256": "b81234ab0f9299e9810353fa007818145fb794c72bf7e9bfa544c11dcb27d531",
+    "size": 84095,
+    "case": {
+      "version": "v020",
+      "variant": "fp8",
+      "workload": "h7168",
+      "T": 512,
+      "K": 8,
+      "H": 7168,
+      "input_dtype": "torch.bfloat16",
+      "config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "grid_hidden_first": true,
+      "expected_x_bytes": 58720256,
+      "expected_out_bytes": 3670016
+    },
+    "native_roofline": {
+      "all_ops": 183529152.0,
+      "all_memacs": 62427424.0,
+      "during": 50822.0,
+      "block_num": 104,
+      "vl1_memacs": 32707584.0,
+      "l2c_memacs": 58146816.0
+    }
+  },
+  {
+    "image": "v020-roofline/v020_fp8_prefill_T4096_K8_H7168.png",
+    "sha256": "f4f038365591af03603c15e9f65a497b06f170fda4696423ebf90d6d3a40a3de",
+    "size": 83975,
+    "case": {
+      "version": "v020",
+      "variant": "fp8",
+      "workload": "prefill",
+      "T": 4096,
+      "K": 8,
+      "H": 7168,
+      "input_dtype": "torch.bfloat16",
+      "config": {
+        "tile_hidden": 1024,
+        "num_threads": 128
+      },
+      "grid_hidden_first": true,
+      "expected_x_bytes": 469762048,
+      "expected_out_bytes": 29360128
+    },
+    "native_roofline": {
+      "all_ops": 1359299392.0,
+      "all_memacs": 499408032.0,
+      "during": 386845.0,
+      "block_num": 104,
+      "vl1_memacs": 145382400.0,
+      "l2c_memacs": 465223680.0
+    }
+  }
+]

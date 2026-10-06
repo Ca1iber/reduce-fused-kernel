@@ -1,0 +1,148 @@
+# *** IR Dump After Stack Frame Layout Analysis (stack-frame-layout) ***:
+# Machine code for function __cxa_pure_virtual: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+
+bb.0.entry:
+  ARRIVE 12352
+  TRAP 2
+
+# End machine code for function __cxa_pure_virtual.
+
+# *** IR Dump After Stack Frame Layout Analysis (stack-frame-layout) ***:
+# Machine code for function __cxa_deleted_virtual: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+
+bb.0.entry:
+  ARRIVE 12352
+  TRAP 2
+
+# End machine code for function __cxa_deleted_virtual.
+
+# *** IR Dump After Stack Frame Layout Analysis (stack-frame-layout) ***:
+# Machine code for function width64: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_64bits_2, $streg_32bit_6, $streg_32bit_7
+
+bb.0.entry:
+  liveins: $mtreg_32bit_0, $streg_32bit_6, $streg_64bits_0, $streg_64bits_2, $streg_32bit_7
+  renamable $streg_32bit_0 = LDU_B32 killed renamable $streg_64bits_0, 4 :: (dereferenceable invariant load (s32) from %ir.2, addrspace 4)
+  renamable $streg_128bits_8 = LDU_B128 killed renamable $streg_64bits_2, 0 :: (dereferenceable invariant load (s128), addrspace 4)
+  renamable $mtreg_32bit_0 = AND_B32_Const 1023, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_1 = MOV_B32 0, implicit $xmsk
+  ARRIVE 8192
+  renamable $streg_32bit_0 = SAND_B32_Const 65535, killed renamable $streg_32bit_0, implicit-def dead $smsk
+  renamable $streg_32bit_0 = SMUL_I32 killed renamable $streg_32bit_6, killed renamable $streg_32bit_0
+  renamable $mtreg_32bit_0 = ADD_U32 killed $streg_32bit_0, killed $mtreg_32bit_0, 0, implicit $xmsk
+  renamable $mtreg_64bits_2 = SHL_B64 3, killed $mtreg_64bits_0, implicit $xmsk
+  renamable $mtreg_32bit_4 = ADD_CO_U32 killed $streg_32bit_8, $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_0 = MOV_B32 killed $streg_32bit_9, implicit $xmsk
+  renamable $mtreg_32bit_5 = ADDC_CO_U32 killed $mtreg_32bit_0, $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  renamable $mtreg_32bit_2 = ADD_CO_U32 killed $streg_32bit_10, killed $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_0 = MOV_B32 killed $streg_32bit_11, implicit $xmsk
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_0, killed $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  renamable $mtreg_64bits_0 = LDG_B64 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s64) from %ir.arrayidx, addrspace 4)
+  ARRIVE 64
+  STG_B64 killed renamable $mtreg_64bits_2, 0, killed renamable $mtreg_64bits_0, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s64) into %ir.arrayidx6, addrspace 1)
+  SNOP 2
+  ENDK
+
+# End machine code for function width64.
+
+# *** IR Dump After Stack Frame Layout Analysis (stack-frame-layout) ***:
+# Machine code for function width128: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_64bits_2, $streg_32bit_6, $streg_32bit_7
+
+bb.0.entry:
+  liveins: $mtreg_32bit_0, $streg_32bit_6, $streg_64bits_0, $streg_64bits_2, $streg_32bit_7
+  renamable $streg_32bit_0 = LDU_B32 killed renamable $streg_64bits_0, 4 :: (dereferenceable invariant load (s32) from %ir.2, addrspace 4)
+  renamable $streg_128bits_8 = LDU_B128 killed renamable $streg_64bits_2, 0 :: (dereferenceable invariant load (s128), addrspace 4)
+  renamable $mtreg_32bit_0 = AND_B32_Const 1023, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_1 = MOV_B32 0, implicit $xmsk
+  ARRIVE 8192
+  renamable $streg_32bit_0 = SAND_B32_Const 65535, killed renamable $streg_32bit_0, implicit-def dead $smsk
+  renamable $streg_32bit_0 = SMUL_I32 killed renamable $streg_32bit_6, killed renamable $streg_32bit_0
+  renamable $mtreg_32bit_0 = ADD_U32 killed $streg_32bit_0, killed $mtreg_32bit_0, 0, implicit $xmsk
+  renamable $mtreg_64bits_2 = SHL_B64 4, killed $mtreg_64bits_0, implicit $xmsk
+  renamable $mtreg_32bit_4 = ADD_CO_U32 killed $streg_32bit_8, $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_0 = MOV_B32 killed $streg_32bit_9, implicit $xmsk
+  renamable $mtreg_32bit_5 = ADDC_CO_U32 killed $mtreg_32bit_0, $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  renamable $mtreg_32bit_2 = ADD_CO_U32 killed $streg_32bit_10, killed $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_0 = MOV_B32 killed $streg_32bit_11, implicit $xmsk
+  renamable $mtreg_128bits_4 = LDG_B128 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s128) from %ir.arrayidx, addrspace 4)
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_0, killed $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  ARRIVE 64
+  SNOP 0
+  STG_B128 killed renamable $mtreg_64bits_2, 0, killed renamable $mtreg_128bits_4, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.arrayidx6, addrspace 1)
+  SNOP 2
+  ENDK
+
+# End machine code for function width128.
+
+# *** IR Dump After Stack Frame Layout Analysis (stack-frame-layout) ***:
+# Machine code for function width256: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_64bits_2, $streg_32bit_6, $streg_32bit_7
+
+bb.0.entry:
+  liveins: $mtreg_32bit_0, $streg_32bit_6, $streg_64bits_0, $streg_64bits_2, $streg_32bit_7
+  renamable $streg_32bit_0 = LDU_B32 killed renamable $streg_64bits_0, 4 :: (dereferenceable invariant load (s32) from %ir.2, addrspace 4)
+  renamable $streg_128bits_8 = LDU_B128 killed renamable $streg_64bits_2, 0 :: (dereferenceable invariant load (s128), addrspace 4)
+  renamable $mtreg_32bit_0 = AND_B32_Const 1023, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_1 = MOV_B32 0, implicit $xmsk
+  ARRIVE 8192
+  renamable $streg_32bit_0 = SAND_B32_Const 65535, killed renamable $streg_32bit_0, implicit-def dead $smsk
+  renamable $streg_32bit_0 = SMUL_I32 killed renamable $streg_32bit_6, killed renamable $streg_32bit_0
+  renamable $mtreg_32bit_0 = ADD_U32 killed $streg_32bit_0, killed $mtreg_32bit_0, 0, implicit $xmsk
+  renamable $mtreg_64bits_2 = SHL_B64 5, killed $mtreg_64bits_0, implicit $xmsk
+  renamable $mtreg_32bit_4 = ADD_CO_U32 killed $streg_32bit_8, $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_0 = MOV_B32 killed $streg_32bit_9, implicit $xmsk
+  renamable $mtreg_32bit_5 = ADDC_CO_U32 killed $mtreg_32bit_0, $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  $mtreg_32bit_0 = MOV_B32 killed $streg_32bit_11, implicit $xmsk
+  renamable $mtreg_32bit_2 = ADD_CO_U32 killed $streg_32bit_10, killed $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  renamable $mtreg_128bits_6 = LDG_B128 renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (load (s128) from %ir.arrayidx, addrspace 4)
+  renamable $mtreg_128bits_10 = LDG_B128 killed renamable $mtreg_64bits_4, 16, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (load (s128) from %ir.arrayidx + 16, addrspace 4)
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_0, killed $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  ARRIVE 65
+  SNOP 0
+  STG_B128 renamable $mtreg_64bits_2, 0, killed renamable $mtreg_128bits_6, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.arrayidx6, addrspace 1)
+  ARRIVE 65
+  STG_B128 killed renamable $mtreg_64bits_2, 16, killed renamable $mtreg_128bits_10, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.arrayidx6 + 16, addrspace 1)
+  SNOP 0
+  ENDK
+
+# End machine code for function width256.
+
+# *** IR Dump After Stack Frame Layout Analysis (stack-frame-layout) ***:
+# Machine code for function width512: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_64bits_2, $streg_32bit_6, $streg_32bit_7
+
+bb.0.entry:
+  liveins: $mtreg_32bit_0, $streg_32bit_6, $streg_64bits_0, $streg_64bits_2, $streg_32bit_7
+  renamable $streg_32bit_0 = LDU_B32 killed renamable $streg_64bits_0, 4 :: (dereferenceable invariant load (s32) from %ir.2, addrspace 4)
+  renamable $streg_128bits_8 = LDU_B128 killed renamable $streg_64bits_2, 0 :: (dereferenceable invariant load (s128), addrspace 4)
+  renamable $mtreg_32bit_0 = AND_B32_Const 1023, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_1 = MOV_B32 0, implicit $xmsk
+  ARRIVE 8192
+  renamable $streg_32bit_0 = SAND_B32_Const 65535, killed renamable $streg_32bit_0, implicit-def dead $smsk
+  renamable $streg_32bit_0 = SMUL_I32 killed renamable $streg_32bit_6, killed renamable $streg_32bit_0
+  renamable $mtreg_32bit_0 = ADD_U32 killed $streg_32bit_0, killed $mtreg_32bit_0, 0, implicit $xmsk
+  renamable $mtreg_64bits_2 = SHL_B64 6, killed $mtreg_64bits_0, implicit $xmsk
+  renamable $mtreg_32bit_4 = ADD_CO_U32 killed $streg_32bit_8, $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_0 = MOV_B32 killed $streg_32bit_9, implicit $xmsk
+  renamable $mtreg_32bit_5 = ADDC_CO_U32 killed $mtreg_32bit_0, $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  $mtreg_32bit_0 = MOV_B32 killed $streg_32bit_11, implicit $xmsk
+  renamable $mtreg_32bit_2 = ADD_CO_U32 killed $streg_32bit_10, killed $mtreg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  renamable $mtreg_128bits_6 = LDG_B128 renamable $mtreg_64bits_4, 32, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (load (s128) from %ir.arrayidx + 32, align 32, addrspace 4)
+  renamable $mtreg_128bits_10 = LDG_B128 renamable $mtreg_64bits_4, 48, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (load (s128) from %ir.arrayidx + 48, addrspace 4)
+  renamable $mtreg_128bits_14 = LDG_B128 renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (load (s128) from %ir.arrayidx, align 64, addrspace 4)
+  renamable $mtreg_128bits_18 = LDG_B128 killed renamable $mtreg_64bits_4, 16, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (load (s128) from %ir.arrayidx + 16, addrspace 4)
+  renamable $mtreg_32bit_3 = ADDC_CO_U32 killed $mtreg_32bit_0, killed $mtreg_32bit_3, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  ARRIVE 67
+  SNOP 0
+  STG_B128 renamable $mtreg_64bits_2, 32, killed renamable $mtreg_128bits_6, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.arrayidx6 + 32, align 32, addrspace 1)
+  ARRIVE 67
+  STG_B128 renamable $mtreg_64bits_2, 48, killed renamable $mtreg_128bits_10, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.arrayidx6 + 48, addrspace 1)
+  ARRIVE 67
+  STG_B128 renamable $mtreg_64bits_2, 0, killed renamable $mtreg_128bits_14, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.arrayidx6, align 64, addrspace 1)
+  ARRIVE 67
+  STG_B128 killed renamable $mtreg_64bits_2, 16, killed renamable $mtreg_128bits_18, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s128) into %ir.arrayidx6 + 16, addrspace 1)
+  ENDK
+
+# End machine code for function width512.
+

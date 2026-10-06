@@ -1,0 +1,29 @@
+{
+  "case": "v000_base_prefill_T4096_K8_H7168",
+  "command": [
+    "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+    "perf_exec",
+    "--cmdline",
+    "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/v021_SUM/v000-roofline/raw/v000_base_prefill_T4096_K8_H7168 /opt/conda/bin/python /data/TileOPs-Metax/profiles/v021_SUM/scripts/profile_case.py --version v000 --variant base --workload prefill",
+    "--kernelname",
+    "reduce_fused_kernel_kernel",
+    "--casename",
+    "v000_base_prefill_T4096_K8_H7168",
+    "--cwd",
+    "/data/TileOPs-Metax/profiles/v021_SUM/v000-roofline/raw/v000_base_prefill_T4096_K8_H7168",
+    "--per-kernel",
+    "--profile-from-start",
+    "0",
+    "--counts",
+    "1",
+    "--metrics",
+    "RoofLine",
+    "Total Cycles",
+    "WORKGROUPS"
+  ],
+  "started": 1791277721.910648,
+  "pid": 403973,
+  "exitcode": 0,
+  "seconds": 113.65289974212646,
+  "tool_output": "v000-roofline/raw/v000_base_prefill_T4096_K8_H7168/mcprofiler_output"
+}

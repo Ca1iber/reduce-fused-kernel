@@ -1,0 +1,4 @@
+Name,Description,Value
+Total Cycles,cycles use by kernel,"8,365,763.96(Kcycles)"
+RoofLine,,cannot draw from data: 'processed_data'
+WORKGROUPS,ce send workgroup,"162,056.0"

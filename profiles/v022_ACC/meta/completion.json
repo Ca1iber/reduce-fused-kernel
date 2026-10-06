@@ -1,0 +1,26 @@
+{
+  "static_formal_cases": 16,
+  "static_candidate_cases": 8,
+  "benchmark_cases": 8,
+  "independent_confirmation_cases": 4,
+  "correctness": {
+    "tests": 131,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "formal_integration": {
+    "selected_cases": 4,
+    "dispatch_cases": 16,
+    "unselected_cpp_identical": 12,
+    "fallback_checks": 5,
+    "correctness": {
+      "tests": 131,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "paired_benchmark_cases": 8
+  },
+  "formal_kernel_unchanged_before_integration": true
+}

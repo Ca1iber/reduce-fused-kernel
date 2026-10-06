@@ -1,0 +1,10 @@
+{
+  "failed": "fp8_prefill",
+  "completed": [
+    {
+      "task": "fp8_prefill",
+      "exitcode": 1,
+      "seconds": 33.067238569259644
+    }
+  ]
+}

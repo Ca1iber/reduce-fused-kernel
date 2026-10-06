@@ -1,0 +1,23 @@
+{
+  "purpose": "current-instance attained bandwidth; copy 1:1, Base/XSF-like 8:1, FP8-like 16:1",
+  "head": "934fe66db26f92d4ce2803bae102fcf40b49dee8",
+  "input_sizes_MiB": [
+    1024,
+    2048
+  ],
+  "threads": [
+    128,
+    256,
+    512
+  ],
+  "grid_factors_per_visible_AP": [
+    4,
+    8,
+    16
+  ],
+  "warmup": 8,
+  "rounds": 5,
+  "launches_per_round": 32,
+  "timing": "native mcEvent elapsed / 32 launches",
+  "data": "nonzero pseudo-random integer bit patterns"
+}

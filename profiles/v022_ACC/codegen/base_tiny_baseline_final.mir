@@ -1,0 +1,88 @@
+*** IR Dump After Stack Frame Layout Analysis (stack-frame-layout) ***:
+# Machine code for function reduce_fused_kernel_kernel: NoPHIs, TracksLiveness, NoVRegs, TiedOpsRewritten, FailsVerification, TracksDebugUserValues
+Function Live Ins: $mtreg_32bit_0, $streg_64bits_0, $streg_32bit_4, $streg_32bit_5
+
+bb.0.entry:
+  successors: %bb.1(0x40000000), %bb.2(0x40000000); %bb.1(50.00%), %bb.2(50.00%)
+  liveins: $mtreg_32bit_0, $streg_32bit_4, $streg_64bits_0, $streg_32bit_5
+  renamable $streg_256bits_8 = LDU_B256 killed renamable $streg_64bits_0, 0 :: (dereferenceable invariant load (s256), align 16, addrspace 4)
+  renamable $streg_32bit_6 = nuw SSHL_B32 1, renamable $streg_32bit_4, implicit-def dead $smsk
+  renamable $streg_32bit_7 = SMOV_B32 0
+  renamable $streg_64bits_2 = SSHL_B64 2, renamable $streg_64bits_6, implicit-def dead $smsk
+  renamable $mtreg_32bit_0 = AND_B32_Const 1023, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $mtreg_32bit_1 = MOV_B32 0, implicit $xmsk
+  ARRIVE 8192
+  renamable $streg_32bit_0 = SADD_CO_U32 killed renamable $streg_32bit_12, renamable $streg_32bit_2, implicit-def $smsk
+  renamable $streg_32bit_1 = SADDC_CO_U32 killed renamable $streg_32bit_13, renamable $streg_32bit_3, implicit-def dead $smsk, implicit killed $smsk
+  renamable $streg_32bit_2 = SADD_CO_U32 killed renamable $streg_32bit_10, killed renamable $streg_32bit_2, implicit-def $smsk
+  renamable $streg_32bit_3 = SADDC_CO_U32 killed renamable $streg_32bit_11, killed renamable $streg_32bit_3, implicit-def dead $smsk, implicit killed $smsk
+  renamable $streg_64bits_2 = LDU_B64 killed renamable $streg_64bits_2, 0 :: ("metaxgpu-noclobber" load (s64) from %ir.add.ptr9, addrspace 1)
+  renamable $mtreg_64bits_2 = MAD_U32 $mtreg_32bit_0, 2, killed $streg_64bits_14, 0, implicit-def dead $cmsk, implicit $xmsk
+  ARRIVE 8192
+  renamable $streg_32bit_6 = SAND_B32_Const -2147483648, renamable $streg_32bit_2, implicit-def dead $smsk
+  SCMP_NE_U64 killed renamable $streg_64bits_6, 0, implicit-def $smsk
+  SNOP 0
+  BRA_SMSKS %bb.2, implicit killed $smsk
+
+bb.1.if.then:
+; predecessors: %bb.0
+  successors: %bb.2(0x80000000); %bb.2(100.00%)
+  liveins: $mtreg_32bit_0, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_256bits_8:0x000000000000000F
+  renamable $streg_64bits_10 = SSHL_B64 9, renamable $streg_64bits_2, implicit-def dead $smsk
+  renamable $streg_32bit_6 = SAND_B32_Const 255, killed renamable $streg_32bit_11, implicit-def dead $smsk
+  renamable $mtreg_32bit_4 = ADD_CO_U32 $mtreg_32bit_2, killed $streg_32bit_10, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_1 = MOV_B32 killed $streg_32bit_6, implicit $xmsk
+  renamable $mtreg_32bit_5 = ADDC_CO_U32 $mtreg_32bit_3, killed $mtreg_32bit_1, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  renamable $streg_32bit_5 = LDU_B32 renamable $streg_64bits_0, 0 :: ("metaxgpu-noclobber" load (s32) from %ir.add.ptr, align 8, addrspace 1)
+  SNOP 0
+  renamable $mtreg_32bit_1 = LDG_U16 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s16) from %ir.gep, !tbaa !5, addrspace 4)
+  ARRIVE 64
+  renamable $mtreg_32bit_1 = CVT_F16TOF32 0, killed renamable $mtreg_32bit_1_lo, 0, implicit $xmsk
+  ARRIVE 8192
+  $mtreg_32bit_4 = MOV_B32 killed $streg_32bit_5, implicit $xmsk
+  renamable $mtreg_32bit_1 = contract FMAK_F32 killed $mtreg_32bit_4, killed $mtreg_32bit_1, float 0.000000e+00, implicit $xmsk, implicit $mode
+
+bb.2.if.end:
+; predecessors: %bb.0, %bb.1
+  successors: %bb.3(0x50000000), %bb.4(0x30000000); %bb.3(62.50%), %bb.4(37.50%)
+  liveins: $mtreg_32bit_0, $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_256bits_8:0x000000000000000F
+  renamable $streg_64bits_6 = CMP_LT_I64 $streg_64bits_2, 0, implicit $xmsk
+  SNOP 3
+  $cmsk = SAND_B64 $xmsk, killed renamable $streg_64bits_6, implicit-def dead $smsk
+  SNOP 0
+  BRA_CMSKS %bb.4, implicit killed $cmsk
+
+bb.3.if.then.1:
+; predecessors: %bb.2
+  successors: %bb.4(0x80000000); %bb.4(100.00%)
+  liveins: $mtreg_32bit_0, $mtreg_32bit_1, $mtreg_64bits_2:0x000000000000000F, $streg_32bit_4, $streg_64bits_0:0x000000000000000F, $streg_64bits_2:0x000000000000000F, $streg_256bits_8:0x000000000000000F
+  renamable $streg_64bits_2 = SSHR_B64 23, killed renamable $streg_64bits_2, implicit-def dead $smsk
+  renamable $streg_32bit_2 = SAND_B32_Const -512, killed renamable $streg_32bit_2, implicit-def dead $smsk
+  renamable $streg_32bit_0 = LDU_B32 killed renamable $streg_64bits_0, 4 :: ("metaxgpu-noclobber" load (s32) from %ir.add.ptr.sroa_idx, addrspace 1)
+  renamable $streg_32bit_1 = SAND_B32_Const 255, killed renamable $streg_32bit_3, implicit-def dead $smsk
+  renamable $mtreg_32bit_4 = ADD_CO_U32 killed $mtreg_32bit_2, killed $streg_32bit_2, 0, implicit-def $cmsk, implicit $xmsk
+  $mtreg_32bit_2 = MOV_B32 killed $streg_32bit_1, implicit $xmsk
+  renamable $mtreg_32bit_5 = ADDC_CO_U32 killed $mtreg_32bit_3, killed $mtreg_32bit_2, 0, implicit-def dead $cmsk, implicit killed $cmsk, implicit $xmsk
+  SNOP 1
+  renamable $mtreg_32bit_2 = LDG_U16 killed renamable $mtreg_64bits_4, 0, 0, 0, 0, 0, 0, 124, 0, implicit $xmsk :: (invariant load (s16) from %ir.gep.1, !tbaa !5, addrspace 4)
+  ARRIVE 64
+  renamable $mtreg_32bit_2 = CVT_F16TOF32 0, killed renamable $mtreg_32bit_2_lo, 0, implicit $xmsk
+  ARRIVE 8192
+  renamable $mtreg_32bit_1 = contract FMAC_F32 0, killed $streg_32bit_0, 0, killed $mtreg_32bit_2, killed $mtreg_32bit_1(tied-def 0), 0, implicit $xmsk, implicit $mode
+
+bb.4.if.end.1:
+; predecessors: %bb.3, %bb.2
+  liveins: $mtreg_32bit_0, $mtreg_32bit_1, $streg_32bit_4, $streg_256bits_8:0x000000000000000F
+  renamable $mtreg_32bit_2 = MOV_B32_Const 512, implicit $xmsk
+  $mtreg_64bits_4 = SHL_B64 0, killed $streg_64bits_8, implicit $xmsk
+  renamable $mtreg_64bits_2 = MAD_U32 killed $streg_32bit_4, killed $mtreg_32bit_2, killed $mtreg_64bits_4, 0, implicit-def dead $cmsk, implicit $xmsk
+  renamable $mtreg_32bit_1_lo = CVT_F32TOF16 0, renamable $mtreg_32bit_1, 0, implicit $xmsk, implicit $mode
+  renamable $mtreg_32bit_0 = nuw nsw SHL_B32 1, killed $mtreg_32bit_0, implicit $xmsk
+  renamable $streg_32bit_0 = RFL_B32 killed renamable $mtreg_32bit_2, implicit $xmsk
+  renamable $streg_32bit_1 = RFL_B32 killed renamable $mtreg_32bit_3, implicit $xmsk
+  SNOP 4
+  STG_B16_SADDR killed renamable $streg_64bits_0, killed renamable $mtreg_32bit_0, 0, killed renamable $mtreg_32bit_1, 0, 1, 0, 0, 124, 0, implicit $xmsk :: (store (s16) into %ir.arrayidx33, !tbaa !5, addrspace 1)
+  ENDK
+
+# End machine code for function reduce_fused_kernel_kernel.
+

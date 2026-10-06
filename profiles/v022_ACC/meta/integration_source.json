@@ -1,0 +1,13 @@
+{
+  "previous_sha256": "bee527b6ff60aaf90eee2c731fa995f2dfdc5ca390dcebb66c5b25d0000e3d46",
+  "integrated_sha256": "fcbb7e5c21238c719de62fc8107336e27059d4c3057d5b811238976d1c834b1d",
+  "selected_shapes": [
+    "T32 K2 H256 float16 SF weighted tile256 threads128",
+    "T4096 K8 H7168 bfloat16 SF weighted tile1024 threads128"
+  ],
+  "variants": [
+    "fp8",
+    "quantized"
+  ],
+  "user_selected_quantized_tiny_despite_small_gain": true
+}

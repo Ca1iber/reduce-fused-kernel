@@ -1,0 +1,30 @@
+{
+  "case": "v020_base_h7168_T512_K8_H7168",
+  "command": [
+    "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+    "perf_exec",
+    "--cmdline",
+    "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/v021_SUM/v020-roofline/raw/v020_base_h7168_T512_K8_H7168 /opt/conda/bin/python /data/TileOPs-Metax/profiles/v021_SUM/scripts/profile_case.py --version v020 --variant base --workload h7168",
+    "--kernelname",
+    "reduce_fused_kernel_kernel",
+    "--casename",
+    "v020_base_h7168_T512_K8_H7168",
+    "--cwd",
+    "/data/TileOPs-Metax/profiles/v021_SUM/v020-roofline/raw/v020_base_h7168_T512_K8_H7168",
+    "--per-kernel",
+    "--profile-from-start",
+    "0",
+    "--counts",
+    "1",
+    "--metrics",
+    "RoofLine",
+    "Total Cycles",
+    "WORKGROUPS"
+  ],
+  "started": 1791276972.99672,
+  "pid": 397713,
+  "exitcode": 0,
+  "seconds": 153.7891607284546,
+  "image": "v020-roofline/v020_base_h7168_T512_K8_H7168.png",
+  "tool_output": "v020-roofline/raw/v020_base_h7168_T512_K8_H7168/mcprofiler_output"
+}

@@ -1,0 +1,56 @@
+{
+  "formal_v020": [
+    {
+      "us": 3.962880000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.921920000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.947520000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.927040000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.9424000000000032,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ],
+  "vector_store": [
+    {
+      "us": 3.763200000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.768320000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.763200000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.752960000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.763200000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ]
+}

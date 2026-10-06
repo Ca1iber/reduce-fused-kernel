@@ -1,0 +1,410 @@
+[
+  {
+    "case": "base_tiny_baseline",
+    "variant": "base",
+    "workload": "tiny",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 256
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "xsf_tiny_baseline",
+    "variant": "xsf",
+    "workload": "tiny",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 256
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "fp8_tiny_baseline",
+    "variant": "fp8",
+    "workload": "tiny",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 128
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "fp8_tiny_vector_store",
+    "variant": "fp8",
+    "workload": "tiny",
+    "implementation": "vector_store",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 128
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "quantized_tiny_baseline",
+    "variant": "quantized",
+    "workload": "tiny",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 128
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "quantized_tiny_vector_store",
+    "variant": "quantized",
+    "workload": "tiny",
+    "implementation": "vector_store",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 128
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "base_h3072_baseline",
+    "variant": "base",
+    "workload": "h3072",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 3072,
+      "num_threads": 256
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "xsf_h3072_baseline",
+    "variant": "xsf",
+    "workload": "h3072",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 3072,
+      "num_threads": 256
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "fp8_h3072_baseline",
+    "variant": "fp8",
+    "workload": "h3072",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "fp8_h3072_vector_store",
+    "variant": "fp8",
+    "workload": "h3072",
+    "implementation": "vector_store",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "quantized_h3072_baseline",
+    "variant": "quantized",
+    "workload": "h3072",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "quantized_h3072_vector_store",
+    "variant": "quantized",
+    "workload": "h3072",
+    "implementation": "vector_store",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "base_h7168_baseline",
+    "variant": "base",
+    "workload": "h7168",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    },
+    "grid_hidden_first": false,
+    "native_command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/base_h7168_baseline.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/base_h7168_baseline.mcbin"
+    ]
+  },
+  {
+    "case": "xsf_h7168_baseline",
+    "variant": "xsf",
+    "workload": "h7168",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    },
+    "grid_hidden_first": false,
+    "native_command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/xsf_h7168_baseline.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/xsf_h7168_baseline.mcbin"
+    ]
+  },
+  {
+    "case": "fp8_h7168_baseline",
+    "variant": "fp8",
+    "workload": "h7168",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    },
+    "grid_hidden_first": true,
+    "native_command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_h7168_baseline.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_h7168_baseline.mcbin"
+    ]
+  },
+  {
+    "case": "fp8_h7168_vector_store",
+    "variant": "fp8",
+    "workload": "h7168",
+    "implementation": "vector_store",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    },
+    "grid_hidden_first": true
+  },
+  {
+    "case": "quantized_h7168_baseline",
+    "variant": "quantized",
+    "workload": "h7168",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    },
+    "grid_hidden_first": true,
+    "native_command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/quantized_h7168_baseline.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/quantized_h7168_baseline.mcbin"
+    ]
+  },
+  {
+    "case": "quantized_h7168_vector_store",
+    "variant": "quantized",
+    "workload": "h7168",
+    "implementation": "vector_store",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    },
+    "grid_hidden_first": true
+  },
+  {
+    "case": "base_prefill_baseline",
+    "variant": "base",
+    "workload": "prefill",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "xsf_prefill_baseline",
+    "variant": "xsf",
+    "workload": "prefill",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    },
+    "grid_hidden_first": false
+  },
+  {
+    "case": "fp8_prefill_baseline",
+    "variant": "fp8",
+    "workload": "prefill",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 1024,
+      "num_threads": 128
+    },
+    "grid_hidden_first": true,
+    "native_command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_prefill_baseline.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_prefill_baseline.mcbin"
+    ]
+  },
+  {
+    "case": "fp8_prefill_vector_store",
+    "variant": "fp8",
+    "workload": "prefill",
+    "implementation": "vector_store",
+    "config": {
+      "tile_hidden": 1024,
+      "num_threads": 128
+    },
+    "grid_hidden_first": true,
+    "native_command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_prefill_vector_store.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_prefill_vector_store.mcbin"
+    ]
+  },
+  {
+    "case": "quantized_prefill_baseline",
+    "variant": "quantized",
+    "workload": "prefill",
+    "implementation": "baseline",
+    "config": {
+      "tile_hidden": 1024,
+      "num_threads": 128
+    },
+    "grid_hidden_first": true,
+    "native_command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/quantized_prefill_baseline.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/quantized_prefill_baseline.mcbin"
+    ]
+  },
+  {
+    "case": "quantized_prefill_vector_store",
+    "variant": "quantized",
+    "workload": "prefill",
+    "implementation": "vector_store",
+    "config": {
+      "tile_hidden": 1024,
+      "num_threads": 128
+    },
+    "grid_hidden_first": true,
+    "native_command": [
+      "/opt/maca/mxgpu_llvm/bin/mxcc",
+      "-x",
+      "maca",
+      "-device-obj",
+      "--offload-arch=xcore1000",
+      "-O3",
+      "-std=c++17",
+      "-I/opt/tilelang-metax-v0.1.10/src",
+      "-D__FAST_HALF_CVT__",
+      "-mllvm",
+      "-print-after=stack-frame-layout",
+      "-mllvm",
+      "-filter-print-funcs=reduce_fused_kernel_kernel",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/quantized_prefill_vector_store.cu",
+      "-o",
+      "/data/TileOPs-Metax/profiles/v022_DEP/codegen/quantized_prefill_vector_store.mcbin"
+    ]
+  }
+]

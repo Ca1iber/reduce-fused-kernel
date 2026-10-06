@@ -1,0 +1,29 @@
+{
+  "purpose": "static-only check: can MXCC combine two adjacent 4-byte stores after all 8 values have been encoded?",
+  "source_cpp_store_widths": [
+    4,
+    4
+  ],
+  "final_store_opcodes": {
+    "STG_B64": 1
+  },
+  "command": [
+    "/opt/maca/mxgpu_llvm/bin/mxcc",
+    "-x",
+    "maca",
+    "-device-obj",
+    "--offload-arch=xcore1000",
+    "-O3",
+    "-std=c++17",
+    "-I/opt/tilelang-metax-v0.1.10/src",
+    "-D__FAST_HALF_CVT__",
+    "-mllvm",
+    "-print-after=stack-frame-layout",
+    "-mllvm",
+    "-filter-print-funcs=reduce_fused_kernel_kernel",
+    "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_prefill_store32_control.cu",
+    "-o",
+    "/data/TileOPs-Metax/profiles/v022_DEP/codegen/fp8_prefill_store32_control.mcbin"
+  ],
+  "gpu_execution": false
+}

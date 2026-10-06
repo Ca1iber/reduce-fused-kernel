@@ -1,0 +1,21 @@
+{
+    "Summary": [
+        {
+            "name": "Total Cycles",
+            "description": "cycles use by kernel",
+            "value": "8,365,763.96(Kcycles)"
+        },
+        {
+            "name": "RoofLine",
+            "description": "",
+            "value": "cannot draw from data: 'processed_data'"
+        }
+    ],
+    "CE Statistics": [
+        {
+            "name": "WORKGROUPS",
+            "description": "ce send workgroup",
+            "value": "162,056.0"
+        }
+    ]
+}

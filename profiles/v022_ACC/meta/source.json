@@ -1,0 +1,7 @@
+{
+  "head": "934fe66db26f92d4ce2803bae102fcf40b49dee8",
+  "formal_sha256": "bee527b6ff60aaf90eee2c731fa995f2dfdc5ca390dcebb66c5b25d0000e3d46",
+  "baseline_version": "v020_ACC",
+  "candidate": "FP8 encoding into register fragment, then T.copy; coalesced width bounded by per-thread values (2/4/8)",
+  "gpu_benchmarks_launched": true
+}

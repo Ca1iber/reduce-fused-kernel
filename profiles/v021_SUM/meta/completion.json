@@ -1,0 +1,9 @@
+{
+  "images": 16,
+  "per_version": {
+    "v000": 8,
+    "v020": 8
+  },
+  "single_kernel_records_verified": true,
+  "all_expected_cases_present": true
+}

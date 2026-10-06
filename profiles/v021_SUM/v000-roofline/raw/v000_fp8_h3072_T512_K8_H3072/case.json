@@ -1,0 +1,13 @@
+{
+  "version": "v000",
+  "variant": "fp8",
+  "workload": "h3072",
+  "T": 512,
+  "K": 8,
+  "H": 3072,
+  "input_dtype": "torch.bfloat16",
+  "config": {},
+  "grid_hidden_first": false,
+  "expected_x_bytes": 25165824,
+  "expected_out_bytes": 1572864
+}
