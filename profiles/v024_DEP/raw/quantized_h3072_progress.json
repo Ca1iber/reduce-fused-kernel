@@ -1,0 +1,83 @@
+{
+  "v022": [
+    {
+      "us": 22.906879999999997,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.947840000000006,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.927360000000007,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.93248,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.94784000000001,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ],
+  "same_geometry_direct": [
+    {
+      "us": 25.518080000000012,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 25.436160000000005,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 25.38496000000001,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 25.456640000000004,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 25.502720000000004,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ],
+  "store128": [
+    {
+      "us": 23.500800000000005,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 23.54688,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 23.52640000000001,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 23.546880000000005,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 23.552000000000007,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ]
+}

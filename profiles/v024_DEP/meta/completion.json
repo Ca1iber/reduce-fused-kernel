@@ -1,0 +1,19 @@
+{
+  "phase_auto_layout": {
+    "correctness_tests": 131,
+    "actual_store": "2x64 bit for prefill"
+  },
+  "phase_explicit_contiguous": {
+    "correctness": {
+      "tests": 131,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "cases": 8,
+    "benchmark_rows": 24,
+    "actual_large_store": "1x128 bit",
+    "tiny_store": "1x32 bit"
+  },
+  "formal_kernel_unchanged": true
+}

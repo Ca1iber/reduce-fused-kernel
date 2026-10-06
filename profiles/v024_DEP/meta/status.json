@@ -1,0 +1,46 @@
+{
+  "done": true,
+  "completed": [
+    {
+      "task": "fp8_prefill",
+      "exitcode": 0,
+      "seconds": 30.105821132659912
+    },
+    {
+      "task": "quantized_prefill",
+      "exitcode": 0,
+      "seconds": 9.359348058700562
+    },
+    {
+      "task": "fp8_h7168",
+      "exitcode": 0,
+      "seconds": 1.6007330417633057
+    },
+    {
+      "task": "quantized_h7168",
+      "exitcode": 0,
+      "seconds": 1.6024408340454102
+    },
+    {
+      "task": "fp8_h3072",
+      "exitcode": 0,
+      "seconds": 8.430094003677368
+    },
+    {
+      "task": "quantized_h3072",
+      "exitcode": 0,
+      "seconds": 8.431044340133667
+    },
+    {
+      "task": "fp8_tiny",
+      "exitcode": 0,
+      "seconds": 7.859549283981323
+    },
+    {
+      "task": "quantized_tiny",
+      "exitcode": 0,
+      "seconds": 7.9327287673950195
+    }
+  ],
+  "correctness_exitcode": 0
+}

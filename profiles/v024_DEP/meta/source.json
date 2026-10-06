@@ -1,0 +1,10 @@
+{
+  "head": "ed4db9372f210a9e19bd3b341bf215b56b133ba7",
+  "formal_sha256": "fcbb7e5c21238c719de62fc8107336e27059d4c3057d5b811238976d1c834b1d",
+  "candidate": "FP8 copy width up to16; tile1024 threads64 for large cases, tile256 threads64 for tiny",
+  "controls": [
+    "current_v022",
+    "same_geometry_direct",
+    "store128_candidate"
+  ]
+}

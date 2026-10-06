@@ -1,0 +1,83 @@
+{
+  "v022": [
+    {
+      "us": 335.96928,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 335.94368000000003,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 336.19968,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 335.81568000000004,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 335.99488,
+      "timing": "cupti",
+      "inputs_cloned": false
+    }
+  ],
+  "same_geometry_direct": [
+    {
+      "us": 355.5891200000002,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 355.76320000000015,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 355.31775999999996,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 354.95936,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 356.62336000000005,
+      "timing": "cupti",
+      "inputs_cloned": false
+    }
+  ],
+  "store128": [
+    {
+      "us": 337.56160000000006,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 337.67424,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 337.65888000000007,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 337.44896,
+      "timing": "cupti",
+      "inputs_cloned": false
+    },
+    {
+      "us": 337.29024,
+      "timing": "cupti",
+      "inputs_cloned": false
+    }
+  ]
+}

@@ -36,6 +36,7 @@
 | [v021_SUM](v021_SUM/analysis/README.md) | v000/v020 的 Base/FP8 八组原生 Roofline 对照 |
 | [v022_ACC](v022_ACC/analysis/README.md) | 向量写回已接入 FP8/Quantized 的 tiny/prefill 四组合 |
 | [v023_DIS:v021](v023_DIS:v021/analysis/README.md) | 当前实例 1:1、8:1、16:1 实测带宽，解释 Roofline 屋顶 |
+| [v024_DEP](v024_DEP/analysis/README.md) | 真实128-bit写回与连续16元素布局，未超过v022 |
 
 ## 后续约定
 

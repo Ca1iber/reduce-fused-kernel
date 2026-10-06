@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/opt/maca/mxgpu_llvm/bin/mxcc",
+    "-x",
+    "maca",
+    "-device-obj",
+    "--offload-arch=xcore1000",
+    "-O3",
+    "-std=c++17",
+    "-I/opt/tilelang-metax-v0.1.10/src",
+    "-D__FAST_HALF_CVT__",
+    "-mllvm",
+    "-print-after=stack-frame-layout",
+    "-mllvm",
+    "-filter-print-funcs=reduce_fused_kernel_kernel",
+    "/data/TileOPs-Metax/profiles/v024_DEP/codegen/fp8_prefill_contiguous128.cu",
+    "-o",
+    "/data/TileOPs-Metax/profiles/v024_DEP/codegen/fp8_prefill_contiguous128.mcbin"
+  ],
+  "opcodes": {
+    "LDG_B128": 16,
+    "STG_B128": 1
+  },
+  "single_128bit_store_confirmed": true
+}

@@ -1,0 +1,7 @@
+{
+  "done": true,
+  "opcodes": {
+    "LDG_B128": 16,
+    "STG_B128": 1
+  }
+}
