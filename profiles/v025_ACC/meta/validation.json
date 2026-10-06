@@ -1,0 +1,385 @@
+{
+  "exitcode": 0,
+  "seconds": 50.40686345100403,
+  "candidate_sf_calls": 63,
+  "candidate_cases": [
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 8,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 1,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 512,
+      "topk": 9,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 3072,
+      "topk": 8,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 7168,
+      "topk": 8,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 7168,
+      "topk": 8,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 8,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 1,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 512,
+      "topk": 9,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 3072,
+      "topk": 8,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 7168,
+      "topk": 8,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 7168,
+      "topk": 8,
+      "dtype": "bfloat16",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    },
+    {
+      "hidden": 256,
+      "topk": 2,
+      "dtype": "float32",
+      "weights": true
+    }
+  ]
+}

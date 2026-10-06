@@ -1,0 +1,12 @@
+{
+  "head": "42edd59bd4bc4d64143cb85174f1a6b4254de09f",
+  "formal_sha256": "fcbb7e5c21238c719de62fc8107336e27059d4c3057d5b811238976d1c834b1d",
+  "candidate": "v022 + depth8 input register prefetch, preserving current grid",
+  "cases": [
+    "fp8_h3072",
+    "quantized_h3072",
+    "fp8_h7168",
+    "quantized_h7168"
+  ],
+  "geometry": "tile512 threads128 BF16 T512 K8"
+}

@@ -1,0 +1,29 @@
+{
+  "target_cases": 4,
+  "initial_rows": 10,
+  "independent_confirmation_rows": 10,
+  "correctness": {
+    "tests": 131,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "candidate_sf_kernel_constructions": 63,
+  "private_bytes": 0,
+  "resource_capacity_cta_per_ap": 16,
+  "formal_kernel_unchanged": false,
+  "status": "ACC",
+  "integration": {
+    "selected_cases": 4,
+    "unselected_cpp_identical_cases": 12,
+    "fallback_checks": 5,
+    "benchmark_cases": 8,
+    "correctness": {
+      "tests": 131,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "source_sha256": "396df55d65977f62e9ee4b7720067583dc6de5ff5775d238dfbd5cf807fcf303"
+  }
+}

@@ -42,7 +42,7 @@ def get_reduce_fused_kernel(
     num_threads: int = 128,
     grid_hidden_first: bool = False,
     vector_store: bool = False,
-    prefetch_rows: int = 0,
+    prefetch_rows: int = 8,
 ):
     use_fp8_bits = with_sf and str(out_dtype) == "float8_e4m3fn"
     if tile_hidden is None:
@@ -51,7 +51,6 @@ def get_reduce_fused_kernel(
         ) if use_fp8_bits and hidden > 1024 else hidden
     split_hidden = tile_hidden != hidden
     vector_store = vector_store and use_fp8_bits
-    prefetch_capacity = max(1, prefetch_rows)
     copy_width = 1
     while copy_width < 8 and tile_hidden % (num_threads * copy_width * 2) == 0:
         copy_width *= 2
@@ -80,7 +79,7 @@ def get_reduce_fused_kernel(
             topk_to_pos_local = T.alloc_fragment((num_topk,), T.int32)
             sf_var = T.alloc_var(T.float32)
             encoded_fragment = T.alloc_fragment((tile_hidden,), out_dtype)
-            prefetched = T.alloc_fragment((prefetch_capacity, tile_hidden), in_dtype)
+            prefetched = T.alloc_fragment((prefetch_rows, tile_hidden), in_dtype)
 
             T.clear(reduced_fragment)
             if with_sf:
@@ -89,17 +88,15 @@ def get_reduce_fused_kernel(
                 T.copy(topk_weights[pid_token, :], topk_weights_local)
             T.copy(token_topk_to_pos[pid_token, :], topk_to_pos_local)
 
-            if prefetch_rows > 0:
-                for first in T.unroll(prefetch_rows):
-                    if first < num_topk:
-                        pos = topk_to_pos_local[first]
-                        T.assume(pos < num_expanded_tokens)
-                        if pos >= 0:
-                            T.copy(
-                                x[pos, pid_hidden * tile_hidden:(pid_hidden + 1) * tile_hidden],
-                                prefetched[first, :],
-                            )
-
+            for first in T.unroll(prefetch_rows):
+                if first < num_topk:
+                    pos = topk_to_pos_local[first]
+                    T.assume(pos < num_expanded_tokens)
+                    if pos >= 0:
+                        T.copy(
+                            x[pos, pid_hidden * tile_hidden:(pid_hidden + 1) * tile_hidden],
+                            prefetched[first, :],
+                        )
             for k in T.unroll(num_topk):
                 pos = topk_to_pos_local[k]
                 T.assume(pos < num_expanded_tokens)
@@ -108,22 +105,17 @@ def get_reduce_fused_kernel(
                     s = 1
                     if with_weights:
                         s = topk_weights_local[k]
-
                     if with_x_sf:
                         s *= x_sf[pos]
                     for i in T.Parallel(tile_hidden):
-                        if prefetch_rows > 0:
-                            reduced_fragment[i] += prefetched[k % prefetch_capacity, i] * s
-                        else:
-                            input_index = pid_hidden * tile_hidden + i if split_hidden else i
-                            reduced_fragment[i] += x[pos, input_index] * s
-                if prefetch_rows > 0 and k + prefetch_rows < num_topk:
+                        reduced_fragment[i] += prefetched[k % prefetch_rows, i] * s
+                if k + prefetch_rows < num_topk:
                     next_pos = topk_to_pos_local[k + prefetch_rows]
                     T.assume(next_pos < num_expanded_tokens)
                     if next_pos >= 0:
                         T.copy(
                             x[next_pos, pid_hidden * tile_hidden:(pid_hidden + 1) * tile_hidden],
-                            prefetched[k % prefetch_capacity, :],
+                            prefetched[k % prefetch_rows, :],
                         )
 
             for i in T.Parallel(tile_hidden):
@@ -253,17 +245,6 @@ class MoeReduceFusedKernel(Kernel):
             )
             and (tile_hidden, num_threads) == _MEASURED_CONFIGS[measured_key][1]
         )
-        # v025: depth-eight register prefetch for the measured SF
-        # h3072/h7168 shapes, retaining their v020/v022 launch geometry.
-        self.prefetch_rows = (
-            8 if with_sf and with_weights
-            and dtype == torch.bfloat16
-            and (num_tokens, num_topk, hidden) in (
-                (512, 8, 3072), (512, 8, 7168),
-            )
-            and (tile_hidden, num_threads) == _MEASURED_CONFIGS[measured_key][1]
-            else 0
-        )
         self.kernel = get_reduce_fused_kernel(
             hidden,
             num_topk,
@@ -276,7 +257,6 @@ class MoeReduceFusedKernel(Kernel):
             num_threads=num_threads,
             grid_hidden_first=self.grid_hidden_first,
             vector_store=self.vector_store,
-            prefetch_rows=self.prefetch_rows,
         )
 
     @property

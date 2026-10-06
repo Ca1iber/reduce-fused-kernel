@@ -1,0 +1,56 @@
+{
+  "formal_v022": [
+    {
+      "us": 22.743040000000004,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.778880000000004,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.778880000000008,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.748160000000006,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.7328,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ],
+  "integrated_v025": [
+    {
+      "us": 21.089280000000002,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 21.0944,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 21.079040000000006,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 21.10976,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 21.089280000000002,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ]
+}

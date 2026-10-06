@@ -1,0 +1,56 @@
+{
+  "v022": [
+    {
+      "us": 22.993920000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.96832,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.958080000000006,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 23.00416,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.937600000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ],
+  "prefetch8_current_grid": [
+    {
+      "us": 22.292479999999998,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.318080000000013,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.328320000000005,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.307840000000002,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 22.307840000000013,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ]
+}

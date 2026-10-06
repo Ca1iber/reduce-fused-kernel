@@ -1,0 +1,21 @@
+{
+  "done": true,
+  "completed": [
+    {
+      "task": "fp8_h3072",
+      "exitcode": 0
+    },
+    {
+      "task": "quantized_h3072",
+      "exitcode": 0
+    },
+    {
+      "task": "fp8_h7168",
+      "exitcode": 0
+    },
+    {
+      "task": "quantized_h7168",
+      "exitcode": 0
+    }
+  ]
+}

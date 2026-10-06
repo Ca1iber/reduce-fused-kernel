@@ -1,0 +1,13 @@
+{
+  "previous_sha256": "fcbb7e5c21238c719de62fc8107336e27059d4c3057d5b811238976d1c834b1d",
+  "integrated_sha256": "396df55d65977f62e9ee4b7720067583dc6de5ff5775d238dfbd5cf807fcf303",
+  "selected_shapes": [
+    "T512 K8 H3072 BF16 SF weighted tile512 threads128",
+    "T512 K8 H7168 BF16 SF weighted tile512 threads128"
+  ],
+  "depth": 8,
+  "with_x_sf": [
+    false,
+    true
+  ]
+}

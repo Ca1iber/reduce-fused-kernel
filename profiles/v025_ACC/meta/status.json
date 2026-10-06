@@ -1,0 +1,26 @@
+{
+  "done": true,
+  "completed": [
+    {
+      "task": "fp8_h3072",
+      "exitcode": 0,
+      "seconds": 28.4142484664917
+    },
+    {
+      "task": "quantized_h3072",
+      "exitcode": 0,
+      "seconds": 4.719406843185425
+    },
+    {
+      "task": "fp8_h7168",
+      "exitcode": 0,
+      "seconds": 8.351605415344238
+    },
+    {
+      "task": "quantized_h7168",
+      "exitcode": 0,
+      "seconds": 8.4898362159729
+    }
+  ],
+  "correctness_exitcode": 0
+}
