@@ -1,0 +1,9 @@
+{
+  "pid": 139367,
+  "reason": "previous process SIGKILL after RESULT; container oom_kill=1, no before counter; limit host thread arenas and release unused heap between measurements",
+  "env_overrides": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "MALLOC_ARENA_MAX": "2"
+  }
+}

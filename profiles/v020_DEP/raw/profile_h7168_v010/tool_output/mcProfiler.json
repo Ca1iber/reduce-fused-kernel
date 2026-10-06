@@ -1,0 +1,51 @@
+{
+  "perfList": {
+    "L2C": [
+      [
+        47,
+        "perf_dnoc_rdreq_64B"
+      ],
+      [
+        46,
+        "perf_dnoc_rdreq_32B"
+      ],
+      [
+        269,
+        "perf_dnoc_wrreq_32B_low"
+      ]
+    ],
+    "ISU": [
+      [
+        16,
+        "AP_PERF_INSTS_LDU"
+      ],
+      [
+        79,
+        "AP_PERF_ISU_ARB_WSM_STALL"
+      ],
+      [
+        80,
+        "AP_PERF_ISU_ARB_VLS_STALL"
+      ],
+      [
+        82,
+        "AP_PERF_ISU_ARB_VALU_STALL"
+      ],
+      [
+        11,
+        "AP_PERF_INSTS_GVM"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "reduce_fused_kernel_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source": "raw/trace_grid/grid-149790.json",
+  "trace_time_not_benchmark": true,
+  "data": {
+    "v010": {
+      "events": 11,
+      "grid": {
+        "x": 512,
+        "y": 14,
+        "z": 1
+      },
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "resources": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 12,
+        "static_shared": 0
+      },
+      "auxiliary_trace_median_us": 49.92
+    },
+    "grid_hidden_first": {
+      "events": 11,
+      "grid": {
+        "x": 14,
+        "y": 512,
+        "z": 1
+      },
+      "block": {
+        "x": 128,
+        "y": 1,
+        "z": 1
+      },
+      "resources": {
+        "dynamic_shared": 0,
+        "private_per_thread": 0,
+        "private_total": 0,
+        "registers_per_thread": 12,
+        "static_shared": 0
+      },
+      "auxiliary_trace_median_us": 48.128
+    }
+  }
+}

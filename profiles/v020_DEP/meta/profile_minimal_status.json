@@ -1,0 +1,69 @@
+{
+  "done": true,
+  "completed": [
+    {
+      "case": "v010",
+      "command": [
+        "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+        "perf_exec",
+        "--cmdline",
+        "env MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/v020_DEP/raw/profile_minimal_h7168_v010 /opt/conda/bin/python /data/TileOPs-Metax/profiles/v020_DEP/scripts/profile_grid.py --workload h7168 --case v010",
+        "--kernelname",
+        "v020_v010",
+        "--casename",
+        "v020_v010",
+        "--cwd",
+        "/data/TileOPs-Metax/profiles/v020_DEP/raw/profile_minimal_h7168_v010",
+        "--custom",
+        "--per-kernel",
+        "--kernelnames",
+        "reduce_fused_kernel_kernel",
+        "--counts",
+        "1",
+        "--metrics",
+        "Total Instructions",
+        "Compute Instructions",
+        "Memory Instructions",
+        "Global Memory Read bytes",
+        "Global Memory Write bytes"
+      ],
+      "started": 1791214995.4619112,
+      "pid": 147724,
+      "exitcode": 0,
+      "seconds": 103.53556609153748,
+      "output": "/opt/mcProfiler-ubuntu18.04/output20261005154319"
+    },
+    {
+      "case": "grid_hidden_first",
+      "command": [
+        "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+        "perf_exec",
+        "--cmdline",
+        "env MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/v020_DEP/raw/profile_minimal_h7168_grid_hidden_first /opt/conda/bin/python /data/TileOPs-Metax/profiles/v020_DEP/scripts/profile_grid.py --workload h7168 --case grid_hidden_first",
+        "--kernelname",
+        "v020_grid_hidden_first",
+        "--casename",
+        "v020_grid_hidden_first",
+        "--cwd",
+        "/data/TileOPs-Metax/profiles/v020_DEP/raw/profile_minimal_h7168_grid_hidden_first",
+        "--custom",
+        "--per-kernel",
+        "--kernelnames",
+        "reduce_fused_kernel_kernel",
+        "--counts",
+        "1",
+        "--metrics",
+        "Total Instructions",
+        "Compute Instructions",
+        "Memory Instructions",
+        "Global Memory Read bytes",
+        "Global Memory Write bytes"
+      ],
+      "started": 1791215098.9994142,
+      "pid": 148572,
+      "exitcode": 0,
+      "seconds": 103.48401594161987,
+      "output": "/opt/mcProfiler-ubuntu18.04/output20261005154503"
+    }
+  ]
+}

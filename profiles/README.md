@@ -31,7 +31,8 @@
 | [v016_DEP](v016_DEP/analysis/README.md) | 更深寄存器预取，有收益但未接入 |
 | [v017_DIS:v013](v017_DIS:v013/analysis/README.md) | 定位 v013 同步错误的根因 |
 | [v018_DIS:v016](v018_DIS:v016/analysis/README.md) | 围绕 v016 的寄存器、驻留与双 fragment 对照 |
-| [v019_SUM](v019_SUM/README.md) | v000 与 v010 的 16 组加速比总结 |
+| [v019_SUM](v019_SUM/analysis/README.md) | v000 与 v010 的 16 组加速比总结 |
+| [v020_DEP](v020_DEP/analysis/README.md) | 交换 grid 维度顺序的对照实验 |
 
 ## 后续约定
 
@@ -56,7 +57,8 @@ profiles/
   v017_DIS:v013/
     ...
   v019_SUM/
-    README.md   # 总结入口；数据等附件按上述分类存放
+    analysis/
+      README.md # 总结入口；数据等附件按上述分类存放
 ```
 
 同一版本的多个 workload 放在对应分类下的 case 子目录。meta 记录 Git commit、改动、源码哈希、shape/dtype、命令、工具版本和退出码。analysis 写明目的、证据、结论与未确认问题。失败采集同样保留。历史原始数据和采集元数据保留采集时的路径；当前复现命令、脚本导入路径和文档链接使用新目录名。

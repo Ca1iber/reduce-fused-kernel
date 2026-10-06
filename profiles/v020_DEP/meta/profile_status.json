@@ -1,0 +1,72 @@
+{
+  "completed": [
+    {
+      "case": "v010",
+      "command": [
+        "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+        "perf_exec",
+        "--cmdline",
+        "env MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/v020_DEP/raw/profile_h7168_v010 /opt/conda/bin/python /data/TileOPs-Metax/profiles/v020_DEP/scripts/profile_grid.py --workload h7168 --case v010",
+        "--kernelname",
+        "v020_v010",
+        "--casename",
+        "v020_v010",
+        "--cwd",
+        "/data/TileOPs-Metax/profiles/v020_DEP/raw/profile_h7168_v010",
+        "--custom",
+        "--per-kernel",
+        "--kernelnames",
+        "reduce_fused_kernel_kernel",
+        "--counts",
+        "1",
+        "--metrics",
+        "Total Instructions",
+        "Compute Instructions",
+        "Memory Instructions",
+        "Total Cycles",
+        "Global Memory Read bytes",
+        "Global Memory Write bytes",
+        "ISU stall cycles layout"
+      ],
+      "started": 1791214776.1049864,
+      "pid": 145980,
+      "exitcode": 0,
+      "seconds": 103.53542017936707,
+      "output": "/opt/mcProfiler-ubuntu18.04/output20261005153940"
+    },
+    {
+      "case": "grid_hidden_first",
+      "command": [
+        "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+        "perf_exec",
+        "--cmdline",
+        "env MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/v020_DEP/raw/profile_h7168_grid_hidden_first /opt/conda/bin/python /data/TileOPs-Metax/profiles/v020_DEP/scripts/profile_grid.py --workload h7168 --case grid_hidden_first",
+        "--kernelname",
+        "v020_grid_hidden_first",
+        "--casename",
+        "v020_grid_hidden_first",
+        "--cwd",
+        "/data/TileOPs-Metax/profiles/v020_DEP/raw/profile_h7168_grid_hidden_first",
+        "--custom",
+        "--per-kernel",
+        "--kernelnames",
+        "reduce_fused_kernel_kernel",
+        "--counts",
+        "1",
+        "--metrics",
+        "Total Instructions",
+        "Compute Instructions",
+        "Memory Instructions",
+        "Total Cycles",
+        "Global Memory Read bytes",
+        "Global Memory Write bytes",
+        "ISU stall cycles layout"
+      ],
+      "started": 1791214879.6426148,
+      "pid": 146826,
+      "exitcode": -15,
+      "seconds": 89.02098274230957,
+      "output": "/opt/mcProfiler-ubuntu18.04/output20261005154124"
+    }
+  ]
+}

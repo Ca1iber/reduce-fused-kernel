@@ -1,0 +1,20 @@
+{
+    "L2C": [
+        "perf_dnoc_wrreq_32B_high",
+        "perf_dnoc_rdreq_128B",
+        "perf_dnoc_rdreq_64B",
+        "perf_dnoc_rdreq_32B",
+        "perf_dnoc_wrreq_32B_low",
+        "perf_dnoc_wrreq_64B",
+        "perf_dnoc_wrreq_128B"
+    ],
+    "ISU": [
+        "AP_PERF_INSTS_GVM",
+        "AP_PERF_INSTS_BSM",
+        "AP_PERF_INST_MISC",
+        "AP_PERF_INSTS_VALU",
+        "AP_PERF_INSTS_SALU",
+        "AP_PERF_INSTS_LDU",
+        "AP_PERF_INSTS_MMA"
+    ]
+}

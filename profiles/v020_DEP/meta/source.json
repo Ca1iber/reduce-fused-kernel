@@ -1,0 +1,7 @@
+{
+  "head": "c435cdcdb486f13d08310a049945948bec2586a4",
+  "baseline_sha256": "c6b5dcb13fa171ace058b3f0a50d8361a439eb3335ad4596c539273859831596",
+  "change_before": "with T.Kernel(num_tokens, hidden // tile_hidden, threads=num_threads) as (pid_token, pid_hidden):",
+  "change_after": "with T.Kernel(hidden // tile_hidden, num_tokens, threads=num_threads) as (pid_hidden, pid_token):",
+  "utc": "2026-10-05T15:14:52.664675+00:00"
+}

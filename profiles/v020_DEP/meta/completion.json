@@ -1,0 +1,18 @@
+{
+  "benchmark_cases": 8,
+  "measurements_per_implementation": 5,
+  "timing": "cupti",
+  "tests": {
+    "tests": 131,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "formal_kernel_unchanged": true,
+  "generated_cpp_equal_after_index_swap": true,
+  "tiny_supplement_done": true,
+  "grid_mapping_quantified": true,
+  "actual_position_address_statistics": true,
+  "mcTracer_resource_check": true,
+  "mcProfiler_usable_for_causal_analysis": false
+}

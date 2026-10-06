@@ -1,0 +1,26 @@
+{
+  "fp8_h3072": {
+    "generated_cpp_equal_after_block_index_swap": true
+  },
+  "fp8_h7168": {
+    "generated_cpp_equal_after_block_index_swap": true
+  },
+  "fp8_prefill": {
+    "generated_cpp_equal_after_block_index_swap": true
+  },
+  "quantized_h3072": {
+    "generated_cpp_equal_after_block_index_swap": true
+  },
+  "quantized_h7168": {
+    "generated_cpp_equal_after_block_index_swap": true
+  },
+  "quantized_prefill": {
+    "generated_cpp_equal_after_block_index_swap": true
+  },
+  "fp8_tiny": {
+    "generated_cpp_equal_after_block_index_swap": true
+  },
+  "quantized_tiny": {
+    "generated_cpp_equal_after_block_index_swap": true
+  }
+}

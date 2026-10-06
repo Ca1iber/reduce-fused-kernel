@@ -1,0 +1,98 @@
+[
+  {
+    "workload": "tiny",
+    "tokens": 32,
+    "topk": 2,
+    "hidden": 256,
+    "tile": 256,
+    "cta_count": 32,
+    "old_grid": [
+      32,
+      1
+    ],
+    "new_grid": [
+      1,
+      32
+    ],
+    "same_token_adjacent_block_pairs_before": 0,
+    "same_token_adjacent_block_pairs_after": 0,
+    "same_token_adjacent_fraction_after": 0.0,
+    "contiguous_input_chunk_bytes": 512,
+    "neighbor_offset_within_same_expert_bytes": 512,
+    "first_14_block_distinct_tokens_before": 14,
+    "first_14_block_distinct_tokens_after": 14,
+    "same_flattened_token_hidden_sequence": true
+  },
+  {
+    "workload": "h3072",
+    "tokens": 512,
+    "topk": 8,
+    "hidden": 3072,
+    "tile": 512,
+    "cta_count": 3072,
+    "old_grid": [
+      512,
+      6
+    ],
+    "new_grid": [
+      6,
+      512
+    ],
+    "same_token_adjacent_block_pairs_before": 0,
+    "same_token_adjacent_block_pairs_after": 2560,
+    "same_token_adjacent_fraction_after": 0.8336046890263757,
+    "contiguous_input_chunk_bytes": 1024,
+    "neighbor_offset_within_same_expert_bytes": 1024,
+    "first_14_block_distinct_tokens_before": 14,
+    "first_14_block_distinct_tokens_after": 3,
+    "same_flattened_token_hidden_sequence": false
+  },
+  {
+    "workload": "h7168",
+    "tokens": 512,
+    "topk": 8,
+    "hidden": 7168,
+    "tile": 512,
+    "cta_count": 7168,
+    "old_grid": [
+      512,
+      14
+    ],
+    "new_grid": [
+      14,
+      512
+    ],
+    "same_token_adjacent_block_pairs_before": 0,
+    "same_token_adjacent_block_pairs_after": 6656,
+    "same_token_adjacent_fraction_after": 0.9287009906515976,
+    "contiguous_input_chunk_bytes": 1024,
+    "neighbor_offset_within_same_expert_bytes": 1024,
+    "first_14_block_distinct_tokens_before": 14,
+    "first_14_block_distinct_tokens_after": 1,
+    "same_flattened_token_hidden_sequence": false
+  },
+  {
+    "workload": "prefill",
+    "tokens": 4096,
+    "topk": 8,
+    "hidden": 7168,
+    "tile": 1024,
+    "cta_count": 28672,
+    "old_grid": [
+      4096,
+      7
+    ],
+    "new_grid": [
+      7,
+      4096
+    ],
+    "same_token_adjacent_block_pairs_before": 0,
+    "same_token_adjacent_block_pairs_after": 24576,
+    "same_token_adjacent_fraction_after": 0.8571727529559485,
+    "contiguous_input_chunk_bytes": 2048,
+    "neighbor_offset_within_same_expert_bytes": 2048,
+    "first_14_block_distinct_tokens_before": 14,
+    "first_14_block_distinct_tokens_after": 2,
+    "same_flattened_token_hidden_sequence": false
+  }
+]

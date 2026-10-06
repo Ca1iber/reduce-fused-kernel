@@ -1,0 +1,147 @@
+{
+  "positions_source": "raw/profile_positions_h7168_v010.json",
+  "same_seed_positions_verified": true,
+  "shape": {
+    "T": 512,
+    "K": 8,
+    "H": 7168,
+    "tile": 512
+  },
+  "method": "linear block index i=x+grid_x*y; address bytes=(positions[token][expert]*H+hidden_block*tile)*2; compare same expert slot between adjacent linear block IDs; does not measure actual hardware execution order",
+  "data": {
+    "v010": {
+      "adjacent_block_input_start_address_delta_bytes_mean": 19487865.76698758,
+      "adjacent_block_input_start_address_delta_bytes_median": 16930816.0,
+      "adjacent_block_input_start_address_delta_bytes_max": 57788416,
+      "delta_equal_to_1024_fraction": 0.0,
+      "first_14_cta_distinct_input_rows": 112,
+      "first_14_cta_distinct_route_rows": 14,
+      "first_14_cta_x_payload_bytes": 114688,
+      "first_14_token_hidden_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    "grid_hidden_first": {
+      "adjacent_block_input_start_address_delta_bytes_mean": 1390832.3549602344,
+      "adjacent_block_input_start_address_delta_bytes_median": 1024.0,
+      "adjacent_block_input_start_address_delta_bytes_max": 57801728,
+      "delta_equal_to_1024_fraction": 0.9287009906515976,
+      "first_14_cta_distinct_input_rows": 8,
+      "first_14_cta_distinct_route_rows": 1,
+      "first_14_cta_x_payload_bytes": 114688,
+      "first_14_token_hidden_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ]
+      ]
+    }
+  }
+}

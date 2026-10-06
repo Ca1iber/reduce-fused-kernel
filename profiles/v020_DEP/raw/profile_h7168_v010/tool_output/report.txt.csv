@@ -1,0 +1,16 @@
+Name,Description,Value
+Total Instructions,number of all instructions,"29,592,523,293"
+Compute Instructions,number of compute instructions,"26,605,253,657"
+Memory Instructions,number of memory instructions,"2,987,269,636"
+Total Cycles,cycles use by kernel,"7,479,760.38(Kcycles)"
+ISU stall cycles layout,ISU stall cycles layout,"{
+    ""data"": {
+        ""wsm_stall"": 2163772760.0,
+        ""vls_pipeline_stall"": 17438267853.0,
+        ""vls_wdata_stall"": 1882971756.0,
+        ""valu_stall"": 0.0
+    },
+    ""filename"": ""/opt/mcProfiler-ubuntu18.04/output20261005153940/ISU_stall_cycles_layout20261005154103325.png""
+}"
+Global Memory Read bytes,bytes read from global memory,"175,705,087,136.0byte"
+Global Memory Write bytes,bytes write from global memory,"86,706,580,416.0byte"

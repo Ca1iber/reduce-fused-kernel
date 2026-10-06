@@ -1,0 +1,3762 @@
+{
+    "perf_counters": {
+        "0": [
+            {
+                "ISU": {
+                    "dpcId0,blockId0": {
+                        "AP_PERF_INSTS_GVM": 13639903,
+                        "AP_PERF_INSTS_BSM": 11673311,
+                        "AP_PERF_INST_MISC": 22334604,
+                        "AP_PERF_INSTS_VALU": 177381878,
+                        "AP_PERF_INSTS_SALU": 40411838,
+                        "AP_PERF_INSTS_LDU": 3605068,
+                        "AP_PERF_INSTS_MMA": 17856320
+                    },
+                    "dpcId0,blockId1": {
+                        "AP_PERF_INSTS_GVM": 13081922,
+                        "AP_PERF_INSTS_BSM": 11659568,
+                        "AP_PERF_INST_MISC": 21202788,
+                        "AP_PERF_INSTS_VALU": 171398824,
+                        "AP_PERF_INSTS_SALU": 38216091,
+                        "AP_PERF_INSTS_LDU": 3594559,
+                        "AP_PERF_INSTS_MMA": 17617600
+                    },
+                    "dpcId0,blockId2": {
+                        "AP_PERF_INSTS_GVM": 13102138,
+                        "AP_PERF_INSTS_BSM": 11697263,
+                        "AP_PERF_INST_MISC": 21235856,
+                        "AP_PERF_INSTS_VALU": 171644447,
+                        "AP_PERF_INSTS_SALU": 38200551,
+                        "AP_PERF_INSTS_LDU": 3591485,
+                        "AP_PERF_INSTS_MMA": 17751488
+                    },
+                    "dpcId0,blockId3": {
+                        "AP_PERF_INSTS_GVM": 12875312,
+                        "AP_PERF_INSTS_BSM": 11568905,
+                        "AP_PERF_INST_MISC": 21010765,
+                        "AP_PERF_INSTS_VALU": 169502055,
+                        "AP_PERF_INSTS_SALU": 37798666,
+                        "AP_PERF_INSTS_LDU": 3582011,
+                        "AP_PERF_INSTS_MMA": 17813312
+                    },
+                    "dpcId0,blockId4": {
+                        "AP_PERF_INSTS_GVM": 13019864,
+                        "AP_PERF_INSTS_BSM": 11948320,
+                        "AP_PERF_INST_MISC": 21150317,
+                        "AP_PERF_INSTS_VALU": 170810890,
+                        "AP_PERF_INSTS_SALU": 38122537,
+                        "AP_PERF_INSTS_LDU": 3584450,
+                        "AP_PERF_INSTS_MMA": 17864704
+                    },
+                    "dpcId0,blockId5": {
+                        "AP_PERF_INSTS_GVM": 12902856,
+                        "AP_PERF_INSTS_BSM": 11862036,
+                        "AP_PERF_INST_MISC": 21012113,
+                        "AP_PERF_INSTS_VALU": 169571568,
+                        "AP_PERF_INSTS_SALU": 37839769,
+                        "AP_PERF_INSTS_LDU": 3573315,
+                        "AP_PERF_INSTS_MMA": 17747648
+                    },
+                    "dpcId0,blockId6": {
+                        "AP_PERF_INSTS_GVM": 13080317,
+                        "AP_PERF_INSTS_BSM": 11594071,
+                        "AP_PERF_INST_MISC": 21497350,
+                        "AP_PERF_INSTS_VALU": 169662378,
+                        "AP_PERF_INSTS_SALU": 38996781,
+                        "AP_PERF_INSTS_LDU": 3570295,
+                        "AP_PERF_INSTS_MMA": 17911808
+                    },
+                    "dpcId0,blockId7": {
+                        "AP_PERF_INSTS_GVM": 12676417,
+                        "AP_PERF_INSTS_BSM": 11566850,
+                        "AP_PERF_INST_MISC": 20722340,
+                        "AP_PERF_INSTS_VALU": 165042452,
+                        "AP_PERF_INSTS_SALU": 37570194,
+                        "AP_PERF_INSTS_LDU": 3564123,
+                        "AP_PERF_INSTS_MMA": 17633536
+                    },
+                    "dpcId0,blockId8": {
+                        "AP_PERF_INSTS_GVM": 12689574,
+                        "AP_PERF_INSTS_BSM": 11546636,
+                        "AP_PERF_INST_MISC": 20707048,
+                        "AP_PERF_INSTS_VALU": 165339682,
+                        "AP_PERF_INSTS_SALU": 37451613,
+                        "AP_PERF_INSTS_LDU": 3562471,
+                        "AP_PERF_INSTS_MMA": 17772224
+                    },
+                    "dpcId0,blockId9": {
+                        "AP_PERF_INSTS_GVM": 12885126,
+                        "AP_PERF_INSTS_BSM": 11734158,
+                        "AP_PERF_INST_MISC": 20877188,
+                        "AP_PERF_INSTS_VALU": 168361380,
+                        "AP_PERF_INSTS_SALU": 37722805,
+                        "AP_PERF_INSTS_LDU": 3553897,
+                        "AP_PERF_INSTS_MMA": 17563264
+                    },
+                    "dpcId0,blockId10": {
+                        "AP_PERF_INSTS_GVM": 13305500,
+                        "AP_PERF_INSTS_BSM": 11764807,
+                        "AP_PERF_INST_MISC": 21708465,
+                        "AP_PERF_INSTS_VALU": 173633983,
+                        "AP_PERF_INSTS_SALU": 39200298,
+                        "AP_PERF_INSTS_LDU": 3545481,
+                        "AP_PERF_INSTS_MMA": 17813568
+                    },
+                    "dpcId0,blockId11": {
+                        "AP_PERF_INSTS_GVM": 13670093,
+                        "AP_PERF_INSTS_BSM": 11527982,
+                        "AP_PERF_INST_MISC": 22519304,
+                        "AP_PERF_INSTS_VALU": 177312572,
+                        "AP_PERF_INSTS_SALU": 40847745,
+                        "AP_PERF_INSTS_LDU": 3537017,
+                        "AP_PERF_INSTS_MMA": 17671872
+                    },
+                    "dpcId0,blockId12": {
+                        "AP_PERF_INSTS_GVM": 13255511,
+                        "AP_PERF_INSTS_BSM": 11538683,
+                        "AP_PERF_INST_MISC": 21640069,
+                        "AP_PERF_INSTS_VALU": 173207803,
+                        "AP_PERF_INSTS_SALU": 38977715,
+                        "AP_PERF_INSTS_LDU": 3543006,
+                        "AP_PERF_INSTS_MMA": 17464000
+                    },
+                    "dpcId1,blockId0": {
+                        "AP_PERF_INSTS_GVM": 13010839,
+                        "AP_PERF_INSTS_BSM": 11677806,
+                        "AP_PERF_INST_MISC": 21181309,
+                        "AP_PERF_INSTS_VALU": 170595845,
+                        "AP_PERF_INSTS_SALU": 38248076,
+                        "AP_PERF_INSTS_LDU": 3603065,
+                        "AP_PERF_INSTS_MMA": 17851392
+                    },
+                    "dpcId1,blockId1": {
+                        "AP_PERF_INSTS_GVM": 13537594,
+                        "AP_PERF_INSTS_BSM": 11643382,
+                        "AP_PERF_INST_MISC": 22258208,
+                        "AP_PERF_INSTS_VALU": 175804797,
+                        "AP_PERF_INSTS_SALU": 40419208,
+                        "AP_PERF_INSTS_LDU": 3596054,
+                        "AP_PERF_INSTS_MMA": 17565056
+                    },
+                    "dpcId1,blockId2": {
+                        "AP_PERF_INSTS_GVM": 13521848,
+                        "AP_PERF_INSTS_BSM": 11648784,
+                        "AP_PERF_INST_MISC": 22314569,
+                        "AP_PERF_INSTS_VALU": 175644645,
+                        "AP_PERF_INSTS_SALU": 40443172,
+                        "AP_PERF_INSTS_LDU": 3598644,
+                        "AP_PERF_INSTS_MMA": 17754240
+                    },
+                    "dpcId1,blockId3": {
+                        "AP_PERF_INSTS_GVM": 13645407,
+                        "AP_PERF_INSTS_BSM": 11626995,
+                        "AP_PERF_INST_MISC": 22535307,
+                        "AP_PERF_INSTS_VALU": 177010515,
+                        "AP_PERF_INSTS_SALU": 40853868,
+                        "AP_PERF_INSTS_LDU": 3586142,
+                        "AP_PERF_INSTS_MMA": 17746624
+                    },
+                    "dpcId1,blockId4": {
+                        "AP_PERF_INSTS_GVM": 12853626,
+                        "AP_PERF_INSTS_BSM": 11663292,
+                        "AP_PERF_INST_MISC": 20902729,
+                        "AP_PERF_INSTS_VALU": 167214497,
+                        "AP_PERF_INSTS_SALU": 37740993,
+                        "AP_PERF_INSTS_LDU": 3580164,
+                        "AP_PERF_INSTS_MMA": 17746560
+                    },
+                    "dpcId1,blockId5": {
+                        "AP_PERF_INSTS_GVM": 12815470,
+                        "AP_PERF_INSTS_BSM": 11542147,
+                        "AP_PERF_INST_MISC": 20855278,
+                        "AP_PERF_INSTS_VALU": 167055549,
+                        "AP_PERF_INSTS_SALU": 37685934,
+                        "AP_PERF_INSTS_LDU": 3583813,
+                        "AP_PERF_INSTS_MMA": 17801920
+                    },
+                    "dpcId1,blockId6": {
+                        "AP_PERF_INSTS_GVM": 13444196,
+                        "AP_PERF_INSTS_BSM": 11962417,
+                        "AP_PERF_INST_MISC": 21974397,
+                        "AP_PERF_INSTS_VALU": 175551524,
+                        "AP_PERF_INSTS_SALU": 39599362,
+                        "AP_PERF_INSTS_LDU": 3568404,
+                        "AP_PERF_INSTS_MMA": 17873216
+                    },
+                    "dpcId1,blockId7": {
+                        "AP_PERF_INSTS_GVM": 13410898,
+                        "AP_PERF_INSTS_BSM": 11939514,
+                        "AP_PERF_INST_MISC": 21928992,
+                        "AP_PERF_INSTS_VALU": 175204922,
+                        "AP_PERF_INSTS_SALU": 39552746,
+                        "AP_PERF_INSTS_LDU": 3561449,
+                        "AP_PERF_INSTS_MMA": 17867456
+                    },
+                    "dpcId1,blockId8": {
+                        "AP_PERF_INSTS_GVM": 13093718,
+                        "AP_PERF_INSTS_BSM": 11887691,
+                        "AP_PERF_INST_MISC": 21174894,
+                        "AP_PERF_INSTS_VALU": 172534799,
+                        "AP_PERF_INSTS_SALU": 38047115,
+                        "AP_PERF_INSTS_LDU": 3564275,
+                        "AP_PERF_INSTS_MMA": 17743104
+                    },
+                    "dpcId1,blockId9": {
+                        "AP_PERF_INSTS_GVM": 12856305,
+                        "AP_PERF_INSTS_BSM": 11577976,
+                        "AP_PERF_INST_MISC": 20850374,
+                        "AP_PERF_INSTS_VALU": 167788412,
+                        "AP_PERF_INSTS_SALU": 37790793,
+                        "AP_PERF_INSTS_LDU": 3558714,
+                        "AP_PERF_INSTS_MMA": 17709056
+                    },
+                    "dpcId1,blockId10": {
+                        "AP_PERF_INSTS_GVM": 13149920,
+                        "AP_PERF_INSTS_BSM": 11532418,
+                        "AP_PERF_INST_MISC": 21523694,
+                        "AP_PERF_INSTS_VALU": 171292728,
+                        "AP_PERF_INSTS_SALU": 38896997,
+                        "AP_PERF_INSTS_LDU": 3546828,
+                        "AP_PERF_INSTS_MMA": 17743424
+                    },
+                    "dpcId1,blockId11": {
+                        "AP_PERF_INSTS_GVM": 13132117,
+                        "AP_PERF_INSTS_BSM": 11539747,
+                        "AP_PERF_INST_MISC": 21498724,
+                        "AP_PERF_INSTS_VALU": 171130148,
+                        "AP_PERF_INSTS_SALU": 38806186,
+                        "AP_PERF_INSTS_LDU": 3548875,
+                        "AP_PERF_INSTS_MMA": 17646784
+                    },
+                    "dpcId1,blockId12": {
+                        "AP_PERF_INSTS_GVM": 13303916,
+                        "AP_PERF_INSTS_BSM": 11466775,
+                        "AP_PERF_INST_MISC": 21892711,
+                        "AP_PERF_INSTS_VALU": 173104601,
+                        "AP_PERF_INSTS_SALU": 39539092,
+                        "AP_PERF_INSTS_LDU": 3535140,
+                        "AP_PERF_INSTS_MMA": 17618112
+                    },
+                    "dpcId2,blockId0": {
+                        "AP_PERF_INSTS_GVM": 13506388,
+                        "AP_PERF_INSTS_BSM": 11764283,
+                        "AP_PERF_INST_MISC": 22181771,
+                        "AP_PERF_INSTS_VALU": 173978584,
+                        "AP_PERF_INSTS_SALU": 40376980,
+                        "AP_PERF_INSTS_LDU": 3606576,
+                        "AP_PERF_INSTS_MMA": 17830912
+                    },
+                    "dpcId2,blockId1": {
+                        "AP_PERF_INSTS_GVM": 13172391,
+                        "AP_PERF_INSTS_BSM": 11720169,
+                        "AP_PERF_INST_MISC": 21546437,
+                        "AP_PERF_INSTS_VALU": 170595856,
+                        "AP_PERF_INSTS_SALU": 39024074,
+                        "AP_PERF_INSTS_LDU": 3600402,
+                        "AP_PERF_INSTS_MMA": 17803392
+                    },
+                    "dpcId2,blockId2": {
+                        "AP_PERF_INSTS_GVM": 13324432,
+                        "AP_PERF_INSTS_BSM": 11723785,
+                        "AP_PERF_INST_MISC": 21768381,
+                        "AP_PERF_INSTS_VALU": 173224394,
+                        "AP_PERF_INSTS_SALU": 39279969,
+                        "AP_PERF_INSTS_LDU": 3591649,
+                        "AP_PERF_INSTS_MMA": 17934784
+                    },
+                    "dpcId2,blockId3": {
+                        "AP_PERF_INSTS_GVM": 13426761,
+                        "AP_PERF_INSTS_BSM": 11601885,
+                        "AP_PERF_INST_MISC": 22030445,
+                        "AP_PERF_INSTS_VALU": 174609025,
+                        "AP_PERF_INSTS_SALU": 39814216,
+                        "AP_PERF_INSTS_LDU": 3593303,
+                        "AP_PERF_INSTS_MMA": 17704000
+                    },
+                    "dpcId2,blockId4": {
+                        "AP_PERF_INSTS_GVM": 13153180,
+                        "AP_PERF_INSTS_BSM": 11613072,
+                        "AP_PERF_INST_MISC": 21537690,
+                        "AP_PERF_INSTS_VALU": 171191769,
+                        "AP_PERF_INSTS_SALU": 38974827,
+                        "AP_PERF_INSTS_LDU": 3579669,
+                        "AP_PERF_INSTS_MMA": 17755264
+                    },
+                    "dpcId2,blockId5": {
+                        "AP_PERF_INSTS_GVM": 12719320,
+                        "AP_PERF_INSTS_BSM": 11494793,
+                        "AP_PERF_INST_MISC": 20783944,
+                        "AP_PERF_INSTS_VALU": 167498102,
+                        "AP_PERF_INSTS_SALU": 37472914,
+                        "AP_PERF_INSTS_LDU": 3576768,
+                        "AP_PERF_INSTS_MMA": 17811648
+                    },
+                    "dpcId2,blockId6": {
+                        "AP_PERF_INSTS_GVM": 12893910,
+                        "AP_PERF_INSTS_BSM": 11733326,
+                        "AP_PERF_INST_MISC": 21004703,
+                        "AP_PERF_INSTS_VALU": 170506288,
+                        "AP_PERF_INSTS_SALU": 37705306,
+                        "AP_PERF_INSTS_LDU": 3582188,
+                        "AP_PERF_INSTS_MMA": 17864512
+                    },
+                    "dpcId2,blockId7": {
+                        "AP_PERF_INSTS_GVM": 13295244,
+                        "AP_PERF_INSTS_BSM": 11515226,
+                        "AP_PERF_INST_MISC": 21871798,
+                        "AP_PERF_INSTS_VALU": 173225445,
+                        "AP_PERF_INSTS_SALU": 39527228,
+                        "AP_PERF_INSTS_LDU": 3565458,
+                        "AP_PERF_INSTS_MMA": 17690304
+                    },
+                    "dpcId2,blockId8": {
+                        "AP_PERF_INSTS_GVM": 12871835,
+                        "AP_PERF_INSTS_BSM": 11570302,
+                        "AP_PERF_INST_MISC": 20929365,
+                        "AP_PERF_INSTS_VALU": 168939062,
+                        "AP_PERF_INSTS_SALU": 37611780,
+                        "AP_PERF_INSTS_LDU": 3567615,
+                        "AP_PERF_INSTS_MMA": 17710272
+                    },
+                    "dpcId2,blockId9": {
+                        "AP_PERF_INSTS_GVM": 13278102,
+                        "AP_PERF_INSTS_BSM": 11605644,
+                        "AP_PERF_INST_MISC": 21678510,
+                        "AP_PERF_INSTS_VALU": 173749452,
+                        "AP_PERF_INSTS_SALU": 39080255,
+                        "AP_PERF_INSTS_LDU": 3563340,
+                        "AP_PERF_INSTS_MMA": 17687488
+                    },
+                    "dpcId2,blockId10": {
+                        "AP_PERF_INSTS_GVM": 13850713,
+                        "AP_PERF_INSTS_BSM": 12078546,
+                        "AP_PERF_INST_MISC": 22512480,
+                        "AP_PERF_INSTS_VALU": 180821392,
+                        "AP_PERF_INSTS_SALU": 40494536,
+                        "AP_PERF_INSTS_LDU": 3558299,
+                        "AP_PERF_INSTS_MMA": 17592960
+                    },
+                    "dpcId2,blockId11": {
+                        "AP_PERF_INSTS_GVM": 13280990,
+                        "AP_PERF_INSTS_BSM": 11899357,
+                        "AP_PERF_INST_MISC": 21595782,
+                        "AP_PERF_INSTS_VALU": 173680480,
+                        "AP_PERF_INSTS_SALU": 38926372,
+                        "AP_PERF_INSTS_LDU": 3551188,
+                        "AP_PERF_INSTS_MMA": 17510848
+                    },
+                    "dpcId2,blockId12": {
+                        "AP_PERF_INSTS_GVM": 12694076,
+                        "AP_PERF_INSTS_BSM": 11581351,
+                        "AP_PERF_INST_MISC": 20688278,
+                        "AP_PERF_INSTS_VALU": 164716639,
+                        "AP_PERF_INSTS_SALU": 37627088,
+                        "AP_PERF_INSTS_LDU": 3551832,
+                        "AP_PERF_INSTS_MMA": 17547072
+                    },
+                    "dpcId3,blockId0": {
+                        "AP_PERF_INSTS_GVM": 13039658,
+                        "AP_PERF_INSTS_BSM": 11880223,
+                        "AP_PERF_INST_MISC": 21253026,
+                        "AP_PERF_INSTS_VALU": 170984005,
+                        "AP_PERF_INSTS_SALU": 38189720,
+                        "AP_PERF_INSTS_LDU": 3609972,
+                        "AP_PERF_INSTS_MMA": 17834688
+                    },
+                    "dpcId3,blockId1": {
+                        "AP_PERF_INSTS_GVM": 13186614,
+                        "AP_PERF_INSTS_BSM": 11629105,
+                        "AP_PERF_INST_MISC": 21712427,
+                        "AP_PERF_INSTS_VALU": 171910716,
+                        "AP_PERF_INSTS_SALU": 39198294,
+                        "AP_PERF_INSTS_LDU": 3603791,
+                        "AP_PERF_INSTS_MMA": 17725504
+                    },
+                    "dpcId3,blockId2": {
+                        "AP_PERF_INSTS_GVM": 14227240,
+                        "AP_PERF_INSTS_BSM": 11758059,
+                        "AP_PERF_INST_MISC": 23708261,
+                        "AP_PERF_INSTS_VALU": 182270564,
+                        "AP_PERF_INSTS_SALU": 43274744,
+                        "AP_PERF_INSTS_LDU": 3600121,
+                        "AP_PERF_INSTS_MMA": 17890432
+                    },
+                    "dpcId3,blockId3": {
+                        "AP_PERF_INSTS_GVM": 13242014,
+                        "AP_PERF_INSTS_BSM": 12009558,
+                        "AP_PERF_INST_MISC": 21602375,
+                        "AP_PERF_INSTS_VALU": 172717927,
+                        "AP_PERF_INSTS_SALU": 39007268,
+                        "AP_PERF_INSTS_LDU": 3592615,
+                        "AP_PERF_INSTS_MMA": 17868928
+                    },
+                    "dpcId3,blockId4": {
+                        "AP_PERF_INSTS_GVM": 12991315,
+                        "AP_PERF_INSTS_BSM": 11991776,
+                        "AP_PERF_INST_MISC": 21132234,
+                        "AP_PERF_INSTS_VALU": 170419854,
+                        "AP_PERF_INSTS_SALU": 38018973,
+                        "AP_PERF_INSTS_LDU": 3584512,
+                        "AP_PERF_INSTS_MMA": 17686912
+                    },
+                    "dpcId3,blockId5": {
+                        "AP_PERF_INSTS_GVM": 13070760,
+                        "AP_PERF_INSTS_BSM": 11639360,
+                        "AP_PERF_INST_MISC": 21461531,
+                        "AP_PERF_INSTS_VALU": 170053366,
+                        "AP_PERF_INSTS_SALU": 38897847,
+                        "AP_PERF_INSTS_LDU": 3587388,
+                        "AP_PERF_INSTS_MMA": 17836800
+                    },
+                    "dpcId3,blockId6": {
+                        "AP_PERF_INSTS_GVM": 13115682,
+                        "AP_PERF_INSTS_BSM": 11643637,
+                        "AP_PERF_INST_MISC": 21477513,
+                        "AP_PERF_INSTS_VALU": 170414486,
+                        "AP_PERF_INSTS_SALU": 38968388,
+                        "AP_PERF_INSTS_LDU": 3587451,
+                        "AP_PERF_INSTS_MMA": 17827264
+                    },
+                    "dpcId3,blockId7": {
+                        "AP_PERF_INSTS_GVM": 13071076,
+                        "AP_PERF_INSTS_BSM": 11644817,
+                        "AP_PERF_INST_MISC": 21346185,
+                        "AP_PERF_INSTS_VALU": 170364862,
+                        "AP_PERF_INSTS_SALU": 38600749,
+                        "AP_PERF_INSTS_LDU": 3577301,
+                        "AP_PERF_INSTS_MMA": 17879424
+                    },
+                    "dpcId3,blockId8": {
+                        "AP_PERF_INSTS_GVM": 13227083,
+                        "AP_PERF_INSTS_BSM": 11571367,
+                        "AP_PERF_INST_MISC": 21575982,
+                        "AP_PERF_INSTS_VALU": 172007510,
+                        "AP_PERF_INSTS_SALU": 39018151,
+                        "AP_PERF_INSTS_LDU": 3570220,
+                        "AP_PERF_INSTS_MMA": 17738688
+                    },
+                    "dpcId3,blockId9": {
+                        "AP_PERF_INSTS_GVM": 13187697,
+                        "AP_PERF_INSTS_BSM": 11531706,
+                        "AP_PERF_INST_MISC": 21528534,
+                        "AP_PERF_INSTS_VALU": 173003607,
+                        "AP_PERF_INSTS_SALU": 38703468,
+                        "AP_PERF_INSTS_LDU": 3566175,
+                        "AP_PERF_INSTS_MMA": 17713600
+                    },
+                    "dpcId3,blockId10": {
+                        "AP_PERF_INSTS_GVM": 13220519,
+                        "AP_PERF_INSTS_BSM": 11533034,
+                        "AP_PERF_INST_MISC": 21590188,
+                        "AP_PERF_INSTS_VALU": 172627620,
+                        "AP_PERF_INSTS_SALU": 38824924,
+                        "AP_PERF_INSTS_LDU": 3561995,
+                        "AP_PERF_INSTS_MMA": 17613312
+                    },
+                    "dpcId3,blockId11": {
+                        "AP_PERF_INSTS_GVM": 13040113,
+                        "AP_PERF_INSTS_BSM": 11728906,
+                        "AP_PERF_INST_MISC": 21110109,
+                        "AP_PERF_INSTS_VALU": 172211851,
+                        "AP_PERF_INSTS_SALU": 37765679,
+                        "AP_PERF_INSTS_LDU": 3558244,
+                        "AP_PERF_INSTS_MMA": 17604288
+                    },
+                    "dpcId3,blockId12": {
+                        "AP_PERF_INSTS_GVM": 12803141,
+                        "AP_PERF_INSTS_BSM": 11497827,
+                        "AP_PERF_INST_MISC": 20832186,
+                        "AP_PERF_INSTS_VALU": 168370847,
+                        "AP_PERF_INSTS_SALU": 37362368,
+                        "AP_PERF_INSTS_LDU": 3541849,
+                        "AP_PERF_INSTS_MMA": 17444864
+                    },
+                    "dpcId4,blockId0": {
+                        "AP_PERF_INSTS_GVM": 12852391,
+                        "AP_PERF_INSTS_BSM": 11756757,
+                        "AP_PERF_INST_MISC": 20963885,
+                        "AP_PERF_INSTS_VALU": 166826632,
+                        "AP_PERF_INSTS_SALU": 37995392,
+                        "AP_PERF_INSTS_LDU": 3607474,
+                        "AP_PERF_INSTS_MMA": 17735552
+                    },
+                    "dpcId4,blockId1": {
+                        "AP_PERF_INSTS_GVM": 13131851,
+                        "AP_PERF_INSTS_BSM": 11680303,
+                        "AP_PERF_INST_MISC": 21466504,
+                        "AP_PERF_INSTS_VALU": 169992185,
+                        "AP_PERF_INSTS_SALU": 38918604,
+                        "AP_PERF_INSTS_LDU": 3595699,
+                        "AP_PERF_INSTS_MMA": 17631744
+                    },
+                    "dpcId4,blockId2": {
+                        "AP_PERF_INSTS_GVM": 13306465,
+                        "AP_PERF_INSTS_BSM": 11729153,
+                        "AP_PERF_INST_MISC": 21660210,
+                        "AP_PERF_INSTS_VALU": 172466091,
+                        "AP_PERF_INSTS_SALU": 39289592,
+                        "AP_PERF_INSTS_LDU": 3586758,
+                        "AP_PERF_INSTS_MMA": 17941120
+                    },
+                    "dpcId4,blockId3": {
+                        "AP_PERF_INSTS_GVM": 12910737,
+                        "AP_PERF_INSTS_BSM": 11625113,
+                        "AP_PERF_INST_MISC": 20960871,
+                        "AP_PERF_INSTS_VALU": 168160966,
+                        "AP_PERF_INSTS_SALU": 37893236,
+                        "AP_PERF_INSTS_LDU": 3580355,
+                        "AP_PERF_INSTS_MMA": 17874624
+                    },
+                    "dpcId4,blockId4": {
+                        "AP_PERF_INSTS_GVM": 12948469,
+                        "AP_PERF_INSTS_BSM": 11704453,
+                        "AP_PERF_INST_MISC": 20970503,
+                        "AP_PERF_INSTS_VALU": 167941462,
+                        "AP_PERF_INSTS_SALU": 37989003,
+                        "AP_PERF_INSTS_LDU": 3581662,
+                        "AP_PERF_INSTS_MMA": 17945216
+                    },
+                    "dpcId4,blockId5": {
+                        "AP_PERF_INSTS_GVM": 13290633,
+                        "AP_PERF_INSTS_BSM": 11606138,
+                        "AP_PERF_INST_MISC": 21650062,
+                        "AP_PERF_INSTS_VALU": 172345079,
+                        "AP_PERF_INSTS_SALU": 39267250,
+                        "AP_PERF_INSTS_LDU": 3574494,
+                        "AP_PERF_INSTS_MMA": 17961920
+                    },
+                    "dpcId4,blockId6": {
+                        "AP_PERF_INSTS_GVM": 13655053,
+                        "AP_PERF_INSTS_BSM": 11700388,
+                        "AP_PERF_INST_MISC": 22359465,
+                        "AP_PERF_INSTS_VALU": 176174427,
+                        "AP_PERF_INSTS_SALU": 40565593,
+                        "AP_PERF_INSTS_LDU": 3569810,
+                        "AP_PERF_INSTS_MMA": 17894976
+                    },
+                    "dpcId4,blockId7": {
+                        "AP_PERF_INSTS_GVM": 12914803,
+                        "AP_PERF_INSTS_BSM": 11600853,
+                        "AP_PERF_INST_MISC": 21014971,
+                        "AP_PERF_INSTS_VALU": 169873997,
+                        "AP_PERF_INSTS_SALU": 37876154,
+                        "AP_PERF_INSTS_LDU": 3563285,
+                        "AP_PERF_INSTS_MMA": 17674688
+                    },
+                    "dpcId4,blockId8": {
+                        "AP_PERF_INSTS_GVM": 13238632,
+                        "AP_PERF_INSTS_BSM": 11872138,
+                        "AP_PERF_INST_MISC": 21579343,
+                        "AP_PERF_INSTS_VALU": 174731120,
+                        "AP_PERF_INSTS_SALU": 38748699,
+                        "AP_PERF_INSTS_LDU": 3563343,
+                        "AP_PERF_INSTS_MMA": 17678656
+                    },
+                    "dpcId4,blockId9": {
+                        "AP_PERF_INSTS_GVM": 12857107,
+                        "AP_PERF_INSTS_BSM": 11708075,
+                        "AP_PERF_INST_MISC": 21030888,
+                        "AP_PERF_INSTS_VALU": 171712691,
+                        "AP_PERF_INSTS_SALU": 37545429,
+                        "AP_PERF_INSTS_LDU": 3551722,
+                        "AP_PERF_INSTS_MMA": 17476288
+                    },
+                    "dpcId4,blockId10": {
+                        "AP_PERF_INSTS_GVM": 13612440,
+                        "AP_PERF_INSTS_BSM": 11448671,
+                        "AP_PERF_INST_MISC": 22616164,
+                        "AP_PERF_INSTS_VALU": 177262119,
+                        "AP_PERF_INSTS_SALU": 41052225,
+                        "AP_PERF_INSTS_LDU": 3547349,
+                        "AP_PERF_INSTS_MMA": 17545472
+                    },
+                    "dpcId4,blockId11": {
+                        "AP_PERF_INSTS_GVM": 12838085,
+                        "AP_PERF_INSTS_BSM": 11611559,
+                        "AP_PERF_INST_MISC": 20838642,
+                        "AP_PERF_INSTS_VALU": 168855566,
+                        "AP_PERF_INSTS_SALU": 37498359,
+                        "AP_PERF_INSTS_LDU": 3543088,
+                        "AP_PERF_INSTS_MMA": 17402304
+                    },
+                    "dpcId4,blockId12": {
+                        "AP_PERF_INSTS_GVM": 13319960,
+                        "AP_PERF_INSTS_BSM": 11508272,
+                        "AP_PERF_INST_MISC": 21906897,
+                        "AP_PERF_INSTS_VALU": 172605407,
+                        "AP_PERF_INSTS_SALU": 39683815,
+                        "AP_PERF_INSTS_LDU": 3536072,
+                        "AP_PERF_INSTS_MMA": 17581120
+                    },
+                    "dpcId5,blockId0": {
+                        "AP_PERF_INSTS_GVM": 13492296,
+                        "AP_PERF_INSTS_BSM": 11691240,
+                        "AP_PERF_INST_MISC": 22292632,
+                        "AP_PERF_INSTS_VALU": 174218905,
+                        "AP_PERF_INSTS_SALU": 40590033,
+                        "AP_PERF_INSTS_LDU": 3607815,
+                        "AP_PERF_INSTS_MMA": 17860480
+                    },
+                    "dpcId5,blockId1": {
+                        "AP_PERF_INSTS_GVM": 14678012,
+                        "AP_PERF_INSTS_BSM": 11651863,
+                        "AP_PERF_INST_MISC": 24550695,
+                        "AP_PERF_INSTS_VALU": 188377366,
+                        "AP_PERF_INSTS_SALU": 44833427,
+                        "AP_PERF_INSTS_LDU": 3597859,
+                        "AP_PERF_INSTS_MMA": 17729280
+                    },
+                    "dpcId5,blockId2": {
+                        "AP_PERF_INSTS_GVM": 13152441,
+                        "AP_PERF_INSTS_BSM": 11573515,
+                        "AP_PERF_INST_MISC": 21552989,
+                        "AP_PERF_INSTS_VALU": 171949992,
+                        "AP_PERF_INSTS_SALU": 39138774,
+                        "AP_PERF_INSTS_LDU": 3588499,
+                        "AP_PERF_INSTS_MMA": 17842688
+                    },
+                    "dpcId5,blockId3": {
+                        "AP_PERF_INSTS_GVM": 13497886,
+                        "AP_PERF_INSTS_BSM": 11575704,
+                        "AP_PERF_INST_MISC": 22283664,
+                        "AP_PERF_INSTS_VALU": 175819323,
+                        "AP_PERF_INSTS_SALU": 40578871,
+                        "AP_PERF_INSTS_LDU": 3590616,
+                        "AP_PERF_INSTS_MMA": 17724544
+                    },
+                    "dpcId5,blockId4": {
+                        "AP_PERF_INSTS_GVM": 13216456,
+                        "AP_PERF_INSTS_BSM": 11603903,
+                        "AP_PERF_INST_MISC": 21615890,
+                        "AP_PERF_INSTS_VALU": 172811201,
+                        "AP_PERF_INSTS_SALU": 39201242,
+                        "AP_PERF_INSTS_LDU": 3580544,
+                        "AP_PERF_INSTS_MMA": 17553664
+                    },
+                    "dpcId5,blockId5": {
+                        "AP_PERF_INSTS_GVM": 13465435,
+                        "AP_PERF_INSTS_BSM": 11555344,
+                        "AP_PERF_INST_MISC": 22075656,
+                        "AP_PERF_INSTS_VALU": 175682250,
+                        "AP_PERF_INSTS_SALU": 40025350,
+                        "AP_PERF_INSTS_LDU": 3579270,
+                        "AP_PERF_INSTS_MMA": 17691648
+                    },
+                    "dpcId5,blockId6": {
+                        "AP_PERF_INSTS_GVM": 13567568,
+                        "AP_PERF_INSTS_BSM": 11706609,
+                        "AP_PERF_INST_MISC": 22231812,
+                        "AP_PERF_INSTS_VALU": 177171101,
+                        "AP_PERF_INSTS_SALU": 40144602,
+                        "AP_PERF_INSTS_LDU": 3570434,
+                        "AP_PERF_INSTS_MMA": 17708864
+                    },
+                    "dpcId5,blockId7": {
+                        "AP_PERF_INSTS_GVM": 13091268,
+                        "AP_PERF_INSTS_BSM": 11899192,
+                        "AP_PERF_INST_MISC": 21185980,
+                        "AP_PERF_INSTS_VALU": 171612813,
+                        "AP_PERF_INSTS_SALU": 38042841,
+                        "AP_PERF_INSTS_LDU": 3566376,
+                        "AP_PERF_INSTS_MMA": 17781440
+                    },
+                    "dpcId5,blockId8": {
+                        "AP_PERF_INSTS_GVM": 13468300,
+                        "AP_PERF_INSTS_BSM": 11910782,
+                        "AP_PERF_INST_MISC": 21846266,
+                        "AP_PERF_INSTS_VALU": 176451435,
+                        "AP_PERF_INSTS_SALU": 39141026,
+                        "AP_PERF_INSTS_LDU": 3558290,
+                        "AP_PERF_INSTS_MMA": 17748096
+                    },
+                    "dpcId5,blockId9": {
+                        "AP_PERF_INSTS_GVM": 13087890,
+                        "AP_PERF_INSTS_BSM": 11934433,
+                        "AP_PERF_INST_MISC": 21179092,
+                        "AP_PERF_INSTS_VALU": 171322002,
+                        "AP_PERF_INSTS_SALU": 37897823,
+                        "AP_PERF_INSTS_LDU": 3555643,
+                        "AP_PERF_INSTS_MMA": 17736704
+                    },
+                    "dpcId5,blockId10": {
+                        "AP_PERF_INSTS_GVM": 13122312,
+                        "AP_PERF_INSTS_BSM": 11628929,
+                        "AP_PERF_INST_MISC": 21448641,
+                        "AP_PERF_INSTS_VALU": 170174699,
+                        "AP_PERF_INSTS_SALU": 38675587,
+                        "AP_PERF_INSTS_LDU": 3548535,
+                        "AP_PERF_INSTS_MMA": 17641728
+                    },
+                    "dpcId5,blockId11": {
+                        "AP_PERF_INSTS_GVM": 13086298,
+                        "AP_PERF_INSTS_BSM": 11604663,
+                        "AP_PERF_INST_MISC": 21484831,
+                        "AP_PERF_INSTS_VALU": 169435459,
+                        "AP_PERF_INSTS_SALU": 38827206,
+                        "AP_PERF_INSTS_LDU": 3546187,
+                        "AP_PERF_INSTS_MMA": 17772928
+                    },
+                    "dpcId5,blockId12": {
+                        "AP_PERF_INSTS_GVM": 12628934,
+                        "AP_PERF_INSTS_BSM": 11538458,
+                        "AP_PERF_INST_MISC": 20685884,
+                        "AP_PERF_INSTS_VALU": 165068443,
+                        "AP_PERF_INSTS_SALU": 37279907,
+                        "AP_PERF_INSTS_LDU": 3537555,
+                        "AP_PERF_INSTS_MMA": 17620224
+                    },
+                    "dpcId6,blockId0": {
+                        "AP_PERF_INSTS_GVM": 12990772,
+                        "AP_PERF_INSTS_BSM": 11764211,
+                        "AP_PERF_INST_MISC": 21119739,
+                        "AP_PERF_INSTS_VALU": 168738184,
+                        "AP_PERF_INSTS_SALU": 38302377,
+                        "AP_PERF_INSTS_LDU": 3622894,
+                        "AP_PERF_INSTS_MMA": 17909312
+                    },
+                    "dpcId6,blockId1": {
+                        "AP_PERF_INSTS_GVM": 13029330,
+                        "AP_PERF_INSTS_BSM": 11625916,
+                        "AP_PERF_INST_MISC": 21378229,
+                        "AP_PERF_INSTS_VALU": 169927203,
+                        "AP_PERF_INSTS_SALU": 38785718,
+                        "AP_PERF_INSTS_LDU": 3601622,
+                        "AP_PERF_INSTS_MMA": 17329664
+                    },
+                    "dpcId6,blockId2": {
+                        "AP_PERF_INSTS_GVM": 0,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 0,
+                        "AP_PERF_INSTS_VALU": 0,
+                        "AP_PERF_INSTS_SALU": 0,
+                        "AP_PERF_INSTS_LDU": 0,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId3": {
+                        "AP_PERF_INSTS_GVM": 13485149,
+                        "AP_PERF_INSTS_BSM": 11645912,
+                        "AP_PERF_INST_MISC": 22212158,
+                        "AP_PERF_INSTS_VALU": 175682332,
+                        "AP_PERF_INSTS_SALU": 40243025,
+                        "AP_PERF_INSTS_LDU": 3593616,
+                        "AP_PERF_INSTS_MMA": 17707456
+                    },
+                    "dpcId6,blockId4": {
+                        "AP_PERF_INSTS_GVM": 13233428,
+                        "AP_PERF_INSTS_BSM": 12053004,
+                        "AP_PERF_INST_MISC": 21389771,
+                        "AP_PERF_INSTS_VALU": 173910390,
+                        "AP_PERF_INSTS_SALU": 38292744,
+                        "AP_PERF_INSTS_LDU": 3597504,
+                        "AP_PERF_INSTS_MMA": 18032128
+                    },
+                    "dpcId6,blockId5": {
+                        "AP_PERF_INSTS_GVM": 13470042,
+                        "AP_PERF_INSTS_BSM": 11878811,
+                        "AP_PERF_INST_MISC": 21904333,
+                        "AP_PERF_INSTS_VALU": 177682921,
+                        "AP_PERF_INSTS_SALU": 39160465,
+                        "AP_PERF_INSTS_LDU": 3571345,
+                        "AP_PERF_INSTS_MMA": 17728384
+                    },
+                    "dpcId6,blockId6": {
+                        "AP_PERF_INSTS_GVM": 13401498,
+                        "AP_PERF_INSTS_BSM": 12001544,
+                        "AP_PERF_INST_MISC": 21588413,
+                        "AP_PERF_INSTS_VALU": 176268063,
+                        "AP_PERF_INSTS_SALU": 38471690,
+                        "AP_PERF_INSTS_LDU": 3595369,
+                        "AP_PERF_INSTS_MMA": 18227648
+                    },
+                    "dpcId6,blockId7": {
+                        "AP_PERF_INSTS_GVM": 12979491,
+                        "AP_PERF_INSTS_BSM": 11528051,
+                        "AP_PERF_INST_MISC": 21082272,
+                        "AP_PERF_INSTS_VALU": 170989003,
+                        "AP_PERF_INSTS_SALU": 37837934,
+                        "AP_PERF_INSTS_LDU": 3570292,
+                        "AP_PERF_INSTS_MMA": 17768512
+                    },
+                    "dpcId6,blockId8": {
+                        "AP_PERF_INSTS_GVM": 12930741,
+                        "AP_PERF_INSTS_BSM": 11664849,
+                        "AP_PERF_INST_MISC": 21036055,
+                        "AP_PERF_INSTS_VALU": 168559101,
+                        "AP_PERF_INSTS_SALU": 37918509,
+                        "AP_PERF_INSTS_LDU": 3589245,
+                        "AP_PERF_INSTS_MMA": 17946496
+                    },
+                    "dpcId6,blockId9": {
+                        "AP_PERF_INSTS_GVM": 13321111,
+                        "AP_PERF_INSTS_BSM": 11475212,
+                        "AP_PERF_INST_MISC": 22108099,
+                        "AP_PERF_INSTS_VALU": 173273693,
+                        "AP_PERF_INSTS_SALU": 40152007,
+                        "AP_PERF_INSTS_LDU": 3563070,
+                        "AP_PERF_INSTS_MMA": 17476736
+                    },
+                    "dpcId6,blockId10": {
+                        "AP_PERF_INSTS_GVM": 13043276,
+                        "AP_PERF_INSTS_BSM": 11641900,
+                        "AP_PERF_INST_MISC": 21360964,
+                        "AP_PERF_INSTS_VALU": 169771568,
+                        "AP_PERF_INSTS_SALU": 38698976,
+                        "AP_PERF_INSTS_LDU": 3571634,
+                        "AP_PERF_INSTS_MMA": 17747584
+                    },
+                    "dpcId6,blockId11": {
+                        "AP_PERF_INSTS_GVM": 12608894,
+                        "AP_PERF_INSTS_BSM": 11469061,
+                        "AP_PERF_INST_MISC": 20608188,
+                        "AP_PERF_INSTS_VALU": 165259498,
+                        "AP_PERF_INSTS_SALU": 37338781,
+                        "AP_PERF_INSTS_LDU": 3544110,
+                        "AP_PERF_INSTS_MMA": 17389120
+                    },
+                    "dpcId6,blockId12": {
+                        "AP_PERF_INSTS_GVM": 12710606,
+                        "AP_PERF_INSTS_BSM": 11603009,
+                        "AP_PERF_INST_MISC": 20670674,
+                        "AP_PERF_INSTS_VALU": 165091164,
+                        "AP_PERF_INSTS_SALU": 37397299,
+                        "AP_PERF_INSTS_LDU": 3549333,
+                        "AP_PERF_INSTS_MMA": 17759744
+                    },
+                    "dpcId7,blockId0": {
+                        "AP_PERF_INSTS_GVM": 12929581,
+                        "AP_PERF_INSTS_BSM": 11821011,
+                        "AP_PERF_INST_MISC": 21071562,
+                        "AP_PERF_INSTS_VALU": 169509269,
+                        "AP_PERF_INSTS_SALU": 38091447,
+                        "AP_PERF_INSTS_LDU": 3604753,
+                        "AP_PERF_INSTS_MMA": 17774272
+                    },
+                    "dpcId7,blockId1": {
+                        "AP_PERF_INSTS_GVM": 13164620,
+                        "AP_PERF_INSTS_BSM": 11745739,
+                        "AP_PERF_INST_MISC": 21663995,
+                        "AP_PERF_INSTS_VALU": 170162100,
+                        "AP_PERF_INSTS_SALU": 39360482,
+                        "AP_PERF_INSTS_LDU": 3622186,
+                        "AP_PERF_INSTS_MMA": 18165184
+                    },
+                    "dpcId7,blockId2": {
+                        "AP_PERF_INSTS_GVM": 12791667,
+                        "AP_PERF_INSTS_BSM": 11623641,
+                        "AP_PERF_INST_MISC": 20911317,
+                        "AP_PERF_INSTS_VALU": 167299475,
+                        "AP_PERF_INSTS_SALU": 37760790,
+                        "AP_PERF_INSTS_LDU": 3596454,
+                        "AP_PERF_INSTS_MMA": 17868032
+                    },
+                    "dpcId7,blockId3": {
+                        "AP_PERF_INSTS_GVM": 12866895,
+                        "AP_PERF_INSTS_BSM": 11707158,
+                        "AP_PERF_INST_MISC": 21019775,
+                        "AP_PERF_INSTS_VALU": 167309263,
+                        "AP_PERF_INSTS_SALU": 37916520,
+                        "AP_PERF_INSTS_LDU": 3607383,
+                        "AP_PERF_INSTS_MMA": 17957568
+                    },
+                    "dpcId7,blockId4": {
+                        "AP_PERF_INSTS_GVM": 13251851,
+                        "AP_PERF_INSTS_BSM": 11601642,
+                        "AP_PERF_INST_MISC": 21737514,
+                        "AP_PERF_INSTS_VALU": 172880041,
+                        "AP_PERF_INSTS_SALU": 39192659,
+                        "AP_PERF_INSTS_LDU": 3578449,
+                        "AP_PERF_INSTS_MMA": 17728832
+                    },
+                    "dpcId7,blockId5": {
+                        "AP_PERF_INSTS_GVM": 12952704,
+                        "AP_PERF_INSTS_BSM": 11669536,
+                        "AP_PERF_INST_MISC": 21085699,
+                        "AP_PERF_INSTS_VALU": 169081336,
+                        "AP_PERF_INSTS_SALU": 37964105,
+                        "AP_PERF_INSTS_LDU": 3596035,
+                        "AP_PERF_INSTS_MMA": 17929152
+                    },
+                    "dpcId7,blockId6": {
+                        "AP_PERF_INSTS_GVM": 13785506,
+                        "AP_PERF_INSTS_BSM": 11530147,
+                        "AP_PERF_INST_MISC": 22771282,
+                        "AP_PERF_INSTS_VALU": 179678826,
+                        "AP_PERF_INSTS_SALU": 41281503,
+                        "AP_PERF_INSTS_LDU": 3565450,
+                        "AP_PERF_INSTS_MMA": 17611712
+                    },
+                    "dpcId7,blockId7": {
+                        "AP_PERF_INSTS_GVM": 13303105,
+                        "AP_PERF_INSTS_BSM": 11680488,
+                        "AP_PERF_INST_MISC": 21700243,
+                        "AP_PERF_INSTS_VALU": 173355842,
+                        "AP_PERF_INSTS_SALU": 39180295,
+                        "AP_PERF_INSTS_LDU": 3586505,
+                        "AP_PERF_INSTS_MMA": 18073024
+                    },
+                    "dpcId7,blockId8": {
+                        "AP_PERF_INSTS_GVM": 12930076,
+                        "AP_PERF_INSTS_BSM": 11512899,
+                        "AP_PERF_INST_MISC": 20991061,
+                        "AP_PERF_INSTS_VALU": 170869812,
+                        "AP_PERF_INSTS_SALU": 37700716,
+                        "AP_PERF_INSTS_LDU": 3560458,
+                        "AP_PERF_INSTS_MMA": 17521088
+                    },
+                    "dpcId7,blockId9": {
+                        "AP_PERF_INSTS_GVM": 13800151,
+                        "AP_PERF_INSTS_BSM": 11985888,
+                        "AP_PERF_INST_MISC": 22587652,
+                        "AP_PERF_INSTS_VALU": 180164488,
+                        "AP_PERF_INSTS_SALU": 40629982,
+                        "AP_PERF_INSTS_LDU": 3576291,
+                        "AP_PERF_INSTS_MMA": 17838784
+                    },
+                    "dpcId7,blockId10": {
+                        "AP_PERF_INSTS_GVM": 12989110,
+                        "AP_PERF_INSTS_BSM": 11825497,
+                        "AP_PERF_INST_MISC": 21076414,
+                        "AP_PERF_INSTS_VALU": 171216190,
+                        "AP_PERF_INSTS_SALU": 37591419,
+                        "AP_PERF_INSTS_LDU": 3543935,
+                        "AP_PERF_INSTS_MMA": 17280960
+                    },
+                    "dpcId7,blockId11": {
+                        "AP_PERF_INSTS_GVM": 12853830,
+                        "AP_PERF_INSTS_BSM": 11647632,
+                        "AP_PERF_INST_MISC": 20869732,
+                        "AP_PERF_INSTS_VALU": 166720073,
+                        "AP_PERF_INSTS_SALU": 37655450,
+                        "AP_PERF_INSTS_LDU": 3565545,
+                        "AP_PERF_INSTS_MMA": 17576512
+                    },
+                    "dpcId7,blockId12": {
+                        "AP_PERF_INSTS_GVM": 13018349,
+                        "AP_PERF_INSTS_BSM": 11515140,
+                        "AP_PERF_INST_MISC": 21354500,
+                        "AP_PERF_INSTS_VALU": 169201733,
+                        "AP_PERF_INSTS_SALU": 38763655,
+                        "AP_PERF_INSTS_LDU": 3539154,
+                        "AP_PERF_INSTS_MMA": 17494400
+                    }
+                },
+                "L2C": {
+                    "dpcId0,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 49280,
+                        "perf_dnoc_rdreq_128B": 42622125,
+                        "perf_dnoc_rdreq_64B": 114822,
+                        "perf_dnoc_rdreq_32B": 752,
+                        "perf_dnoc_wrreq_32B_low": 42482,
+                        "perf_dnoc_wrreq_64B": 74781,
+                        "perf_dnoc_wrreq_128B": 16776932
+                    },
+                    "dpcId0,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 49512,
+                        "perf_dnoc_rdreq_128B": 42626349,
+                        "perf_dnoc_rdreq_64B": 136670,
+                        "perf_dnoc_rdreq_32B": 628,
+                        "perf_dnoc_wrreq_32B_low": 42852,
+                        "perf_dnoc_wrreq_64B": 74069,
+                        "perf_dnoc_wrreq_128B": 16774995
+                    },
+                    "dpcId0,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 49756,
+                        "perf_dnoc_rdreq_128B": 42606930,
+                        "perf_dnoc_rdreq_64B": 136837,
+                        "perf_dnoc_rdreq_32B": 706,
+                        "perf_dnoc_wrreq_32B_low": 42800,
+                        "perf_dnoc_wrreq_64B": 74606,
+                        "perf_dnoc_wrreq_128B": 16777419
+                    },
+                    "dpcId0,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 49412,
+                        "perf_dnoc_rdreq_128B": 42588861,
+                        "perf_dnoc_rdreq_64B": 136901,
+                        "perf_dnoc_rdreq_32B": 609,
+                        "perf_dnoc_wrreq_32B_low": 43257,
+                        "perf_dnoc_wrreq_64B": 74761,
+                        "perf_dnoc_wrreq_128B": 16776648
+                    },
+                    "dpcId1,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 49465,
+                        "perf_dnoc_rdreq_128B": 42623672,
+                        "perf_dnoc_rdreq_64B": 135859,
+                        "perf_dnoc_rdreq_32B": 694,
+                        "perf_dnoc_wrreq_32B_low": 42414,
+                        "perf_dnoc_wrreq_64B": 74723,
+                        "perf_dnoc_wrreq_128B": 16778072
+                    },
+                    "dpcId1,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 49809,
+                        "perf_dnoc_rdreq_128B": 42634249,
+                        "perf_dnoc_rdreq_64B": 133985,
+                        "perf_dnoc_rdreq_32B": 663,
+                        "perf_dnoc_wrreq_32B_low": 42892,
+                        "perf_dnoc_wrreq_64B": 73931,
+                        "perf_dnoc_wrreq_128B": 16777224
+                    },
+                    "dpcId1,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 49731,
+                        "perf_dnoc_rdreq_128B": 42625600,
+                        "perf_dnoc_rdreq_64B": 130146,
+                        "perf_dnoc_rdreq_32B": 697,
+                        "perf_dnoc_wrreq_32B_low": 42955,
+                        "perf_dnoc_wrreq_64B": 74593,
+                        "perf_dnoc_wrreq_128B": 16777319
+                    },
+                    "dpcId1,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 49476,
+                        "perf_dnoc_rdreq_128B": 42607588,
+                        "perf_dnoc_rdreq_64B": 139843,
+                        "perf_dnoc_rdreq_32B": 652,
+                        "perf_dnoc_wrreq_32B_low": 42799,
+                        "perf_dnoc_wrreq_64B": 75194,
+                        "perf_dnoc_wrreq_128B": 16779302
+                    },
+                    "dpcId2,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 49882,
+                        "perf_dnoc_rdreq_128B": 42631365,
+                        "perf_dnoc_rdreq_64B": 159569,
+                        "perf_dnoc_rdreq_32B": 684,
+                        "perf_dnoc_wrreq_32B_low": 43281,
+                        "perf_dnoc_wrreq_64B": 74754,
+                        "perf_dnoc_wrreq_128B": 16779652
+                    },
+                    "dpcId2,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 49903,
+                        "perf_dnoc_rdreq_128B": 42622940,
+                        "perf_dnoc_rdreq_64B": 164652,
+                        "perf_dnoc_rdreq_32B": 591,
+                        "perf_dnoc_wrreq_32B_low": 43157,
+                        "perf_dnoc_wrreq_64B": 74054,
+                        "perf_dnoc_wrreq_128B": 16779055
+                    },
+                    "dpcId2,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 50249,
+                        "perf_dnoc_rdreq_128B": 42631611,
+                        "perf_dnoc_rdreq_64B": 153963,
+                        "perf_dnoc_rdreq_32B": 731,
+                        "perf_dnoc_wrreq_32B_low": 43318,
+                        "perf_dnoc_wrreq_64B": 73924,
+                        "perf_dnoc_wrreq_128B": 16775682
+                    },
+                    "dpcId2,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 51283,
+                        "perf_dnoc_rdreq_128B": 42603141,
+                        "perf_dnoc_rdreq_64B": 138675,
+                        "perf_dnoc_rdreq_32B": 5245,
+                        "perf_dnoc_wrreq_32B_low": 47460,
+                        "perf_dnoc_wrreq_64B": 74495,
+                        "perf_dnoc_wrreq_128B": 16777937
+                    },
+                    "dpcId3,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 49652,
+                        "perf_dnoc_rdreq_128B": 42628219,
+                        "perf_dnoc_rdreq_64B": 192745,
+                        "perf_dnoc_rdreq_32B": 674,
+                        "perf_dnoc_wrreq_32B_low": 43161,
+                        "perf_dnoc_wrreq_64B": 74525,
+                        "perf_dnoc_wrreq_128B": 16779114
+                    },
+                    "dpcId3,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 49566,
+                        "perf_dnoc_rdreq_128B": 42640572,
+                        "perf_dnoc_rdreq_64B": 185805,
+                        "perf_dnoc_rdreq_32B": 640,
+                        "perf_dnoc_wrreq_32B_low": 43269,
+                        "perf_dnoc_wrreq_64B": 74785,
+                        "perf_dnoc_wrreq_128B": 16781298
+                    },
+                    "dpcId3,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 49824,
+                        "perf_dnoc_rdreq_128B": 42607174,
+                        "perf_dnoc_rdreq_64B": 186338,
+                        "perf_dnoc_rdreq_32B": 671,
+                        "perf_dnoc_wrreq_32B_low": 43239,
+                        "perf_dnoc_wrreq_64B": 74364,
+                        "perf_dnoc_wrreq_128B": 16782105
+                    },
+                    "dpcId3,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 49962,
+                        "perf_dnoc_rdreq_128B": 42592808,
+                        "perf_dnoc_rdreq_64B": 145242,
+                        "perf_dnoc_rdreq_32B": 646,
+                        "perf_dnoc_wrreq_32B_low": 43338,
+                        "perf_dnoc_wrreq_64B": 74118,
+                        "perf_dnoc_wrreq_128B": 16781420
+                    },
+                    "dpcId4,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 53820,
+                        "perf_dnoc_rdreq_128B": 42618356,
+                        "perf_dnoc_rdreq_64B": 99149,
+                        "perf_dnoc_rdreq_32B": 704,
+                        "perf_dnoc_wrreq_32B_low": 64148,
+                        "perf_dnoc_wrreq_64B": 74910,
+                        "perf_dnoc_wrreq_128B": 16777460
+                    },
+                    "dpcId4,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 50292,
+                        "perf_dnoc_rdreq_128B": 42615083,
+                        "perf_dnoc_rdreq_64B": 107598,
+                        "perf_dnoc_rdreq_32B": 801,
+                        "perf_dnoc_wrreq_32B_low": 43561,
+                        "perf_dnoc_wrreq_64B": 74849,
+                        "perf_dnoc_wrreq_128B": 16777264
+                    },
+                    "dpcId4,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 49922,
+                        "perf_dnoc_rdreq_128B": 42621337,
+                        "perf_dnoc_rdreq_64B": 106502,
+                        "perf_dnoc_rdreq_32B": 667,
+                        "perf_dnoc_wrreq_32B_low": 43328,
+                        "perf_dnoc_wrreq_64B": 74735,
+                        "perf_dnoc_wrreq_128B": 16775844
+                    },
+                    "dpcId4,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 49970,
+                        "perf_dnoc_rdreq_128B": 42626509,
+                        "perf_dnoc_rdreq_64B": 106756,
+                        "perf_dnoc_rdreq_32B": 558,
+                        "perf_dnoc_wrreq_32B_low": 43814,
+                        "perf_dnoc_wrreq_64B": 75022,
+                        "perf_dnoc_wrreq_128B": 16773537
+                    },
+                    "dpcId5,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 49450,
+                        "perf_dnoc_rdreq_128B": 42613721,
+                        "perf_dnoc_rdreq_64B": 106631,
+                        "perf_dnoc_rdreq_32B": 927,
+                        "perf_dnoc_wrreq_32B_low": 43486,
+                        "perf_dnoc_wrreq_64B": 74403,
+                        "perf_dnoc_wrreq_128B": 16778880
+                    },
+                    "dpcId5,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 49994,
+                        "perf_dnoc_rdreq_128B": 42599726,
+                        "perf_dnoc_rdreq_64B": 111858,
+                        "perf_dnoc_rdreq_32B": 908,
+                        "perf_dnoc_wrreq_32B_low": 43904,
+                        "perf_dnoc_wrreq_64B": 75025,
+                        "perf_dnoc_wrreq_128B": 16774716
+                    },
+                    "dpcId5,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 49911,
+                        "perf_dnoc_rdreq_128B": 42613041,
+                        "perf_dnoc_rdreq_64B": 108337,
+                        "perf_dnoc_rdreq_32B": 1013,
+                        "perf_dnoc_wrreq_32B_low": 43590,
+                        "perf_dnoc_wrreq_64B": 74374,
+                        "perf_dnoc_wrreq_128B": 16779675
+                    },
+                    "dpcId5,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 49735,
+                        "perf_dnoc_rdreq_128B": 42625374,
+                        "perf_dnoc_rdreq_64B": 105921,
+                        "perf_dnoc_rdreq_32B": 695,
+                        "perf_dnoc_wrreq_32B_low": 43831,
+                        "perf_dnoc_wrreq_64B": 74591,
+                        "perf_dnoc_wrreq_128B": 16775868
+                    },
+                    "dpcId6,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 49237,
+                        "perf_dnoc_rdreq_128B": 42637592,
+                        "perf_dnoc_rdreq_64B": 121936,
+                        "perf_dnoc_rdreq_32B": 816,
+                        "perf_dnoc_wrreq_32B_low": 44075,
+                        "perf_dnoc_wrreq_64B": 73750,
+                        "perf_dnoc_wrreq_128B": 16779013
+                    },
+                    "dpcId6,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 49536,
+                        "perf_dnoc_rdreq_128B": 42598261,
+                        "perf_dnoc_rdreq_64B": 138748,
+                        "perf_dnoc_rdreq_32B": 832,
+                        "perf_dnoc_wrreq_32B_low": 44107,
+                        "perf_dnoc_wrreq_64B": 74176,
+                        "perf_dnoc_wrreq_128B": 16777930
+                    },
+                    "dpcId6,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 49812,
+                        "perf_dnoc_rdreq_128B": 42616357,
+                        "perf_dnoc_rdreq_64B": 147600,
+                        "perf_dnoc_rdreq_32B": 879,
+                        "perf_dnoc_wrreq_32B_low": 44097,
+                        "perf_dnoc_wrreq_64B": 73975,
+                        "perf_dnoc_wrreq_128B": 16778578
+                    },
+                    "dpcId6,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 49684,
+                        "perf_dnoc_rdreq_128B": 42622197,
+                        "perf_dnoc_rdreq_64B": 150580,
+                        "perf_dnoc_rdreq_32B": 971,
+                        "perf_dnoc_wrreq_32B_low": 44562,
+                        "perf_dnoc_wrreq_64B": 74574,
+                        "perf_dnoc_wrreq_128B": 16778908
+                    },
+                    "dpcId7,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 49388,
+                        "perf_dnoc_rdreq_128B": 42639470,
+                        "perf_dnoc_rdreq_64B": 157466,
+                        "perf_dnoc_rdreq_32B": 814,
+                        "perf_dnoc_wrreq_32B_low": 43513,
+                        "perf_dnoc_wrreq_64B": 74298,
+                        "perf_dnoc_wrreq_128B": 16782336
+                    },
+                    "dpcId7,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 49499,
+                        "perf_dnoc_rdreq_128B": 42610557,
+                        "perf_dnoc_rdreq_64B": 132900,
+                        "perf_dnoc_rdreq_32B": 690,
+                        "perf_dnoc_wrreq_32B_low": 43493,
+                        "perf_dnoc_wrreq_64B": 74201,
+                        "perf_dnoc_wrreq_128B": 16773079
+                    },
+                    "dpcId7,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 49319,
+                        "perf_dnoc_rdreq_128B": 42616340,
+                        "perf_dnoc_rdreq_64B": 124179,
+                        "perf_dnoc_rdreq_32B": 1020,
+                        "perf_dnoc_wrreq_32B_low": 43776,
+                        "perf_dnoc_wrreq_64B": 73793,
+                        "perf_dnoc_wrreq_128B": 16781165
+                    },
+                    "dpcId7,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 49863,
+                        "perf_dnoc_rdreq_128B": 42611162,
+                        "perf_dnoc_rdreq_64B": 124035,
+                        "perf_dnoc_rdreq_32B": 613,
+                        "perf_dnoc_wrreq_32B_low": 43918,
+                        "perf_dnoc_wrreq_64B": 74377,
+                        "perf_dnoc_wrreq_128B": 16778987
+                    }
+                }
+            },
+            {
+                "ISU": {
+                    "dpcId0,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1332,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5624,
+                        "AP_PERF_INSTS_VALU": 25752,
+                        "AP_PERF_INSTS_SALU": 7400,
+                        "AP_PERF_INSTS_LDU": 1184,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1314,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5548,
+                        "AP_PERF_INSTS_VALU": 25403,
+                        "AP_PERF_INSTS_SALU": 7300,
+                        "AP_PERF_INSTS_LDU": 1168,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25056,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1332,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5624,
+                        "AP_PERF_INSTS_VALU": 25752,
+                        "AP_PERF_INSTS_SALU": 7400,
+                        "AP_PERF_INSTS_LDU": 1184,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId1": {
+                        "AP_PERF_INSTS_GVM": 23908,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 50221,
+                        "AP_PERF_INSTS_VALU": 269170,
+                        "AP_PERF_INSTS_SALU": 94469,
+                        "AP_PERF_INSTS_LDU": 960,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24707,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25054,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24707,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24011,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23315,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1170,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 4940,
+                        "AP_PERF_INSTS_VALU": 22620,
+                        "AP_PERF_INSTS_SALU": 6500,
+                        "AP_PERF_INSTS_LDU": 1040,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24707,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24706,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22966,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24011,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24706,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24358,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25056,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25056,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1152,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 4864,
+                        "AP_PERF_INSTS_VALU": 22272,
+                        "AP_PERF_INSTS_SALU": 6400,
+                        "AP_PERF_INSTS_LDU": 1024,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24357,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24358,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23662,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId2": {
+                        "AP_PERF_INSTS_GVM": 0,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 0,
+                        "AP_PERF_INSTS_VALU": 0,
+                        "AP_PERF_INSTS_SALU": 0,
+                        "AP_PERF_INSTS_LDU": 0,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1314,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5548,
+                        "AP_PERF_INSTS_VALU": 25402,
+                        "AP_PERF_INSTS_SALU": 7300,
+                        "AP_PERF_INSTS_LDU": 1168,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23662,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24011,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24358,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1170,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 4940,
+                        "AP_PERF_INSTS_VALU": 22619,
+                        "AP_PERF_INSTS_SALU": 6500,
+                        "AP_PERF_INSTS_LDU": 1040,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24706,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24706,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1152,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 4864,
+                        "AP_PERF_INSTS_VALU": 22272,
+                        "AP_PERF_INSTS_SALU": 6400,
+                        "AP_PERF_INSTS_LDU": 1024,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    }
+                },
+                "L2C": {
+                    "dpcId0,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14595,
+                        "perf_dnoc_rdreq_64B": 61,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId0,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14593,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId0,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14587,
+                        "perf_dnoc_rdreq_64B": 56,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId0,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14577,
+                        "perf_dnoc_rdreq_64B": 58,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId1,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14588,
+                        "perf_dnoc_rdreq_64B": 51,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId1,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14584,
+                        "perf_dnoc_rdreq_64B": 52,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId1,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14593,
+                        "perf_dnoc_rdreq_64B": 56,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId1,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14592,
+                        "perf_dnoc_rdreq_64B": 47,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId2,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14574,
+                        "perf_dnoc_rdreq_64B": 59,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId2,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14574,
+                        "perf_dnoc_rdreq_64B": 57,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId2,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14576,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 2,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId2,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14572,
+                        "perf_dnoc_rdreq_64B": 70,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId3,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14593,
+                        "perf_dnoc_rdreq_64B": 59,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId3,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14581,
+                        "perf_dnoc_rdreq_64B": 66,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId3,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14580,
+                        "perf_dnoc_rdreq_64B": 52,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId3,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14583,
+                        "perf_dnoc_rdreq_64B": 51,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId4,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14581,
+                        "perf_dnoc_rdreq_64B": 71,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId4,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14578,
+                        "perf_dnoc_rdreq_64B": 78,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId4,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14581,
+                        "perf_dnoc_rdreq_64B": 45,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId4,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 2,
+                        "perf_dnoc_rdreq_128B": 14577,
+                        "perf_dnoc_rdreq_64B": 49,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 3,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId5,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14599,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId5,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14590,
+                        "perf_dnoc_rdreq_64B": 63,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 2,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId5,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14607,
+                        "perf_dnoc_rdreq_64B": 51,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId5,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14596,
+                        "perf_dnoc_rdreq_64B": 60,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId6,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14588,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId6,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14587,
+                        "perf_dnoc_rdreq_64B": 67,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId6,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 1,
+                        "perf_dnoc_rdreq_128B": 14586,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 2,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId6,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14578,
+                        "perf_dnoc_rdreq_64B": 57,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId7,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 2,
+                        "perf_dnoc_rdreq_128B": 14594,
+                        "perf_dnoc_rdreq_64B": 57,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId7,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14582,
+                        "perf_dnoc_rdreq_64B": 53,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId7,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14590,
+                        "perf_dnoc_rdreq_64B": 54,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId7,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 14593,
+                        "perf_dnoc_rdreq_64B": 44,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    }
+                },
+                "args": {
+                    "kernelName": [
+                        "reduce_fused_kernel_kernel"
+                    ],
+                    "tag": [
+                        0
+                    ]
+                }
+            },
+            {
+                "ISU": {
+                    "dpcId0,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1332,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5624,
+                        "AP_PERF_INSTS_VALU": 25752,
+                        "AP_PERF_INSTS_SALU": 7400,
+                        "AP_PERF_INSTS_LDU": 1184,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1314,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5548,
+                        "AP_PERF_INSTS_VALU": 25403,
+                        "AP_PERF_INSTS_SALU": 7300,
+                        "AP_PERF_INSTS_LDU": 1168,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25056,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId0,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1332,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5624,
+                        "AP_PERF_INSTS_VALU": 25752,
+                        "AP_PERF_INSTS_SALU": 7400,
+                        "AP_PERF_INSTS_LDU": 1184,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId1": {
+                        "AP_PERF_INSTS_GVM": 69364,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 141144,
+                        "AP_PERF_INSTS_VALU": 763519,
+                        "AP_PERF_INSTS_SALU": 270608,
+                        "AP_PERF_INSTS_LDU": 960,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24707,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId1,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25054,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24707,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24011,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23315,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1170,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 4940,
+                        "AP_PERF_INSTS_VALU": 22620,
+                        "AP_PERF_INSTS_SALU": 6500,
+                        "AP_PERF_INSTS_LDU": 1040,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId2,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24707,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24706,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22966,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId3,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24011,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24706,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23664,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24358,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25056,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25056,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1152,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 4864,
+                        "AP_PERF_INSTS_VALU": 22272,
+                        "AP_PERF_INSTS_SALU": 6400,
+                        "AP_PERF_INSTS_LDU": 1024,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId4,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24357,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1206,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5092,
+                        "AP_PERF_INSTS_VALU": 23316,
+                        "AP_PERF_INSTS_SALU": 6700,
+                        "AP_PERF_INSTS_LDU": 1072,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24358,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId5,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23662,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId2": {
+                        "AP_PERF_INSTS_GVM": 0,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 0,
+                        "AP_PERF_INSTS_VALU": 0,
+                        "AP_PERF_INSTS_SALU": 0,
+                        "AP_PERF_INSTS_LDU": 0,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1296,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5472,
+                        "AP_PERF_INSTS_VALU": 25055,
+                        "AP_PERF_INSTS_SALU": 7200,
+                        "AP_PERF_INSTS_LDU": 1152,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1314,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5548,
+                        "AP_PERF_INSTS_VALU": 25402,
+                        "AP_PERF_INSTS_SALU": 7300,
+                        "AP_PERF_INSTS_LDU": 1168,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23662,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24011,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24358,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId6,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1170,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 4940,
+                        "AP_PERF_INSTS_VALU": 22619,
+                        "AP_PERF_INSTS_SALU": 6500,
+                        "AP_PERF_INSTS_LDU": 1040,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId0": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId1": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24706,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId2": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24706,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId3": {
+                        "AP_PERF_INSTS_GVM": 1224,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5168,
+                        "AP_PERF_INSTS_VALU": 23663,
+                        "AP_PERF_INSTS_SALU": 6800,
+                        "AP_PERF_INSTS_LDU": 1088,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId4": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22967,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId5": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24359,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId6": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId7": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId8": {
+                        "AP_PERF_INSTS_GVM": 1188,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5016,
+                        "AP_PERF_INSTS_VALU": 22968,
+                        "AP_PERF_INSTS_SALU": 6600,
+                        "AP_PERF_INSTS_LDU": 1056,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId9": {
+                        "AP_PERF_INSTS_GVM": 1242,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5244,
+                        "AP_PERF_INSTS_VALU": 24012,
+                        "AP_PERF_INSTS_SALU": 6900,
+                        "AP_PERF_INSTS_LDU": 1104,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId10": {
+                        "AP_PERF_INSTS_GVM": 1278,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5396,
+                        "AP_PERF_INSTS_VALU": 24708,
+                        "AP_PERF_INSTS_SALU": 7100,
+                        "AP_PERF_INSTS_LDU": 1136,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId11": {
+                        "AP_PERF_INSTS_GVM": 1152,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 4864,
+                        "AP_PERF_INSTS_VALU": 22272,
+                        "AP_PERF_INSTS_SALU": 6400,
+                        "AP_PERF_INSTS_LDU": 1024,
+                        "AP_PERF_INSTS_MMA": 0
+                    },
+                    "dpcId7,blockId12": {
+                        "AP_PERF_INSTS_GVM": 1260,
+                        "AP_PERF_INSTS_BSM": 0,
+                        "AP_PERF_INST_MISC": 5320,
+                        "AP_PERF_INSTS_VALU": 24360,
+                        "AP_PERF_INSTS_SALU": 7000,
+                        "AP_PERF_INSTS_LDU": 1120,
+                        "AP_PERF_INSTS_MMA": 0
+                    }
+                },
+                "L2C": {
+                    "dpcId0,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15087,
+                        "perf_dnoc_rdreq_64B": 61,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId0,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15101,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId0,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15096,
+                        "perf_dnoc_rdreq_64B": 56,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId0,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15072,
+                        "perf_dnoc_rdreq_64B": 58,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId1,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15079,
+                        "perf_dnoc_rdreq_64B": 51,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId1,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15071,
+                        "perf_dnoc_rdreq_64B": 52,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId1,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15090,
+                        "perf_dnoc_rdreq_64B": 56,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId1,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15078,
+                        "perf_dnoc_rdreq_64B": 47,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId2,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15067,
+                        "perf_dnoc_rdreq_64B": 59,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId2,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15078,
+                        "perf_dnoc_rdreq_64B": 57,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId2,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15074,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 2,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId2,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15055,
+                        "perf_dnoc_rdreq_64B": 70,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId3,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15077,
+                        "perf_dnoc_rdreq_64B": 59,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId3,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15059,
+                        "perf_dnoc_rdreq_64B": 66,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId3,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15069,
+                        "perf_dnoc_rdreq_64B": 52,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId3,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15063,
+                        "perf_dnoc_rdreq_64B": 51,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId4,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15086,
+                        "perf_dnoc_rdreq_64B": 71,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId4,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15089,
+                        "perf_dnoc_rdreq_64B": 78,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId4,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15097,
+                        "perf_dnoc_rdreq_64B": 45,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId4,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 2,
+                        "perf_dnoc_rdreq_128B": 15069,
+                        "perf_dnoc_rdreq_64B": 49,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 3,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId5,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15090,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId5,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15075,
+                        "perf_dnoc_rdreq_64B": 63,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 2,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId5,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15098,
+                        "perf_dnoc_rdreq_64B": 51,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId5,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15077,
+                        "perf_dnoc_rdreq_64B": 60,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId6,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15071,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId6,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15081,
+                        "perf_dnoc_rdreq_64B": 67,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId6,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 1,
+                        "perf_dnoc_rdreq_128B": 15092,
+                        "perf_dnoc_rdreq_64B": 62,
+                        "perf_dnoc_rdreq_32B": 2,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId6,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15063,
+                        "perf_dnoc_rdreq_64B": 57,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId7,blockId0": {
+                        "perf_dnoc_wrreq_32B_high": 2,
+                        "perf_dnoc_rdreq_128B": 15080,
+                        "perf_dnoc_rdreq_64B": 57,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId7,blockId1": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15066,
+                        "perf_dnoc_rdreq_64B": 53,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId7,blockId2": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15075,
+                        "perf_dnoc_rdreq_64B": 54,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    },
+                    "dpcId7,blockId3": {
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_128B": 15068,
+                        "perf_dnoc_rdreq_64B": 44,
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 896
+                    }
+                },
+                "args": {
+                    "processIndex": [
+                        0
+                    ]
+                }
+            }
+        ]
+    },
+    "umd_data": {},
+    "device_info": {
+        "302": {
+            "gpu_id": "35972",
+            "cpu_cores_count": 0,
+            "mem_banks_count": 1,
+            "direct_link_count": 0,
+            "indirect_link_count": 0,
+            "vendor_id": 39321,
+            "device_id": 16385,
+            "drm_render_minor": 129,
+            "isa_major": 10,
+            "isa_minor": 0,
+            "is_vf": 0,
+            "max_vf_nums": 8,
+            "domain": 0,
+            "location_id": 3840,
+            "num_sdma_engines": 5,
+            "num_sdma_queues_per_engine": 9,
+            "num_vpue_cores": 1,
+            "num_vpud_cores": 8,
+            "caches_count": 157,
+            "peu_id_base": 0,
+            "peu_count": 416,
+            "max_waves_per_peu": 8,
+            "wsm_size_in_kb": 64,
+            "wave_front_size": 64,
+            "dpc_count": 8,
+            "dpc0_ap_mask": 8191,
+            "dpc1_ap_mask": 73727,
+            "dpc2_ap_mask": 139263,
+            "dpc3_ap_mask": 204799,
+            "dpc4_ap_mask": 270335,
+            "dpc5_ap_mask": 335871,
+            "dpc6_ap_mask": 409595,
+            "dpc7_ap_mask": 466943,
+            "dpc_arrays": 1,
+            "ap_per_dpc": 13,
+            "peu_per_ap": 4,
+            "pri_mem_per_thread": 4,
+            "max_slots_private_ap": 32,
+            "num_ce_queues": 16,
+            "max_engine_clk_gpu": 1600,
+            "max_engine_clk_cpu": 3600,
+            "mgpu_id": 0,
+            "topology_id": 2,
+            "socket_id": 3,
+            "hbmecc": 1,
+            "local_mem_size": 16777216000,
+            "capability": 4432512,
+            "maxprocess": 10
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "L2C": [
+        "perf_dnoc_wrreq_32B_high",
+        "perf_dnoc_wrreq_128B",
+        "perf_dnoc_wrreq_64B",
+        "perf_dnoc_rdreq_128B",
+        "perf_dnoc_rdreq_64B",
+        "perf_dnoc_rdreq_32B",
+        "perf_dnoc_wrreq_32B_low"
+    ],
+    "ISU": [
+        "AP_PERF_INSTS_MMA",
+        "AP_PERF_INST_MISC",
+        "AP_PERF_ISU_ARB_DATA_STALL",
+        "AP_PERF_INSTS_VALU",
+        "AP_PERF_INSTS_SALU",
+        "AP_PERF_INSTS_BSM",
+        "AP_PERF_INSTS_LDU",
+        "AP_PERF_ISU_ARB_WSM_STALL",
+        "AP_PERF_ISU_ARB_VLS_STALL",
+        "AP_PERF_ISU_ARB_VALU_STALL",
+        "AP_PERF_INSTS_GVM"
+    ],
+    "CE": [
+        "CE_PERF_BUSY_CYCLES"
+    ]
+}

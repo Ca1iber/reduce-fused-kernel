@@ -1,0 +1,36 @@
+{
+  "usable_for_causal_analysis": false,
+  "raw_counts": {
+    "\u4e03\u6307\u6807 v010": {
+      "Total Instructions": 184923060,
+      "Compute Instructions": 172957879,
+      "Memory Instructions": 11965181,
+      "Total Cycles": 3753.929,
+      "ISU stall cycles layout": {
+        "wsm_stall": 3019490.0,
+        "vls_pipeline_stall": 87551201.0,
+        "vls_wdata_stall": 6001245.0,
+        "valu_stall": 0.0
+      },
+      "Global Memory Read bytes": 653916928.0,
+      "Global Memory Write bytes": 150976320.0
+    },
+    "\u6700\u5c0f\u4e94\u6307\u6807 v010": {
+      "Total Instructions": 4366987,
+      "Compute Instructions": 4102759,
+      "Memory Instructions": 264228,
+      "Global Memory Read bytes": 59862656.0,
+      "Global Memory Write bytes": 3670368.0
+    },
+    "\u6700\u5c0f\u4e94\u6307\u6807\u4ea4\u6362\u7248": {
+      "Total Instructions": 9805208,
+      "Compute Instructions": 8692107,
+      "Memory Instructions": 1113101,
+      "Global Memory Read bytes": 60317856.0,
+      "Global Memory Write bytes": 189213344.0
+    }
+  },
+  "expected_x_read_bytes": 58720256,
+  "expected_out_write_bytes": 3670016,
+  "reason": "candidate write exceeds expected output by >51x; reject pair for hardware attribution"
+}

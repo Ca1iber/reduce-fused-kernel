@@ -1,0 +1,24 @@
+##############################
+Sub-module: Summary
+------------------------------
+Name: Total Instructions
+Description: number of all instructions
+Value: 28,686,563,305
+------------------------------
+Name: Compute Instructions
+Description: number of compute instructions
+Value: 25,758,232,073
+------------------------------
+Name: Memory Instructions
+Description: number of memory instructions
+Value: 2,928,331,232
+##############################
+Sub-module: Memory Statistics
+------------------------------
+Name: Global Memory Read bytes
+Description: bytes read from global memory
+Value: 174,842,426,720.0byte
+------------------------------
+Name: Global Memory Write bytes
+Description: bytes write from global memory
+Value: 68,971,685,984.0byte

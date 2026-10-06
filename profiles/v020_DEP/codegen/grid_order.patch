@@ -1,0 +1,11 @@
+--- v010
++++ v020_grid_hidden_first
+@@ -60,7 +60,7 @@
+         sf: T.Tensor[(1,), T.float32],
+         x_sf: T.Tensor[(num_expanded_tokens,), T.float32],
+     ):
+-        with T.Kernel(num_tokens, hidden // tile_hidden, threads=num_threads) as (pid_token, pid_hidden):
++        with T.Kernel(hidden // tile_hidden, num_tokens, threads=num_threads) as (pid_hidden, pid_token):
+             reduced_fragment = T.alloc_fragment((tile_hidden,), T.float32)
+             topk_weights_local = T.alloc_fragment((num_topk,), T.float32)
+             topk_to_pos_local = T.alloc_fragment((num_topk,), T.int32)

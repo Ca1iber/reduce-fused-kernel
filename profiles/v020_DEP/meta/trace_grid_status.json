@@ -1,0 +1,18 @@
+{
+  "exitcode": 0,
+  "seconds": 34.17451238632202,
+  "command": [
+    "/opt/maca/bin/mcTracer",
+    "--mctx",
+    "--odname",
+    "trace_grid",
+    "--name",
+    "grid",
+    "/opt/conda/bin/python",
+    "/data/TileOPs-Metax/profiles/v020_DEP/scripts/profile_grid.py",
+    "--case",
+    "all",
+    "--workload",
+    "h7168"
+  ]
+}

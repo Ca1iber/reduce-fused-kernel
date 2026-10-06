@@ -41,7 +41,7 @@
 
 ## 数据来源
 
-- [v000 原始 benchmark](../v001_DIS:v000/raw/benchmark.csv)：使用 `naive_ms`，乘 1000 换算为 μs。
-- [v010 配对选型 benchmark](../v010_ACC/raw/paired_selection_16g.csv)：使用 `selected_us`；其中 `baseline_us` 是 v004，不能作为 v000。
+- [v000 原始 benchmark](../../v001_DIS:v000/raw/benchmark.csv)：使用 `naive_ms`，乘 1000 换算为 μs。
+- [v010 配对选型 benchmark](../../v010_ACC/raw/paired_selection_16g.csv)：使用 `selected_us`；其中 `baseline_us` 是 v004，不能作为 v000。
 
 两份数据均使用项目 CUPTI 计时；tiny/h3072/h7168 克隆输入，prefill 按项目内存阈值不克隆。v010 数据采用三次 selected 测量的中位数。以上属于历史数据对照，不是同轮 v000/v010 配对重测。

@@ -1,0 +1,36 @@
+{
+    "Summary": [
+        {
+            "data": 4366987,
+            "isError": false,
+            "message": "",
+            "name": "Total Instructions"
+        },
+        {
+            "data": 4102759,
+            "isError": false,
+            "message": "",
+            "name": "Compute Instructions"
+        },
+        {
+            "data": 264228,
+            "isError": false,
+            "message": "",
+            "name": "Memory Instructions"
+        }
+    ],
+    "Memory Statistics": [
+        {
+            "data": 59862656.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Read bytes"
+        },
+        {
+            "data": 3670368.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Write bytes"
+        }
+    ]
+}

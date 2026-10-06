@@ -1,0 +1,42 @@
+##############################
+Sub-module: Summary
+------------------------------
+Name: Total Instructions
+Description: number of all instructions
+Value: 184,923,060
+------------------------------
+Name: Compute Instructions
+Description: number of compute instructions
+Value: 172,957,879
+------------------------------
+Name: Memory Instructions
+Description: number of memory instructions
+Value: 11,965,181
+------------------------------
+Name: Total Cycles
+Description: cycles use by kernel
+Value: 3,753.93(Kcycles)
+##############################
+Sub-module: ISU Statistics
+------------------------------
+Name: ISU stall cycles layout
+Description: ISU stall cycles layout
+Value: {
+    "data": {
+        "wsm_stall": 3019490.0,
+        "vls_pipeline_stall": 87551201.0,
+        "vls_wdata_stall": 6001245.0,
+        "valu_stall": 0.0
+    },
+    "filename": "/opt/mcProfiler-ubuntu18.04/output20261005153940/ISU_stall_cycles_layout20261005154103648.png"
+}
+##############################
+Sub-module: Memory Statistics
+------------------------------
+Name: Global Memory Read bytes
+Description: bytes read from global memory
+Value: 653,916,928.0byte
+------------------------------
+Name: Global Memory Write bytes
+Description: bytes write from global memory
+Value: 150,976,320.0byte

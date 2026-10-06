@@ -1,0 +1,6 @@
+{
+  "valid_for_causal_analysis": false,
+  "reason": "baseline raw read 653916928 vs input 58720256; write 150976320 vs output 3670016; no shared in source but nonzero WSM. Mixed/misdelimited capture suspected, exact cause unconfirmed. Exclude seven-metric collection from conclusions.",
+  "expected_input_bytes": 58720256,
+  "expected_output_bytes": 3670016
+}

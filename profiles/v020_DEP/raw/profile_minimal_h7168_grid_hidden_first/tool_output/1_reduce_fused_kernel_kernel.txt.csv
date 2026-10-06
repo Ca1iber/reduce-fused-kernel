@@ -1,0 +1,6 @@
+Name,Description,Value
+Total Instructions,number of all instructions,"9,805,208"
+Compute Instructions,number of compute instructions,"8,692,107"
+Memory Instructions,number of memory instructions,"1,113,101"
+Global Memory Read bytes,bytes read from global memory,"60,317,856.0byte"
+Global Memory Write bytes,bytes write from global memory,"189,213,344.0byte"

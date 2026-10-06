@@ -1,0 +1,15 @@
+{
+  "done": true,
+  "completed": [
+    {
+      "variant": "fp8",
+      "exitcode": 0,
+      "seconds": 34.463284969329834
+    },
+    {
+      "variant": "quantized",
+      "exitcode": 0,
+      "seconds": 34.811110734939575
+    }
+  ]
+}
