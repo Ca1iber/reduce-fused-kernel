@@ -32,7 +32,7 @@
 | [v017_DIS:v013](v017_DIS:v013/analysis/README.md) | 定位 v013 同步错误的根因 |
 | [v018_DIS:v016](v018_DIS:v016/analysis/README.md) | 围绕 v016 的寄存器、驻留与双 fragment 对照 |
 | [v019_SUM](v019_SUM/analysis/README.md) | v000 与 v010 的 16 组加速比总结 |
-| [v020_DEP](v020_DEP/analysis/README.md) | 交换 grid 维度顺序的对照实验 |
+| [v020_ACC](v020_ACC/analysis/README.md) | h7168/prefill 的 FP8/Quantized 采用 hidden-first grid，已接入 |
 
 ## 后续约定
 

@@ -1,0 +1,29 @@
+{
+  "scope": {
+    "variants": [
+      "FP8",
+      "Quantized"
+    ],
+    "dtype": "bfloat16",
+    "K": 8,
+    "H": 7168,
+    "T": [
+      512,
+      4096
+    ],
+    "with_weights": true,
+    "geometry": {
+      "512": [
+        512,
+        128
+      ],
+      "4096": [
+        1024,
+        128
+      ]
+    }
+  },
+  "formal_sha256_before": "c6b5dcb13fa171ace058b3f0a50d8361a439eb3335ad4596c539273859831596",
+  "formal_sha256_after": "bee527b6ff60aaf90eee2c731fa995f2dfdc5ca390dcebb66c5b25d0000e3d46",
+  "validation_this_change": "source inspection only; no tests or benchmark rerun"
+}

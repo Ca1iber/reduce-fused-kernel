@@ -3,10 +3,15 @@ import argparse,csv,json,statistics,torch,gc,ctypes
 torch.set_num_threads(1)
 libc=ctypes.CDLL(None)
 from grid_kernel import get_reduce_fused_kernel
-from tileops.kernels.moe.reduce_fused import MoeReduceFusedKernel
+import importlib.util,sys
 from workloads.moe import MoeReduceFusedWorkload
 from benchmarks.benchmark_base import bench_kernel,_bench_meta
 r=Path(__file__).resolve().parents[1]
+spec=importlib.util.spec_from_file_location('_v020_v010_baseline',r/'codegen/baseline_v010.py')
+baseline_module=importlib.util.module_from_spec(spec)
+sys.modules[spec.name]=baseline_module
+spec.loader.exec_module(baseline_module)
+MoeReduceFusedKernel=baseline_module.MoeReduceFusedKernel
 p=argparse.ArgumentParser();p.add_argument('--variant',choices=['fp8','quantized'],required=True);p.add_argument('--workload',choices=['tiny','h3072','h7168','prefill'],required=True);a=p.parse_args()
 t,h={'tiny':(32,256),'h3072':(512,3072),'h7168':(512,7168),'prefill':(4096,7168)}[a.workload];xsf=a.variant=='quantized'
 topk=2 if a.workload=='tiny' else 8

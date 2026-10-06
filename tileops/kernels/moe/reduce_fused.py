@@ -40,6 +40,7 @@ def get_reduce_fused_kernel(
     with_x_sf: bool,
     tile_hidden: Optional[int] = None,
     num_threads: int = 128,
+    grid_hidden_first: bool = False,
 ):
     use_fp8_bits = with_sf and str(out_dtype) == "float8_e4m3fn"
     if tile_hidden is None:
@@ -60,7 +61,13 @@ def get_reduce_fused_kernel(
         sf: T.Tensor[(1,), T.float32],
         x_sf: T.Tensor[(num_expanded_tokens,), T.float32],
     ):
-        with T.Kernel(num_tokens, hidden // tile_hidden, threads=num_threads) as (pid_token, pid_hidden):
+        with T.Kernel(
+            hidden // tile_hidden if grid_hidden_first else num_tokens,
+            num_tokens if grid_hidden_first else hidden // tile_hidden,
+            threads=num_threads,
+        ) as (pid_x, pid_y):
+            pid_token = pid_y if grid_hidden_first else pid_x
+            pid_hidden = pid_x if grid_hidden_first else pid_y
             reduced_fragment = T.alloc_fragment((tile_hidden,), T.float32)
             topk_weights_local = T.alloc_fragment((num_topk,), T.float32)
             topk_to_pos_local = T.alloc_fragment((num_topk,), T.int32)
@@ -182,6 +189,17 @@ class MoeReduceFusedKernel(Kernel):
             raise ValueError("tile_hidden must be a positive multiple of 256 dividing hidden")
         if type(num_threads) is not int or num_threads not in (64, 128, 256):
             raise ValueError("num_threads must be 64, 128, or 256")
+        # v020: use hidden-first numbering only for the measured SF cases
+        # and their measured launch geometry; custom geometry keeps v010.
+        measured_key = (num_tokens, num_topk, hidden, dtype)
+        self.grid_hidden_first = (
+            with_sf and with_weights
+            and dtype == torch.bfloat16
+            and (num_tokens, num_topk, hidden) in (
+                (512, 8, 7168), (4096, 8, 7168),
+            )
+            and (tile_hidden, num_threads) == _MEASURED_CONFIGS[measured_key][1]
+        )
         self.kernel = get_reduce_fused_kernel(
             hidden,
             num_topk,
@@ -192,6 +210,7 @@ class MoeReduceFusedKernel(Kernel):
             with_x_sf,
             tile_hidden=tile_hidden,
             num_threads=num_threads,
+            grid_hidden_first=self.grid_hidden_first,
         )
 
     @property

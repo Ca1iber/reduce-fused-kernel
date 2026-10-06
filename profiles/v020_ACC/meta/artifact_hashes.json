@@ -48,11 +48,11 @@
   "scripts/collect_grid_trace.py": "c341aab46290b5ec26d6f0401273dc7fba7ed8b6a5bd78e901994f31af8859f1",
   "scripts/run.py": "c24f92471d8ca6cb737f317eba6e8116fe063f38f1d6733d71d269b601638925",
   "scripts/collect_grid_minimal.py": "b82890e201d4022219fecad5135038edc3e526cecbd184891db73f6c4c964d27",
-  "scripts/benchmark.py": "7e4cf5eed39f85715c89a80c95055549ab57aec8cca42c5a9e14a45d01fdaeb9",
+  "scripts/benchmark.py": "534ddbe076ef61461cb015cd99f837b140061cbeadf8546451ae2da8c3505243",
   "scripts/run_tiny.py": "9851d7d4f6d3a3487d957ed05c3aef7ed8d7d87eb8cf1df3876360dfaeeece31",
   "scripts/grid_kernel.py": "7b6a15f98403c1ba566ed6636540b5adf42b5196f65af897ddc1c720154b42a1",
   "scripts/profile_grid.py": "2f37b90da4dda111e3ddb947a8b4ff27615f74249d5ce217ab5f277e4d216c47",
-  "scripts/validate.py": "6b680d49ba542dc2985a9d51337c13826809ea79cb843538d63eacb4f5de3edf",
+  "scripts/validate.py": "c84b3ba7aeed6d32c2c37b244af637ff78598c9de7b807e87f4a4dd8c99acada",
   "scripts/collect_grid_profile.py": "3a5c19f57d597e65167832732fee902d7f0f22ffdfafff29a63cf772a86e0c57",
   "meta/profile_job.json": "968ddd16be2a2c28cdd7c8f7fc8604493dc0b7ad60a6d7a0c3f700e13f3ce08c",
   "meta/validation.json": "17006a0b049a55990e25519ccbebf1e9239eedfef5ce21f641d3c89440583bd6",
@@ -142,5 +142,6 @@
   "raw/profile_minimal_h7168_grid_hidden_first/tool_output/v020_grid_hidden_first.json": "586166df730b11f6577b701ebdf90a07b98e37c1c0c4fb19248c1dc2c960876f",
   "raw/profile_minimal_h7168_grid_hidden_first/tool_output/report.txt.csv": "a3527bb5c04a71752f059b12e9be25bbbbf35795c77fba040099008d307a2dd5",
   "raw/profile_minimal_h7168_grid_hidden_first/tool_output/1_reduce_fused_kernel_kernel.txt.csv": "4c530690035c82074efd093b2507919a9fee8cc8f0bd4ded96351ce73df300ee",
-  "analysis/README.md": "bc297e4c824189fc6da9bf1d444991cac134556c4ba55f7c7dbeb0104864d5a8"
+  "analysis/README.md": "69d59f3a08aa11d741fbe78af0eaa9d197fcc1bd61817590c3c3f6c56e042ca2",
+  "meta/integration.json": "24fce771276c20d2d4096f5c86c9843fd09ac2991063fe24d021bee5c616369d"
 }

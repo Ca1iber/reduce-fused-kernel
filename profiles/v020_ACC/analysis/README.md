@@ -157,9 +157,23 @@ h7168 生成代码每线程读取 4 个 BF16=8 字节，一个 64 线程 warp �
 
 ## 正确性与接入状态
 
-现有 131 项正确性测试全部通过（80.45 秒），failures/errors/skipped 均为 0；见 [JUnit 原始结果](../raw/correctness.xml)。八组 benchmark 另有逐字节对照。正式 kernel 尚未修改，目录保持 DEP。
+现有 131 项正确性测试全部通过（80.45 秒），failures/errors/skipped 均为 0；见 [JUnit 原始结果](../raw/correctness.xml)。八组 benchmark 另有逐字节对照。正式 kernel 已按下述范围接入，目录改为 ACC。
 
 八组生成 C++ 在交换 `blockIdx.x/y` 后逐字完全相同；除 block 索引绑定外，没有其它生成源改动。本轮未比较最终机器指令。
+
+## 正式接入（2026-10-06）
+
+外层 `MoeReduceFusedKernel` 选择 `grid_hidden_first`，传入 JIT 工厂；该 bool 在编译时决定 grid 和 block 索引绑定。
+仅加权 FP8/Quantized、BF16、K=8、H=7168 的以下默认配置启用：
+
+| T | tile/threads | grid |
+|---|---|---|
+| 512（h7168） | 512/128 | (14,512) |
+| 4096（prefill） | 1024/128 | (7,4096) |
+
+Base/XSF、tiny、h3072、其它 shape/dtype、无权重路径以及不同的手动 tile/threads 几何使用原 grid。直接调用 JIT 工厂时，新增参数 `grid_hidden_first` 默认 False，保留原调用行为。
+
+本报告的八组性能数据和 131 项正确性结果属于前面的实验采集；此次接入仅做源码检查，未重跑测试或 benchmark。benchmark 脚本已固定加载 `codegen/baseline_v010.py`，避免正式接入后把新 grid 当作旧基线。
 
 ## 文件
 
@@ -170,4 +184,4 @@ h7168 生成代码每线程读取 4 个 BF16=8 字节，一个 64 线程 warp �
 - [现有测试入口](../scripts/validate.py)
 - [运行状态](../meta/status.json)
 
-在仓库根目录加载 `source /data/sc16g-recovery-20261004/env.sh`，再运行 `python profiles/v020_DEP/scripts/benchmark.py --variant fp8 --workload h7168` 可复现单组。脚本会覆盖该组 CSV；重测前请另存已有结果。
+在仓库根目录加载 `source /data/sc16g-recovery-20261004/env.sh`，再运行 `python profiles/v020_ACC/scripts/benchmark.py --variant fp8 --workload h7168` 可复现单组。脚本会覆盖该组 CSV；重测前请另存已有结果。
