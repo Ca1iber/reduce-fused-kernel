@@ -45,6 +45,10 @@
 | [v030_ACC](v030_ACC/analysis/README.md) | tiny两线程列协作已接入Base/XSF/FP8，Quantized保留v029 |
 | [v031_DEP](v031_DEP/analysis/README.md) | tiny四线程列协作，未超过双线程方案，未采用 |
 
+| [v032_DEP](v032_DEP/analysis/README.md) | tiny输入与有效标志打包以减少shuffle，两种方案均未获得收益 |
+
+| [v033_SUM](v033_SUM/analysis/README.md) | 当前正式版本与v000的16组加速比及1.50 TB/s带宽下限达成率 |
+
 ## 后续约定
 
 - 新版本编号为已有最大编号加一，编号包含所有 ACC、DEP、DIS、SUM 目录。

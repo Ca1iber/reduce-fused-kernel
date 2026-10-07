@@ -1,0 +1,20 @@
+{
+  "date_utc": "2026-10-07T11:32:10.237079+00:00",
+  "machine": "sc-16g",
+  "commit": "037a8028ae0fab6e19670f836d01cfcf4b37ecee",
+  "tiny_helper_sha256": "14a23964e1613140d1f3ce750bba91f6a439af703c8dc7dbfe02800bdd2d558f",
+  "shape": [
+    32,
+    2,
+    256
+  ],
+  "dtype": "float16",
+  "packed_layout": {
+    "input_bits": [
+      0,
+      15
+    ],
+    "valid_bit": 16
+  },
+  "scope": "four tiny benchmarks; random+padded output checks; Quantized unchanged control"
+}

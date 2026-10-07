@@ -1,0 +1,12 @@
+{
+  "completed_utc": "2026-10-07T11:41:31.139358+00:00",
+  "classification": "DEP",
+  "formal_kernel_modified": false,
+  "candidates": [
+    "fp16_bits_valid16",
+    "fp32_bits_valid0"
+  ],
+  "scope": "four tiny; random and padded byte comparisons; project benchmark",
+  "extra_test_suites_run": false,
+  "conclusion": "No improvement; retain current formal implementation"
+}
