@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-10-07T04:44:32.724117+00:00",
+  "evidence": "BENCHMARK",
+  "scope": "sc-16g, 25%compute, 16000MiB quota",
+  "sweep_configurations": 27,
+  "confirmations": 6,
+  "highest_independent_median_TBps": 1.491963394,
+  "maximum_single_round_mean_TBps": 1.493525964,
+  "sample_verification": "PASS",
+  "strict_hardware_limit_proven": false
+}

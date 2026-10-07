@@ -1,0 +1,14 @@
+mx-smi  version: 2.3.1
+
+=================== MetaX System Management Interface Log ===================
+Timestamp                                         : Wed Oct  7 04:44:32 2026
+
+Attached GPUs                                     : 1
+GPU#0  MXC500  0000:0f:00.0
+    Clock
+        XCORE                                     : 1125 MHz
+        MC                                        : 1800 MHz
+        VPUE                                      : 535 MHz
+        VPUD                                      : 525 MHz
+
+End of Log

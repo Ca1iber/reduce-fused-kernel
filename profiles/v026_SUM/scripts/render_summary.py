@@ -1,5 +1,5 @@
 from pathlib import Path
-import csv,json,math,hashlib,xml.etree.ElementTree as ET
+import csv,json,math,hashlib,xml.etree.ElementTree as ET,subprocess,sys
 from html import escape
 r=Path(__file__).resolve().parents[1];repo=r.parents[1]
 status=json.loads((r/'meta/status.json').read_text());assert status.get('done')and status['cases']==16,status
@@ -86,12 +86,18 @@ python profiles/v026_SUM/scripts/render_summary.py
 - [v000源码快照](../codegen/v000.py)、[v025源码快照](../codegen/v025.py)。
 - [源码来源与协议](../meta/source.json)、[软件环境](../meta/environment.json)、[GPU状态](../meta/gpu_before.txt)、[运行日志](../logs/benchmark.log)。
 '''
-(r/'analysis/README.md').write_text(text)
+report=r/'analysis/README.md';notes_marker='\n### 计算方法'
+previous=report.read_text() if report.exists() else ''
+if notes_marker in previous:text+='\n'+notes_marker+previous.split(notes_marker,1)[1]
+report.write_text(text)
 p=repo/'profiles/README.md';s=p.read_text();needle='\n## 后续约定';row='| [v026_SUM](v026_SUM/analysis/README.md) | v000与当前v025的16组同轮配对加速比总结 |\n';assert needle in s
 if row not in s:s=s.replace(needle,row+needle)
 s=s.replace('\n\n| [v026_SUM]','\n| [v026_SUM]')
 p.write_text(s)
 (r/'meta/completion.json').write_text(json.dumps({'cases':16,'all_byte_equal':True,'all_timing_cupti':True,'baseline':'v000','current':'v025','current_commit':source['current_commit'],'summary_only':True},indent=2)+'\n')
 hashes={str(p.relative_to(r)):hashlib.sha256(p.read_bytes()).hexdigest()for p in sorted(r.rglob('*'))if p.is_file()and p.name!='artifact_hashes.json'and '__pycache__'not in p.parts};(r/'meta/artifact_hashes.json').write_text(json.dumps(hashes,indent=2)+'\n')
+bounds=r/'scripts/bandwidth_bounds.py'
+if bounds.exists():
+ subprocess.run([sys.executable,str(bounds)],check=True,capture_output=True,text=True)
 print('SUMMARY_CREATED')
 for v in variants:print(v,[(w,round(float(lookup[v,w]['speedup']),4))for w in workloads])

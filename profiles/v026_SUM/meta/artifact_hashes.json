@@ -1,14 +1,16 @@
 {
-  "analysis/README.md": "293929f28eb627e1adfeb3454a4fd15c8b888de0894f76eed25231d155a87c40",
+  "analysis/README.md": "7fcfdcb53767e50a6f420eea28eebe9e5c8524660c1e802d837d2a4125790f2f",
   "analysis/speedup_v000_vs_v025_16g.svg": "dbf75b575f8196e2872ef6f7481b706630474f0509ec880edfb3a2d7324ee85c",
   "codegen/v000.py": "b1ffee62791fbc93d47fed10e2caa220b941a04066cda9a7deec89c32930bf85",
   "codegen/v025.py": "396df55d65977f62e9ee4b7720067583dc6de5ff5775d238dfbd5cf807fcf303",
   "logs/benchmark.log": "09b11b973a50c6550b662848156d747aee0617e2a26db3b2756a01901d0b23ce",
+  "meta/bandwidth_bound_model.json": "22555cf2efdd890cdfdf91333ea6328af1ff6f7bb97dbe661ca8b59dc1d9215d",
   "meta/completion.json": "1911ae953fbfb590c323942790efd250e9b5eed3e732cfcb410b7b912b1cea58",
   "meta/environment.json": "3c6f4b3c16d07c7981707a797104258d0256bce80eebdc73ad88dcdc6a9098d6",
   "meta/gpu_before.txt": "63f31f9a4368355babff84c3b9c11a6d4296f863f8c37e9ae5d2c10030b97c47",
   "meta/source.json": "dc4bed2dd3f20ee134d8212a749bac9a475ef04ab92e567a372760b6183a903a",
   "meta/status.json": "d3a95a5242078b37f907610201897eda5a5b83f850d35ef77e3e0536ec48dff2",
+  "raw/bandwidth_bound_comparison_16g.csv": "a99b124afa7ae05b2a7631696e2b7e9a080af4bf1cd6e49e41f4b4f57d55589a",
   "raw/base_h3072_samples.json": "09f1e1e3f3931c2a7e349cbd835e53404112d653c43aab87357427a37f502233",
   "raw/base_h7168_samples.json": "b52ed8ae69bda29a15e620134066b599dbb3aaff36eefce9b4c481f4963c5eda",
   "raw/base_prefill_samples.json": "467bbafff06ab9444ad2f1252c53f96f0ecceea4d2153f14a0c2006d16354a03",
@@ -26,6 +28,7 @@
   "raw/xsf_h7168_samples.json": "e1ccb9feed01f99ba3614047596742373456400a1b44cd9671cde70080323c2d",
   "raw/xsf_prefill_samples.json": "bf698b93f3fb4011b7b93b679b0fd0b5c5d064ec5c6eab492c4cd72ef61aad31",
   "raw/xsf_tiny_samples.json": "5a085b958fef65484afc14277f2ccf8ac67d74bf83f463e4ab0cfc77b053b802",
+  "scripts/bandwidth_bounds.py": "3336d7efb0e2dce5ab9209115df8f0693650502830d9cc4c337169c69ee4fb33",
   "scripts/benchmark.py": "c05907ab48f37b309d9c0cb19709be3357bd898b5770713f55abd939c5043fc7",
-  "scripts/render_summary.py": "7ce81527f46f5c00682f131b89d4367d20768cc6067c96e2912ce5eb07085f8f"
+  "scripts/render_summary.py": "fb8cbcad3f1e75fbb3e06ab1af6f14bda5087febd116ebaf8c226527272472bf"
 }

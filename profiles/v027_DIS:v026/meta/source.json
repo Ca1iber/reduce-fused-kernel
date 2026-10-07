@@ -1,0 +1,15 @@
+{
+  "observed_at_utc": "2026-10-07T04:43:30.880226+00:00",
+  "machine": "sc-16g",
+  "container": "bc3eb2830726",
+  "commit": "e7ba65a4d390845a7f75e41f923abcdc8e1d359a",
+  "git_status": " M profiles/v026_SUM/analysis/README.md\n M profiles/v026_SUM/meta/artifact_hashes.json\n M profiles/v026_SUM/scripts/render_summary.py\n?? profiles/v026_SUM/meta/bandwidth_bound_model.json\n?? profiles/v026_SUM/raw/bandwidth_bound_comparison_16g.csv\n?? profiles/v026_SUM/scripts/bandwidth_bounds.py\n?? profiles/v027_DIS:v026/\n",
+  "source_sha256": "2141e94dcc9db0653a74871fd731077ee32feb784565f530ad075d9cef99c13f",
+  "method": "unchanged from v023; 27 geometries on 1GiB; new processes confirm selected geometries on 1 and 2GiB",
+  "warmup": 8,
+  "rounds": 5,
+  "launches_per_round": 32,
+  "evidence": "BENCHMARK",
+  "bandwidth_definition": "(input_bytes + output_bytes) / native mcEvent device elapsed time; decimal TB/s",
+  "scope": "sc-16g visible16G/25%compute; current idle slice"
+}

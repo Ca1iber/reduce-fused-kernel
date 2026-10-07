@@ -1,0 +1,15 @@
+{
+  "roofline_bandwidth_TBs": 1.8432,
+  "probe_bandwidth_TBs": {
+    "Base": 1.5,
+    "XSF": 1.5,
+    "FP8": 1.5,
+    "Quantized": 1.5
+  },
+  "reference_basis": "user-specified uniform 1.50 TB/s; not a measured hard limit",
+  "strict_lower_bound_proven": false,
+  "modeled_reads": "one x row per valid routing slot, metadata once per slot; output once",
+  "input_element_bytes": 2,
+  "data_source": "raw/comparison_16g.csv",
+  "cases": 16
+}

@@ -39,6 +39,7 @@
 | [v024_DEP](v024_DEP/analysis/README.md) | 真实128-bit写回与连续16元素布局，未超过v022 |
 | [v025_ACC](v025_ACC/analysis/README.md) | 8行寄存器预取已接入FP8/Quantized的h3072/h7168四组合 |
 | [v026_SUM](v026_SUM/analysis/README.md) | v000与当前v025的16组同轮配对加速比总结 |
+| [v027_DIS:v026](v027_DIS:v026/analysis/README.md) | 当前实例HBM带宽复测，验证v026的带宽参考 |
 
 ## 后续约定
 

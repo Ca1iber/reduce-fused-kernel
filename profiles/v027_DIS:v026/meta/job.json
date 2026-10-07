@@ -1,0 +1,9 @@
+{
+  "pid": 42344,
+  "command": [
+    "/opt/conda/bin/python",
+    "-u",
+    "/data/TileOPs-Metax/profiles/v027_DIS:v026/scripts/run_bandwidth.py"
+  ],
+  "cwd": "/data/TileOPs-Metax"
+}
