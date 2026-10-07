@@ -1,0 +1,247 @@
+{
+  "selected_count": 3,
+  "unselected_cpp_identical_count": 13,
+  "fallback_checks": 5,
+  "cases": [
+    {
+      "variant": "Base",
+      "workload": "tiny",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 256,
+        "num_threads": 256
+      },
+      "new_config": {
+        "tile_hidden": 256,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "XSF",
+      "workload": "tiny",
+      "implementation": "fragment",
+      "old_config": {
+        "tile_hidden": 256,
+        "num_threads": 256
+      },
+      "new_config": {
+        "tile_hidden": 256,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": false,
+      "candidate_cpp_identical": true
+    },
+    {
+      "variant": "FP8",
+      "workload": "tiny",
+      "implementation": "fragment",
+      "old_config": {
+        "tile_hidden": 256,
+        "num_threads": 128
+      },
+      "new_config": {
+        "tile_hidden": 256,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": false,
+      "candidate_cpp_identical": true
+    },
+    {
+      "variant": "Quantized",
+      "workload": "tiny",
+      "implementation": "local",
+      "old_config": {
+        "tile_hidden": 256,
+        "num_threads": 128
+      },
+      "new_config": {
+        "tile_hidden": 256,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": false,
+      "candidate_cpp_identical": true
+    },
+    {
+      "variant": "Base",
+      "workload": "h3072",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 3072,
+        "num_threads": 256
+      },
+      "new_config": {
+        "tile_hidden": 3072,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "XSF",
+      "workload": "h3072",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 3072,
+        "num_threads": 256
+      },
+      "new_config": {
+        "tile_hidden": 3072,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "FP8",
+      "workload": "h3072",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "new_config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "Quantized",
+      "workload": "h3072",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "new_config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "Base",
+      "workload": "h7168",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "new_config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "XSF",
+      "workload": "h7168",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "new_config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "FP8",
+      "workload": "h7168",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "new_config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "Quantized",
+      "workload": "h7168",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "new_config": {
+        "tile_hidden": 512,
+        "num_threads": 128
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "Base",
+      "workload": "prefill",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "new_config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "XSF",
+      "workload": "prefill",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "new_config": {
+        "tile_hidden": 7168,
+        "num_threads": 256
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "FP8",
+      "workload": "prefill",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 1024,
+        "num_threads": 128
+      },
+      "new_config": {
+        "tile_hidden": 1024,
+        "num_threads": 128
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    },
+    {
+      "variant": "Quantized",
+      "workload": "prefill",
+      "implementation": null,
+      "old_config": {
+        "tile_hidden": 1024,
+        "num_threads": 128
+      },
+      "new_config": {
+        "tile_hidden": 1024,
+        "num_threads": 128
+      },
+      "cpp_equal_to_old": true,
+      "candidate_cpp_identical": false
+    }
+  ]
+}

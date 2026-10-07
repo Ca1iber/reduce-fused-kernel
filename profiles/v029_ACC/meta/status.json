@@ -1,0 +1,20 @@
+{
+  "done": true,
+  "static_rows": 80,
+  "local_rows": 32,
+  "valid_final_sweep_rows": 112,
+  "confirmation_cases": 11,
+  "confirmation_paired_rounds": 20,
+  "correctness": {
+    "tests": 131,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "candidate_kernel_constructions": 87,
+  "all_queried_private_bytes_zero": true,
+  "resource_cases": 15,
+  "formal_source_unchanged": true,
+  "status": "DEP",
+  "cta_reduction_adopted": false
+}

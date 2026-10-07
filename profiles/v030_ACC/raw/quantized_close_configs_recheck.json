@@ -1,0 +1,44 @@
+{
+  "medians_us": {
+    "v025": 3.7427200000000034,
+    "v029": 3.655680000000003,
+    "pair256": 3.668480000000003,
+    "pair512": 3.6608000000000027
+  },
+  "rounds": 20,
+  "byte_equal": true,
+  "comparisons": [
+    {
+      "candidate": "pair256",
+      "reference": "v025",
+      "reduction_pct": 1.9835841313269653,
+      "paired_saved_mean_us": 0.07859200000000026,
+      "ci95_low_us": 0.06886400000000033,
+      "ci95_high_us": 0.0898560000000002
+    },
+    {
+      "candidate": "pair256",
+      "reference": "v029",
+      "reduction_pct": -0.3501400560224077,
+      "paired_saved_mean_us": -0.011775999999999964,
+      "ci95_low_us": -0.01945599999999994,
+      "ci95_high_us": -0.004352
+    },
+    {
+      "candidate": "pair512",
+      "reference": "v025",
+      "reduction_pct": 2.188782489740093,
+      "paired_saved_mean_us": 0.07987200000000012,
+      "ci95_low_us": 0.0668160000000001,
+      "ci95_high_us": 0.09216000000000009
+    },
+    {
+      "candidate": "pair512",
+      "reference": "v029",
+      "reduction_pct": -0.1400560224089631,
+      "paired_saved_mean_us": -0.010496000000000106,
+      "ci95_low_us": -0.023552000000000083,
+      "ci95_high_us": 0.002047999999999983
+    }
+  ]
+}

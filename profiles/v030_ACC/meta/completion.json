@@ -1,0 +1,34 @@
+{
+  "done": true,
+  "sweep_configurations": 24,
+  "correctness": {
+    "tests": 131,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "candidate_constructions": 87,
+  "confirmations": 4,
+  "paired_rounds": 20,
+  "additional_quantized_rounds": 20,
+  "private_zero_resource_queries": 12,
+  "formal_unchanged": false,
+  "status": "ACC",
+  "recommended_pair_variants": [
+    "Base",
+    "XSF",
+    "FP8"
+  ],
+  "quantized_prefer": "v029",
+  "integrated_variants": [
+    "Base",
+    "XSF",
+    "FP8"
+  ],
+  "integration": {
+    "done": true,
+    "tiny_cases": 4,
+    "all_byte_equal": true,
+    "extra_test_suites_run": false
+  }
+}

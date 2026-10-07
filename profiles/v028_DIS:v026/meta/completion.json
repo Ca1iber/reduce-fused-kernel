@@ -1,0 +1,9 @@
+{
+  "empty_body_launched": true,
+  "profile_cases": 6,
+  "all_profiler_timing_cupti": true,
+  "native_rows": 30,
+  "native_launch_and_sync_status": "PASS",
+  "formal_source_unchanged": true,
+  "proof_of_absolute_lower_bound": false
+}

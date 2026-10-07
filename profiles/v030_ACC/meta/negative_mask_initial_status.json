@@ -1,0 +1,103 @@
+{
+  "done": true,
+  "rows": 0,
+  "failures": [
+    {
+      "case": "base_adjacent_t128",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "base_adjacent_t256",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "base_adjacent_t512",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "base_halfwarp_t128",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "base_halfwarp_t256",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "base_halfwarp_t512",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "xsf_adjacent_t128",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "xsf_adjacent_t256",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "xsf_adjacent_t512",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "xsf_halfwarp_t128",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "xsf_halfwarp_t256",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "xsf_halfwarp_t512",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "fp8_adjacent_t128",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "fp8_adjacent_t256",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "fp8_adjacent_t512",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "fp8_halfwarp_t128",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "fp8_halfwarp_t256",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "fp8_halfwarp_t512",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "quantized_adjacent_t128",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "quantized_adjacent_t256",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "quantized_adjacent_t512",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "quantized_halfwarp_t128",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "quantized_halfwarp_t256",
+      "error": "cannot make uint from negative value -1"
+    },
+    {
+      "case": "quantized_halfwarp_t512",
+      "error": "cannot make uint from negative value -1"
+    }
+  ],
+  "seconds": 5.413460731506348
+}

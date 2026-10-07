@@ -40,6 +40,10 @@
 | [v025_ACC](v025_ACC/analysis/README.md) | 8行寄存器预取已接入FP8/Quantized的h3072/h7168四组合 |
 | [v026_SUM](v026_SUM/analysis/README.md) | v000与当前v025的16组同轮配对加速比总结 |
 | [v027_DIS:v026](v027_DIS:v026/analysis/README.md) | 当前实例HBM带宽复测，验证v026的带宽参考 |
+| [v028_DIS:v026](v028_DIS:v026/analysis/README.md) | tiny同几何空kernel开销与两种计时口径对照 |
+| [v029_ACC](v029_ACC/analysis/README.md) | tiny的XSF/FP8/Quantized候选已接入，Base保留原实现 |
+| [v030_ACC](v030_ACC/analysis/README.md) | tiny两线程列协作已接入Base/XSF/FP8，Quantized保留v029 |
+| [v031_DEP](v031_DEP/analysis/README.md) | tiny四线程列协作，未超过双线程方案，未采用 |
 
 ## 后续约定
 

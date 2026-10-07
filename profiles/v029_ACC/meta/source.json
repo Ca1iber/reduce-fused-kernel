@@ -1,0 +1,25 @@
+{
+  "start_utc": "2026-10-07T06:12:21.837040+00:00",
+  "commit": "95be453e49e45231fe8a06cce6031d648667028e",
+  "formal_sha256": "396df55d65977f62e9ee4b7720067583dc6de5ff5775d238dfbd5cf807fcf303",
+  "machine": "sc-16g",
+  "tokens_per_cta": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "threads": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "shape": [
+    32,
+    2,
+    256
+  ],
+  "input_dtype": "float16",
+  "timing": "project bench_kernel; CUPTI; L2 flush; 5 alternating paired rounds"
+}

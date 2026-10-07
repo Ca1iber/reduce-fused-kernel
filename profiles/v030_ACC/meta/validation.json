@@ -1,0 +1,528 @@
+{
+  "exitcode": 0,
+  "candidate_kernel_constructions": 87,
+  "candidate_calls": [
+    {
+      "variant": "Base",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "bfloat16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "bfloat16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "bfloat16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "bfloat16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "bfloat16",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float32",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float32",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float32",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float32",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float32",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "bfloat16",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float32",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float32",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Base",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "XSF",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "FP8",
+      "dtype": "float32",
+      "threads": 512,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    },
+    {
+      "variant": "Quantized",
+      "dtype": "float32",
+      "threads": 256,
+      "layout": "adjacent"
+    }
+  ]
+}

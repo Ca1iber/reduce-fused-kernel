@@ -1,0 +1,13 @@
+{
+  "done": true,
+  "configurations": 24,
+  "variants": [
+    "Base",
+    "XSF",
+    "FP8",
+    "Quantized"
+  ],
+  "status": "DEP",
+  "adopted": false,
+  "scope": "four tiny workloads; one output check per config; project benchmark only"
+}

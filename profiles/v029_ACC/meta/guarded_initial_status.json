@@ -1,0 +1,135 @@
+{
+  "done": true,
+  "rows": 32,
+  "failures": [
+    {
+      "case": "fp8_g1_t32",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g1_t64",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g1_t128",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g1_t256",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g2_t32",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g2_t64",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g2_t128",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g2_t256",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g4_t32",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g4_t64",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g4_t128",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g4_t256",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g8_t32",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g8_t64",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g8_t128",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "fp8_g8_t256",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g1_t32",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g1_t64",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g1_t128",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g1_t256",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g2_t32",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g2_t64",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g2_t128",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g2_t256",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g4_t32",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g4_t64",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g4_t128",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g4_t256",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g8_t32",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g8_t64",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g8_t128",
+      "error": "'Var' object does not support item assignment"
+    },
+    {
+      "case": "quantized_g8_t256",
+      "error": "'Var' object does not support item assignment"
+    }
+  ],
+  "seconds": 130.77363801002502
+}

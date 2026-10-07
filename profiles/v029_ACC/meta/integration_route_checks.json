@@ -1,0 +1,122 @@
+[
+  {
+    "variant": "Base",
+    "route": "random",
+    "byte_equal": true
+  },
+  {
+    "variant": "Base",
+    "route": "identity",
+    "byte_equal": true
+  },
+  {
+    "variant": "Base",
+    "route": "padded",
+    "byte_equal": true
+  },
+  {
+    "variant": "Base",
+    "route": "duplicates",
+    "byte_equal": true
+  },
+  {
+    "variant": "Base",
+    "route": "all-invalid",
+    "byte_equal": true
+  },
+  {
+    "variant": "Base",
+    "route": "invalid-nan",
+    "byte_equal": true
+  },
+  {
+    "variant": "XSF",
+    "route": "random",
+    "byte_equal": true
+  },
+  {
+    "variant": "XSF",
+    "route": "identity",
+    "byte_equal": true
+  },
+  {
+    "variant": "XSF",
+    "route": "padded",
+    "byte_equal": true
+  },
+  {
+    "variant": "XSF",
+    "route": "duplicates",
+    "byte_equal": true
+  },
+  {
+    "variant": "XSF",
+    "route": "all-invalid",
+    "byte_equal": true
+  },
+  {
+    "variant": "XSF",
+    "route": "invalid-nan",
+    "byte_equal": true
+  },
+  {
+    "variant": "FP8",
+    "route": "random",
+    "byte_equal": true
+  },
+  {
+    "variant": "FP8",
+    "route": "identity",
+    "byte_equal": true
+  },
+  {
+    "variant": "FP8",
+    "route": "padded",
+    "byte_equal": true
+  },
+  {
+    "variant": "FP8",
+    "route": "duplicates",
+    "byte_equal": true
+  },
+  {
+    "variant": "FP8",
+    "route": "all-invalid",
+    "byte_equal": true
+  },
+  {
+    "variant": "FP8",
+    "route": "invalid-nan",
+    "byte_equal": true
+  },
+  {
+    "variant": "Quantized",
+    "route": "random",
+    "byte_equal": true
+  },
+  {
+    "variant": "Quantized",
+    "route": "identity",
+    "byte_equal": true
+  },
+  {
+    "variant": "Quantized",
+    "route": "padded",
+    "byte_equal": true
+  },
+  {
+    "variant": "Quantized",
+    "route": "duplicates",
+    "byte_equal": true
+  },
+  {
+    "variant": "Quantized",
+    "route": "all-invalid",
+    "byte_equal": true
+  },
+  {
+    "variant": "Quantized",
+    "route": "invalid-nan",
+    "byte_equal": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "pre_integration_sha256": "396df55d65977f62e9ee4b7720067583dc6de5ff5775d238dfbd5cf807fcf303",
+  "formal_sha256": "8b3ff447eb04dc9cd5c91c56496a29c73cd4eec957f8a59c8460104a20085864",
+  "tiny_helper_sha256": "6d31226d94bd8ea0fe9480da75abba2f2fd037b1c68f422f28ecca1a34ec1e55",
+  "selected_variants": [
+    "XSF",
+    "FP8",
+    "Quantized"
+  ],
+  "shape": [
+    32,
+    2,
+    256
+  ],
+  "dtype": "float16",
+  "threads": 256,
+  "base_unchanged": true,
+  "legacy_sf_threads128_fallback_retains_vector_store": true
+}

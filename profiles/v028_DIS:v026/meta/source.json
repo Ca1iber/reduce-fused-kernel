@@ -1,0 +1,20 @@
+{
+  "observed_at_utc": "2026-10-07T05:53:00.385527+00:00",
+  "host": "bc3eb2830726",
+  "commit": "95be453e49e45231fe8a06cce6031d648667028e",
+  "formal_source_sha256": "396df55d65977f62e9ee4b7720067583dc6de5ff5775d238dfbd5cf807fcf303",
+  "empty_geometry": {
+    "grid": 32,
+    "threads": [
+      128,
+      256
+    ]
+  },
+  "tiny_shape": {
+    "T": 32,
+    "K": 2,
+    "H": 256,
+    "dtype": "float16"
+  },
+  "empty_signature": "six pointers and two int dimensions; empty native device body"
+}

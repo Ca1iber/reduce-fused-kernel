@@ -1,0 +1,11 @@
+{
+  "done": true,
+  "native_event_batches": [
+    128,
+    1024,
+    8192
+  ],
+  "native_rounds": 5,
+  "benchmark_rounds": 5,
+  "profile_cases": 6
+}

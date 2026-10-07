@@ -16,7 +16,6 @@ from tileops.kernels.kernel_base import Kernel
 from tileops.kernels.moe.reduce_fused_tiny import (
     _get_tiny_fragment_kernel,
     _get_tiny_local_kernel,
-    _get_tiny_pair_kernel,
 )
 
 __all__ = ["MoeReduceFusedKernel"]
@@ -235,14 +234,8 @@ class MoeReduceFusedKernel(Kernel):
         if (type(tile_hidden) is not int or tile_hidden <= 0
                 or tile_hidden % 256 != 0 or hidden % tile_hidden != 0):
             raise ValueError("tile_hidden must be a positive multiple of 256 dividing hidden")
-        tiny_fp8 = (
-            (num_tokens, num_topk, hidden, dtype) == (32, 2, 256, torch.float16)
-            and with_weights and with_sf and not with_x_sf
-        )
-        if (type(num_threads) is not int
-                or (num_threads not in (64, 128, 256)
-                    and not (tiny_fp8 and num_threads == 512))):
-            raise ValueError("num_threads must be 64, 128, or 256; measured FP8 tiny also supports 512")
+        if type(num_threads) is not int or num_threads not in (64, 128, 256):
+            raise ValueError("num_threads must be 64, 128, or 256")
         # v020: use hidden-first numbering only for the measured SF cases
         # and their measured launch geometry; custom geometry keeps v010.
         measured_key = (num_tokens, num_topk, hidden, dtype)
@@ -260,7 +253,7 @@ class MoeReduceFusedKernel(Kernel):
             with_sf and with_weights
             and (
                 (measured_key == (32, 2, 256, torch.float16)
-                 and tile_hidden == 256 and num_threads in (128, 256, 512))
+                 and tile_hidden == 256 and num_threads in (128, 256))
                 or (measured_key == (4096, 8, 7168, torch.bfloat16)
                     and (tile_hidden, num_threads) == _MEASURED_CONFIGS[measured_key][1])
             )
@@ -276,22 +269,11 @@ class MoeReduceFusedKernel(Kernel):
             and (tile_hidden, num_threads) == _MEASURED_CONFIGS[measured_key][1]
             else 0
         )
+        # v029: retain Base and route only the three verified tiny variants.
         self.tiny_implementation = None
-        measured_tiny = (
-            measured_key == (32, 2, 256, torch.float16)
-            and with_weights and tile_hidden == 256
-        )
-        if (measured_tiny and not (with_sf and with_x_sf)
-                and num_threads == (512 if with_sf else 256)):
-            # v030: two lanes load the two experts; lane 0 accumulates in K order.
-            self.tiny_implementation = "pair"
-            self.kernel = _get_tiny_pair_kernel(
-                hidden, num_topk, T.dtype(dtype), T.dtype(self.out_dtype),
-                with_sf, with_weights, with_x_sf,
-                num_threads=num_threads, pair_layout="adjacent",
-            )
-        elif (measured_tiny and (with_sf or with_x_sf) and num_threads == 256):
-            # v029: retain Quantized and the legacy FP8 custom-256 fallback.
+        if (measured_key == (32, 2, 256, torch.float16)
+                and with_weights and (with_sf or with_x_sf)
+                and (tile_hidden, num_threads) == (256, 256)):
             self.tiny_implementation = "local" if with_sf and with_x_sf else "fragment"
             factory = (
                 _get_tiny_local_kernel if self.tiny_implementation == "local"
@@ -322,9 +304,6 @@ class MoeReduceFusedKernel(Kernel):
     def default_config(self) -> dict[str, int]:
         key = (self.num_tokens, self.num_topk, self.hidden, self.dtype)
         measured = _MEASURED_CONFIGS.get(key) if self.with_weights else None
-        if (key == (32, 2, 256, torch.float16) and self.with_weights
-                and self.with_sf and not self.with_x_sf):
-            return {"tile_hidden": 256, "num_threads": 512}
         if measured is not None:
             tile_hidden, num_threads = measured[int(self.with_sf)]
         else:

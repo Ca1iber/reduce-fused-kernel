@@ -1,0 +1,62 @@
+{
+  "Base": {
+    "variant": "Base",
+    "family": "local_vector",
+    "tokens_per_cta": "1",
+    "threads": "128",
+    "ctas": "32",
+    "elements_per_thread": "2",
+    "baseline_us": "3.5737600000000027",
+    "candidate_us": "3.543040000000002",
+    "speedup": "1.008670520231214",
+    "latency_reduction_pct": "0.8595988538682042",
+    "byte_equal_routes": "5",
+    "timing": "cupti",
+    "samples": "{\"baseline\": [3.5686400000000025, 3.5737600000000027, 3.5840000000000023, 3.5942400000000028, 3.5737600000000027], \"candidate\": [3.5379200000000024, 3.543040000000002, 3.5686400000000025, 3.5174400000000023, 3.5481600000000024]}"
+  },
+  "XSF": {
+    "variant": "XSF",
+    "family": "static_group",
+    "tokens_per_cta": "1",
+    "threads": "256",
+    "ctas": "32",
+    "elements_per_thread": "1",
+    "baseline_us": "3.5891200000000025",
+    "candidate_us": "3.5379200000000024",
+    "speedup": "1.0144717800289436",
+    "latency_reduction_pct": "1.4265335235378096",
+    "byte_equal_routes": "5",
+    "timing": "cupti",
+    "samples": "{\"baseline\": [3.6198400000000026, 3.584000000000003, 3.5891200000000025, 3.5532800000000027, 3.624960000000003], \"candidate\": [3.5379200000000024, 3.5328000000000026, 3.5379200000000024, 3.543040000000002, 3.5481600000000024]}"
+  },
+  "FP8": {
+    "variant": "FP8",
+    "family": "static_group",
+    "tokens_per_cta": "1",
+    "threads": "256",
+    "ctas": "32",
+    "elements_per_thread": "1",
+    "baseline_us": "3.7171200000000026",
+    "candidate_us": "3.6864000000000026",
+    "speedup": "1.0083333333333333",
+    "latency_reduction_pct": "0.8264462809917328",
+    "byte_equal_routes": "5",
+    "timing": "cupti",
+    "samples": "{\"baseline\": [3.7376000000000027, 3.7478400000000027, 3.7068800000000026, 3.691520000000003, 3.7171200000000026], \"candidate\": [3.691520000000003, 3.6864000000000026, 3.6505600000000027, 3.727360000000003, 3.655680000000003]}"
+  },
+  "Quantized": {
+    "variant": "Quantized",
+    "family": "local_vector",
+    "tokens_per_cta": "1",
+    "threads": "256",
+    "ctas": "32",
+    "elements_per_thread": "1",
+    "baseline_us": "3.880960000000003",
+    "candidate_us": "3.6659200000000025",
+    "speedup": "1.058659217877095",
+    "latency_reduction_pct": "5.540897097625342",
+    "byte_equal_routes": "5",
+    "timing": "cupti",
+    "samples": "{\"baseline\": [3.8860800000000033, 3.875840000000003, 3.855360000000003, 3.880960000000003, 3.896320000000003], \"candidate\": [3.671040000000003, 3.6659200000000025, 3.6608000000000027, 3.6761600000000025, 3.6659200000000025]}"
+  }
+}

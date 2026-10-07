@@ -1,0 +1,83 @@
+{
+  "empty_256": [
+    {
+      "us": 2.0428800000000016,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 2.0070400000000013,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 2.0121600000000015,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 2.0275200000000013,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 2.0428800000000016,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ],
+  "Base": [
+    {
+      "us": 3.624960000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.6198400000000026,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.614720000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.5891200000000025,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.614720000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ],
+  "XSF": [
+    {
+      "us": 3.5686400000000025,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.5840000000000023,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.5788800000000025,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.5788800000000025,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.599360000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ]
+}

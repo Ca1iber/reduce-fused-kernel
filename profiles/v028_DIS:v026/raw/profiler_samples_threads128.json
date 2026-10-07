@@ -1,0 +1,83 @@
+{
+  "empty_128": [
+    {
+      "us": 2.0070400000000017,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 2.0019200000000015,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 1.9916800000000012,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 1.9916800000000012,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 2.0070400000000017,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ],
+  "FP8": [
+    {
+      "us": 3.891200000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.8860800000000033,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.8860800000000033,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.9065600000000034,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.8707200000000035,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ],
+  "Quantized": [
+    {
+      "us": 3.722240000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.778560000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.732480000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.722240000000003,
+      "timing": "cupti",
+      "inputs_cloned": true
+    },
+    {
+      "us": 3.7376000000000027,
+      "timing": "cupti",
+      "inputs_cloned": true
+    }
+  ]
+}

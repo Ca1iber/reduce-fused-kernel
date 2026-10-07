@@ -1,0 +1,33 @@
+{
+  "done": true,
+  "static_rows": 80,
+  "local_rows": 32,
+  "valid_final_sweep_rows": 112,
+  "confirmation_cases": 11,
+  "confirmation_paired_rounds": 20,
+  "correctness": {
+    "tests": 131,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "candidate_kernel_constructions": 87,
+  "all_queried_private_bytes_zero": true,
+  "resource_cases": 15,
+  "formal_source_unchanged": false,
+  "status": "ACC",
+  "cta_reduction_adopted": false,
+  "integrated_variants": [
+    "XSF",
+    "FP8",
+    "Quantized"
+  ],
+  "integration": {
+    "done": true,
+    "correctness_exitcode": 0,
+    "benchmark_cases": 4,
+    "byte_equal_route_cases": 24,
+    "selected_count": 3,
+    "unselected_cpp_identical_count": 13
+  }
+}

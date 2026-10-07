@@ -1,0 +1,27 @@
+{
+  "date_utc": "2026-10-07T07:49:23.688297+00:00",
+  "machine": "sc-16g",
+  "shape": [
+    32,
+    2,
+    256
+  ],
+  "dtype": "float16",
+  "threads": [
+    256,
+    512,
+    1024
+  ],
+  "role_layouts": [
+    "adjacent",
+    "striped16"
+  ],
+  "roles": {
+    "0": "load expert0 input and final ordered accumulation",
+    "1": "load expert1 input",
+    "2": "prepare expert0 weight*x_sf",
+    "3": "prepare expert1 weight*x_sf"
+  },
+  "formal_sha256": "8b3ff447eb04dc9cd5c91c56496a29c73cd4eec957f8a59c8460104a20085864",
+  "scope": "four tiny variants; one byte-equality check per config; project benchmark only"
+}
