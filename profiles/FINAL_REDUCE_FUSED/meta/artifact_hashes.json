@@ -1,0 +1,16 @@
+{
+  "analysis/README.md": "57a39542b3137ff3c707171ce468742432b8a9572abc66eb8fdbdec58d704da6",
+  "codegen/final_moe_manifest.yaml": "4107935505f4c30e0a466620202d58635fef338019fad1ca69e879ba6d7bee6d",
+  "codegen/final_reduce_fused.py": "ae4c342480be74ebb88f742459d6252f0471c0c2d9d01e983973ce40ec1585bb",
+  "codegen/final_reduce_fused_tiny.py": "14a23964e1613140d1f3ce750bba91f6a439af703c8dc7dbfe02800bdd2d558f",
+  "meta/source.json": "1b7de05282674470c286c8ba625da70de1293b502872039920e2aba6937a9868",
+  "meta/v026_environment.json": "3c6f4b3c16d07c7981707a797104258d0256bce80eebdc73ad88dcdc6a9098d6",
+  "meta/v026_source.json": "dc4bed2dd3f20ee134d8212a749bac9a475ef04ab92e567a372760b6183a903a",
+  "meta/v033_source.json": "d588c34205732afd2da8631b752eeb5bdc8c9c4ddbe1e55c79c0d28d09707c38",
+  "raw/closeout_16g.csv": "5170a2d597a624810160f221e335c5a1da084e991cfe648fa38b9e02f5de82d9",
+  "raw/summary_16g.csv": "ba45e5db1f689ace9efe877ef84858228fd5fae22d3a7ab3c977c94814875ab5",
+  "raw/v026_bandwidth_bound_comparison_16g.csv": "a99b124afa7ae05b2a7631696e2b7e9a080af4bf1cd6e49e41f4b4f57d55589a",
+  "raw/v026_comparison_16g.csv": "1490d3612d8c9a1f755d62df5ab7a82707a83db3b4666e861e4504fd8bbd2839",
+  "raw/v032_formal_tiny_comparison_16g.csv": "d62f3e62f814b871ab6a3c3de6d875f72293bf964b7291842913f3d36b84c3bd",
+  "scripts/build_closeout.py": "0c9c2c82f816a757701ab8c8bceb9ca038570e42a2c580ff25046ed8fe9cfb08"
+}

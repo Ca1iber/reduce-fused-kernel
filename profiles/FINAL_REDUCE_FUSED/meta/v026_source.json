@@ -1,0 +1,18 @@
+{
+  "baseline_commit": "ffc084d94b4efa66e763fdcc0a130905c18ed836",
+  "current_commit": "7f3b4c92eaee23264e398ff46d6e4785fbcbdf35",
+  "baseline_source_sha256": "b1ffee62791fbc93d47fed10e2caa220b941a04066cda9a7deec89c32930bf85",
+  "current_source_sha256": "396df55d65977f62e9ee4b7720067583dc6de5ff5775d238dfbd5cf807fcf303",
+  "benchmark_base_sha256": "0b97766a26b939b0511e2507e5fbafd2d0a8d784e7cd7750d16e7312918157a6",
+  "workloads_sha256": "ba2555ce44b0e1db05b4b9374588f241954e291e36340895e7a4b7af9ba02018",
+  "machine": "sc-16g",
+  "container": "ed2753135a75",
+  "start_utc": "2026-10-06T15:10:28.553636+00:00",
+  "seed": 1235,
+  "route": "random",
+  "warmup": 10,
+  "repeats": 50,
+  "trials": 3,
+  "paired_rounds": 5,
+  "l2_flush": true
+}

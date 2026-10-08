@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-07T12:20:53.135530+00:00",
+  "formal_commit": "037a8028ae0fab6e19670f836d01cfcf4b37ecee",
+  "classification": "SUM",
+  "new_gpu_measurement": false,
+  "bandwidth_reference_TBs": 1.5,
+  "inputs": [
+    {
+      "frozen_file": "raw/v026_comparison_16g.csv",
+      "source_file": "profiles/v026_SUM/raw/comparison_16g.csv",
+      "sha256": "1490d3612d8c9a1f755d62df5ab7a82707a83db3b4666e861e4504fd8bbd2839"
+    },
+    {
+      "frozen_file": "raw/v026_bandwidth_bound_comparison_16g.csv",
+      "source_file": "profiles/v026_SUM/raw/bandwidth_bound_comparison_16g.csv",
+      "sha256": "a99b124afa7ae05b2a7631696e2b7e9a080af4bf1cd6e49e41f4b4f57d55589a"
+    },
+    {
+      "frozen_file": "raw/v032_formal_tiny_comparison_16g.csv",
+      "source_file": "profiles/v032_DEP/raw/floatbits_comparison_16g.csv",
+      "sha256": "d62f3e62f814b871ab6a3c3de6d875f72293bf964b7291842913f3d36b84c3bd"
+    }
+  ]
+}

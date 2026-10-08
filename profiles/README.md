@@ -1,6 +1,15 @@
 # Profile 目录约定
 
-所有 Profile 脚本、原始数据和分析结果按实验顺序放在这里。版本目录必须带状态后缀：
+所有 Profile 脚本、原始数据和分析结果放在这里。实验迭代目录按顺序编号，并带状态后缀；封盘报告使用独立的醒目名称。
+
+## 最终封盘报告
+
+**[FINAL_REDUCE_FUSED：reduce_fused 封盘报告](FINAL_REDUCE_FUSED/analysis/README.md)**
+
+以 restart 分支为基准，包含16组终盘性能、配置、优化与逐组分析。封盘 tag：`reduce-fused-final`。
+
+## 实验版本后缀
+
 
 - `vxxx_ACC`：已接入正式 kernel 的优化，包括后来已接入的参数选择。
 - `vxxx_DEP`：未采用的优化实验；保留代码、数据和失败记录。
@@ -48,6 +57,7 @@
 | [v032_DEP](v032_DEP/analysis/README.md) | tiny输入与有效标志打包以减少shuffle，两种方案均未获得收益 |
 
 | [v033_SUM](v033_SUM/analysis/README.md) | 当前正式版本与v000的16组加速比及1.50 TB/s带宽下限达成率 |
+
 
 ## 后续约定
 
