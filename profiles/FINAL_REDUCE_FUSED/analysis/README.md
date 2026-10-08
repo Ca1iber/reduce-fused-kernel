@@ -267,3 +267,98 @@ python profiles/FINAL_REDUCE_FUSED/scripts/build_closeout.py
 ```
 
 需要以后重新测量时，使用项目环境及原 benchmark 协议，并保存为新实验，不覆盖本次冻结的数据。完整历史入口见 [profiles 索引](../../README.md)。
+
+## 11. Arithmetic Intensity（AI，算术强度）推导
+
+Arithmetic Intensity = FLOPs / Bytes，单位为 FLOP/B，表示每传输一个字节对应多少浮点运算。这里 AI 指算术强度。
+
+### 11.1 统计口径
+
+沿用正式 Op 的 `eval_roofline()` 语义模型，假设所有 K 个路由槽有效；输入读取和输出写入各按一次计算，metadata 按语义读取一次。这与第 4 节带宽下限的字节模型一致，不能当作实测 HBM 事务字节数。
+
+FLOPs 统计归约和缩放：一次乘法计 1 FLOP，一次加法计 1 FLOP，一次 FMA 计 2 FLOPs。FP8 编码、索引、分支、转换等辅助指令未完整计入此语义 FLOP 模型；尤其整数位操作不作为 FLOPs。该口径适合比较算法算术强度，不表示已统计全部机器指令成本。
+
+AI 不由 runtime 或 1.50 TB/s 决定；带宽参考用于计算 Q/B 下限，AI 则只由上述运算量和字节模型决定。
+
+### 11.2 FLOPs 推导
+
+```text
+归约：T*H 个输出，每个输出累加 K 个加权贡献
+      K 次乘加，每次 2 FLOPs
+F_reduce = 2*T*K*H
+
+x_sf：先计算 weights[token,k] * x_sf[pos]
+      每个路由槽一次乘法，随后该系数用于所有 H 列
+F_xsf = T*K（仅 XSF / Quantized）
+
+sf：归约完成后，每个输出元素乘 sf[0]
+F_sf = T*H（仅 FP8 / Quantized）
+
+总 FLOPs = 2*T*K*H + I_xsf*T*K + I_sf*T*H
+```
+
+其中 I_xsf/I_sf 是是否启用该缩放的 0/1 标志。
+
+### 11.3 Bytes 推导
+
+```text
+输入 x：        2*T*K*H
+输出 out：      output_bytes_per_element*T*H
+weights：       4*T*K
+positions：     4*T*K
+x_sf：          4*T*K（仅 XSF / Quantized）
+sf：            4（仅 FP8 / Quantized）
+
+总 Bytes = 2*T*K*H + output_bytes_per_element*T*H
+         + 8*T*K + I_xsf*4*T*K + I_sf*4
+```
+
+本报告输入均为 FP16/BF16，每元素 2B；Base/XSF 输出为 2B，FP8/Quantized 输出为 1B。
+
+### 11.4 十六组结果
+
+| 变体 | Workload | FLOPs | 模型 Bytes | AI（FLOP/B） |
+|---|---|---:|---:|---:|
+| Base | tiny | 32,768 | 49,664 | **0.659794** |
+| Base | h3072 | 25,165,824 | 28,344,320 | **0.887861** |
+| Base | h7168 | 58,720,256 | 66,093,056 | **0.888448** |
+| Base | prefill | 469,762,048 | 528,744,448 | **0.888448** |
+| XSF | tiny | 32,832 | 49,920 | **0.657692** |
+| XSF | h3072 | 25,169,920 | 28,360,704 | **0.887493** |
+| XSF | h7168 | 58,724,352 | 66,109,440 | **0.888290** |
+| XSF | prefill | 469,794,816 | 528,875,520 | **0.888290** |
+| FP8 | tiny | 40,960 | 41,476 | **0.987559** |
+| FP8 | h3072 | 26,738,688 | 26,771,460 | **0.998776** |
+| FP8 | h7168 | 62,390,272 | 62,423,044 | **0.999475** |
+| FP8 | prefill | 499,122,176 | 499,384,324 | **0.999475** |
+| Quantized | tiny | 41,024 | 41,732 | **0.983035** |
+| Quantized | h3072 | 26,742,784 | 26,787,844 | **0.998318** |
+| Quantized | h7168 | 62,394,368 | 62,439,428 | **0.999278** |
+| Quantized | prefill | 499,154,944 | 499,515,396 | **0.999278** |
+
+### 11.5 完整例子：Quantized/h3072
+
+T=512、K=8、H=3072，启用 x_sf 和 sf，FP8 输出。
+
+```text
+FLOPs = 2*512*8*3072 + 512*8 + 512*3072
+      = 25,165,824 + 4,096 + 1,572,864
+      = 26,742,784
+
+Bytes = 2*512*8*3072 + 1*512*3072
+      + 8*512*8 + 4*512*8 + 4
+      = 25,165,824 + 1,572,864 + 32,768 + 16,384 + 4
+      = 26,787,844
+
+AI = 26,742,784 / 26,787,844
+   = 0.998318 FLOP/B
+```
+
+### 11.6 如何解读
+
+- Base/XSF 的大 workload 约为 0.89 FLOP/B；FP8/Quantized 约为 1.00 FLOP/B。FP8 输出更少，同时有最终 sf 乘法，因此算法算术强度稍高。
+- x_sf 每个路由槽只增加一次系数乘法，但增加 4B 的缩放读取。因此同规模 XSF/Quantized 的 AI 略低于对应 Base/FP8。
+- T 同比扩大时，绝大部分 FLOPs 和 Bytes 同比增加，所以 h7168 与 prefill 的 AI 几乎相同，实际运行效率却可能不同。
+- 所有组的语义 AI 都不超过 1 FLOP/B，支持大规模路径以访存为主要观察方向；但 FP8 软件编码成本不由这个数充分表达，tiny 也不能仅据 AI 判断为已充分达到带宽上限。
+
+[完整 FLOPs、字节分项与 AI CSV](../raw/arithmetic_intensity_16g.csv)。
