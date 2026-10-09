@@ -1,0 +1,682 @@
+[
+  {
+    "op": "MoeReduceFusedFwdOp",
+    "params": {
+      "label": "tiny",
+      "num_tokens": 32,
+      "num_topk": 2,
+      "hidden": 256,
+      "dtype": "torch.float16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.0033433600000000023,
+      "tflops": 0.009800918836140883,
+      "bandwidth_tbs": 0.014854517611026026
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedFwdOp",
+    "params": {
+      "label": "tiny",
+      "num_tokens": 32,
+      "num_topk": 2,
+      "hidden": 256,
+      "dtype": "torch.float16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.054051839999999886,
+      "tflops": 0.0006062328312967712,
+      "bandwidth_tbs": 0.0009188216349341689
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedFwdOp",
+    "params": {
+      "label": "h3072",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 3072,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.02073088,
+      "tflops": 1.2139293652753766,
+      "bandwidth_tbs": 1.3672511731291679
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 3072,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedFwdOp",
+    "params": {
+      "label": "h3072",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 3072,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.5134028800000003,
+      "tflops": 0.04901769152522087,
+      "bandwidth_tbs": 0.05520872808504693
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 3072,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedFwdOp",
+    "params": {
+      "label": "h7168",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.0440832,
+      "tflops": 1.3320325203252033,
+      "bandwidth_tbs": 1.499279907084785
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedFwdOp",
+    "params": {
+      "label": "h7168",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 1.0914713599999981,
+      "tflops": 0.05379917252249304,
+      "bandwidth_tbs": 0.06055409094747124
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedFwdOp",
+    "params": {
+      "label": "prefill",
+      "num_tokens": 4096,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.35061760000000003,
+      "inputs_cloned": false,
+      "tflops": 1.3398130841121496,
+      "bandwidth_tbs": 1.50803738317757
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedFwdOp",
+    "params": {
+      "label": "prefill",
+      "num_tokens": 4096,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 8.303718400000017,
+      "inputs_cloned": false,
+      "tflops": 0.056572492631734604,
+      "bandwidth_tbs": 0.06367562368203611
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedWithXsfFwdOp",
+    "params": {
+      "label": "tiny-xsf",
+      "num_tokens": 32,
+      "num_topk": 2,
+      "hidden": 256,
+      "dtype": "torch.float16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.0034048000000000025,
+      "tflops": 0.009642857142857137,
+      "bandwidth_tbs": 0.014661654135338336
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedWithXsfFwdOp",
+    "params": {
+      "label": "tiny-xsf",
+      "num_tokens": 32,
+      "num_topk": 2,
+      "hidden": 256,
+      "dtype": "torch.float16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.06126591999999999,
+      "tflops": 0.0005358933645328431,
+      "bandwidth_tbs": 0.000814808624435902
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedWithXsfFwdOp",
+    "params": {
+      "label": "h3072-xsf",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 3072,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.020643840000000004,
+      "tflops": 1.2192460317460316,
+      "bandwidth_tbs": 1.3738095238095236
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 3072,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedWithXsfFwdOp",
+    "params": {
+      "label": "h3072-xsf",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 3072,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.5197568000000001,
+      "tflops": 0.04842634093483721,
+      "bandwidth_tbs": 0.054565335172142036
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 3072,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedWithXsfFwdOp",
+    "params": {
+      "label": "h7168-xsf",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.04427776,
+      "tflops": 1.32627197039778,
+      "bandwidth_tbs": 1.4930619796484739
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedWithXsfFwdOp",
+    "params": {
+      "label": "h7168-xsf",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 1.1012403199999994,
+      "tflops": 0.05332564648559184,
+      "bandwidth_tbs": 0.06003180123299521
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedWithXsfFwdOp",
+    "params": {
+      "label": "prefill-xsf",
+      "num_tokens": 4096,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.3523481600000001,
+      "inputs_cloned": false,
+      "tflops": 1.3333255834229416,
+      "bandwidth_tbs": 1.501002644656921
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedWithXsfFwdOp",
+    "params": {
+      "label": "prefill-xsf",
+      "num_tokens": 4096,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 8.3138048,
+      "inputs_cloned": false,
+      "tflops": 0.056507799653896136,
+      "bandwidth_tbs": 0.06361413729607893
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 7168,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedFp8FwdOp",
+    "params": {
+      "label": "tiny-fp8",
+      "num_tokens": 32,
+      "num_topk": 2,
+      "hidden": 256,
+      "dtype": "torch.float16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.0036300800000000025,
+      "tflops": 0.01128349788434414,
+      "bandwidth_tbs": 0.01142564351198871
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 512
+    }
+  },
+  {
+    "op": "MoeReduceFusedFp8FwdOp",
+    "params": {
+      "label": "tiny-fp8",
+      "num_tokens": 32,
+      "num_topk": 2,
+      "hidden": 256,
+      "dtype": "torch.float16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.06530047999999992,
+      "tflops": 0.0006272541947624282,
+      "bandwidth_tbs": 0.0006351561274894158
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 512
+    }
+  },
+  {
+    "op": "MoeReduceFusedFp8FwdOp",
+    "params": {
+      "label": "h3072-fp8",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 3072,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.021063679999999994,
+      "tflops": 1.269421487603306,
+      "bandwidth_tbs": 1.2709773410913956
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedFp8FwdOp",
+    "params": {
+      "label": "h3072-fp8",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 3072,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.5394892799999997,
+      "tflops": 0.04956296443925636,
+      "bandwidth_tbs": 0.049623710780685046
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedFp8FwdOp",
+    "params": {
+      "label": "h7168-fp8",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.04316671999999998,
+      "tflops": 1.4453327007472432,
+      "bandwidth_tbs": 1.4460918967204375
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedFp8FwdOp",
+    "params": {
+      "label": "h7168-fp8",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 1.1453900799999992,
+      "tflops": 0.05447076335775498,
+      "bandwidth_tbs": 0.054499375444215514
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedFp8FwdOp",
+    "params": {
+      "label": "prefill-fp8",
+      "num_tokens": 4096,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.3340031999999999,
+      "inputs_cloned": false,
+      "tflops": 1.4943634552004297,
+      "bandwidth_tbs": 1.4951483219322457
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 1024,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedFp8FwdOp",
+    "params": {
+      "label": "prefill-fp8",
+      "num_tokens": 4096,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 8.69111808000001,
+      "inputs_cloned": false,
+      "tflops": 0.057428994912470395,
+      "bandwidth_tbs": 0.05745915765995432
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 1024,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedQuantizedFwdOp",
+    "params": {
+      "label": "tiny-quantized",
+      "num_tokens": 32,
+      "num_topk": 2,
+      "hidden": 256,
+      "dtype": "torch.float16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.003671040000000003,
+      "tflops": 0.011175034867503477,
+      "bandwidth_tbs": 0.011367895746164567
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedQuantizedFwdOp",
+    "params": {
+      "label": "tiny-quantized",
+      "num_tokens": 32,
+      "num_topk": 2,
+      "hidden": 256,
+      "dtype": "torch.float16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.07234559999999991,
+      "tflops": 0.0005670559094125981,
+      "bandwidth_tbs": 0.0005768422682236383
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 256,
+      "num_threads": 256
+    }
+  },
+  {
+    "op": "MoeReduceFusedQuantizedFwdOp",
+    "params": {
+      "label": "h3072-quantized",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 3072,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.022272000000000004,
+      "tflops": 1.2007356321839078,
+      "bandwidth_tbs": 1.2027588002873562
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedQuantizedFwdOp",
+    "params": {
+      "label": "h3072-quantized",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 3072,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.5464576000000002,
+      "tflops": 0.04893844279958773,
+      "bandwidth_tbs": 0.049020901164152524
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedQuantizedFwdOp",
+    "params": {
+      "label": "h7168-quantized",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.04510720000000001,
+      "tflops": 1.3832463110102156,
+      "bandwidth_tbs": 1.3842452646140748
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedQuantizedFwdOp",
+    "params": {
+      "label": "h7168-quantized",
+      "num_tokens": 512,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 1.1550054399999994,
+      "tflops": 0.054020843399664016,
+      "bandwidth_tbs": 0.05405985620292839
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 512,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedQuantizedFwdOp",
+    "params": {
+      "label": "prefill-quantized",
+      "num_tokens": 4096,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 0.3360204799999999,
+      "inputs_cloned": false,
+      "tflops": 1.4854896463453662,
+      "bandwidth_tbs": 1.4865623547707574
+    },
+    "tag": "tileops",
+    "config": {
+      "tile_hidden": 1024,
+      "num_threads": 128
+    }
+  },
+  {
+    "op": "MoeReduceFusedQuantizedFwdOp",
+    "params": {
+      "label": "prefill-quantized",
+      "num_tokens": 4096,
+      "num_topk": 8,
+      "hidden": 7168,
+      "dtype": "torch.bfloat16",
+      "route": "random"
+    },
+    "result": {
+      "latency_ms": 8.674324479999997,
+      "inputs_cloned": false,
+      "tflops": 0.0575439557455891,
+      "bandwidth_tbs": 0.05758550964420461
+    },
+    "tag": "torch-ref",
+    "config": {
+      "tile_hidden": 1024,
+      "num_threads": 128
+    }
+  }
+]

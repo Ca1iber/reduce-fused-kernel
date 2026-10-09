@@ -1,0 +1,7 @@
+{
+  "torch_package": "2.8.0+metax3.7.1.3",
+  "profile_protocol": "Per-case 10 same-address warmup calls, all cases ready before one explicit ROI; each kernel called once per tool pass; no L2 flush or input clone",
+  "kernel_code_equivalence": "original and profiled source identical after normalizing generated kernel symbol",
+  "profiles_reused": 8,
+  "profiles_new": 24
+}

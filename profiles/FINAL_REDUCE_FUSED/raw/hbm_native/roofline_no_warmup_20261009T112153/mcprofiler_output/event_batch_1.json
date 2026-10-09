@@ -1,0 +1,100 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        8,
+        "AP_PERF_INSTS_VALU"
+      ],
+      [
+        39,
+        "AP_PERF_INST_MMA_TF64"
+      ],
+      [
+        32,
+        "AP_PERF_INST_FMA_F64"
+      ],
+      [
+        89,
+        "AP_PERF_ISU_AP_BUSY"
+      ],
+      [
+        37,
+        "AP_PERF_INST_MMA_BF16"
+      ],
+      [
+        101,
+        "AP_PERF_MTE_PI_SEG_SEL_F64"
+      ]
+    ],
+    "L2C": [
+      [
+        269,
+        "perf_dnoc_wrreq_32B_low"
+      ],
+      [
+        271,
+        "perf_dnoc_wrreq_64B"
+      ],
+      [
+        46,
+        "perf_dnoc_rdreq_32B"
+      ],
+      [
+        272,
+        "perf_dnoc_wrreq_128B"
+      ]
+    ],
+    "VL1": [
+      [
+        79,
+        "p_perf_thread_req_cnt"
+      ],
+      [
+        153,
+        "perf_inflt_rd_req"
+      ]
+    ],
+    "CE": [
+      [
+        2,
+        "CE_PERF_BUSY_CYCLES"
+      ],
+      [
+        3,
+        "CE_PERF_SEND_RM_WORKGROUPS"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "hbm_v000_xsf_h3072_kernel",
+      "hbm_final_xsf_h3072_kernel",
+      "hbm_v000_quantized_h3072_kernel",
+      "hbm_final_quantized_h3072_kernel",
+      "hbm_final_base_h7168_kernel",
+      "hbm_v000_xsf_h7168_kernel",
+      "hbm_final_xsf_h7168_kernel",
+      "hbm_final_fp8_h7168_kernel",
+      "hbm_v000_quantized_h7168_kernel",
+      "hbm_final_quantized_h7168_kernel",
+      "hbm_final_base_prefill_kernel",
+      "hbm_v000_xsf_prefill_kernel",
+      "hbm_final_xsf_prefill_kernel",
+      "hbm_final_fp8_prefill_kernel",
+      "hbm_v000_quantized_prefill_kernel",
+      "hbm_final_quantized_prefill_kernel",
+      "hbm_final_base_tiny_kernel",
+      "hbm_v000_xsf_tiny_kernel",
+      "hbm_final_xsf_tiny_kernel",
+      "hbm_final_fp8_tiny_kernel",
+      "hbm_v000_quantized_tiny_kernel",
+      "hbm_final_quantized_tiny_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 44
+  }
+}

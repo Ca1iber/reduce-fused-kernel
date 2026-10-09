@@ -1,0 +1,17 @@
+[
+  {
+    "version": "final",
+    "variant": "base",
+    "workload": "h3072"
+  },
+  {
+    "version": "final",
+    "variant": "base",
+    "workload": "prefill"
+  },
+  {
+    "version": "final",
+    "variant": "fp8",
+    "workload": "tiny"
+  }
+]

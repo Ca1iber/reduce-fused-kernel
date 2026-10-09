@@ -1,0 +1,27 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        36,
+        "AP_PERF_INST_MMA_FP16"
+      ],
+      [
+        31,
+        "AP_PERF_INST_FMA_F32"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "hbm_final_base_h3072_kernel",
+      "hbm_final_base_prefill_kernel",
+      "hbm_final_fp8_tiny_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 6
+  }
+}

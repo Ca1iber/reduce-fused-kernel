@@ -1,0 +1,7 @@
+{
+  "branch": "restart",
+  "commit": "f9c1a2137d8a5739a170962adccdeea3d5868eb5",
+  "root": "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/benchmark_rerun_20261009T105946",
+  "cases": 16,
+  "command": "python run.py -> existing benchmark pytest entry"
+}

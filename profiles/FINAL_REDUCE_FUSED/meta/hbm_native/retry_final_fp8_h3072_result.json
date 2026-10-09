@@ -1,0 +1,17 @@
+{
+  "case": "final FP8/h3072",
+  "CTA_expected": 3072,
+  "CTA_observed": 3072,
+  "modeled_bytes": 26771460,
+  "native_bytes": 28162784.0,
+  "native_to_model_byte_ratio": 1.0519704192449721,
+  "native_cycles": 5261617.0,
+  "native_core_clk_GHz": 1.125,
+  "native_time_us": 4676.992888888889,
+  "benchmark_time_us": 21.155839999999998,
+  "native_hbm_usage_pct": 0.32669043031353284,
+  "native_roof_GBs": 1843.2,
+  "raw_record": "raw/hbm_native/retry_final_fp8_h3072/mcprofiler_output/1_reduce_fused_kernel_kernel.txt.json",
+  "consistent": false,
+  "image": "analysis/hbm_native/retry_final_fp8_h3072.png"
+}

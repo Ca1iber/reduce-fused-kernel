@@ -1,0 +1,46 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        37,
+        "AP_PERF_INST_MMA_BF16"
+      ],
+      [
+        8,
+        "AP_PERF_INSTS_VALU"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "hbm_final_base_h3072_kernel",
+      "hbm_v000_xsf_h3072_kernel",
+      "hbm_final_xsf_h3072_kernel",
+      "hbm_final_fp8_h3072_kernel",
+      "hbm_v000_quantized_h3072_kernel",
+      "hbm_final_quantized_h3072_kernel",
+      "hbm_final_base_h7168_kernel",
+      "hbm_v000_xsf_h7168_kernel",
+      "hbm_final_xsf_h7168_kernel",
+      "hbm_final_fp8_h7168_kernel",
+      "hbm_v000_quantized_h7168_kernel",
+      "hbm_final_quantized_h7168_kernel",
+      "hbm_final_base_prefill_kernel",
+      "hbm_v000_xsf_prefill_kernel",
+      "hbm_final_xsf_prefill_kernel",
+      "hbm_final_fp8_prefill_kernel",
+      "hbm_v000_quantized_prefill_kernel",
+      "hbm_final_quantized_prefill_kernel",
+      "hbm_final_base_tiny_kernel",
+      "hbm_final_fp8_tiny_kernel",
+      "hbm_v000_quantized_tiny_kernel",
+      "hbm_final_quantized_tiny_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 44
+  }
+}

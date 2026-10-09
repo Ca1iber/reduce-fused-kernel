@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-08T12:26:46.970913+00:00",
+  "branch": "restart",
+  "head": "f9c1a2137d8a5739a170962adccdeea3d5868eb5",
+  "baseline_sha256": "b1ffee62791fbc93d47fed10e2caa220b941a04066cda9a7deec89c32930bf85",
+  "warmup": 10,
+  "seed": 1235,
+  "profile_from_start": false,
+  "protocol": "same-address native ROI; not L2-flushed benchmark",
+  "pilot_cases": 2,
+  "reuse_existing_eight": true
+}

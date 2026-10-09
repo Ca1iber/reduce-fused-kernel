@@ -1,0 +1,58 @@
+{
+  "perfList": {
+    "L2C": [
+      [
+        271,
+        "perf_dnoc_wrreq_64B"
+      ],
+      [
+        269,
+        "perf_dnoc_wrreq_32B_low"
+      ],
+      [
+        270,
+        "perf_dnoc_wrreq_32B_high"
+      ]
+    ],
+    "ISU": [
+      [
+        36,
+        "AP_PERF_INST_MMA_FP16"
+      ],
+      [
+        34,
+        "AP_PERF_INST_MMA_F32"
+      ],
+      [
+        38,
+        "AP_PERF_INST_MMA_INT8"
+      ],
+      [
+        35,
+        "AP_PERF_INST_MMA_TF32"
+      ],
+      [
+        101,
+        "AP_PERF_MTE_PI_SEG_SEL_F64"
+      ],
+      [
+        40,
+        "AP_PERF_INST_TRANS_FP32"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "hbm_final_base_tiny_kernel",
+      "hbm_final_fp8_tiny_kernel",
+      "hbm_v000_quantized_tiny_kernel",
+      "hbm_final_quantized_tiny_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 8
+  }
+}

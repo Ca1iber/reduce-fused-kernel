@@ -1,0 +1,966 @@
+{
+    "perf_counters": {
+        "0": [
+            {
+                "CE": {
+                    "generic": {
+                        "CE_PERF_SEND_RM_WORKGROUPS": 14172905,
+                        "CE_PERF_BUSY_CYCLES": 3442820250
+                    }
+                },
+                "L2C": {
+                    "dpcId0,blockId0": {
+                        "perf_dnoc_rdreq_32B": 308,
+                        "perf_dnoc_wrreq_64B": 183987,
+                        "perf_dnoc_wrreq_128B": 10842209,
+                        "perf_dnoc_rdreq_128B": 22608326,
+                        "perf_dnoc_wrreq_32B_low": 115461,
+                        "perf_dnoc_wrreq_32B_high": 109827,
+                        "perf_dnoc_rdreq_64B": 64632
+                    },
+                    "dpcId0,blockId1": {
+                        "perf_dnoc_rdreq_32B": 308,
+                        "perf_dnoc_wrreq_64B": 184543,
+                        "perf_dnoc_wrreq_128B": 10836023,
+                        "perf_dnoc_rdreq_128B": 22624293,
+                        "perf_dnoc_wrreq_32B_low": 116181,
+                        "perf_dnoc_wrreq_32B_high": 110729,
+                        "perf_dnoc_rdreq_64B": 60567
+                    },
+                    "dpcId0,blockId2": {
+                        "perf_dnoc_rdreq_32B": 321,
+                        "perf_dnoc_wrreq_64B": 184209,
+                        "perf_dnoc_wrreq_128B": 10839665,
+                        "perf_dnoc_rdreq_128B": 22618748,
+                        "perf_dnoc_wrreq_32B_low": 116062,
+                        "perf_dnoc_wrreq_32B_high": 110015,
+                        "perf_dnoc_rdreq_64B": 60321
+                    },
+                    "dpcId0,blockId3": {
+                        "perf_dnoc_rdreq_32B": 294,
+                        "perf_dnoc_wrreq_64B": 184724,
+                        "perf_dnoc_wrreq_128B": 10842838,
+                        "perf_dnoc_rdreq_128B": 22592918,
+                        "perf_dnoc_wrreq_32B_low": 115911,
+                        "perf_dnoc_wrreq_32B_high": 110685,
+                        "perf_dnoc_rdreq_64B": 54177
+                    },
+                    "dpcId1,blockId0": {
+                        "perf_dnoc_rdreq_32B": 325,
+                        "perf_dnoc_wrreq_64B": 184682,
+                        "perf_dnoc_wrreq_128B": 10843200,
+                        "perf_dnoc_rdreq_128B": 22625382,
+                        "perf_dnoc_wrreq_32B_low": 116224,
+                        "perf_dnoc_wrreq_32B_high": 110119,
+                        "perf_dnoc_rdreq_64B": 54982
+                    },
+                    "dpcId1,blockId1": {
+                        "perf_dnoc_rdreq_32B": 324,
+                        "perf_dnoc_wrreq_64B": 185024,
+                        "perf_dnoc_wrreq_128B": 10836648,
+                        "perf_dnoc_rdreq_128B": 22632703,
+                        "perf_dnoc_wrreq_32B_low": 116240,
+                        "perf_dnoc_wrreq_32B_high": 110205,
+                        "perf_dnoc_rdreq_64B": 57003
+                    },
+                    "dpcId1,blockId2": {
+                        "perf_dnoc_rdreq_32B": 290,
+                        "perf_dnoc_wrreq_64B": 184900,
+                        "perf_dnoc_wrreq_128B": 10838616,
+                        "perf_dnoc_rdreq_128B": 22625094,
+                        "perf_dnoc_wrreq_32B_low": 116187,
+                        "perf_dnoc_wrreq_32B_high": 110660,
+                        "perf_dnoc_rdreq_64B": 52735
+                    },
+                    "dpcId1,blockId3": {
+                        "perf_dnoc_rdreq_32B": 270,
+                        "perf_dnoc_wrreq_64B": 185021,
+                        "perf_dnoc_wrreq_128B": 10842668,
+                        "perf_dnoc_rdreq_128B": 22598771,
+                        "perf_dnoc_wrreq_32B_low": 115996,
+                        "perf_dnoc_wrreq_32B_high": 110594,
+                        "perf_dnoc_rdreq_64B": 50268
+                    },
+                    "dpcId2,blockId0": {
+                        "perf_dnoc_rdreq_32B": 335,
+                        "perf_dnoc_wrreq_64B": 184785,
+                        "perf_dnoc_wrreq_128B": 10842539,
+                        "perf_dnoc_rdreq_128B": 22635906,
+                        "perf_dnoc_wrreq_32B_low": 116023,
+                        "perf_dnoc_wrreq_32B_high": 110233,
+                        "perf_dnoc_rdreq_64B": 52468
+                    },
+                    "dpcId2,blockId1": {
+                        "perf_dnoc_rdreq_32B": 309,
+                        "perf_dnoc_wrreq_64B": 184767,
+                        "perf_dnoc_wrreq_128B": 10837241,
+                        "perf_dnoc_rdreq_128B": 22629492,
+                        "perf_dnoc_wrreq_32B_low": 115604,
+                        "perf_dnoc_wrreq_32B_high": 110158,
+                        "perf_dnoc_rdreq_64B": 50414
+                    },
+                    "dpcId2,blockId2": {
+                        "perf_dnoc_rdreq_32B": 315,
+                        "perf_dnoc_wrreq_64B": 184929,
+                        "perf_dnoc_wrreq_128B": 10838457,
+                        "perf_dnoc_rdreq_128B": 22615975,
+                        "perf_dnoc_wrreq_32B_low": 115414,
+                        "perf_dnoc_wrreq_32B_high": 110109,
+                        "perf_dnoc_rdreq_64B": 49009
+                    },
+                    "dpcId2,blockId3": {
+                        "perf_dnoc_rdreq_32B": 359,
+                        "perf_dnoc_wrreq_64B": 185176,
+                        "perf_dnoc_wrreq_128B": 10841851,
+                        "perf_dnoc_rdreq_128B": 22617087,
+                        "perf_dnoc_wrreq_32B_low": 115938,
+                        "perf_dnoc_wrreq_32B_high": 110448,
+                        "perf_dnoc_rdreq_64B": 52481
+                    },
+                    "dpcId3,blockId0": {
+                        "perf_dnoc_rdreq_32B": 291,
+                        "perf_dnoc_wrreq_64B": 184434,
+                        "perf_dnoc_wrreq_128B": 10842336,
+                        "perf_dnoc_rdreq_128B": 22625288,
+                        "perf_dnoc_wrreq_32B_low": 115595,
+                        "perf_dnoc_wrreq_32B_high": 109466,
+                        "perf_dnoc_rdreq_64B": 44888
+                    },
+                    "dpcId3,blockId1": {
+                        "perf_dnoc_rdreq_32B": 317,
+                        "perf_dnoc_wrreq_64B": 184792,
+                        "perf_dnoc_wrreq_128B": 10835839,
+                        "perf_dnoc_rdreq_128B": 22633121,
+                        "perf_dnoc_wrreq_32B_low": 115519,
+                        "perf_dnoc_wrreq_32B_high": 110042,
+                        "perf_dnoc_rdreq_64B": 51544
+                    },
+                    "dpcId3,blockId2": {
+                        "perf_dnoc_rdreq_32B": 320,
+                        "perf_dnoc_wrreq_64B": 184942,
+                        "perf_dnoc_wrreq_128B": 10838776,
+                        "perf_dnoc_rdreq_128B": 22609355,
+                        "perf_dnoc_wrreq_32B_low": 115056,
+                        "perf_dnoc_wrreq_32B_high": 109746,
+                        "perf_dnoc_rdreq_64B": 52467
+                    },
+                    "dpcId3,blockId3": {
+                        "perf_dnoc_rdreq_32B": 316,
+                        "perf_dnoc_wrreq_64B": 185173,
+                        "perf_dnoc_wrreq_128B": 10841624,
+                        "perf_dnoc_rdreq_128B": 22608578,
+                        "perf_dnoc_wrreq_32B_low": 115788,
+                        "perf_dnoc_wrreq_32B_high": 110606,
+                        "perf_dnoc_rdreq_64B": 52930
+                    },
+                    "dpcId4,blockId0": {
+                        "perf_dnoc_rdreq_32B": 352,
+                        "perf_dnoc_wrreq_64B": 184228,
+                        "perf_dnoc_wrreq_128B": 10844381,
+                        "perf_dnoc_rdreq_128B": 22625031,
+                        "perf_dnoc_wrreq_32B_low": 115180,
+                        "perf_dnoc_wrreq_32B_high": 109827,
+                        "perf_dnoc_rdreq_64B": 52248
+                    },
+                    "dpcId4,blockId1": {
+                        "perf_dnoc_rdreq_32B": 396,
+                        "perf_dnoc_wrreq_64B": 184706,
+                        "perf_dnoc_wrreq_128B": 10837754,
+                        "perf_dnoc_rdreq_128B": 22605610,
+                        "perf_dnoc_wrreq_32B_low": 115907,
+                        "perf_dnoc_wrreq_32B_high": 110284,
+                        "perf_dnoc_rdreq_64B": 47384
+                    },
+                    "dpcId4,blockId2": {
+                        "perf_dnoc_rdreq_32B": 335,
+                        "perf_dnoc_wrreq_64B": 183597,
+                        "perf_dnoc_wrreq_128B": 10841303,
+                        "perf_dnoc_rdreq_128B": 22618495,
+                        "perf_dnoc_wrreq_32B_low": 115376,
+                        "perf_dnoc_wrreq_32B_high": 109709,
+                        "perf_dnoc_rdreq_64B": 46615
+                    },
+                    "dpcId4,blockId3": {
+                        "perf_dnoc_rdreq_32B": 390,
+                        "perf_dnoc_wrreq_64B": 184542,
+                        "perf_dnoc_wrreq_128B": 10842996,
+                        "perf_dnoc_rdreq_128B": 22617693,
+                        "perf_dnoc_wrreq_32B_low": 122759,
+                        "perf_dnoc_wrreq_32B_high": 111209,
+                        "perf_dnoc_rdreq_64B": 48328
+                    },
+                    "dpcId5,blockId0": {
+                        "perf_dnoc_rdreq_32B": 406,
+                        "perf_dnoc_wrreq_64B": 185020,
+                        "perf_dnoc_wrreq_128B": 10842440,
+                        "perf_dnoc_rdreq_128B": 22624477,
+                        "perf_dnoc_wrreq_32B_low": 115810,
+                        "perf_dnoc_wrreq_32B_high": 110264,
+                        "perf_dnoc_rdreq_64B": 47669
+                    },
+                    "dpcId5,blockId1": {
+                        "perf_dnoc_rdreq_32B": 317,
+                        "perf_dnoc_wrreq_64B": 183735,
+                        "perf_dnoc_wrreq_128B": 10837991,
+                        "perf_dnoc_rdreq_128B": 22600387,
+                        "perf_dnoc_wrreq_32B_low": 115541,
+                        "perf_dnoc_wrreq_32B_high": 110311,
+                        "perf_dnoc_rdreq_64B": 51596
+                    },
+                    "dpcId5,blockId2": {
+                        "perf_dnoc_rdreq_32B": 345,
+                        "perf_dnoc_wrreq_64B": 183861,
+                        "perf_dnoc_wrreq_128B": 10840837,
+                        "perf_dnoc_rdreq_128B": 22618884,
+                        "perf_dnoc_wrreq_32B_low": 115303,
+                        "perf_dnoc_wrreq_32B_high": 109514,
+                        "perf_dnoc_rdreq_64B": 50112
+                    },
+                    "dpcId5,blockId3": {
+                        "perf_dnoc_rdreq_32B": 391,
+                        "perf_dnoc_wrreq_64B": 184268,
+                        "perf_dnoc_wrreq_128B": 10843233,
+                        "perf_dnoc_rdreq_128B": 22626048,
+                        "perf_dnoc_wrreq_32B_low": 115887,
+                        "perf_dnoc_wrreq_32B_high": 110720,
+                        "perf_dnoc_rdreq_64B": 50379
+                    },
+                    "dpcId6,blockId0": {
+                        "perf_dnoc_rdreq_32B": 282,
+                        "perf_dnoc_wrreq_64B": 185294,
+                        "perf_dnoc_wrreq_128B": 10841949,
+                        "perf_dnoc_rdreq_128B": 22625875,
+                        "perf_dnoc_wrreq_32B_low": 115859,
+                        "perf_dnoc_wrreq_32B_high": 110311,
+                        "perf_dnoc_rdreq_64B": 43041
+                    },
+                    "dpcId6,blockId1": {
+                        "perf_dnoc_rdreq_32B": 315,
+                        "perf_dnoc_wrreq_64B": 185082,
+                        "perf_dnoc_wrreq_128B": 10838013,
+                        "perf_dnoc_rdreq_128B": 22615111,
+                        "perf_dnoc_wrreq_32B_low": 115793,
+                        "perf_dnoc_wrreq_32B_high": 110287,
+                        "perf_dnoc_rdreq_64B": 44729
+                    },
+                    "dpcId6,blockId2": {
+                        "perf_dnoc_rdreq_32B": 308,
+                        "perf_dnoc_wrreq_64B": 184882,
+                        "perf_dnoc_wrreq_128B": 10839113,
+                        "perf_dnoc_rdreq_128B": 22627522,
+                        "perf_dnoc_wrreq_32B_low": 116120,
+                        "perf_dnoc_wrreq_32B_high": 110570,
+                        "perf_dnoc_rdreq_64B": 40793
+                    },
+                    "dpcId6,blockId3": {
+                        "perf_dnoc_rdreq_32B": 327,
+                        "perf_dnoc_wrreq_64B": 185277,
+                        "perf_dnoc_wrreq_128B": 10841633,
+                        "perf_dnoc_rdreq_128B": 22624659,
+                        "perf_dnoc_wrreq_32B_low": 115682,
+                        "perf_dnoc_wrreq_32B_high": 110943,
+                        "perf_dnoc_rdreq_64B": 40894
+                    },
+                    "dpcId7,blockId0": {
+                        "perf_dnoc_rdreq_32B": 375,
+                        "perf_dnoc_wrreq_64B": 184558,
+                        "perf_dnoc_wrreq_128B": 10843657,
+                        "perf_dnoc_rdreq_128B": 22628702,
+                        "perf_dnoc_wrreq_32B_low": 115876,
+                        "perf_dnoc_wrreq_32B_high": 110184,
+                        "perf_dnoc_rdreq_64B": 40349
+                    },
+                    "dpcId7,blockId1": {
+                        "perf_dnoc_rdreq_32B": 321,
+                        "perf_dnoc_wrreq_64B": 184606,
+                        "perf_dnoc_wrreq_128B": 10837186,
+                        "perf_dnoc_rdreq_128B": 22621860,
+                        "perf_dnoc_wrreq_32B_low": 115576,
+                        "perf_dnoc_wrreq_32B_high": 110515,
+                        "perf_dnoc_rdreq_64B": 42503
+                    },
+                    "dpcId7,blockId2": {
+                        "perf_dnoc_rdreq_32B": 329,
+                        "perf_dnoc_wrreq_64B": 184535,
+                        "perf_dnoc_wrreq_128B": 10839524,
+                        "perf_dnoc_rdreq_128B": 22626918,
+                        "perf_dnoc_wrreq_32B_low": 115455,
+                        "perf_dnoc_wrreq_32B_high": 109820,
+                        "perf_dnoc_rdreq_64B": 43469
+                    },
+                    "dpcId7,blockId3": {
+                        "perf_dnoc_rdreq_32B": 1183,
+                        "perf_dnoc_wrreq_64B": 185470,
+                        "perf_dnoc_wrreq_128B": 10841635,
+                        "perf_dnoc_rdreq_128B": 22630472,
+                        "perf_dnoc_wrreq_32B_low": 116410,
+                        "perf_dnoc_wrreq_32B_high": 110385,
+                        "perf_dnoc_rdreq_64B": 42223
+                    }
+                }
+            },
+            {
+                "CE": {
+                    "generic": {
+                        "CE_PERF_SEND_RM_WORKGROUPS": 32,
+                        "CE_PERF_BUSY_CYCLES": 738812
+                    }
+                },
+                "L2C": {
+                    "dpcId0,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 46,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 4
+                    },
+                    "dpcId0,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 49,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId0,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 45,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_32B_high": 1,
+                        "perf_dnoc_rdreq_64B": 4
+                    },
+                    "dpcId0,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 44,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 4
+                    },
+                    "dpcId1,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 43,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 1
+                    },
+                    "dpcId1,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 40,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_32B_high": 1,
+                        "perf_dnoc_rdreq_64B": 4
+                    },
+                    "dpcId1,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 42,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId1,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 42,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 1
+                    },
+                    "dpcId2,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 42,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId2,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 51,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId2,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 4,
+                        "perf_dnoc_rdreq_128B": 62,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId2,blockId3": {
+                        "perf_dnoc_rdreq_32B": 1,
+                        "perf_dnoc_wrreq_64B": 4,
+                        "perf_dnoc_wrreq_128B": 4,
+                        "perf_dnoc_rdreq_128B": 61,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId3,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 44,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId3,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 44,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId3,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 44,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId3,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 41,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId4,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 44,
+                        "perf_dnoc_wrreq_32B_low": 3,
+                        "perf_dnoc_wrreq_32B_high": 1,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId4,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 50,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId4,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 56,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId4,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 52,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId5,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 47,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId5,blockId1": {
+                        "perf_dnoc_rdreq_32B": 1,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 51,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 1
+                    },
+                    "dpcId5,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 46,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 2
+                    },
+                    "dpcId5,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 51,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId6,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 44,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId6,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 49,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId6,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 50,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId6,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 49,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId7,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 46,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId7,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 44,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId7,blockId2": {
+                        "perf_dnoc_rdreq_32B": 1,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 49,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId7,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 48,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    }
+                },
+                "args": {
+                    "kernelName": [
+                        "_Z10tiny_emptyPKvS0_S0_PvS0_S0_ii"
+                    ],
+                    "tag": [
+                        0
+                    ]
+                }
+            },
+            {
+                "CE": {
+                    "generic": {
+                        "CE_PERF_SEND_RM_WORKGROUPS": 32,
+                        "CE_PERF_BUSY_CYCLES": 2221658
+                    }
+                },
+                "L2C": {
+                    "dpcId0,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 143,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 4
+                    },
+                    "dpcId0,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 152,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId0,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 147,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_32B_high": 1,
+                        "perf_dnoc_rdreq_64B": 4
+                    },
+                    "dpcId0,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 134,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 4
+                    },
+                    "dpcId1,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 139,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 1
+                    },
+                    "dpcId1,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 134,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_32B_high": 1,
+                        "perf_dnoc_rdreq_64B": 4
+                    },
+                    "dpcId1,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 140,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId1,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 137,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 1
+                    },
+                    "dpcId2,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 136,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId2,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 148,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId2,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 4,
+                        "perf_dnoc_rdreq_128B": 161,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId2,blockId3": {
+                        "perf_dnoc_rdreq_32B": 1,
+                        "perf_dnoc_wrreq_64B": 4,
+                        "perf_dnoc_wrreq_128B": 4,
+                        "perf_dnoc_rdreq_128B": 150,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId3,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 143,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId3,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 142,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId3,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 132,
+                        "perf_dnoc_wrreq_32B_low": 1,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId3,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 136,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId4,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 133,
+                        "perf_dnoc_wrreq_32B_low": 3,
+                        "perf_dnoc_wrreq_32B_high": 1,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId4,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 144,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId4,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 150,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId4,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 140,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId5,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 131,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId5,blockId1": {
+                        "perf_dnoc_rdreq_32B": 1,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 133,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 1
+                    },
+                    "dpcId5,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 133,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 2
+                    },
+                    "dpcId5,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 135,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId6,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 138,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId6,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 150,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId6,blockId2": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 152,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId6,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 143,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId7,blockId0": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 140,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId7,blockId1": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 138,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId7,blockId2": {
+                        "perf_dnoc_rdreq_32B": 1,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 142,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    },
+                    "dpcId7,blockId3": {
+                        "perf_dnoc_rdreq_32B": 0,
+                        "perf_dnoc_wrreq_64B": 0,
+                        "perf_dnoc_wrreq_128B": 0,
+                        "perf_dnoc_rdreq_128B": 140,
+                        "perf_dnoc_wrreq_32B_low": 0,
+                        "perf_dnoc_wrreq_32B_high": 0,
+                        "perf_dnoc_rdreq_64B": 0
+                    }
+                },
+                "args": {
+                    "processIndex": [
+                        0
+                    ]
+                }
+            }
+        ]
+    },
+    "umd_data": {},
+    "device_info": {
+        "303": {
+            "gpu_id": "63621",
+            "cpu_cores_count": 0,
+            "mem_banks_count": 1,
+            "direct_link_count": 0,
+            "indirect_link_count": 0,
+            "vendor_id": 39321,
+            "device_id": 16385,
+            "drm_render_minor": 129,
+            "isa_major": 10,
+            "isa_minor": 0,
+            "is_vf": 0,
+            "max_vf_nums": 8,
+            "domain": 0,
+            "location_id": 3840,
+            "num_sdma_engines": 5,
+            "num_sdma_queues_per_engine": 9,
+            "num_vpue_cores": 1,
+            "num_vpud_cores": 8,
+            "caches_count": 157,
+            "peu_id_base": 0,
+            "peu_count": 416,
+            "max_waves_per_peu": 8,
+            "wsm_size_in_kb": 64,
+            "wave_front_size": 64,
+            "dpc_count": 8,
+            "dpc0_ap_mask": 8191,
+            "dpc1_ap_mask": 73727,
+            "dpc2_ap_mask": 139263,
+            "dpc3_ap_mask": 204799,
+            "dpc4_ap_mask": 270335,
+            "dpc5_ap_mask": 335871,
+            "dpc6_ap_mask": 409595,
+            "dpc7_ap_mask": 466943,
+            "dpc_arrays": 1,
+            "ap_per_dpc": 13,
+            "peu_per_ap": 4,
+            "pri_mem_per_thread": 4,
+            "max_slots_private_ap": 32,
+            "num_ce_queues": 16,
+            "max_engine_clk_gpu": 1600,
+            "max_engine_clk_cpu": 3600,
+            "mgpu_id": 0,
+            "topology_id": 2,
+            "socket_id": 3,
+            "hbmecc": 1,
+            "local_mem_size": 16777216000,
+            "capability": 4432512,
+            "maxprocess": 10
+        }
+    }
+}

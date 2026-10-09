@@ -1,0 +1,35 @@
+{
+    "ISU": [
+        "AP_PERF_INST_TRANS_FP16",
+        "AP_PERF_ISU_AP_BUSY",
+        "AP_PERF_MTE_PI_SEG_SEL_F64",
+        "AP_PERF_INST_MMA_F64",
+        "AP_PERF_INST_MMA_TF64",
+        "AP_PERF_INST_MMA_BF16",
+        "AP_PERF_INST_MMA_INT8",
+        "AP_PERF_INST_FMA_F32",
+        "AP_PERF_INSTS_VALU",
+        "AP_PERF_INST_MMA_F32",
+        "AP_PERF_INST_MMA_TF32",
+        "AP_PERF_INST_MMA_FP16",
+        "AP_PERF_INST_TRANS_FP32",
+        "AP_PERF_INST_FMA_F64"
+    ],
+    "L2C": [
+        "perf_dnoc_rdreq_32B",
+        "perf_dnoc_wrreq_32B_low",
+        "perf_dnoc_wrreq_128B",
+        "perf_dnoc_rdreq_64B",
+        "perf_dnoc_wrreq_64B",
+        "perf_dnoc_rdreq_128B",
+        "perf_dnoc_wrreq_32B_high"
+    ],
+    "VL1": [
+        "p_perf_thread_req_cnt",
+        "perf_inflt_rd_req"
+    ],
+    "CE": [
+        "CE_PERF_SEND_RM_WORKGROUPS",
+        "CE_PERF_BUSY_CYCLES"
+    ]
+}

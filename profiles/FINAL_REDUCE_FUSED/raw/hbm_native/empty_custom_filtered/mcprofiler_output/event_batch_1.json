@@ -1,0 +1,43 @@
+{
+  "perfList": {
+    "CE": [
+      [
+        2,
+        "CE_PERF_BUSY_CYCLES"
+      ],
+      [
+        3,
+        "CE_PERF_SEND_RM_WORKGROUPS"
+      ]
+    ],
+    "L2C": [
+      [
+        272,
+        "perf_dnoc_wrreq_128B"
+      ],
+      [
+        271,
+        "perf_dnoc_wrreq_64B"
+      ],
+      [
+        270,
+        "perf_dnoc_wrreq_32B_high"
+      ],
+      [
+        48,
+        "perf_dnoc_rdreq_128B"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "_Z10tiny_emptyPKvS0_S0_PvS0_S0_ii"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

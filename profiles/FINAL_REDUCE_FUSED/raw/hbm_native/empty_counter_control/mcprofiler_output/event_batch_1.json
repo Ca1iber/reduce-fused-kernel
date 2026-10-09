@@ -1,0 +1,41 @@
+{
+  "perfList": {
+    "CE": [
+      [
+        3,
+        "CE_PERF_SEND_RM_WORKGROUPS"
+      ],
+      [
+        2,
+        "CE_PERF_BUSY_CYCLES"
+      ]
+    ],
+    "L2C": [
+      [
+        46,
+        "perf_dnoc_rdreq_32B"
+      ],
+      [
+        271,
+        "perf_dnoc_wrreq_64B"
+      ],
+      [
+        272,
+        "perf_dnoc_wrreq_128B"
+      ],
+      [
+        48,
+        "perf_dnoc_rdreq_128B"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [],
+    "include": false,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

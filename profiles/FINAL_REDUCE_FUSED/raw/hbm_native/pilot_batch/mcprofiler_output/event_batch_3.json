@@ -1,0 +1,26 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        33,
+        "AP_PERF_INST_MMA_F64"
+      ],
+      [
+        37,
+        "AP_PERF_INST_MMA_BF16"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "hbm_v000_xsf_tiny_kernel",
+      "hbm_final_xsf_tiny_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 4
+  }
+}

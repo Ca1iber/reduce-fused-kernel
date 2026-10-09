@@ -1,0 +1,19 @@
+{
+  "batch": "resample_20261008T143428_final_fp8_h3072",
+  "case": "final FP8/h3072",
+  "expected_CTA": 3072,
+  "native_CTA": 3072,
+  "modeled_bytes": 26771460,
+  "native_bytes": 28192800.0,
+  "byte_ratio": 1.053091613232898,
+  "native_cycles": 1651027.0,
+  "native_core_clk_GHz": 1.125,
+  "native_time_us": 1467.5795555555555,
+  "benchmark_time_us": 21.155839999999998,
+  "time_ratio": 69.36994964773584,
+  "native_hbm_usage_pct": 1.0422312615874847,
+  "native_roof_GBs": 1843.2,
+  "raw_record": "raw/hbm_native/resample_20261008T143428_final_fp8_h3072/mcprofiler_output/1_reduce_fused_kernel_kernel.txt.json",
+  "consistent": false,
+  "image": "analysis/hbm_native/resample_20261008T143428_final_fp8_h3072.png"
+}

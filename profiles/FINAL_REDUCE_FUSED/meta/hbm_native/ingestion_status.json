@@ -1,0 +1,221 @@
+{
+  "total": 32,
+  "expected": 32,
+  "reused": 8,
+  "new": 24,
+  "complete": true,
+  "accepted": [
+    {
+      "batch": "roofline_resume_20261009T110511_final_fp8_h3072",
+      "case": "hbm_final_fp8_h3072",
+      "CTA": 3072,
+      "expected_CTA": 3072,
+      "byte_ratio": 1.0003811521672707,
+      "native_us": 19.466666666666665,
+      "reference_us": 21.063679999999994
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_quantized_h7168",
+      "CTA": 7168,
+      "expected_CTA": 7168,
+      "byte_ratio": 1.0001362600567065,
+      "native_us": 44.856,
+      "reference_us": 45.107200000000006
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_base_prefill",
+      "CTA": 4096,
+      "expected_CTA": 4096,
+      "byte_ratio": 1.0000309260930529,
+      "native_us": 349.77955555555553,
+      "reference_us": 350.61760000000004
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_v000_xsf_prefill",
+      "CTA": 4096,
+      "expected_CTA": 4096,
+      "byte_ratio": 1.0029010682891883,
+      "native_us": 359.32444444444445,
+      "reference_us": 361.0112
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_xsf_prefill",
+      "CTA": 4096,
+      "expected_CTA": 4096,
+      "byte_ratio": 1.0028605294493493,
+      "native_us": 351.73777777777775,
+      "reference_us": 352.34816000000006
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_fp8_prefill",
+      "CTA": 28672,
+      "expected_CTA": 28672,
+      "byte_ratio": 1.0000124873763558,
+      "native_us": 333.7831111111111,
+      "reference_us": 334.0031999999999
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_v000_quantized_prefill",
+      "CTA": 4096,
+      "expected_CTA": 4096,
+      "byte_ratio": 1.004215597791104,
+      "native_us": 431.05333333333334,
+      "reference_us": 434.87744000000015
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_quantized_prefill",
+      "CTA": 28672,
+      "expected_CTA": 28672,
+      "byte_ratio": 1.0029756119869426,
+      "native_us": 334.6293333333333,
+      "reference_us": 336.0204799999999
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_base_tiny",
+      "CTA": 32,
+      "expected_CTA": 32,
+      "byte_ratio": 1.030283505154639,
+      "native_us": 1.9795555555555555,
+      "reference_us": 3.3433600000000023
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_v000_xsf_tiny",
+      "CTA": 32,
+      "expected_CTA": 32,
+      "byte_ratio": 1.0403846153846155,
+      "native_us": 2.2657777777777777,
+      "reference_us": 3.7068800000000026
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_xsf_tiny",
+      "CTA": 32,
+      "expected_CTA": 32,
+      "byte_ratio": 1.0403846153846155,
+      "native_us": 2.032,
+      "reference_us": 3.4048000000000025
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_v000_xsf_h3072",
+      "CTA": 512,
+      "expected_CTA": 512,
+      "byte_ratio": 1.000276438835933,
+      "native_us": 22.708444444444446,
+      "reference_us": 21.31968
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_fp8_tiny",
+      "CTA": 32,
+      "expected_CTA": 32,
+      "byte_ratio": 1.0253640659658598,
+      "native_us": 2.36,
+      "reference_us": 3.6300800000000026
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_v000_quantized_tiny",
+      "CTA": 32,
+      "expected_CTA": 32,
+      "byte_ratio": 1.0880858813380618,
+      "native_us": 3.3306666666666667,
+      "reference_us": 4.710400000000003
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_quantized_tiny",
+      "CTA": 32,
+      "expected_CTA": 32,
+      "byte_ratio": 1.0497459982747053,
+      "native_us": 2.105777777777778,
+      "reference_us": 3.671040000000003
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_xsf_h3072",
+      "CTA": 512,
+      "expected_CTA": 512,
+      "byte_ratio": 1.0002132528162913,
+      "native_us": 21.728,
+      "reference_us": 20.643840000000004
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_v000_quantized_h3072",
+      "CTA": 512,
+      "expected_CTA": 512,
+      "byte_ratio": 1.001153806928247,
+      "native_us": 43.09777777777778,
+      "reference_us": 42.378240000000005
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_quantized_h3072",
+      "CTA": 3072,
+      "expected_CTA": 3072,
+      "byte_ratio": 1.0007082316889706,
+      "native_us": 23.572444444444443,
+      "reference_us": 22.272000000000002
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_base_h7168",
+      "CTA": 512,
+      "expected_CTA": 512,
+      "byte_ratio": 1.0001331456060982,
+      "native_us": 43.971555555555554,
+      "reference_us": 44.083200000000005
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_v000_xsf_h7168",
+      "CTA": 512,
+      "expected_CTA": 512,
+      "byte_ratio": 1.0003848164498141,
+      "native_us": 44.044444444444444,
+      "reference_us": 44.64128
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_xsf_h7168",
+      "CTA": 512,
+      "expected_CTA": 512,
+      "byte_ratio": 1.0003727153035935,
+      "native_us": 44.00622222222222,
+      "reference_us": 44.27776
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_final_fp8_h7168",
+      "CTA": 7168,
+      "expected_CTA": 7168,
+      "byte_ratio": 1.0000783684948142,
+      "native_us": 46.40888888888889,
+      "reference_us": 43.16671999999998
+    },
+    {
+      "batch": "roofline_no_warmup_20261009T112153",
+      "case": "hbm_v000_quantized_h7168",
+      "CTA": 512,
+      "expected_CTA": 512,
+      "byte_ratio": 1.0012591402983384,
+      "native_us": 93.13955555555556,
+      "reference_us": 94.40255999999998
+    }
+  ],
+  "rejected": [],
+  "whitelisted_batches": [
+    "roofline_resume_20261009T110511_final_fp8_h3072",
+    "roofline_no_warmup_20261009T112153"
+  ]
+}

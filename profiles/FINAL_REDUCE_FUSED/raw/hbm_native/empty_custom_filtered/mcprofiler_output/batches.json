@@ -1,0 +1,15 @@
+{
+    "CE": [
+        "CE_PERF_BUSY_CYCLES",
+        "CE_PERF_SEND_RM_WORKGROUPS"
+    ],
+    "L2C": [
+        "perf_dnoc_wrreq_128B",
+        "perf_dnoc_wrreq_64B",
+        "perf_dnoc_wrreq_32B_high",
+        "perf_dnoc_rdreq_128B",
+        "perf_dnoc_rdreq_64B",
+        "perf_dnoc_rdreq_32B",
+        "perf_dnoc_wrreq_32B_low"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "done": true,
+  "exitcode": 0,
+  "kernel_cases": 16,
+  "seconds": 38.87723660469055,
+  "torch": "2.8.0+metax3.7.1.3"
+}

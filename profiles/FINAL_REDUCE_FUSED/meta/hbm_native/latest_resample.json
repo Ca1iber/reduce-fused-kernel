@@ -1,0 +1,7 @@
+{
+  "batch": "resample_20261008T143428_final_fp8_h3072",
+  "plan": "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/meta/hbm_native/resample_20261008T143428_final_fp8_h3072_plan.json",
+  "source_branch": "restart",
+  "source_commit": "f9c1a2137d8a5739a170962adccdeea3d5868eb5",
+  "stash_preserved": true
+}

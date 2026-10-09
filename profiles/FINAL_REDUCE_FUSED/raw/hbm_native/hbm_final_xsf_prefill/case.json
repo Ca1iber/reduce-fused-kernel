@@ -1,0 +1,22 @@
+{
+  "version": "final",
+  "variant": "xsf",
+  "workload": "prefill",
+  "case": "hbm_final_xsf_prefill",
+  "kernel_symbol": "hbm_final_xsf_prefill_kernel",
+  "T": 4096,
+  "K": 8,
+  "H": 7168,
+  "input_dtype": "torch.bfloat16",
+  "config": {
+    "tile_hidden": 7168,
+    "num_threads": 256
+  },
+  "grid_hidden_first": false,
+  "prefetch_rows": 0,
+  "tiny_implementation": null,
+  "expected_x_bytes": 469762048,
+  "expected_out_bytes": 58720256,
+  "renamed_generated_code_identical": true,
+  "source_sha256": "ae4c342480be74ebb88f742459d6252f0471c0c2d9d01e983973ce40ec1585bb"
+}

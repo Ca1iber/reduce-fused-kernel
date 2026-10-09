@@ -1,0 +1,6 @@
+{
+  "batch": "roofline_no_warmup_20261009T112153",
+  "plan": "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/meta/hbm_native/roofline_no_warmup_20261009T112153_plan.json",
+  "warmup": 0,
+  "reason": "each named target appears once in trace and metric replay"
+}

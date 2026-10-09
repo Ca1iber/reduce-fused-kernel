@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "total_records": 32,
+  "reused_records": 8,
+  "new_records": 24,
+  "all_expected_cases_present": true,
+  "new_graphs": 24,
+  "branch": "restart",
+  "reference_commit": "f9c1a2137d8a5739a170962adccdeea3d5868eb5",
+  "kernel_modified": false,
+  "new_benchmark_cases": 16,
+  "benchmark_result": "16 passed on 2026-10-09",
+  "mixed_native_warmup_protocol_documented": true
+}

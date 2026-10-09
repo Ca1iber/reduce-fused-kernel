@@ -1,0 +1,22 @@
+[
+  {
+    "version": "final",
+    "variant": "base",
+    "workload": "tiny"
+  },
+  {
+    "version": "final",
+    "variant": "fp8",
+    "workload": "tiny"
+  },
+  {
+    "version": "v000",
+    "variant": "quantized",
+    "workload": "tiny"
+  },
+  {
+    "version": "final",
+    "variant": "quantized",
+    "workload": "tiny"
+  }
+]

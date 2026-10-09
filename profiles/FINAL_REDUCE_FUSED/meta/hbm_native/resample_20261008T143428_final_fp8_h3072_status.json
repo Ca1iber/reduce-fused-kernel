@@ -1,0 +1,33 @@
+{
+  "command": [
+    "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+    "perf_exec",
+    "--cmdline",
+    "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/resample_20261008T143428_final_fp8_h3072 /opt/conda/bin/python /data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/scripts/profile_hbm_batch.py --plan /data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/meta/hbm_native/resample_20261008T143428_final_fp8_h3072_plan.json --original-symbol",
+    "--kernelname",
+    "reduce_fused_kernel_kernel",
+    "--kernelnames",
+    "reduce_fused_kernel_kernel",
+    "--casename",
+    "reduce_fused_resample_20261008T143428_final_fp8_h3072",
+    "--cwd",
+    "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/resample_20261008T143428_final_fp8_h3072",
+    "--per-kernel",
+    "--profile-from-start",
+    "0",
+    "--counts",
+    "1",
+    "--metrics",
+    "RoofLine",
+    "Total Cycles",
+    "WORKGROUPS"
+  ],
+  "started": 1791470142.499746,
+  "cases": 1,
+  "isolated_roi": false,
+  "pid": 626,
+  "exitcode": 0,
+  "seconds": 153.94725370407104,
+  "tool_output": "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/resample_20261008T143428_final_fp8_h3072/mcprofiler_output",
+  "kernel_reports": 1
+}

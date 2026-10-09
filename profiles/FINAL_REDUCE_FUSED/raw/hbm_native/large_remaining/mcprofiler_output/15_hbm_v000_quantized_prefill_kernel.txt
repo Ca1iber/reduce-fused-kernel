@@ -1,0 +1,42 @@
+##############################
+Sub-module: Summary
+------------------------------
+Name: Total Cycles
+Description: cycles use by kernel
+Value: 5,767.48(Kcycles)
+------------------------------
+Name: RoofLine
+Description: 
+Value: {
+    "processed_data": {
+        "all_ops": 12490146688.0,
+        "all_memacs": 2150408672.0,
+        "during": 4049759.0,
+        "block_num": 104,
+        "vl1_memacs": 1198865968.0,
+        "l2c_memacs": 3268542336.0
+    },
+    "data": {
+        "all_ops": 12490146688.0,
+        "all_memacs": 2150408672.0,
+        "block_num": 104,
+        "during": 4049759.0,
+        "core_clk": 1.125,
+        "MAX_Flops_base": 1,
+        "case_flops": 29.655484266518652,
+        "MAX_Bandwith": 1843.2,
+        "MAX_I": 260.0,
+        "case_I": 49.6433035663123,
+        "case_bandwith": 597.3712895014246,
+        "case_VL1_I": 89.04530893792666,
+        "case_L2C_I": 32.660855978500166,
+        "mc_clk": 0.9
+    },
+    "filename": "/opt/mcProfiler-ubuntu18.04/output20261008125729/RoofLine20261008130002307.png"
+}
+##############################
+Sub-module: CE Statistics
+------------------------------
+Name: WORKGROUPS
+Description: ce send workgroup
+Value: 97,663.0

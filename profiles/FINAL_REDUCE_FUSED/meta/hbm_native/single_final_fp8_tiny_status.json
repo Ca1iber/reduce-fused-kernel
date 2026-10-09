@@ -1,0 +1,33 @@
+{
+  "command": [
+    "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+    "perf_exec",
+    "--cmdline",
+    "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/single_final_fp8_tiny /opt/conda/bin/python /data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/scripts/profile_hbm_batch.py --plan /data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/meta/hbm_native/single_final_fp8_tiny_plan.json --original-symbol",
+    "--kernelname",
+    "tiny_pair_kernel",
+    "--casename",
+    "reduce_fused_single_final_fp8_tiny",
+    "--cwd",
+    "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/single_final_fp8_tiny",
+    "--per-kernel",
+    "--profile-from-start",
+    "0",
+    "--counts",
+    "1",
+    "--metrics",
+    "RoofLine",
+    "Total Cycles",
+    "WORKGROUPS"
+  ],
+  "started": 1791464808.1892636,
+  "cases": 1,
+  "isolated_roi": false,
+  "pid": 6382,
+  "exitcode": 0,
+  "seconds": 143.90185928344727,
+  "tool_output": "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/single_final_fp8_tiny/mcprofiler_output",
+  "kernel_reports": 1,
+  "publishable": false,
+  "reason": "All new sessions held pending investigation of native counter consistency"
+}

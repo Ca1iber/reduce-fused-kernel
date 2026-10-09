@@ -1,0 +1,31 @@
+{
+    "Summary": [
+        {
+            "data": 5146.822,
+            "isError": false,
+            "message": "",
+            "name": "Total Cycles"
+        },
+        {
+            "processed_data": {
+                "all_ops": 22344256.0,
+                "all_memacs": 5077088.0,
+                "during": 5182963.0,
+                "block_num": 104,
+                "vl1_memacs": 6240976.0,
+                "l2c_memacs": 5921152.0
+            },
+            "isError": false,
+            "message": "",
+            "name": "RoofLine"
+        }
+    ],
+    "CE Statistics": [
+        {
+            "data": 32.0,
+            "isError": false,
+            "message": "",
+            "name": "WORKGROUPS"
+        }
+    ]
+}

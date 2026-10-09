@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+    "perf_exec",
+    "--cmdline",
+    "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/empty_counter_control /opt/conda/bin/python /data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/scripts/profile_empty_counter_control.py",
+    "--kernelname",
+    "tiny_empty",
+    "--casename",
+    "reduce_fused_empty_counter_control",
+    "--cwd",
+    "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/empty_counter_control",
+    "--per-kernel",
+    "--profile-from-start",
+    "0",
+    "--counts",
+    "1",
+    "--metrics",
+    "Total Cycles",
+    "Global Memory Read bytes",
+    "Global Memory Write bytes",
+    "WORKGROUPS"
+  ],
+  "started": 1791465590.6022663,
+  "expected_global_read_bytes": 0,
+  "expected_global_write_bytes": 0,
+  "CTA": 32,
+  "threads": 512,
+  "exitcode": 0,
+  "seconds": 38.515737771987915,
+  "tool_output": "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/empty_counter_control/mcprofiler_output"
+}

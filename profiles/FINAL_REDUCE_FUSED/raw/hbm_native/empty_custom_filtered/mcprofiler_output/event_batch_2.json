@@ -1,0 +1,29 @@
+{
+  "perfList": {
+    "L2C": [
+      [
+        47,
+        "perf_dnoc_rdreq_64B"
+      ],
+      [
+        46,
+        "perf_dnoc_rdreq_32B"
+      ],
+      [
+        269,
+        "perf_dnoc_wrreq_32B_low"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "_Z10tiny_emptyPKvS0_S0_PvS0_S0_ii"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 2
+  }
+}

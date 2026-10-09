@@ -1,0 +1,8 @@
+[
+  {
+    "batch": "isolated_pilot",
+    "case": "hbm_final_fp8_tiny",
+    "reason": "inconsistent memory traffic",
+    "ratio": 36.21015625
+  }
+]

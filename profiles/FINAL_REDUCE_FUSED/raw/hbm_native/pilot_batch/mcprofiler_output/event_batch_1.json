@@ -1,0 +1,80 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        36,
+        "AP_PERF_INST_MMA_FP16"
+      ],
+      [
+        34,
+        "AP_PERF_INST_MMA_F32"
+      ],
+      [
+        101,
+        "AP_PERF_MTE_PI_SEG_SEL_F64"
+      ],
+      [
+        41,
+        "AP_PERF_INST_TRANS_FP16"
+      ],
+      [
+        8,
+        "AP_PERF_INSTS_VALU"
+      ],
+      [
+        40,
+        "AP_PERF_INST_TRANS_FP32"
+      ]
+    ],
+    "L2C": [
+      [
+        269,
+        "perf_dnoc_wrreq_32B_low"
+      ],
+      [
+        47,
+        "perf_dnoc_rdreq_64B"
+      ],
+      [
+        270,
+        "perf_dnoc_wrreq_32B_high"
+      ],
+      [
+        46,
+        "perf_dnoc_rdreq_32B"
+      ]
+    ],
+    "CE": [
+      [
+        3,
+        "CE_PERF_SEND_RM_WORKGROUPS"
+      ],
+      [
+        2,
+        "CE_PERF_BUSY_CYCLES"
+      ]
+    ],
+    "VL1": [
+      [
+        153,
+        "perf_inflt_rd_req"
+      ],
+      [
+        79,
+        "p_perf_thread_req_cnt"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "hbm_v000_xsf_tiny_kernel",
+      "hbm_final_xsf_tiny_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 4
+  }
+}

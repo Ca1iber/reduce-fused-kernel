@@ -1,0 +1,12 @@
+[
+  {
+    "version": "v000",
+    "variant": "xsf",
+    "workload": "tiny"
+  },
+  {
+    "version": "final",
+    "variant": "xsf",
+    "workload": "tiny"
+  }
+]

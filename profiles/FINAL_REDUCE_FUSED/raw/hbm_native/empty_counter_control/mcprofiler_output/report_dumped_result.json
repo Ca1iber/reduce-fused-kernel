@@ -1,0 +1,32 @@
+{
+    "Summary": [
+        {
+            "data": 3442820.25,
+            "isError": false,
+            "message": "",
+            "name": "Total Cycles"
+        }
+    ],
+    "CE Statistics": [
+        {
+            "data": 14172905.0,
+            "isError": false,
+            "message": "",
+            "name": "WORKGROUPS"
+        }
+    ],
+    "Memory Statistics": [
+        {
+            "data": 92753693888.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Read bytes"
+        },
+        {
+            "data": 45012365632.0,
+            "isError": false,
+            "message": "",
+            "name": "Global Memory Write bytes"
+        }
+    ]
+}

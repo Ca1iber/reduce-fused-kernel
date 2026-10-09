@@ -1,0 +1,28 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        32,
+        "AP_PERF_INST_FMA_F64"
+      ],
+      [
+        41,
+        "AP_PERF_INST_TRANS_FP16"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "hbm_final_base_tiny_kernel",
+      "hbm_final_fp8_tiny_kernel",
+      "hbm_v000_quantized_tiny_kernel",
+      "hbm_final_quantized_tiny_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 8
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        40,
+        "AP_PERF_INST_TRANS_FP32"
+      ],
+      [
+        32,
+        "AP_PERF_INST_FMA_F64"
+      ],
+      [
+        35,
+        "AP_PERF_INST_MMA_TF32"
+      ],
+      [
+        38,
+        "AP_PERF_INST_MMA_INT8"
+      ],
+      [
+        39,
+        "AP_PERF_INST_MMA_TF64"
+      ],
+      [
+        89,
+        "AP_PERF_ISU_AP_BUSY"
+      ]
+    ],
+    "L2C": [
+      [
+        270,
+        "perf_dnoc_wrreq_32B_high"
+      ],
+      [
+        47,
+        "perf_dnoc_rdreq_64B"
+      ],
+      [
+        272,
+        "perf_dnoc_wrreq_128B"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "hbm_v000_xsf_h3072_kernel",
+      "hbm_final_xsf_h3072_kernel",
+      "hbm_final_fp8_h3072_kernel",
+      "hbm_v000_quantized_h3072_kernel",
+      "hbm_final_quantized_h3072_kernel",
+      "hbm_final_base_h7168_kernel",
+      "hbm_v000_xsf_h7168_kernel",
+      "hbm_final_xsf_h7168_kernel",
+      "hbm_final_fp8_h7168_kernel",
+      "hbm_v000_quantized_h7168_kernel",
+      "hbm_final_quantized_h7168_kernel",
+      "hbm_v000_xsf_prefill_kernel",
+      "hbm_final_xsf_prefill_kernel",
+      "hbm_final_fp8_prefill_kernel",
+      "hbm_v000_quantized_prefill_kernel",
+      "hbm_final_quantized_prefill_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 32
+  }
+}

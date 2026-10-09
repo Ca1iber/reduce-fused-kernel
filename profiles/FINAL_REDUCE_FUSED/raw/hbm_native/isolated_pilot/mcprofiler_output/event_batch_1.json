@@ -1,0 +1,81 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        33,
+        "AP_PERF_INST_MMA_F64"
+      ],
+      [
+        41,
+        "AP_PERF_INST_TRANS_FP16"
+      ],
+      [
+        34,
+        "AP_PERF_INST_MMA_F32"
+      ],
+      [
+        32,
+        "AP_PERF_INST_FMA_F64"
+      ],
+      [
+        8,
+        "AP_PERF_INSTS_VALU"
+      ],
+      [
+        38,
+        "AP_PERF_INST_MMA_INT8"
+      ]
+    ],
+    "L2C": [
+      [
+        47,
+        "perf_dnoc_rdreq_64B"
+      ],
+      [
+        48,
+        "perf_dnoc_rdreq_128B"
+      ],
+      [
+        269,
+        "perf_dnoc_wrreq_32B_low"
+      ],
+      [
+        270,
+        "perf_dnoc_wrreq_32B_high"
+      ]
+    ],
+    "CE": [
+      [
+        3,
+        "CE_PERF_SEND_RM_WORKGROUPS"
+      ],
+      [
+        2,
+        "CE_PERF_BUSY_CYCLES"
+      ]
+    ],
+    "VL1": [
+      [
+        79,
+        "p_perf_thread_req_cnt"
+      ],
+      [
+        153,
+        "perf_inflt_rd_req"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "hbm_final_base_h3072_kernel",
+      "hbm_final_base_prefill_kernel",
+      "hbm_final_fp8_tiny_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "profile_from_start": true,
+    "counts": 6
+  }
+}

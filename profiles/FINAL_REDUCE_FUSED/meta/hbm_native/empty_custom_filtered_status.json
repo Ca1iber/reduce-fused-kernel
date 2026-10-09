@@ -1,0 +1,33 @@
+{
+  "command": [
+    "/opt/mcProfiler-ubuntu18.04/mcProfiler",
+    "perf_exec",
+    "--cmdline",
+    "env MACA_PATH=/opt/maca PYTHONDONTWRITEBYTECODE=1 MCTX_TARGET_PROFILE_PATH=/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/empty_custom_filtered /opt/conda/bin/python /data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/scripts/profile_empty_counter_control.py",
+    "--kernelname",
+    "_Z10tiny_emptyPKvS0_S0_PvS0_S0_ii",
+    "--kernelnames",
+    "_Z10tiny_emptyPKvS0_S0_PvS0_S0_ii",
+    "--casename",
+    "reduce_fused_empty_custom_filtered",
+    "--cwd",
+    "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/empty_custom_filtered",
+    "--per-kernel",
+    "--custom",
+    "--counts",
+    "1",
+    "--metrics",
+    "Total Cycles",
+    "Global Memory Read bytes",
+    "Global Memory Write bytes",
+    "WORKGROUPS"
+  ],
+  "started": 1791466625.5387871,
+  "expected_global_read_bytes": 0,
+  "expected_global_write_bytes": 0,
+  "CTA": 32,
+  "threads": 512,
+  "exitcode": 0,
+  "seconds": 38.48101329803467,
+  "tool_output": "/data/TileOPs-Metax/profiles/FINAL_REDUCE_FUSED/raw/hbm_native/empty_custom_filtered/mcprofiler_output"
+}

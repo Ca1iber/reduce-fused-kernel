@@ -1,0 +1,47 @@
+{
+    "Summary": [
+        {
+            "name": "Total Cycles",
+            "description": "cycles use by kernel",
+            "value": "13,491,643.59(Kcycles)"
+        },
+        {
+            "name": "RoofLine",
+            "description": "",
+            "value": {
+                "processed_data": {
+                    "all_ops": 9995798947392.0,
+                    "all_memacs": 207321466336.0,
+                    "during": 938410741.0,
+                    "block_num": 104,
+                    "vl1_memacs": 468558988396.0,
+                    "l2c_memacs": 1190277507072.0
+                },
+                "data": {
+                    "all_ops": 9995798947392.0,
+                    "all_memacs": 207321466336.0,
+                    "block_num": 104,
+                    "during": 938410741.0,
+                    "core_clk": 1.125,
+                    "MAX_Flops_base": 1,
+                    "case_flops": 102.42151673883149,
+                    "MAX_Bandwith": 1843.2,
+                    "MAX_I": 260.0,
+                    "case_I": 412.08554303333796,
+                    "case_bandwith": 248.54430947737842,
+                    "case_VL1_I": 182.3338814393509,
+                    "case_L2C_I": 71.77668949462095,
+                    "mc_clk": 0.9
+                },
+                "filename": "/opt/mcProfiler-ubuntu18.04/output20261008122732/RoofLine20261008122944663.png"
+            }
+        }
+    ],
+    "CE Statistics": [
+        {
+            "name": "WORKGROUPS",
+            "description": "ce send workgroup",
+            "value": "55,956,134.0"
+        }
+    ]
+}

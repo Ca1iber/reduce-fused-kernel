@@ -30,8 +30,66 @@ for x in rows:
         tile=h;threads=256;impl='general';prefetch=0;grid_x,grid_y=t,1
     x.update(tile_hidden=tile,num_threads=threads,grid_x=grid_x,grid_y=grid_y,
         cta_count=grid_x*grid_y,implementation=impl,prefetch_rows=prefetch)
+# Native HBM Usage comes from mcProfiler RoofLine, not semantic-byte estimates.
+native_usage={}
+native_csv=root/'raw/hbm_native/usage_16g.csv'
+if native_csv.exists():
+    with native_csv.open()as f:
+        native_usage={(x['version'],x['variant'],x['workload']):x for x in csv.DictReader(f)}
+for x in rows:
+    x['baseline_lower_bound_attainment_pct']=100*x['bandwidth_lower_bound_us']/x['baseline_us']
+    variant=x['variant'].lower()
+    baseline_native=native_usage.get(('v000',variant,x['workload']))
+    final_native=native_usage.get(('final',variant,x['workload']))
+    x['baseline_hbm_usage_native_pct']=float(baseline_native['hbm_usage_pct'])if baseline_native else ''
+    x['current_hbm_usage_native_pct']=float(final_native['hbm_usage_pct'])if final_native else ''
+    x['baseline_hbm_native_source']=baseline_native['source_record']if baseline_native else ''
+    x['current_hbm_native_source']=final_native['source_record']if final_native else ''
+    x['hbm_native_roof_GBs']=float(final_native['native_roof_GBs'])if final_native else float(baseline_native['native_roof_GBs'])if baseline_native else ''
+    x['hbm_report_reference_GBs']=1500.0
+    x['baseline_hbm_bandwidth_native_GBs']=float(baseline_native['native_bandwidth_GBs'])if baseline_native else ''
+    x['current_hbm_bandwidth_native_GBs']=float(final_native['native_bandwidth_GBs'])if final_native else ''
+    x['baseline_hbm_usage_1p5_pct']=100*float(baseline_native['native_bandwidth_GBs'])/1500 if baseline_native else ''
+    x['current_hbm_usage_1p5_pct']=100*float(final_native['native_bandwidth_GBs'])/1500 if final_native else ''
+    x['current_hbm_usage_projected_1p5_pct']=x['baseline_hbm_usage_1p5_pct']*x['speedup'] if baseline_native else ''
+
+def native_pct(value):
+    return f'{value:.2f}%'if value!=''else '未取得可靠计数'
+
 with (root/'raw/closeout_16g.csv').open('w',newline='') as f:
     writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+native_reference_rows=[]
+for x in native_usage.values():
+    y=dict(x)
+    y['report_reference_GBs']=1500.0
+    y['hbm_usage_reference_1p5_pct']=100*float(x['native_bandwidth_GBs'])/1500
+    native_reference_rows.append(y)
+if native_reference_rows:
+    with (root/'raw/hbm_native/usage_reference_1p5_16g.csv').open('w',newline='')as f:
+        writer=csv.DictWriter(f,fieldnames=list(native_reference_rows[0]));writer.writeheader();writer.writerows(native_reference_rows)
+    index_path=root/'analysis/hbm_native/README.md'
+    if index_path.exists():
+        import os
+        text=index_path.read_text()
+        begin=text.index('| 变体 | Workload |')
+        end=text.index('\n\n',begin)
+        table=['| 变体 | Workload | v000 HBM usage（1.50 TB/s） | 终盘 HBM usage（1.50 TB/s） | 终盘 HBM usage（推算） | v000图 | 终盘图 |',
+               '|---|---|---:|---:|---:|---|---|']
+        for var,label in [('base','Base'),('xsf','XSF'),('fp8','FP8'),('quantized','Quantized')]:
+            for work in ['tiny','h3072','h7168','prefill']:
+                a=native_usage.get(('v000',var,work));b=native_usage.get(('final',var,work))
+                if not(a and b):continue
+                first=100*float(a['native_bandwidth_GBs'])/1500;last=100*float(b['native_bandwidth_GBs'])/1500
+                final_row=by[label,work];projected=first*final_row['speedup']
+                links=[os.path.relpath(root.parents[1]/x['image'],index_path.parent)for x in [a,b]]
+                table.append(f'| {label} | {work} | {first:.2f}% | {last:.2f}% | {projected:.2f}% | [图]({links[0]}) | [图]({links[1]}) |')
+        text=text[:begin]+'\n'.join(table)+text[end:]
+        text=text.replace('原生HBM usage读取工具的 `case_bandwith/MAX_Bandwith`，屋顶1843.2 GB/s；不是用算法字节除以benchmark runtime估算。',
+            '文档HBM usage表以1.50 TB/s为参考：`100 × native case_bandwith /1500`，等价于原生百分比乘1.2288。原始CSV与PNG保留1843.2 GB/s工具屋顶。它使用native带宽，不是算法字节/benchmark runtime估算。')
+        if '超过100%'not in text:
+            text=text.replace('## 采集口径与数据边界','## 采集口径与数据边界\n\n1.50 TB/s是近似实测参考，换算值可以略超过100%，保留实际数值。图中的百分比仍是原生1.8432 TB/s口径，与本表换算值不同。')
+        index_path.write_text(text)
+
 meta=json.loads((root/'meta/source.json').read_text())
 
 def record(v,w):
@@ -42,11 +100,11 @@ def record(v,w):
 
 def gap(v,w):return f"{by[v,w]['gap_to_bandwidth_lower_us']:.3f} μs"
 
-perf=['| 变体 | Workload | v000 μs | 终盘 μs | 加速比 | 耗时下降 | 1.50 TB/s 下限 μs | 下限达成率 |',
-      '|---|---|---:|---:|---:|---:|---:|---:|']
+perf=['| 变体 | Workload | v000 μs | 终盘 μs | 加速比 | 耗时下降 | 1.50 TB/s 下限 μs | v000 下限达成率 | 终盘下限达成率 | v000 HBM usage（1.50 TB/s） | 终盘 HBM usage（1.50 TB/s） | 终盘 HBM usage（推算，1.50 TB/s） |',
+      '|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|']
 for x in rows:
     p=5 if x['workload']=='tiny' else 3
-    perf.append(f"| {x['variant']} | {x['workload']} | {x['baseline_us']:.3f} | {x['current_us']:.3f} | **{x['speedup']:.3f}×** | {x['latency_reduction_pct']:.2f}% | {x['bandwidth_lower_bound_us']:.{p}f} | **{x['lower_bound_attainment_pct']:.2f}%** |")
+    perf.append(f"| {x['variant']} | {x['workload']} | {x['baseline_us']:.3f} | {x['current_us']:.3f} | **{x['speedup']:.3f}×** | {x['latency_reduction_pct']:.2f}% | {x['bandwidth_lower_bound_us']:.{p}f} | {x['baseline_lower_bound_attainment_pct']:.2f}% | **{x['lower_bound_attainment_pct']:.2f}%** | {native_pct(x['baseline_hbm_usage_1p5_pct'])} | {native_pct(x['current_hbm_usage_1p5_pct'])} | {native_pct(x['current_hbm_usage_projected_1p5_pct'])} |")
 
 methods={
 ('Base','tiny'):'v030：相邻两线程分担 K=2 输入读取；按 K 顺序累加；每对两列；输入/输出均合并为 4B',
@@ -79,7 +137,7 @@ report=f"""# FINAL — reduce_fused 封盘报告（restart / sc-16g）
 
 所有引用数据、源码和版本记录均从该 restart 提交的 Git tree 提取。不引用其他分支的代码、实验或数据，也不依据磁盘上额外目录的 ACC/TRIAL 标签认定正式优化。本报告作为独立封盘记录保存于 **FINAL_REDUCE_FUSED**，不使用迭代版本编号；封盘标签为 **reduce-fused-final**。
 
-本次封盘只整理已有数据和实现，没有修改 kernel，没有重新运行 benchmark、正确性测试、mcTracer 或 mcProfiler。报告日期为 2026-10-08；测量时间来自各版本原始记录，并非报告日期。
+封盘 runtime 沿用已有 benchmark，未修改 kernel 或重新运行正确性测试。为补充 HBM usage，复用 v021 的 v000 Base/FP8 八组 native profile，并于 2026-10-09 补齐另外二十四组；32条原生记录均已核对，历史异常记录保留但不用于最终表格。封盘基准日期为2026-10-08，本次native HBM补表完成日期为2026-10-09；runtime与native指标各自的采集时间和口径分别记录。
 
 ### 最终判断
 
@@ -114,6 +172,25 @@ weights 在本报告全部使用。sf/x_sf 是算子语义，不是优化手段�
 加速比 = v000 耗时 / 终盘耗时；耗时下降 = (1 − 终盘耗时 / v000 耗时) × 100%。下限达成率的口径见第 4 节。计算使用原始精度，显示数值经过舍入。
 
 """+'\n'.join(perf)+f"""
+
+### 新增三列的口径与采集来源
+
+- **v000 下限达成率** = 同一模型的 1.50 TB/s 下限耗时 / v000 benchmark runtime × 100%。
+- **HBM usage（1.50 TB/s）** = `100 × RoofLine.data.case_bandwith / 1500`。使用工具原生实测带宽，以统一参考1.50 TB/s重新归一化；等价于原生百分比乘以 `1.8432 / 1.50 = 1.2288`。流量与周期仍来自native counter，不使用语义Q/runtime替代。原生百分比及1843.2 GB/s工具屋顶保留在原始CSV和PNG中。
+- v000 Base/FP8 的八组复用 [v021 原始 profile](../../v021_SUM/analysis/README.md)；另外二十四组已用封盘源码及原naive快照于2026-10-09补齐，均通过几何、流量与周期尺度核对。为使批量采集可按 case 区分，编译时只重命名 kernel symbol，生成设备代码在归一化该符号后与原代码相同。
+- native采集使用seed=1235、同地址和显式start/stop。复用的八组以及两个先取得有效计数的大case使用10次预热；剩余22组在JIT准备完成后，每组只调用一次，不在采集进程内执行目标预热，以使trace与指标重放顺序对应。没有逐次L2 flush或输入克隆。它与表中的 benchmark 不是同一次采集，不能用两列差值直接归因。tiny 特别容易受缓存及计时口径影响。
+- 此前异常采集未用于最终表格；2026-10-09补齐的24条均逐组核对WORKGROUPS、流量及周期尺度。HBM usage的带宽仍依赖工具RoofLine的计数与时钟模型。1.50 TB/s是近似实测参考，换算值可以略超过100%，不截断，也不能当作已证明的硬上限。
+- [32组 native 指标及原始记录路径](../raw/hbm_native/usage_16g.csv)。新增采集及历史失败记录在 `raw/hbm_native/`，命令与状态在 `meta/hbm_native/`。24张有效新图以`verified_`前缀保存在`analysis/hbm_native/`；复用八图链接到v021，完整图索引见 [32组Roofline对照](hbm_native/README.md)。没有`verified_`前缀的旧诊断图不用于最终表格。
+
+### 终盘 HBM usage 推算列
+
+新增列按 `v000 HBM usage（1.50 TB/s）× benchmark加速比` 计算，使用未舍入的原始数据。
+
+```text
+U_final_projected = U_v000_native_1p5 * (t_v000_benchmark / t_final_benchmark)
+```
+
+该推算假设两版实际HBM搬运字节量相同，带宽参考保持1.50 TB/s，且将benchmark加速比例应用到v000的native带宽基准上。它用于展示在这些假设下的终盘比例，不是独立profile实测；不能再用这列反过来证明benchmark加速。原终盘实测列继续展示其各自采集时的观察值，不能把跨批次、不同预热/计时的两列直接当成严格优化对照。推算超过100%时保留数值。
 
 ### 数据来源和比较边界
 
@@ -151,7 +228,7 @@ Q = 2*T*K*H                         # expert 输入
 
 算法主要输入/输出比例：Base/XSF 的 K=8 大 workload 约 8:1，FP8/Quantized 约 16:1。不同比例探针的结果已经说明带宽并非只由一个固定数字决定。1.50 TB/s 不是已证明对每一种访问模式都不可超过的硬上限。
 
-初始 native Roofline 曾使用 2048B/cycle × 0.9GHz = 1.8432 TB/s 的屋顶参考。本报告按用户指定的 1.50 TB/s 计算，不混用两种分母。
+初始 native Roofline 曾使用 2048B/cycle × 0.9GHz = 1.8432 TB/s 的屋顶参考。本报告的带宽理想下限与下限达成率按用户指定的 1.50 TB/s 计算；HBM usage列读取native RoofLine实测带宽，并同样以1.50 TB/s重新归一化。两种达成率使用相同分母，但前者来自模型字节/benchmark时间，后者来自native计数/周期，因此不一定相等。原生图仍采用工具的1.8432 TB/s屋顶。
 
 ### 4.3 模型的限制
 
@@ -261,7 +338,7 @@ Quantized：v029 的 local 实现更合适，256 线程、每线程一列，K=2 
 
 ### 不用于终盘归因的结果
 
-v020 的部分 mcProfiler 采集出现目标写入应约 3.67MB、计数却约 189MB 等异常，没有将它们用于计算最终带宽或等待归因。历史 native Roofline 也不是本次正式版本的全量十六组新图。最终表的下限达成率来自 Q/runtime 模型，不能贴成 mcProfiler 原生 HBM usage。
+v020 的部分 mcProfiler 采集出现目标写入应约 3.67MB、计数却约 189MB 等异常，没有将它们用于计算最终带宽或等待归因。最终表的下限达成率来自 Q/runtime 模型；新增 HBM usage 来自各 case 的独立 native RoofLine 计数。两者都以1.50 TB/s为参考，但使用不同流量及计时口径，不能把模型值贴成profiler实测值。
 
 曾发现 runtime 的 CYCLE_TRACE_MODE 开关，但没有确认可用的独立逐段 cycle trace 接口；没有据此生成“每一段耗时”或精准瓶颈占比。
 

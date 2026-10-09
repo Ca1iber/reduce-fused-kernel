@@ -1,0 +1,22 @@
+{
+  "version": "final",
+  "variant": "xsf",
+  "workload": "tiny",
+  "case": "hbm_final_xsf_tiny",
+  "kernel_symbol": "hbm_final_xsf_tiny_kernel",
+  "T": 32,
+  "K": 2,
+  "H": 256,
+  "input_dtype": "torch.float16",
+  "config": {
+    "tile_hidden": 256,
+    "num_threads": 256
+  },
+  "grid_hidden_first": false,
+  "prefetch_rows": 0,
+  "tiny_implementation": "pair",
+  "expected_x_bytes": 32768,
+  "expected_out_bytes": 16384,
+  "renamed_generated_code_identical": true,
+  "source_sha256": "ae4c342480be74ebb88f742459d6252f0471c0c2d9d01e983973ce40ec1585bb"
+}

@@ -70,5 +70,37 @@
     }
   ],
   "report_directory": "profiles/FINAL_REDUCE_FUSED",
-  "release_tag": "reduce-fused-final"
+  "release_tag": "reduce-fused-final",
+  "hbm_native_profile": {
+    "measurement_date": "2026-10-09",
+    "status": "complete",
+    "baseline_reused": 8,
+    "new_case_count": 24,
+    "published_reused": 8,
+    "published_new": 24,
+    "remaining": 0,
+    "native_roof_TBs": 1.8432,
+    "lower_bound_reference_TBs": 1.5,
+    "final_reference_commit": "f9c1a2137d8a5739a170962adccdeea3d5868eb5",
+    "verified_batches": [
+      "roofline_resume_20261009T110511_final_fp8_h3072",
+      "roofline_no_warmup_20261009T112153"
+    ],
+    "protocols": {
+      "reused_v000_Base_FP8": "v021 original collection; seed1235, 10 warmup, same-address ROI",
+      "two_initial_final_cases": "same-address 10 warmup; FP8/h3072 individual collection, Base/h3072 was the first recorded target of a counts1-limited batch",
+      "remaining_22": "seed1235; JIT/source prepared before ROI; no target warmup in profiled process; one invocation per distinct named kernel; batch count22"
+    },
+    "notes": "Native and benchmark are different measurements; warming and capture dates differ across profile records.",
+    "report_reference_TBs": 1.5,
+    "report_percentage_formula": "100*native_bandwidth_GBs/1500; equivalently native_percent*1.8432/1.50",
+    "raw_native_roof_preserved": true,
+    "projected_final_usage": {
+      "reference_TBs": 1.5,
+      "formula": "v000_native_usage_1p5_pct * exact_benchmark_speedup",
+      "measurement": false,
+      "assumption": "same actual HBM bytes; benchmark time ratio applies to native baseline anchor",
+      "preserve_native_columns": true
+    }
+  }
 }

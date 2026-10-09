@@ -1,0 +1,7 @@
+[
+  {
+    "version": "final",
+    "variant": "fp8",
+    "workload": "h3072"
+  }
+]

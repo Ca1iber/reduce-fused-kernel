@@ -1,0 +1,117 @@
+[
+  {
+    "version": "final",
+    "variant": "base",
+    "workload": "h3072"
+  },
+  {
+    "version": "v000",
+    "variant": "xsf",
+    "workload": "h3072"
+  },
+  {
+    "version": "final",
+    "variant": "xsf",
+    "workload": "h3072"
+  },
+  {
+    "version": "v000",
+    "variant": "quantized",
+    "workload": "h3072"
+  },
+  {
+    "version": "final",
+    "variant": "quantized",
+    "workload": "h3072"
+  },
+  {
+    "version": "final",
+    "variant": "base",
+    "workload": "h7168"
+  },
+  {
+    "version": "v000",
+    "variant": "xsf",
+    "workload": "h7168"
+  },
+  {
+    "version": "final",
+    "variant": "xsf",
+    "workload": "h7168"
+  },
+  {
+    "version": "final",
+    "variant": "fp8",
+    "workload": "h7168"
+  },
+  {
+    "version": "v000",
+    "variant": "quantized",
+    "workload": "h7168"
+  },
+  {
+    "version": "final",
+    "variant": "quantized",
+    "workload": "h7168"
+  },
+  {
+    "version": "final",
+    "variant": "base",
+    "workload": "prefill"
+  },
+  {
+    "version": "v000",
+    "variant": "xsf",
+    "workload": "prefill"
+  },
+  {
+    "version": "final",
+    "variant": "xsf",
+    "workload": "prefill"
+  },
+  {
+    "version": "final",
+    "variant": "fp8",
+    "workload": "prefill"
+  },
+  {
+    "version": "v000",
+    "variant": "quantized",
+    "workload": "prefill"
+  },
+  {
+    "version": "final",
+    "variant": "quantized",
+    "workload": "prefill"
+  },
+  {
+    "version": "final",
+    "variant": "base",
+    "workload": "tiny"
+  },
+  {
+    "version": "v000",
+    "variant": "xsf",
+    "workload": "tiny"
+  },
+  {
+    "version": "final",
+    "variant": "xsf",
+    "workload": "tiny"
+  },
+  {
+    "version": "final",
+    "variant": "fp8",
+    "workload": "tiny"
+  },
+  {
+    "version": "v000",
+    "variant": "quantized",
+    "workload": "tiny"
+  },
+  {
+    "version": "final",
+    "variant": "quantized",
+    "workload": "tiny"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "status": "new_measurements_validated_on_2026-10-09",
+  "tool_version": "3.8.1.4",
+  "known_invalid_filtered_tiny": {
+    "bytes": 1868024032,
+    "cycles": 2348,
+    "hbm_usage_pct": 48558.40658938459
+  },
+  "empty_custom_filtered": {
+    "workgroups": 32,
+    "read_bytes": 209440,
+    "write_bytes": 3731840
+  },
+  "shared_load_is_confirmed_cause": false,
+  "published_baseline_records": 16,
+  "remaining_native_records": 0,
+  "published_final_records": 16,
+  "history_preserved": true,
+  "root_cause_fully_identified": false
+}

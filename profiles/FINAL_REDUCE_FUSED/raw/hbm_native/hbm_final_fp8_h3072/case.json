@@ -1,0 +1,22 @@
+{
+  "version": "final",
+  "variant": "fp8",
+  "workload": "h3072",
+  "case": "hbm_final_fp8_h3072",
+  "kernel_symbol": "reduce_fused_kernel_kernel",
+  "T": 512,
+  "K": 8,
+  "H": 3072,
+  "input_dtype": "torch.bfloat16",
+  "config": {
+    "tile_hidden": 512,
+    "num_threads": 128
+  },
+  "grid_hidden_first": false,
+  "prefetch_rows": 8,
+  "tiny_implementation": null,
+  "expected_x_bytes": 25165824,
+  "expected_out_bytes": 1572864,
+  "renamed_generated_code_identical": true,
+  "source_sha256": "ae4c342480be74ebb88f742459d6252f0471c0c2d9d01e983973ce40ec1585bb"
+}

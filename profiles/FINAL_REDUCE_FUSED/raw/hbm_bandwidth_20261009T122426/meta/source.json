@@ -1,0 +1,9 @@
+{
+  "branch": "restart",
+  "head": "f9c1a2137d8a5739a170962adccdeea3d5868eb5",
+  "source": "profiles/v027_DIS:v026/scripts/hbm_ratio_probe.cpp",
+  "source_sha256": "2141e94dcc9db0653a74871fd731077ee32feb784565f530ad075d9cef99c13f",
+  "probe": "1:1 / 8:1 /16:1, 27 configuration sweep, 1GiB+2GiB independent confirmations",
+  "timing": "native mcEvent, 8warmup, 5rounds x32launches",
+  "date_utc": "2026-10-09T12:24:26.984514+00:00"
+}

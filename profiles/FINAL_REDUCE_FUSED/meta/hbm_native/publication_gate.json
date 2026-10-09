@@ -1,0 +1,9 @@
+{
+  "allow_new_native": false,
+  "publishable_verified_batches": [
+    "roofline_resume_20261009T110511_final_fp8_h3072",
+    "roofline_no_warmup_20261009T112153"
+  ],
+  "complete": true,
+  "reason": "Only date-whitelisted and consistency-checked records are publishable; legacy failed batches remain excluded."
+}

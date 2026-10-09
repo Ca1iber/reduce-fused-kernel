@@ -1,0 +1,5 @@
+Name,Description,Value
+Total Cycles,cycles use by kernel,789.04(Kcycles)
+WORKGROUPS,ce send workgroup,32.0
+Global Memory Read bytes,bytes read from global memory,"209,440.0byte"
+Global Memory Write bytes,bytes write from global memory,"3,731,840.0byte"

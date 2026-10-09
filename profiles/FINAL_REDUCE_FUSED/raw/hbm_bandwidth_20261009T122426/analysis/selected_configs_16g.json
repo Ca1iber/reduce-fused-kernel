@@ -1,0 +1,26 @@
+{
+  "copy_1to1": {
+    "mode": "copy_1to1",
+    "threads": 256,
+    "blocks": 416,
+    "median_TBps": 1.466515799,
+    "min_TBps": 1.465363078,
+    "max_TBps": 1.467405646
+  },
+  "read8_write_8to1": {
+    "mode": "read8_write_8to1",
+    "threads": 128,
+    "blocks": 416,
+    "median_TBps": 1.462406563,
+    "min_TBps": 1.461401686,
+    "max_TBps": 1.463370343
+  },
+  "read8_write_16to1": {
+    "mode": "read8_write_16to1",
+    "threads": 128,
+    "blocks": 416,
+    "median_TBps": 1.485947066,
+    "min_TBps": 1.485807724,
+    "max_TBps": 1.487791895
+  }
+}
